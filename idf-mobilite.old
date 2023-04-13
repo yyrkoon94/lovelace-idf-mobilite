@@ -52,24 +52,15 @@ class IDFMobiliteCard extends LitElement {
         // Build Line/Time
         const buses = {};
         lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
-            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length >0) {
-                var busLine = stop.MonitoredVehicleJourney.OperatorRef.value;
-                // OCTAVE, PCCMOD, STAEL = Metro, KOWM=TRAM
-                if (busLine.indexOf("SAE-BUS") > 0 || busLine.indexOf("SAE-TRAM") > 0 || busLine.indexOf("OCTAVE") > 0 || busLine.indexOf("PCCMOD") > 0 || busLine.indexOf("STAEL") > 0 || busLine.indexOf("KOVM") > 0) {
-                    busLine = busLine.replace("KOVM_", "SAE-TRAM.")
-                    const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
-                    if (!buses[busLine])
-                        buses[busLine] = {}
-                    if (!buses[busLine][destinationName])
-                        buses[busLine][destinationName] = []
-                    buses[busLine][destinationName].push(Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60))
-                }
-                else {
-                    console.log("Ignoring line : " + busLine)
-                }
+            var busLine = stop.MonitoredVehicleJourney.OperatorRef.value;
+            if (busLine.indexOf("BUS") > 0) {
+                busLine = busLine.substring(busLine.lastIndexOf('.') + 1, busLine.length - 1)
+                const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
+                if (!buses[busLine])
+                    buses[busLine] = { destinationName: destinationName, nextStop: [] }
+                buses[busLine].nextStop.push(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)
             }
         });
-
         //Build messages
         const messages = {}
         if (messagesList && messagesList.attributes['Siri']) {
@@ -79,16 +70,15 @@ class IDFMobiliteCard extends LitElement {
                     messages[infoMessage.InfoChannelRef.value] = { messages: [] }
                 messages[infoMessage.InfoChannelRef.value].messages.push(infoMessage.Content.Message[0].MessageText.value)
             })
+            console.log("Messages :"+ messages)
         }
         return html`
             <div>
                 <div class="bus-header">
                     <div class="bus-station-name">
-                        ${stationName.endsWith("RER") > 0 ?
-                                    html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf("RER")).endsWith("-")? stationName.substring(0, stationName.indexOf("-RER")): stationName.substring(0, stationName.indexOf("RER"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/RER_white.png" class="bus-destination-image"/></div>`
-                            : stationName.endsWith("Métro") > 0 ?
-                                html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf("Métro")).endsWith("-") ? stationName.substring(0, stationName.indexOf("-Métro")) : stationName.substring(0, stationName.indexOf("Métro"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/METRO_white.png" class="bus-destination-image"/></div>`
-                                : stationName}
+                        ${stationName.indexOf(" RER") > 0 ?
+                                    html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf(" RER"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/RER_white.png" class="bus-destination-image"/></div>`
+                                    : stationName}
                     </div>
                     <div class="bus-last-update">
                         <div class="bus-last-update-time">
@@ -99,40 +89,29 @@ class IDFMobiliteCard extends LitElement {
                         </div>
                     </div>
                 </div>
-                ${Object.keys(buses).sort(function(a, b) { return a.substring(a.lastIndexOf('.') + 1, a.length - 1) - b.substring(b.lastIndexOf('.') + 1, b.length - 1) }).map(bus => {
+                ${Object.keys(buses).map(key => {
                     return html`
                         <div class="bus-line">
-                            ${Object.keys(buses[bus]).map((destination, index) => {
-                            return html`
-                                <div class="bus-line-detail">
-                                    <div class="bus-img">
-                                        ${index === 0 ?
-                                            html`<img src="/local/lovelace-idf-mobilite/images/${bus.indexOf("BUS") > 0 ? "bus" : bus.indexOf("TRAM") > 0 ? "tram" : "metro"}/${bus.substring(bus.lastIndexOf('.') + 1, bus.length - 1)}.png" alt="${bus.substring(bus.lastIndexOf('.') + 1, bus.length - 1)}" class="${bus.indexOf("BUS") > 0 ? "bus" : bus.indexOf("TRAM") > 0 ? "tram" : "metro"}-image"/>` : ""}
-                                    </div>
-                                    <div class="bus-destination">
-                                        ${destination.indexOf("<RER>") > 0 ?
-                                            html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/RER.png" class="bus-destination-image"/></div>`
-                                            : destination.indexOf("<METRO>") > 0 ?
-                                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-")?destination.substring(0, destination.indexOf("-<METRO>")):destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/METRO.png" class="bus-destination-image"/></div>`
-                                                : destination}
-                                    </div>
-                                    <div class="bus-stop">
-                                        <div class="bus-stop-value">
-                                            ${buses[bus][destination][0] > 0 ?
-                                                        buses[bus][destination][0] :
-                                                        (buses[bus][destination][0] == 0 ? "A l'approche" : "A l'arrêt")
-                                               }
-                                        </div>
-                                    </div>
-                                    <div class="bus-stop">
-                                        <div class="bus-stop-value">
-                                            ${buses[bus][destination][1] ? (buses[bus][destination][1] > 0 ? buses[bus][destination][1] : "") : ""}
-                                        </div>
-                                    </div>
+                            <div class="bus-img">
+                                <img src="/local/lovelace-idf-mobilite/images/${key}.png" alt="${key}" class="bus-image"/>
+                            </div>
+                            <div class="bus-destination">
+                                ${buses[key].destinationName.indexOf("<RER>") > 0 ?
+                                    html`<div class="bus-destination-name">${buses[key].destinationName.substring(0, buses[key].destinationName.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/RER.png" class="bus-destination-image"/></div>`
+                                    : buses[key].destinationName}
+                            </div>
+                            <div class="bus-stop">
+                                <div class="bus-stop-value">
+                                    ${buses[key].nextStop[0] ? (new Date(Date.parse(buses[key].nextStop[0])) - Date.now())>0?Math.floor((new Date(Date.parse(buses[key].nextStop[0])) - Date.now()) / 1000 / 60):"..." : ""}
                                 </div>
-                            `
-                            })}
-                        </div>`
+                            </div>
+                            <div class="bus-stop">
+                                <div class="bus-stop-value">
+                                    ${buses[key].nextStop[1] ? (new Date(Date.parse(buses[key].nextStop[1])) - Date.now())>0? Math.floor((new Date(Date.parse(buses[key].nextStop[1])) - Date.now()) / 1000 / 60) : "" : ""}
+                                </div>
+                            </div>
+                        </div>
+                    `
                 })}
                 <div class="message-div">
                     ${Object.keys(messages).length > 0 ?
@@ -145,7 +124,7 @@ class IDFMobiliteCard extends LitElement {
                                 else
                                     return concatMessage
                             })}</div>`
-                        : ""}
+                        : "Pas de message"}
                 </div>
             </div>
         `;
@@ -226,33 +205,18 @@ class IDFMobiliteCard extends LitElement {
             .bus-line {
                 display: flex;
                 justify-content: space-between;
-                flex-direction:column;
                 margin: 4px 0px;
                 background-color: #FFFFFF;
-            }
-            .bus-line-detail {
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 1px solid #516077;
-                background-color: #FFFFFF;
                 height:40px;
-                padding-right: 10px;
             }
             .bus-img {
                 display: flex;
                 flex: 1;
                 justify-content: center;
                 align-items: center;
-                min-width: 55px;
             }
             .bus-image {
                 height: 25px;
-            }
-            .tram-image {
-                height: 25px;
-            }
-            .metro-image {
-                height: 30px;
             }
             .bus-destination {
                 display: flex;
@@ -279,7 +243,7 @@ class IDFMobiliteCard extends LitElement {
                 display: flex;
                 flex: 1;
                 align-self: center;
-                justify-content: end;
+                justify-content: center;
             }
             .bus-stop-value {
                 background: #000000;
@@ -288,9 +252,8 @@ class IDFMobiliteCard extends LitElement {
                 color: #CAA94C;
                 padding: 2px 5px 5px 5px;
                 border-radius: 5px;
+                width: 20px;
                 text-align: center;
-                white-space: nowrap;
-                min-width: 20px;
             }
             .message-div {
                 display: flex;

@@ -79,7 +79,7 @@ class IDFMobiliteCardEditor extends LitElement {
                         @closed="${e => e.stopPropagation()}"
                         >
                         <ha-list-item value="RER">RER</ha-list-item>
-                        <ha-list-item value="BUS">Bus</ha-list-item>
+                        <ha-list-item value="BUS">Bus/Tram/Métro</ha-list-item>
                     </ha-select>
                 </div>
           </div>
