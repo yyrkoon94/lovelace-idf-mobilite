@@ -56,8 +56,11 @@ sensor:
 ```
 ### Find your Area and Line
 
-To find your area, it's very simple. Just go to 
+#### StopArea and StopPoint
 
+The StopArea is a string encoded as **STIF:StopArea:SP:XXXXX:** where **XXXXXX** is your area. To find the value, navigate to the [Referential][area-reference-url] of Area and Stops. You can see the following map:
+
+#### LineRef
 
 <!-- Badges -->
 [release-badge]: https://img.shields.io/github/v/release/yyrkoon94/lovelace-idf-mobilite?style=flat-square
@@ -69,3 +72,4 @@ To find your area, it's very simple. Just go to
 [hacs]: https://hacs.xyz
 [release-url]: https://github.com/yyrkoon94/lovelace-idf-mobilite/releases
 [prim-url]: https://prim.iledefrance-mobilites.fr/
+[area-reference-url]: https://data.iledefrance-mobilites.fr/explore/dataset/arrets/custom/
