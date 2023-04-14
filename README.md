@@ -112,6 +112,9 @@ You can see *more options* :
 - Screen Mode : To display the Card like a RATP TV :)
 - Display infomation messages : used for messages to display also Infomation message (and not only perturbations)
 
+## Credits
+
+The card is inspired by [Lesensei’s work][lesensei] on [idfm-card][idfm-card].
 
 <!-- Badges -->
 [release-badge]: https://img.shields.io/github/v/release/yyrkoon94/lovelace-idf-mobilite?style=flat-square
@@ -125,3 +128,5 @@ You can see *more options* :
 [prim-url]: https://prim.iledefrance-mobilites.fr/
 [area-reference-url]: https://data.iledefrance-mobilites.fr/explore/dataset/arrets/custom/
 [line-reference-url]: https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/perimetre-des-donnees-tr-disponibles-plateforme-idfm
+[lesensei]: https://github.com/lesensei
+[idfm-card]: https://github.com/lesensei/idfm-card
