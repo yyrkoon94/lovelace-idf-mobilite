@@ -18,13 +18,16 @@ class IDFMobiliteCard extends LitElement {
         }
 
         return html`
-            <ha-card style="background-color:#516077;">
-                <div class="card-content">
-                    ${this.config.lineType === "RER"
-                        ? this.createRERContent() : ""}
-                    ${this.config.lineType === "BUS"
-                        ? this.createBUSContent() : ""}
-                </div>
+            <ha-card style="background-color:#000000;">
+                <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
+                ${this.config.show_screen === true ? html`<div class="blink-point"></div>` : ""}
+                    <div class="card-content${this.config.show_screen === true ? "-with-screen" : ""}">
+                        ${this.config.lineType === "RER"
+                            ? this.createRERContent() : ""}
+                        ${this.config.lineType === "BUS"
+                            ? this.createBUSContent() : ""}
+                    </div>
+                <div>
             </ha-card>
         `;
     }
@@ -52,17 +55,35 @@ class IDFMobiliteCard extends LitElement {
         // Build Line/Time
         const buses = {};
         lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
-            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length >0) {
+            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length >0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans")==-1) {
                 var busLine = stop.MonitoredVehicleJourney.OperatorRef.value;
                 // OCTAVE, PCCMOD, STAEL = Metro, KOWM=TRAM
                 if (busLine.indexOf("SAE-BUS") > 0 || busLine.indexOf("SAE-TRAM") > 0 || busLine.indexOf("OCTAVE") > 0 || busLine.indexOf("PCCMOD") > 0 || busLine.indexOf("STAEL") > 0 || busLine.indexOf("KOVM") > 0) {
                     busLine = busLine.replace("KOVM_", "SAE-TRAM.")
-                    const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
-                    if (!buses[busLine])
-                        buses[busLine] = {}
-                    if (!buses[busLine][destinationName])
-                        buses[busLine][destinationName] = []
-                    buses[busLine][destinationName].push(Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60))
+                    // check if the line is exclude
+                    var lineRef = ""
+                    var busRef = ""
+                    const lineNumber = busLine.substring(busLine.lastIndexOf('.') + 1, busLine.length - 1)
+                    if (busLine.indexOf("SAE-BUS") > 0) {
+                        lineRef = "bus-" + lineNumber.padStart(3, 0)
+                        busRef = "bus-" + lineNumber
+                    }
+                    if (busLine.indexOf("SAE-TRAM") > 0) {
+                        lineRef = "tram-" + lineNumber
+                        busRef = "tram-" + lineNumber
+                    }
+                    if (busLine.indexOf("OCTAVE") > 0 || busLine.indexOf("PCCMOD") > 0 || busLine.indexOf("STAEL") > 0) {
+                        lineRef = "metro-" + lineNumber.padStart(2, 0)
+                        busRef = "metro-" + lineNumber
+                    }
+                    if (!this.config.exclude_lines || this.config.exclude_lines.indexOf(busRef)==-1) {
+                        const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
+                        if (!buses[lineRef])
+                            buses[lineRef] = {}
+                        if (!buses[lineRef][destinationName])
+                            buses[lineRef][destinationName] = []
+                        buses[lineRef][destinationName].push(Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60))
+                    }
                 }
                 else {
                     console.log("Ignoring line : " + busLine)
@@ -81,8 +102,8 @@ class IDFMobiliteCard extends LitElement {
             })
         }
         return html`
-            <div>
-                <div class="bus-header">
+
+                <div class="bus-header ${this.config.show_screen === true ? "with-screen" : ""}">
                     <div class="bus-station-name">
                         ${stationName.endsWith("RER") > 0 ?
                                     html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf("RER")).endsWith("-")? stationName.substring(0, stationName.indexOf("-RER")): stationName.substring(0, stationName.indexOf("RER"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/RER_white.png" class="bus-destination-image"/></div>`
@@ -99,55 +120,59 @@ class IDFMobiliteCard extends LitElement {
                         </div>
                     </div>
                 </div>
-                ${Object.keys(buses).sort(function(a, b) { return a.substring(a.lastIndexOf('.') + 1, a.length - 1) - b.substring(b.lastIndexOf('.') + 1, b.length - 1) }).map(bus => {
-                    return html`
-                        <div class="bus-line">
-                            ${Object.keys(buses[bus]).map((destination, index) => {
-                            return html`
-                                <div class="bus-line-detail">
-                                    <div class="bus-img">
-                                        ${index === 0 ?
-                                            html`<img src="/local/lovelace-idf-mobilite/images/${bus.indexOf("BUS") > 0 ? "bus" : bus.indexOf("TRAM") > 0 ? "tram" : "metro"}/${bus.substring(bus.lastIndexOf('.') + 1, bus.length - 1)}.png" alt="${bus.substring(bus.lastIndexOf('.') + 1, bus.length - 1)}" class="${bus.indexOf("BUS") > 0 ? "bus" : bus.indexOf("TRAM") > 0 ? "tram" : "metro"}-image"/>` : ""}
-                                    </div>
-                                    <div class="bus-destination">
-                                        ${destination.indexOf("<RER>") > 0 ?
-                                            html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/RER.png" class="bus-destination-image"/></div>`
-                                            : destination.indexOf("<METRO>") > 0 ?
-                                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-")?destination.substring(0, destination.indexOf("-<METRO>")):destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/METRO.png" class="bus-destination-image"/></div>`
-                                                : destination}
-                                    </div>
-                                    <div class="bus-stop">
-                                        <div class="bus-stop-value">
-                                            ${buses[bus][destination][0] > 0 ?
-                                                        buses[bus][destination][0] :
-                                                        (buses[bus][destination][0] == 0 ? "A l'approche" : "A l'arrêt")
-                                               }
+                <div class="bus-lines">
+                    ${Object.keys(buses).sort(function(a, b) { return a.localeCompare(b)}).map(bus => {
+                        return html`
+                            <div class="bus-line">
+                                ${Object.keys(buses[bus]).map((destination, index) => {
+                                return html`
+                                    <div class="bus-line-detail">
+                                        <div class="bus-img">
+                                            ${index === 0 ?
+                                                html`<img src="/local/lovelace-idf-mobilite/images/${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-')+1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-')+1, bus.length-1).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>` : ""}
+                                        </div>
+                                        <div class="bus-destination">
+                                            ${destination.indexOf("<RER>") > 0 ?
+                                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/RER.png" class="bus-destination-image"/></div>`
+                                                : destination.indexOf("<METRO>") > 0 ?
+                                                    html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-")?destination.substring(0, destination.indexOf("-<METRO>")):destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="/local/lovelace-idf-mobilite/images/METRO.png" class="bus-destination-image"/></div>`
+                                                    : destination}
+                                        </div>
+                                        <div class="bus-stop">
+                                            <div class="bus-stop-value">
+                                                ${buses[bus][destination][0] > 0 ?
+                                                            buses[bus][destination][0] :
+                                                            (buses[bus][destination][0] == 0 ? "A l'approche" : "A l'arrêt")
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="bus-stop">
+                                            <div class="bus-stop-value">
+                                                ${buses[bus][destination][1] ? (buses[bus][destination][1] > 0 ? buses[bus][destination][1] : "") : ""}
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="bus-stop">
-                                        <div class="bus-stop-value">
-                                            ${buses[bus][destination][1] ? (buses[bus][destination][1] > 0 ? buses[bus][destination][1] : "") : ""}
-                                        </div>
-                                    </div>
-                                </div>
-                            `
-                            })}
-                        </div>`
-                })}
-                <div class="message-div">
+                                `
+                                })}
+                            </div>`
+                    })}
+                </div>
+                <div class="message-div ${this.config.show_screen === true ? "with-screen" : ""}"">
                     ${Object.keys(messages).length > 0 ?
                         html`<div class="message-div-text">
                             ${Object.keys(messages).map(key => {
                                 var concatMessage = "";
                                 messages[key].messages.forEach((message, index) => { concatMessage += message + (index< messages[key].messages.length-1 ? " /// ": "") })
-                                if (key == "Perturbation")
-                                    return html`<img src="/local/lovelace-idf-mobilite/images/warning.png" height="15px" style="align-self: center;">${concatMessage}`
-                                else
+                                if (key == "Information" && this.config.display_info_message === true)
+                                    return html`<img src="/local/lovelace-idf-mobilite/images/info.png" class="message-icon">${concatMessage}`
+                                else if (key == "Perturbation")
+                                    return html`<img src="/local/lovelace-idf-mobilite/images/warning.png" class="message-icon">${concatMessage}`
+                                else if (key == "Commercial" && this.config.display_commercial_message === true)
                                     return concatMessage
                             })}</div>`
                         : ""}
                 </div>
-            </div>
+
         `;
     }
 
@@ -172,17 +197,47 @@ class IDFMobiliteCard extends LitElement {
     static getStubConfig() {
         return {
             entities: "",
-            lineType: "bus",
-            line: "lineNumber",
-            lineColor: "#676545",
-
+            messages: "",
+            lineType: "BUS",
+            show_screen: false,
+            exclude_lines: ""
         }
     }
 
     static get styles() {
         return css`
+            .idf-screen {
+            }
+            .idf-with-screen {
+                padding: 20px;
+            }
+            .with-screen {
+                border-radius: 0px !important;
+            }
+            .blink-point {
+                position: absolute;
+                bottom: 26px;
+                right: 6px;
+                border-radius: 5px;
+                width: 5px;
+                height: 5px;
+                background: #D3833A;
+            }
             .card-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 padding: 0px;
+                background-color:#516077;
+                border-radius: 10px;
+            }
+            .card-content-with-screen {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 0px;
+                background-color:#516077;
+                min-height: 300px;
             }
             .bus-header {
                 display: flex;
@@ -222,6 +277,11 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 8px;
                 color: #000000;
                 margin-top: -2px;
+            }
+            .bus-lines {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
             }
             .bus-line {
                 display: flex;
@@ -304,13 +364,18 @@ class IDFMobiliteCard extends LitElement {
                 padding-right: 10px;
                 margin-top: 8px;
             }
-
             .message-div-text {
                 display: flex;
                 justify-content: right;
                 flex-grow: 1;
                 white-space: nowrap;
-                animation: ScrollMessage 40s linear infinite;
+                animation: ScrollMessage 60s linear infinite;
+            }
+            .message-icon {
+                align-self: center;
+                padding-right: 5px;
+                padding-left: 5px;
+                height: 15px;
             }
 
             @keyframes ScrollMessage {
