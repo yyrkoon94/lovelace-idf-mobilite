@@ -71,6 +71,14 @@ Unselect **Accès** and **Arrêts Transporteur** on the right menu and search an
 
 Click on one of the three asset types to see the details and get the **famous** area code:
 
+![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/areacode.png)
+
+So, in this exemple, the area code is **71517** so the stop area code for the sensor is **STIF:StopArea:SP:71517:**
+
+If you choose a stop point, you can use the StopArea syntax **STIF:StopArea:SP:43032:** or the StopPoint syntax **STIF:StopPoint:Q:41442:** (both works for now)
+
+NOTE : at this point you can display the Lovelace Card, the LineRef is optional (and you can filter lines in the Lovelace Card also !)
+
 #### LineRef
 
 <!-- Badges -->
