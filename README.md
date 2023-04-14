@@ -1,6 +1,6 @@
 # Lovelace Card : Ile de France Mobilité
 
-[![hacs][hacs-badge]][hacs-url]
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![release][release-badge]][release-url]
 ![downloads][downloads-badge]
 ![build][build-badge]
@@ -17,9 +17,6 @@
 
 
 <!-- Badges -->
-
-[hacs-url]: https://github.com/hacs/integration
-[hacs-badge]: https://img.shields.io/badge/hacs-default-orange.svg?style=flat-square
 [release-badge]: https://img.shields.io/github/v/release/yyrkoon94/lovelace-idf-mobilite?style=flat-square
 [downloads-badge]: https://img.shields.io/github/downloads/yyrkoon94/lovelace-idf-mobilite/total?style=flat-square
 [build-badge]: https://img.shields.io/github/actions/workflow/status/yyrkoon94/lovelace-idf-mobilite/build.yml?branch=main&style=flat-square
