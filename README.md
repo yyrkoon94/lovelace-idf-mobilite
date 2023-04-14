@@ -4,7 +4,7 @@
 [![release][release-badge]][release-url]
 ![downloads][downloads-badge]
 
-
+![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilie/master/screenshot1.png)
 
 
 
