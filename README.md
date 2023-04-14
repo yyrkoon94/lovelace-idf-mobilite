@@ -29,10 +29,34 @@ Add reference to `idf-mobilite.js` in Dashboard :
     
 ## Usage
 
+### PRIM API Key
 First, you need to **create an account** on the [PRIM][prim-url] API website. Once your account is created, log in to the site and click on your name in the right corner then create an API key (and write it down somewhere!). The API key should be a series of numbers and letters, we will use it to configure the **sensors**.
 
+### First sensor
 
+Once your api key created, you can create your first sensor. To do this, edit your configuration.yaml and add the following lines (if you already have a sensor section, simply add the template to it):
 
+```
+sensor:
+  - platform: rest
+    name: prim_the_name_you_want                            <-- for exemple prim_la_defense
+    unique_id: bbbc536a-d580-4317-8669-87a590b0f55d         <-- a unique id to manage the state (you can generate one on https://www.uuidgenerator.net/version4) 
+    resource: https://prim.iledefrance-mobilites.fr/marketplace/stop-monitoring
+    method: GET
+    params:
+      MonitoringRef: "STIF:StopArea:SP:71517:"              <-- mandatory : the StopArea or StopPoint you want to follow (cf next section)
+      LineRef: "STIF:Line::C01221:"                         <-- optional : the line if you want to follow only one line on the StopArea
+    headers:
+      apiKey: "YourApiKey"                                  <-- the PRIM Api Key
+    scan_interval: 60                                       <-- the time between update (in seconds)
+    timeout: 30
+    value_template: "OK"
+    json_attributes:
+      - Siri
+```
+### Find your Area and Line
+
+To find your area, it's very simple. Just go to 
 
 
 <!-- Badges -->
