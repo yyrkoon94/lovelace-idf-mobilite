@@ -83,7 +83,18 @@ NOTE : at this point you can display the Lovelace Card, the LineRef is optional 
 
 To find the line ref (and filter the Lovelace Card on a specif line), got to the [Referential][line-reference-url] of datas available for the PRIM API and clic on the "CARTE PERIMETRE TEMPS REEL" tab. You can see the following map (near the same than the previous one) :
 
+![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/lineref1.png)
+
 The difference is when you clic on a stop point, you will see the StopId and the lines at this point :
+
+![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/lineref2.png)
+
+In this exemple, for the StopPoint **STIF:StopPoint:Q:36384:** (36384), there are the 3 bus lines C01221, C01276 and C01222. So, you have it (!), the LineRef to use is **STIF:Line::C01221:** for the first line.
+
+Now you can create as many sensors as you want to monitor StopArea, StopPoint or specif Line. So, let's go to the Lovelace Card !
+
+### The Lovelace Card
+
 
 <!-- Badges -->
 [release-badge]: https://img.shields.io/github/v/release/yyrkoon94/lovelace-idf-mobilite?style=flat-square
