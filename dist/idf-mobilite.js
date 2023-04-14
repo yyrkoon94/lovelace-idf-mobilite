@@ -6,6 +6,7 @@ import {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
+        console.log("%c Lovelave - IDF Mobilité  %c 0.0.3 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -86,7 +87,7 @@ class IDFMobiliteCard extends LitElement {
                     }
                 }
                 else {
-                    console.log("Ignoring line : " + busLine)
+                    //console.log("Ignoring line : " + busLine)
                 }
             }
         });
@@ -389,6 +390,5 @@ class IDFMobiliteCard extends LitElement {
             }
         `;
     }
-
 }
 customElements.define("idf-mobilite-card", IDFMobiliteCard);
