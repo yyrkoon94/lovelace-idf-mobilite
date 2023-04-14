@@ -101,9 +101,17 @@ type: custom:idf-mobilite-card
 ```
 
 Then clic on the code editor, you will see this page :
-![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/codeeditor.png)
+![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/cardeditor.png)
 
-The Lovelace Card come with a custom Card Editor to configure the card. For now, you must create first a custom card to have the editor in the **Add Card** list (don't know why !). So just create a **Custom Card** and add the folowing code :
+In the line box, choose a PRIM sensor tha you have create and ***that's all*** !
+
+You can see *more options* :
+- Messages : another sensor to display Information message at the StopArea (line problems, ...)
+- Line Type : to display Bus/Tram/Métro and in a future version RER and SNCF lines !!
+- Exclude Lines : a list of line to exclude to the display (for exemple, to exclude the bus 207, just type bus-207;)
+- Screen Mode : To display the Card like a RATP TV :)
+- Display infomation messages : used for messages to display also Infomation message (and not only perturbations)
+
 
 <!-- Badges -->
 [release-badge]: https://img.shields.io/github/v/release/yyrkoon94/lovelace-idf-mobilite?style=flat-square
