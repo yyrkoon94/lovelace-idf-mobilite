@@ -1,4 +1,4 @@
-# Lovelace Card : Ile de France Mobilité
+# Lovelace Card : Ile de France Mobilité [@yyrkoon94](https://www.github.com/yyrkoon94)
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![release][release-badge]][release-url]
