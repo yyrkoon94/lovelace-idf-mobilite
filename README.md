@@ -81,6 +81,10 @@ NOTE : at this point you can display the Lovelace Card, the LineRef is optional 
 
 #### LineRef
 
+To find the line ref (and filter the Lovelace Card on a specif line), got to the [Referential][line-reference-url] of datas available for the PRIM API and clic on the "CARTE PERIMETRE TEMPS REEL" tab. You can see the following map (near the same than the previous one) :
+
+The difference is when you clic on a stop point, you will see the StopId and the lines at this point :
+
 <!-- Badges -->
 [release-badge]: https://img.shields.io/github/v/release/yyrkoon94/lovelace-idf-mobilite?style=flat-square
 [downloads-badge]: https://img.shields.io/github/downloads/yyrkoon94/lovelace-idf-mobilite/total?style=flat-square
@@ -92,3 +96,4 @@ NOTE : at this point you can display the Lovelace Card, the LineRef is optional 
 [release-url]: https://github.com/yyrkoon94/lovelace-idf-mobilite/releases
 [prim-url]: https://prim.iledefrance-mobilites.fr/
 [area-reference-url]: https://data.iledefrance-mobilites.fr/explore/dataset/arrets/custom/
+[line-reference-url]: https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/perimetre-des-donnees-tr-disponibles-plateforme-idfm
