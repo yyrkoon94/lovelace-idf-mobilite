@@ -60,6 +60,17 @@ sensor:
 
 The StopArea is a string encoded as **STIF:StopArea:SP:XXXXX:** where **XXXXXX** is your area. To find the value, navigate to the [Referential][area-reference-url] of Area and Stops. You can see the following map:
 
+![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/stoparea1.png)
+
+Unselect **Accès** and **Arrêts Transporteur** on the right menu and search an adress (or move the map) to go where you want (use zoom to see the full area). You may have something like the following map with 3 kinds of assets :
+1. Correpondance Area (the bold red line)
+2. Stop Area (the thin red line)
+3. Stop (the mark icon)
+
+![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/stoparea2.png)
+
+Click on one of the three asset types to see the details and get the **famous** area code:
+
 #### LineRef
 
 <!-- Badges -->
