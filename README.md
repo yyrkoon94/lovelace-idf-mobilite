@@ -11,7 +11,7 @@ This Card consume the [PRIM][prim-url] (**P**lateforme **R**égionale d'**I**nfo
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/screenshot1.png)
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/screenshot2.png)
 
-For now this map is in **BETA VERSION**, you can only use the BUS/METRA/TRAM map and not all icons are available (but ask me and I'll add them!). The next version will contain a specific RER and SNCF display.
+For now this card is in **BETA VERSION**, you can only use the BUS/METRA/TRAM card and not all icons are available (but ask me and I'll add them!). The next version will contain a specific RER and SNCF display.
 
 ## Installation
 
