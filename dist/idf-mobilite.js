@@ -6,7 +6,7 @@ import {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelave - IDF Mobilité  %c 0.0.3 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelave - IDF Mobilité  %c 0.0.5 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -19,16 +19,25 @@ class IDFMobiliteCard extends LitElement {
         }
 
         return html`
-            <ha-card style="background-color:#000000;">
-                <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
-                ${this.config.show_screen === true ? html`<div class="blink-point"></div>` : ""}
-                    <div class="card-content${this.config.show_screen === true ? "-with-screen" : ""}">
-                        ${this.config.lineType === "RER"
-                            ? this.createRERContent() : ""}
-                        ${this.config.lineType === "BUS"
-                            ? this.createBUSContent() : ""}
+            <ha-card>
+                <div class="border${this.config.show_screen === true ? "-screen" : "-screen"}">
+                    <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
+                        <div class="card-content${this.config.show_screen === true ? "-with-screen" : ""}">
+                            ${this.config.lineType === "RER"
+                                ? this.createRERContent() : ""}
+                            ${this.config.lineType === "BUS"
+                                ? this.createBUSContent() : ""}
+                        </div>
+                        ${this.config.show_screen === true ?
+                            html`
+                                <div class="ratp-img">
+                                    <img src="/local/community/lovelace-idf-mobilite/images/ratp.png" class="ratp-image">
+                                    <div class="blink-point"></div>
+                                </div>
+                            `
+                            : ""}
                     </div>
-                <div>
+                </div>
             </ha-card>
         `;
     }
@@ -107,9 +116,9 @@ class IDFMobiliteCard extends LitElement {
                 <div class="bus-header ${this.config.show_screen === true ? "with-screen" : ""}">
                     <div class="bus-station-name">
                         ${stationName.endsWith("RER") > 0 ?
-                                    html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf("RER")).endsWith("-")? stationName.substring(0, stationName.indexOf("-RER")): stationName.substring(0, stationName.indexOf("RER"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/RER_white.png" class="bus-destination-image"/></div>`
+                                    html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf("RER")).endsWith("-")? stationName.substring(0, stationName.indexOf("-RER")): stationName.substring(0, stationName.indexOf("RER"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/rer_white.png" class="bus-destination-image"/></div>`
                             : stationName.endsWith("Métro") > 0 ?
-                                html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf("Métro")).endsWith("-") ? stationName.substring(0, stationName.indexOf("-Métro")) : stationName.substring(0, stationName.indexOf("Métro"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/METRO_white.png" class="bus-destination-image"/></div>`
+                                html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf("Métro")).endsWith("-") ? stationName.substring(0, stationName.indexOf("-Métro")) : stationName.substring(0, stationName.indexOf("Métro"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/metro_white.png" class="bus-destination-image"/></div>`
                                 : stationName}
                     </div>
                     <div class="bus-last-update">
@@ -129,14 +138,20 @@ class IDFMobiliteCard extends LitElement {
                                 return html`
                                     <div class="bus-line-detail">
                                         <div class="bus-img">
+
                                             ${index === 0 ?
-                                                html`<img src="/local/community/lovelace-idf-mobilite/images/${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-')+1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-')+1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>` : ""}
+                                                html`<div class="bus-line-type">
+                                                        <img src="/local/community/lovelace-idf-mobilite/images/${bus.substring(0, bus.indexOf('-'))}.png" class="bus-line-type-image">
+                                                    </div>
+                                                    <div class="bus-line-image">
+                                                        <img src="/local/community/lovelace-idf-mobilite/images/${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
+                                                    </div>` : ""}
                                         </div>
                                         <div class="bus-destination">
                                             ${destination.indexOf("<RER>") > 0 ?
-                                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/RER.png" class="bus-destination-image"/></div>`
+                                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/rer.png" class="bus-destination-image"/></div>`
                                                 : destination.indexOf("<METRO>") > 0 ?
-                                                    html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-")?destination.substring(0, destination.indexOf("-<METRO>")):destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/METRO.png" class="bus-destination-image"/></div>`
+                                                    html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-")?destination.substring(0, destination.indexOf("-<METRO>")):destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/metro.png" class="bus-destination-image"/></div>`
                                                     : destination}
                                         </div>
                                         <div class="bus-stop">
@@ -165,7 +180,7 @@ class IDFMobiliteCard extends LitElement {
                                 var concatMessage = "";
                                 messages[key].messages.forEach((message, index) => { concatMessage += message + (index< messages[key].messages.length-1 ? " /// ": "") })
                                 if (key == "Information" && this.config.display_info_message === true)
-                                    return html`<img src="/local/community/ovelace-idf-mobilite/images/info.png" class="message-icon">${concatMessage}`
+                                    return html`<img src="/local/community/lovelace-idf-mobilite/images/info.png" class="message-icon">${concatMessage}`
                                 else if (key == "Perturbation")
                                     return html`<img src="/local/community/lovelace-idf-mobilite/images/warning.png" class="message-icon">${concatMessage}`
                                 else if (key == "Commercial" && this.config.display_commercial_message === true)
@@ -209,20 +224,31 @@ class IDFMobiliteCard extends LitElement {
         return css`
             .idf-screen {
             }
+            .border {
+
+            }
+            .border-screen {
+                background: #969798;
+                padding: 2px;
+                border-radius: 11px;
+            }
             .idf-with-screen {
-                padding: 20px;
+                background-color:#000000;
+                padding: 20px 20px 5px 20px;
+                border-radius: 9px;
             }
             .with-screen {
                 border-radius: 0px !important;
             }
             .blink-point {
                 position: absolute;
-                bottom: 26px;
-                right: 6px;
+                bottom: 16px;
+                right: 35px;
                 border-radius: 5px;
                 width: 5px;
                 height: 5px;
                 background: #D3833A;
+                animation: blinker 5s linear infinite;
             }
             .card-content {
                 display: flex;
@@ -230,7 +256,7 @@ class IDFMobiliteCard extends LitElement {
                 justify-content: space-between;
                 padding: 0px;
                 background-color:#516077;
-                border-radius: 10px;
+                border-radius: 9px;
             }
             .card-content-with-screen {
                 display: flex;
@@ -245,7 +271,7 @@ class IDFMobiliteCard extends LitElement {
                 justify-content: space-between;
                 border-bottom: 4px solid #070572;
                 background-color: #FFFFFF;
-                border-radius: 10px 10px 0px 0px;
+                border-radius: 9px 9px 0px 0px;
                 margin-bottom: 4px;
             }
             .bus-station-name {
@@ -302,9 +328,22 @@ class IDFMobiliteCard extends LitElement {
             .bus-img {
                 display: flex;
                 flex: 1;
-                justify-content: center;
+                justify-content: space-between;
+                min-width: 62px;
+                margin-right: 4px;
+            }
+            .bus-line-type {
+                display: flex;
+                opacity: 0.33;
+            }
+            .bus-line-type-image {
+                height: 25px;
+            }
+            .bus-line-image {
+                display:flex;
+                flex-grow: 1;
                 align-items: center;
-                min-width: 55px;
+                justify-content: center;
             }
             .bus-image {
                 height: 25px;
@@ -358,7 +397,7 @@ class IDFMobiliteCard extends LitElement {
                 justify-content: center;
                 overflow-x: auto;
                 height: 20px;
-                border-radius: 0px 0px 10px 10px;
+                border-radius: 0px 0px 9px 9px;
                 background-color: #FFFFFF;
                 color: #000000;
                 padding-left: 10px;
@@ -378,7 +417,14 @@ class IDFMobiliteCard extends LitElement {
                 padding-left: 5px;
                 height: 15px;
             }
-
+            .ratp-img {
+                display: flex;
+                justify-content: center;
+                margin-top: 5px;
+            }
+            .ratp-image {
+                height: 25px;
+            }
             @keyframes ScrollMessage {
                 0% {
                     transform: translate(50%);
@@ -388,6 +434,11 @@ class IDFMobiliteCard extends LitElement {
                 }
 
             }
+            @keyframes blinker {
+                50% {
+                  opacity: 0;
+                }
+              }
         `;
     }
 }
