@@ -6,7 +6,7 @@ import {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelave - IDF Mobilité  %c 0.0.5 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelave - IDF Mobilité  %c 0.0.6 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -115,11 +115,16 @@ class IDFMobiliteCard extends LitElement {
 
                 <div class="bus-header ${this.config.show_screen === true ? "with-screen" : ""}">
                     <div class="bus-station-name">
-                        ${stationName.endsWith("RER") > 0 ?
-                                    html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf("RER")).endsWith("-")? stationName.substring(0, stationName.indexOf("-RER")): stationName.substring(0, stationName.indexOf("RER"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/rer_white.png" class="bus-destination-image"/></div>`
-                            : stationName.endsWith("Métro") > 0 ?
-                                html`<div class="bus-destination-name">${stationName.substring(0, stationName.indexOf("Métro")).endsWith("-") ? stationName.substring(0, stationName.indexOf("-Métro")) : stationName.substring(0, stationName.indexOf("Métro"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/metro_white.png" class="bus-destination-image"/></div>`
-                                : stationName}
+                        ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
+                            html`<div class="bus-destination-name">
+                                    ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
+                                </div>
+                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/metro_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/rer_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/tram_white.png" class="bus-destination-image"/></div>` : ""}
+                            `
+                            : stationName
+                        }
                     </div>
                     <div class="bus-last-update">
                         <div class="bus-last-update-time">
