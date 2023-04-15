@@ -34,7 +34,7 @@ First, you need to **create an account** on the [PRIM][prim-url] API website. On
 
 ### First sensor
 
-Once your api key created, you can create your first sensor. To do this, edit your configuration.yaml and add the following lines (if you already have a sensor section, simply add the template to it):
+Once your api key created, you can create your first sensor. To do this, edit your configuration.yaml and add the following lines (if you already have a sensor section, simply add the platform to it):
 
 ```
 sensor:
