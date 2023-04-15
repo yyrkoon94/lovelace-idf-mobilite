@@ -103,7 +103,7 @@ type: custom:idf-mobilite-card
 Then clic on the code editor, you will see this page :
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/cardeditor.png)
 
-In the line box, choose a PRIM sensor tha you have create and ***that's all*** !
+In the "Ligne" box, choose a PRIM sensor that you have created and ***that's all*** !
 
 You can see *more options* :
 - Messages : another sensor to display Information message at the StopArea (line problems, ...)
