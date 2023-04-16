@@ -61,8 +61,12 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.exclude_lines || "";
     }
 
-    firstUpdated() {
+    get _exclude_lines_ref() {
+      return this._config.exclude_lines_ref || "";
+    }
 
+    get _show_train_ref() {
+      return this._config.show_train_ref || false;
     }
 
     render() {
@@ -98,12 +102,6 @@ class IDFMobiliteCardEditor extends LitElement {
                         <ha-list-item value="RER">RER</ha-list-item>
                         <ha-list-item value="BUS">Bus/Tram/Métro</ha-list-item>
                     </ha-select>
-                    <ha-textfield
-                      label="Exclure les lignes (ex: bus-206;metro-1;rer-A;tram-T2);"
-                      .value="${this._exclude_lines}"
-                      .configValue=${"exclude_lines"}
-                      @input="${this._valueChanged}"
-                    ></ha-textfield>
                     <div class="switch">
                       <div>
                         <span>Mode écran</span>
@@ -118,6 +116,29 @@ class IDFMobiliteCardEditor extends LitElement {
                         <ha-switch
                             .checked=${this._display_info_message}
                             .configValue="${"display_info_message"}"
+                            @change="${this._valueChanged}"
+                            ></ha-switch>
+                      </div>
+                    </div>
+                    Filtrage des données :
+                    <ha-textfield
+                      label="Exclure les lignes (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
+                      .value="${this._exclude_lines}"
+                      .configValue=${"exclude_lines"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    <ha-textfield
+                      label="Exclure les destinations (ex: 458755;5655442;)"
+                      .value="${this._exclude_lines_ref}"
+                      .configValue=${"exclude_lines_ref"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    <div class="switch">
+                      <div>
+                        <span>Afficher les réfernces de destination</span>
+                        <ha-switch
+                            .checked=${this._show_train_ref}
+                            .configValue="${"show_train_ref"}"
                             @change="${this._valueChanged}"
                             ></ha-switch>
                       </div>

@@ -4,10 +4,11 @@
 [![release][release-badge]][release-url]
 ![downloads][downloads-badge]
 
-A new [Home Assistant][home-assistant] Lovelace Card to show all types of upcoming vehicles on the Ile de France Mobilite network. 
+A new [Home Assistant][home-assistant] Lovelace Card to show all types of upcoming vehicles on the Ile de France Mobilite network.
 
 This Card consume the [PRIM][prim-url] (**P**lateforme **R**égionale d'**I**nformation pour la **M**obilité) API provided by "Ile de France Mobilité".
 
+![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/screenshot3.png)
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/screenshot1.png)
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/screenshot2.png)
 
@@ -26,7 +27,7 @@ Put the contains of the 'dist' repository into your `config/www` in a folder nam
 Add reference to `idf-mobilite.js` in Dashboard :
     _Settings_ → _Dashboards_ → _More Options icon_ → _Resources_ → _Add Resource_ → Set _Url_ as `/local/community/lovelace-idf-mobilite/idf-mobilite.js` → Set _Resource type_ as `JavaScript Module`.
       **Note:** If you do not see the Resources menu, you will need to enable _Advanced Mode_ in your _User Profile_
-    
+
 ## Usage
 
 ### PRIM API Key
@@ -40,7 +41,7 @@ Once your api key created, you can create your first sensor. To do this, edit yo
 sensor:
   - platform: rest
     name: prim_the_name_you_want                            <-- for exemple prim_la_defense
-    unique_id: bbbc536a-d580-4317-8669-87a590b0f55d         <-- a unique id to manage the state (you can generate one on https://www.uuidgenerator.net/version4) 
+    unique_id: bbbc536a-d580-4317-8669-87a590b0f55d         <-- a unique id to manage the state (you can generate one on https://www.uuidgenerator.net/version4)
     resource: https://prim.iledefrance-mobilites.fr/marketplace/stop-monitoring
     method: GET
     params:

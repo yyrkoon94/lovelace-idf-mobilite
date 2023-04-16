@@ -7,19 +7,37 @@ import {
 
 const sncfLineRef = {
     // https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/emplacement-des-gares-idf
-    C01727: "C",
-    C01743: "B",
-    C01728:	"D",
-    C01737: "H",
-    C01730: "P",
-    C01736: "N",
-    C01739: "J",
-    C01729: "E",
-    C01740:	"L",
-    C01731: "R",
     C01742: "A",
+    C01743: "B",
+    C01727: "C",
+    C01728: "D",
+    C01729: "E",
+    C01737: "H",
+    C01739: "J",
+    C01738: "K",
+    C01740: "L",
+    C01736: "N",
+    C01730: "P",
+    C01731: "R",
     C01741: "U",
-    C01738:	"K"
+
+}
+
+const sncfLineColor = {
+    // https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/emplacement-des-gares-idf
+    "A": "#FF0000",
+    "B": "#238FC9",
+    "C": "#FFCB00",
+    "D": "#008B5A",
+    "E": "#D1448F",
+    "H": "#976238",
+    "J": "#D5C932",
+    "K": "#9E9640",
+    "L": "#D0A0C7",
+    "N": "#00B593",
+    "P": "#FF8741",
+    "R": "#FF97A8",
+    "U": "#D00042",
 }
 
 class IDFMobiliteCard extends LitElement {
@@ -42,18 +60,18 @@ class IDFMobiliteCard extends LitElement {
                     <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
                         <div class="card-content${this.config.show_screen === true ? "-with-screen" : ""}">
                             ${this.config.lineType === "RER"
-                                ? this.createRERContent() : ""}
+                ? this.createRERContent() : ""}
                             ${this.config.lineType === "BUS"
-                                ? this.createBUSContent() : ""}
+                ? this.createBUSContent() : ""}
                         </div>
                         ${this.config.show_screen === true ?
-                            html`
+                html`
                                 <div class="ratp-img">
                                     <img src="${imagesUrl}ratp.png" class="ratp-image">
                                     <div class="blink-point"></div>
                                 </div>
                             `
-                            : ""}
+                : ""}
                     </div>
                 </div>
             </ha-card>
@@ -71,14 +89,14 @@ class IDFMobiliteCard extends LitElement {
         const lastUpdateTime = (lastUpdateDate.getUTCHours() < 10 ? "0" + lastUpdateDate.getUTCHours() : lastUpdateDate.getUTCHours()) + ":" + (lastUpdateDate.getUTCMinutes() < 10 ? "0" + lastUpdateDate.getUTCMinutes() : lastUpdateDate.getUTCMinutes())
 
         // Station name (take the first stopPointName)
-        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length>0 ?
-                                lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
-                                : "API ERROR"
+        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
+            lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
+            : "API ERROR"
 
         // Build Line/Time
         const trains = {};
         lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
-            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length >0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans")==-1) {
+            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) {
                 const trainLine = stop.MonitoredVehicleJourney.OperatorRef.value;
                 // OCTAVE, PCCMOD, STAEL = Metro, KOWM=TRAM
                 if (trainLine.indexOf("RER") != -1 || trainLine.indexOf("SNCF") != -1) {
@@ -88,7 +106,10 @@ class IDFMobiliteCard extends LitElement {
                         const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.indexOf("::") + 2, stop.MonitoredVehicleJourney.LineRef.value.length - 1)
                         if (sncfLineRef[lineToFind]) {
                             // Train found
-                            lineRef = "train-" + sncfLineRef[lineToFind]
+                            if (sncfLineRef[lineToFind] > "E")
+                                lineRef = "train-" + sncfLineRef[lineToFind]
+                            else
+                                lineRef = "rer-" + sncfLineRef[lineToFind]
                         }
                     }
                     else {
@@ -96,13 +117,19 @@ class IDFMobiliteCard extends LitElement {
                     }
                     if (lineRef != "") {
                         const nextDeparture = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
-                        if (!this.config.exclude_lines || this.config.exclude_lines.indexOf(lineRef)==-1 && nextDeparture > 0) {
-                            const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
+                        const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.length - 1)
+                        if ((!this.config.exclude_lines || this.config.exclude_lines.indexOf(lineRef) == -1) && (!this.config.exclude_lines_ref || this.config.exclude_lines_ref.indexOf(lineStop) == -1) && nextDeparture > -5 && nextDeparture < 60) {
+                            const destinationName = stop.MonitoredVehicleJourney.DirectionName.length > 0 ? stop.MonitoredVehicleJourney.DirectionName[0].value.split('-').map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()).join('-').split(' ').map(item => item.charAt(0).toUpperCase() + item.slice(1)).join(' ') : stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
                             if (!trains[lineRef])
-                            trains[lineRef] = {}
+                                trains[lineRef] = {}
                             if (!trains[lineRef][destinationName])
-                            trains[lineRef][destinationName] = []
-                            trains[lineRef][destinationName].push({ vehiculeName: stop.MonitoredVehicleJourney.JourneyNote[0].value , nextDeparture: nextDeparture })
+                                trains[lineRef][destinationName] = []
+                            trains[lineRef][destinationName].push({
+                                vehiculeName: stop.MonitoredVehicleJourney.JourneyNote[0].value,
+                                destinationName: stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value,
+                                destinationRef: stop.MonitoredVehicleJourney.DestinationRef.value,
+                                nextDeparture: nextDeparture, monitoringRef: stop.MonitoringRef.value
+                            })
                         }
                     }
                     else {
@@ -112,30 +139,105 @@ class IDFMobiliteCard extends LitElement {
             }
         });
 
-
+        const imagesUrl = new URL('images/', import.meta.url).href
         return html`
-            <div>
-                ${stationName}
+            <div class="rer-header ${this.config.show_screen === true ? "with-screen" : ""}">
+                <div class="rer-station-name">
+                    ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
+                html`<div class="bus-destination-name">
+                                ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
+                            </div>
+                            ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}metro_white.png" class="bus-destination-image"/></div>` : ""}
+                            ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}rer_white.png" class="bus-destination-image"/></div>` : ""}
+                            ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}tram_white.png" class="bus-destination-image"/></div>` : ""}
+                        `
+                : stationName
+            }
+                </div>
+                <div class="bus-last-update">
+                    <div class="bus-last-update-time">
+                        ${lastUpdateTime}
+                    </div>
+                    <div class="bus-last-update-text">
+                        Dernière mise à jour
+                    </div>
+                </div>
             </div>
+            <div class="rer-content">
+                ${Object.keys(trains).sort(function (a, b) { return a.localeCompare(b) }).map(train => {
+                return html`
+                    ${Object.keys(trains[train]).map(trainDestination => {
+                    return html`
+                        <div class="rer-line">
+                            <div class="rer-line-title" style="border-color: ${sncfLineColor[train.substring(train.indexOf('-') + 1, train.length)]}">
+                                <div class="rer-line-title-logo">
+                                    <img src="${imagesUrl}${train.substring(0, train.indexOf('-'))}.png" class="rer-line-type-image">
+                                </div>
+                                <div class="rer-line-title-image">
+                                    <img src="${imagesUrl}${train.substring(0, train.indexOf('-'))}/${train.substring(train.indexOf('-') + 1, train.length)}.png" alt="${train.substring(train.indexOf('-') + 1, train.length)}" class="${train.substring(0, train.indexOf('-'))}-image"/>
+                                </div>
+                                <div class="rer-line-title-name">
+                                    ${trainDestination}
+                                </div>
+                            </div>
+                            ${Object.keys(trains[train][trainDestination]).map(trainLine => {
+                                return html`
+                                    <div class="rer-line-detail">
+                                        <div class="rer-line-vehicule">
+                                            <div class="rer-line-vehicule-name">
+                                                ${this.config.show_train_ref ?
+                                                    html`${trains[train][trainDestination][trainLine].destinationRef.substring(trains[train][trainDestination][trainLine].destinationRef.indexOf(":Q:") + 3, trains[train][trainDestination][trainLine].destinationRef.length - 1) }`
+                                                    : html`${trains[train][trainDestination][trainLine].vehiculeName}`
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="rer-line-destination">
+                                            ${trains[train][trainDestination][trainLine].destinationName.startsWith("Gare d") ?
+                                                html`${trains[train][trainDestination][trainLine].destinationName.substring(7, trains[train][trainDestination][trainLine].destinationName.length).trim()}<div class="bus-destination-img"><img src="${imagesUrl}train.png" class="bus-destination-image"/></div>`
+                                                : html`${trains[train][trainDestination][trainLine].destinationName}${trains[train][trainDestination][trainLine].destinationName.endsWith("Chessy") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}mickey.png" class="bus-destination-image"/></div>` : ""}`
+                                            }
+                                        </div>
+                                        <div class="rer-line-departure">
+                                            ${trains[train][trainDestination][trainLine].nextDeparture > 0 ?
+                                                html`
+                                                    <div class="rer-line-departure-time-content">
+                                                        <div class="rer-line-departure-time">
+                                                            ${trains[train][trainDestination][trainLine].nextDeparture}
+                                                        </div>
+                                                        <div class="rer-line-departure-minute">
+                                                            min
+                                                        </div>
+                                                    </div>` :
+                                                        (trains[train][trainDestination][trainLine].nextDeparture == 0 ?
+                                                            html`<div class="rer-line-departure-message"><div class="rer-line-departure-message-text-blink">A l'approche</div></div>`
+                                                            : html`<div class="rer-line-departure-message"><div class="rer-line-departure-message-text">A quai</div></div>`)
+                                            }
+                                        </div>
+                                    </div>`
+                            })}
+                        </div>`
+                    })}`
+                })}
+            </div>
+            ${this.createMessageDispaly()}
         `;
     }
 
     createBUSContent() {
-        const lineDatas = this.hass.states[this.config.entity];
-        const messagesList = this.hass.states[this.config.messages];
+        const lineDatas = this.hass.states[this.config.entity]
         if (!lineDatas && !lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``
         // Last update date
         const lastUpdateDate = new Date(Date.parse(lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp))
         const lastUpdateTime = (lastUpdateDate.getUTCHours() < 10 ? "0" + lastUpdateDate.getUTCHours() : lastUpdateDate.getUTCHours()) + ":" + (lastUpdateDate.getUTCMinutes() < 10 ? "0" + lastUpdateDate.getUTCMinutes() : lastUpdateDate.getUTCMinutes())
         // Station name (take the first stopPointName)
-        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length>0 ?
-                                lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
-                                : "API ERROR"
+        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
+            lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
+            : "API ERROR"
         // Build Line/Time
         const buses = {};
         lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
-            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length >0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans")==-1) {
+            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) {
                 var busLine = stop.MonitoredVehicleJourney.OperatorRef.value;
                 // OCTAVE, PCCMOD, STAEL = Metro, KOWM=TRAM
                 if (busLine.indexOf("SAE-BUS") > 0 || busLine.indexOf("SAE-TRAM") > 0 || busLine.indexOf("OCTAVE") > 0 || busLine.indexOf("PCCMOD") > 0 || busLine.indexOf("STAEL") > 0 || busLine.indexOf("KOVM") > 0) {
@@ -156,7 +258,7 @@ class IDFMobiliteCard extends LitElement {
                         lineRef = "metro-" + lineNumber.padStart(2, 0)
                         busRef = "metro-" + lineNumber
                     }
-                    if (!this.config.exclude_lines || this.config.exclude_lines.indexOf(busRef)==-1) {
+                    if (!this.config.exclude_lines || this.config.exclude_lines.indexOf(busRef) == -1) {
                         const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
                         if (!buses[lineRef])
                             buses[lineRef] = {}
@@ -171,7 +273,81 @@ class IDFMobiliteCard extends LitElement {
             }
         });
 
+        const imagesUrl = new URL('images/', import.meta.url).href
+        return html`
+                <div class="bus-header ${this.config.show_screen === true ? "with-screen" : ""}">
+                    <div class="bus-station-name">
+                        ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
+                html`<div class="bus-destination-name">
+                                    ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
+                                </div>
+                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}metro_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}rer_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}tram_white.png" class="bus-destination-image"/></div>` : ""}
+                            `
+                : stationName
+            }
+                    </div>
+                    <div class="bus-last-update">
+                        <div class="bus-last-update-time">
+                            ${lastUpdateTime}
+                        </div>
+                        <div class="bus-last-update-text">
+                            Dernière mise à jour
+                        </div>
+                    </div>
+                </div>
+                <div class="bus-lines">
+                    ${Object.keys(buses).sort(function (a, b) { return a.localeCompare(b) }).map(bus => {
+                return html`
+                            <div class="bus-line">
+                                ${Object.keys(buses[bus]).map((destination, index) => {
+                    return html`
+                                    <div class="bus-line-detail">
+                                        <div class="bus-img">
+
+                                            ${index === 0 ?
+                            html`<div class="bus-line-type">
+                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}.png" class="bus-line-type-image">
+                                                    </div>
+                                                    <div class="bus-line-image">
+                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
+                                                    </div>` : ""}
+                                        </div>
+                                        <div class="bus-destination">
+                                            ${destination.indexOf("<RER>") > 0 ?
+                            html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}rer.png" class="bus-destination-image"/></div>`
+                            : destination.indexOf("<METRO>") > 0 ?
+                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<METRO>")) : destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}metro.png" class="bus-destination-image"/></div>`
+                                : destination}
+                                        </div>
+                                        <div class="bus-stop">
+                                            <div class="bus-stop-value">
+                                                ${buses[bus][destination][0] > 0 ?
+                                                    buses[bus][destination][0] :
+                                                    (buses[bus][destination][0] == 0 ? html`<div class="bus-stop-value-text-blink">A l'approche</div>` : "A l'arrêt")
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="bus-stop">
+                                            <div class="bus-stop-value">
+                                                ${buses[bus][destination][1] ? (buses[bus][destination][1] > 0 ? buses[bus][destination][1] : "") : ""}
+                                            </div>
+                                        </div>
+                                    </div>
+                                `
+                })}
+                            </div>`
+            })}
+                </div>
+                ${this.createMessageDispaly()}
+
+        `;
+    }
+
+    createMessageDispaly() {
         //Build messages
+        const messagesList = this.hass.states[this.config.messages];
         const messages = {}
         if (messagesList && messagesList.attributes['Siri']) {
             const deliveryMessages = messagesList.attributes['Siri'].ServiceDelivery.GeneralMessageDelivery[0]
@@ -184,88 +360,21 @@ class IDFMobiliteCard extends LitElement {
 
         const imagesUrl = new URL('images/', import.meta.url).href
         return html`
-                <div class="bus-header ${this.config.show_screen === true ? "with-screen" : ""}">
-                    <div class="bus-station-name">
-                        ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
-                            html`<div class="bus-destination-name">
-                                    ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
-                                </div>
-                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}metro_white.png" class="bus-destination-image"/></div>` : ""}
-                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}rer_white.png" class="bus-destination-image"/></div>` : ""}
-                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}tram_white.png" class="bus-destination-image"/></div>` : ""}
-                            `
-                            : stationName
-                        }
-                    </div>
-                    <div class="bus-last-update">
-                        <div class="bus-last-update-time">
-                            ${lastUpdateTime}
-                        </div>
-                        <div class="bus-last-update-text">
-                            Dernière mise à jour
-                        </div>
-                    </div>
-                </div>
-                <div class="bus-lines">
-                    ${Object.keys(buses).sort(function(a, b) { return a.localeCompare(b)}).map(bus => {
-                        return html`
-                            <div class="bus-line">
-                                ${Object.keys(buses[bus]).map((destination, index) => {
-                                return html`
-                                    <div class="bus-line-detail">
-                                        <div class="bus-img">
-
-                                            ${index === 0 ?
-                                                html`<div class="bus-line-type">
-                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}.png" class="bus-line-type-image">
-                                                    </div>
-                                                    <div class="bus-line-image">
-                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
-                                                    </div>` : ""}
-                                        </div>
-                                        <div class="bus-destination">
-                                            ${destination.indexOf("<RER>") > 0 ?
-                                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}rer.png" class="bus-destination-image"/></div>`
-                                                : destination.indexOf("<METRO>") > 0 ?
-                                                    html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-")?destination.substring(0, destination.indexOf("-<METRO>")):destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}metro.png" class="bus-destination-image"/></div>`
-                                                    : destination}
-                                        </div>
-                                        <div class="bus-stop">
-                                            <div class="bus-stop-value">
-                                                ${buses[bus][destination][0] > 0 ?
-                                                            buses[bus][destination][0] :
-                                                            (buses[bus][destination][0] == 0 ? "A l'approche" : "A l'arrêt")
-                                                }
-                                            </div>
-                                        </div>
-                                        <div class="bus-stop">
-                                            <div class="bus-stop-value">
-                                                ${buses[bus][destination][1] ? (buses[bus][destination][1] > 0 ? buses[bus][destination][1] : "") : ""}
-                                            </div>
-                                        </div>
-                                    </div>
-                                `
-                                })}
-                            </div>`
-                    })}
-                </div>
-                <div class="message-div ${this.config.show_screen === true ? "with-screen" : ""}"">
-                    ${Object.keys(messages).length > 0 ?
-                        html`<div class="message-div-text">
-                            ${Object.keys(messages).map(key => {
-                                var concatMessage = "";
-                                messages[key].messages.forEach((message, index) => { concatMessage += message + (index< messages[key].messages.length-1 ? " /// ": "") })
-                                if (key == "Information" && this.config.display_info_message === true)
-                                    return html`<img src="${imagesUrl}info.png" class="message-icon">${concatMessage}`
-                                else if (key == "Perturbation")
-                                    return html`<img src="${imagesUrl}warning.png" class="message-icon">${concatMessage}`
-                                else if (key == "Commercial" && this.config.display_commercial_message === true)
-                                    return concatMessage
-                            })}</div>`
-                        : ""}
-                </div>
-
-        `;
+            <div class="message-div ${this.config.show_screen === true ? "with-screen" : ""}"">
+                ${Object.keys(messages).length > 0 ?
+                html`<div class="message-div-text">
+                        ${Object.keys(messages).map(key => {
+                    var concatMessage = "";
+                    messages[key].messages.forEach((message, index) => { concatMessage += message + (index < messages[key].messages.length - 1 ? " /// " : "") })
+                    if (key == "Information" && this.config.display_info_message === true)
+                        return html`<img src="${imagesUrl}info.png" class="message-icon">${concatMessage}`
+                    else if (key == "Perturbation")
+                        return html`<img src="${imagesUrl}warning.png" class="message-icon">${concatMessage}`
+                    else if (key == "Commercial" && this.config.display_commercial_message === true)
+                        return concatMessage
+                })}</div>`
+                : ""}
+            </div>`
     }
 
     setConfig(config) {
@@ -467,6 +576,146 @@ class IDFMobiliteCard extends LitElement {
                 text-align: center;
                 white-space: nowrap;
                 min-width: 20px;
+            }
+            .bus-stop-value-text-blink {
+                animation: blinker 3s linear infinite;
+            }
+            .rer-header {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 4px solid #070572;
+                background-color: #FFFFFF;
+                border-radius: 9px 9px 0px 0px;
+                margin-bottom: 4px;
+            }
+            .rer-station-name {
+                display: flex;
+                align-self: center;
+                background-color: #070572;
+                color: rgb(255, 255, 255);
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 12px;
+                padding: 4px 12px;
+            }
+            .rer-content {
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+            }
+            .rer-line {
+                display: flex;
+                flex-direction: column;
+                background-color: #FFFFFF;
+                margin-bottom: 4px;
+            }
+            .rer-line-title {
+                display: flex;
+                border-bottom: 4px solid #070572;
+                background-color: #FFFFFF;
+                border-radius: 9px 9px 0px 0px;
+                min-height: 40px;
+            }
+            .rer-line-title-logo {
+                display: flex;
+                opacity: 0.33;
+            }
+            .rer-line-type-image {
+                height: 25px;
+            }
+            .rer-line-title-image {
+                display: flex;
+                align-self: center;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            .rer-image {
+                height: 25px;
+            }
+            .train-image {
+                height: 30px;
+            }
+            .rer-line-title-name {
+                display: flex;
+                align-self: center;
+                color: #070572;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .rer-line-detail {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #516077;
+                height:40px;
+            }
+            .rer-line-vehicule {
+                display: flex;
+                align-self: center;
+                flex: 1;
+            }
+            .rer-line-vehicule-name {
+                display: flex;
+                align-self: center;
+                background-color: #000000;
+                color: #FFFFFF;
+                border-radius: 0px 5px 5px 0px;
+                padding-right: 5px;
+            }
+            .rer-line-destination {
+                display: flex;
+                flex: 5;
+                align-self: center;
+                align-self: center;
+                color: #070572;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .rer-line-departure {
+                display: flex;
+                flex: 3;
+                height: 40px;
+                background: #4D4D4D;
+                align-self: center;
+            }
+            .rer-line-departure-time-content {
+                display: flex;
+                flex-direction: column;
+                background: #000000;
+                color: #CAA94C;
+                min-width: 35px;
+            }
+            .rer-line-departure-time {
+                display: flex;
+                align-self: center;
+                font-size: 18px;
+                font-weight: bold;
+                padding-top: 6px;
+            }
+            .rer-line-departure-minute {
+                display: flex;
+                align-self: center;
+                font-size: 8px;
+                margin-top: -5px;
+            }
+            .rer-line-departure-message {
+                display: flex;
+                align-self: center;
+                height: 40px;
+                font-size: 18px;
+                font-weight: bold;
+                padding-left: 5px;
+                padding-right: 5px;
+                background: #000000;
+                color: #CAA94C;
+            }
+            .rer-line-departure-message-text-blink {
+                display: flex;
+                align-self: center;
+                animation: blinker 3s linear infinite;
+            }
+            .rer-line-departure-message-text {
+                display: flex;
+                align-self: center;
             }
             .message-div {
                 display: flex;
