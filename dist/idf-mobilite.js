@@ -2,11 +2,29 @@ import {
     LitElement,
     html,
     css
-  } from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module";
+} from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module";
+
+
+const sncfLineRef = {
+    // https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/emplacement-des-gares-idf
+    C01727: "C",
+    C01743: "B",
+    C01728:	"D",
+    C01737: "H",
+    C01730: "P",
+    C01736: "N",
+    C01739: "J",
+    C01729: "E",
+    C01740:	"L",
+    C01731: "R",
+    C01742: "A",
+    C01741: "U",
+    C01738:	"K"
+}
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelave - IDF Mobilité  %c 0.0.6 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.0.6 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -17,7 +35,7 @@ class IDFMobiliteCard extends LitElement {
         if (!this.config || !this.hass) {
             return html``;
         }
-
+        const imagesUrl = new URL('images/', import.meta.url).href
         return html`
             <ha-card>
                 <div class="border${this.config.show_screen === true ? "-screen" : "-screen"}">
@@ -31,7 +49,7 @@ class IDFMobiliteCard extends LitElement {
                         ${this.config.show_screen === true ?
                             html`
                                 <div class="ratp-img">
-                                    <img src="/local/community/lovelace-idf-mobilite/images/ratp.png" class="ratp-image">
+                                    <img src="${imagesUrl}ratp.png" class="ratp-image">
                                     <div class="blink-point"></div>
                                 </div>
                             `
@@ -43,9 +61,61 @@ class IDFMobiliteCard extends LitElement {
     }
 
     createRERContent() {
+        const lineDatas = this.hass.states[this.config.entity];
+        const messagesList = this.hass.states[this.config.messages];
+        if (!lineDatas && !lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
+            return html``
+
+        // Last update date
+        const lastUpdateDate = new Date(Date.parse(lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp))
+        const lastUpdateTime = (lastUpdateDate.getUTCHours() < 10 ? "0" + lastUpdateDate.getUTCHours() : lastUpdateDate.getUTCHours()) + ":" + (lastUpdateDate.getUTCMinutes() < 10 ? "0" + lastUpdateDate.getUTCMinutes() : lastUpdateDate.getUTCMinutes())
+
+        // Station name (take the first stopPointName)
+        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length>0 ?
+                                lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
+                                : "API ERROR"
+
+        // Build Line/Time
+        const trains = {};
+        lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
+            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length >0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans")==-1) {
+                const trainLine = stop.MonitoredVehicleJourney.OperatorRef.value;
+                // OCTAVE, PCCMOD, STAEL = Metro, KOWM=TRAM
+                if (trainLine.indexOf("RER") != -1 || trainLine.indexOf("SNCF") != -1) {
+                    // SNCF line
+                    var lineRef = ""
+                    if (trainLine.indexOf("SNCF") != -1) {
+                        const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.indexOf("::") + 2, stop.MonitoredVehicleJourney.LineRef.value.length - 1)
+                        if (sncfLineRef[lineToFind]) {
+                            // Train found
+                            lineRef = "train-" + sncfLineRef[lineToFind]
+                        }
+                    }
+                    else {
+                        lineRef = "rer-" + trainLine.substring(trainLine.lastIndexOf('.') + 1, trainLine.length - 1)
+                    }
+                    if (lineRef != "") {
+                        const nextDeparture = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
+                        if (!this.config.exclude_lines || this.config.exclude_lines.indexOf(lineRef)==-1 && nextDeparture > 0) {
+                            const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
+                            if (!trains[lineRef])
+                            trains[lineRef] = {}
+                            if (!trains[lineRef][destinationName])
+                            trains[lineRef][destinationName] = []
+                            trains[lineRef][destinationName].push({ vehiculeName: stop.MonitoredVehicleJourney.JourneyNote[0].value , nextDeparture: nextDeparture })
+                        }
+                    }
+                    else {
+                        console.log("Ignoring line : " + trainLine)
+                    }
+                }
+            }
+        });
+
+
         return html`
             <div>
-                RER
+                ${stationName}
             </div>
         `;
     }
@@ -111,17 +181,18 @@ class IDFMobiliteCard extends LitElement {
                 messages[infoMessage.InfoChannelRef.value].messages.push(infoMessage.Content.Message[0].MessageText.value)
             })
         }
-        return html`
 
+        const imagesUrl = new URL('images/', import.meta.url).href
+        return html`
                 <div class="bus-header ${this.config.show_screen === true ? "with-screen" : ""}">
                     <div class="bus-station-name">
                         ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
                             html`<div class="bus-destination-name">
                                     ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
                                 </div>
-                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/metro_white.png" class="bus-destination-image"/></div>` : ""}
-                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/rer_white.png" class="bus-destination-image"/></div>` : ""}
-                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/tram_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}metro_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}rer_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}tram_white.png" class="bus-destination-image"/></div>` : ""}
                             `
                             : stationName
                         }
@@ -146,17 +217,17 @@ class IDFMobiliteCard extends LitElement {
 
                                             ${index === 0 ?
                                                 html`<div class="bus-line-type">
-                                                        <img src="/local/community/lovelace-idf-mobilite/images/${bus.substring(0, bus.indexOf('-'))}.png" class="bus-line-type-image">
+                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}.png" class="bus-line-type-image">
                                                     </div>
                                                     <div class="bus-line-image">
-                                                        <img src="/local/community/lovelace-idf-mobilite/images/${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
+                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
                                                     </div>` : ""}
                                         </div>
                                         <div class="bus-destination">
                                             ${destination.indexOf("<RER>") > 0 ?
-                                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/rer.png" class="bus-destination-image"/></div>`
+                                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}rer.png" class="bus-destination-image"/></div>`
                                                 : destination.indexOf("<METRO>") > 0 ?
-                                                    html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-")?destination.substring(0, destination.indexOf("-<METRO>")):destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="/local/community/lovelace-idf-mobilite/images/metro.png" class="bus-destination-image"/></div>`
+                                                    html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-")?destination.substring(0, destination.indexOf("-<METRO>")):destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}metro.png" class="bus-destination-image"/></div>`
                                                     : destination}
                                         </div>
                                         <div class="bus-stop">
@@ -185,9 +256,9 @@ class IDFMobiliteCard extends LitElement {
                                 var concatMessage = "";
                                 messages[key].messages.forEach((message, index) => { concatMessage += message + (index< messages[key].messages.length-1 ? " /// ": "") })
                                 if (key == "Information" && this.config.display_info_message === true)
-                                    return html`<img src="/local/community/lovelace-idf-mobilite/images/info.png" class="message-icon">${concatMessage}`
+                                    return html`<img src="${imagesUrl}info.png" class="message-icon">${concatMessage}`
                                 else if (key == "Perturbation")
-                                    return html`<img src="/local/community/lovelace-idf-mobilite/images/warning.png" class="message-icon">${concatMessage}`
+                                    return html`<img src="${imagesUrl}warning.png" class="message-icon">${concatMessage}`
                                 else if (key == "Commercial" && this.config.display_commercial_message === true)
                                     return concatMessage
                             })}</div>`
