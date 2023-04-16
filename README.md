@@ -12,8 +12,6 @@ This Card consume the [PRIM][prim-url] (**P**lateforme **R**égionale d'**I**nfo
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/screenshot1.png)
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/screenshot2.png)
 
-For now this card is in **BETA VERSION**, you can only use the BUS/METRO/TRAM card and not all icons are available (but ask me and I'll add them!). The next version will contain a specific RER and SNCF display.
-
 ## Installation
 
 The simplest way to install this card is to add this repository to HACS. If you wish to install it manually, you may follow the instructions below.
@@ -108,10 +106,14 @@ In the "Ligne" box, choose a PRIM sensor that you have created and ***that's all
 
 You can see *more options* :
 - Messages : another sensor to display Information message at the StopArea (line problems, ...)
-- Line Type : to display Bus/Tram/Métro and in a future version RER and SNCF lines !!
-- Exclude Lines : a list of line to exclude to the display (for exemple, to exclude the bus 207, just type bus-207;)
+- Line Type : to display Bus/Tram/Métro or RER/SNCF lines
 - Screen Mode : To display the Card like a RATP TV :)
 - Display infomation messages : used for messages to display also Infomation message (and not only perturbations)
+
+#### Filtering Options
+There are two kinds of filtering :
+- Exclude Lines : a list of line to exclude to the display (for exemple, to exclude the bus 207, just type bus-207;)
+- Exclude Destinations : this one is used for RER/SNCF filtering for filtering specific destinations. For exemple if you want to display RER A but only on one way or only a specific destination, you can hide other lines. To know the line number to hide, just check the switch "Afficher les références de destination) and you will see the destination number instead of train name. Just use these number for filtering.
 
 ## Credits
 
