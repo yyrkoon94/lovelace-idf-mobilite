@@ -99,7 +99,7 @@ class IDFMobiliteCardEditor extends LitElement {
                         @selected="${this._valueChanged}"
                         @closed="${e => e.stopPropagation()}"
                         >
-                        <ha-list-item value="RER">RER</ha-list-item>
+                        <ha-list-item value="RER">RER/SNCF</ha-list-item>
                         <ha-list-item value="BUS">Bus/Tram/Métro</ha-list-item>
                     </ha-select>
                     <div class="switch">
@@ -135,7 +135,7 @@ class IDFMobiliteCardEditor extends LitElement {
                     ></ha-textfield>
                     <div class="switch">
                       <div>
-                        <span>Afficher les réfernces de destination</span>
+                        <span>Afficher les références des destinations</span>
                         <ha-switch
                             .checked=${this._show_train_ref}
                             .configValue="${"show_train_ref"}"
