@@ -115,7 +115,7 @@ There are two kinds of filtering :
 - Exclude Lines : a list of line to exclude to the display (for exemple, to exclude the bus 207, just type bus-207;)
 - Exclude Destinations : this one is used for filtering specific destinations. For exemple if you want to display RER A but only on one way or only a specific destination, you can hide other lines. To know the line number to hide, just check the switch "Afficher les références des destinations" and you will see the destination number instead of train name. Just use these number for filtering.
 
-### Message sensor
+### Messages sensor
 You can add a second sensor for your StopArea to monitor Information and Perturbation messages. For that simply add a sensor like this exemple :
 
 ```
