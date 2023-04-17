@@ -126,7 +126,7 @@ sensor:
     resource: https://prim.iledefrance-mobilites.fr/marketplace/general-message
     method: GET
     params:
-      MonitoringRef: "STIF:StopArea:SP:71517:"              <-- optional (at least one params) : the StopArea or StopPoint you want to follow 
+      StopPointRef: "STIF:StopArea:SP:71517:"               <-- optional (at least one params) : the StopArea or StopPoint you want to follow 
       LineRef: "STIF:Line::C01221:"                         <-- optional (at least one params) : the line if you want to follow only one line on the StopArea
     headers:
       apiKey: "YourApiKey"                                  <-- the PRIM Api Key
