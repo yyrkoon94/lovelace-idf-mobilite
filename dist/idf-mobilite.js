@@ -42,7 +42,7 @@ const sncfLineColor = {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.0.6 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.1.1 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -60,18 +60,18 @@ class IDFMobiliteCard extends LitElement {
                     <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
                         <div class="card-content${this.config.show_screen === true ? "-with-screen" : ""}">
                             ${this.config.lineType === "RER"
-                ? this.createRERContent() : ""}
+                                ? this.createRERContent() : ""}
                             ${this.config.lineType === "BUS"
-                ? this.createBUSContent() : ""}
+                                ? this.createBUSContent() : ""}
                         </div>
                         ${this.config.show_screen === true ?
-                html`
+                             html`
                                 <div class="ratp-img">
                                     <img src="${imagesUrl}ratp.png" class="ratp-image">
                                     <div class="blink-point"></div>
                                 </div>
                             `
-                : ""}
+                            : ""}
                     </div>
                 </div>
             </ha-card>
@@ -258,13 +258,16 @@ class IDFMobiliteCard extends LitElement {
                         lineRef = "metro-" + lineNumber.padStart(2, 0)
                         busRef = "metro-" + lineNumber
                     }
-                    if (!this.config.exclude_lines || this.config.exclude_lines.indexOf(busRef) == -1) {
+                    const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
+                    if ((!this.config.exclude_lines || this.config.exclude_lines.indexOf(busRef) == -1) && (!this.config.exclude_lines_ref || this.config.exclude_lines_ref.indexOf(lineStop) == -1)) {
                         const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
                         if (!buses[lineRef])
                             buses[lineRef] = {}
                         if (!buses[lineRef][destinationName])
                             buses[lineRef][destinationName] = []
-                        buses[lineRef][destinationName].push(Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60))
+                        buses[lineRef][destinationName].push({
+                            destinationRef: lineStop,
+                            nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)})
                     }
                 }
                 else {
@@ -278,15 +281,15 @@ class IDFMobiliteCard extends LitElement {
                 <div class="bus-header ${this.config.show_screen === true ? "with-screen" : ""}">
                     <div class="bus-station-name">
                         ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
-                html`<div class="bus-destination-name">
+                            html`<div class="bus-destination-name">
                                     ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
                                 </div>
                                 ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}metro_white.png" class="bus-destination-image"/></div>` : ""}
                                 ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}rer_white.png" class="bus-destination-image"/></div>` : ""}
                                 ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}tram_white.png" class="bus-destination-image"/></div>` : ""}
                             `
-                : stationName
-            }
+                            : stationName
+                        }
                     </div>
                     <div class="bus-last-update">
                         <div class="bus-last-update-time">
@@ -299,49 +302,50 @@ class IDFMobiliteCard extends LitElement {
                 </div>
                 <div class="bus-lines">
                     ${Object.keys(buses).sort(function (a, b) { return a.localeCompare(b) }).map(bus => {
-                return html`
+                        return html`
                             <div class="bus-line">
                                 ${Object.keys(buses[bus]).map((destination, index) => {
-                    return html`
+                                return html`
                                     <div class="bus-line-detail">
                                         <div class="bus-img">
-
                                             ${index === 0 ?
-                            html`<div class="bus-line-type">
-                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}.png" class="bus-line-type-image">
-                                                    </div>
-                                                    <div class="bus-line-image">
-                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
-                                                    </div>` : ""}
+                                                html`<div class="bus-line-type">
+                                                                <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}.png" class="bus-line-type-image">
+                                                            </div>
+                                                            <div class="bus-line-image">
+                                                                <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
+                                                            </div>` : ""}
                                         </div>
                                         <div class="bus-destination">
-                                            ${destination.indexOf("<RER>") > 0 ?
-                            html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}rer.png" class="bus-destination-image"/></div>`
-                            : destination.indexOf("<METRO>") > 0 ?
-                                html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<METRO>")) : destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}metro.png" class="bus-destination-image"/></div>`
-                                : destination}
+                                            ${this.config.show_train_ref ?
+                                                html`${buses[bus][destination][0].destinationRef}`
+                                                : html`
+                                                    ${destination.indexOf("<RER>") > 0 ?
+                                                        html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}rer.png" class="bus-destination-image"/></div>`
+                                                        : destination.indexOf("<METRO>") > 0 ?
+                                                            html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<METRO>")) : destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}metro.png" class="bus-destination-image"/></div>`
+                                                    : destination}`
+                                            }
                                         </div>
                                         <div class="bus-stop">
                                             <div class="bus-stop-value">
-                                                ${buses[bus][destination][0] > 0 ?
-                                                    buses[bus][destination][0] :
-                                                    (buses[bus][destination][0] == 0 ? html`<div class="bus-stop-value-text-blink">A l'approche</div>` : "A l'arrêt")
+                                                ${buses[bus][destination][0].nextDeparture > 0 ?
+                                                    buses[bus][destination][0].nextDeparture :
+                                                    (buses[bus][destination][0].nextDeparture == 0 ? html`<div class="bus-stop-value-text-blink">A l'approche</div>` : "A l'arrêt")
                                                 }
                                             </div>
                                         </div>
                                         <div class="bus-stop">
                                             <div class="bus-stop-value">
-                                                ${buses[bus][destination][1] ? (buses[bus][destination][1] > 0 ? buses[bus][destination][1] : "") : ""}
+                                                ${buses[bus][destination][1] ? (buses[bus][destination][1].nextDeparture > 0 ? buses[bus][destination][1].nextDeparture : "") : ""}
                                             </div>
                                         </div>
-                                    </div>
-                                `
-                })}
+                                    </div>`
+                                })}
                             </div>`
-            })}
+                    })}
                 </div>
                 ${this.createMessageDispaly()}
-
         `;
     }
 
