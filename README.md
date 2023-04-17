@@ -113,7 +113,31 @@ You can see *more options* :
 #### Filtering Options
 There are two kinds of filtering :
 - Exclude Lines : a list of line to exclude to the display (for exemple, to exclude the bus 207, just type bus-207;)
-- Exclude Destinations : this one is used for RER/SNCF filtering for filtering specific destinations. For exemple if you want to display RER A but only on one way or only a specific destination, you can hide other lines. To know the line number to hide, just check the switch "Afficher les références des destinations" and you will see the destination number instead of train name. Just use these number for filtering.
+- Exclude Destinations : this one is used for filtering specific destinations. For exemple if you want to display RER A but only on one way or only a specific destination, you can hide other lines. To know the line number to hide, just check the switch "Afficher les références des destinations" and you will see the destination number instead of train name. Just use these number for filtering.
+
+### Message sensor
+You can add a second sensor for your StopArea to monitor Information and Perturbation messages. For that simply add a sensor like this exemple :
+
+```
+sensor:
+  - platform: rest
+    name: prim_the_name_you_want_messages                   <-- for exemple prim_la_defense_messages
+    unique_id: bbbc536a-d580-4317-8669-87a94560f55d         <-- a unique id to manage the state (you can generate one on https://www.uuidgenerator.net/version4)
+    resource: https://prim.iledefrance-mobilites.fr/marketplace/general-message
+    method: GET
+    params:
+      MonitoringRef: "STIF:StopArea:SP:71517:"              <-- optional (at least one params) : the StopArea or StopPoint you want to follow 
+      LineRef: "STIF:Line::C01221:"                         <-- optional (at least one params) : the line if you want to follow only one line on the StopArea
+    headers:
+      apiKey: "YourApiKey"                                  <-- the PRIM Api Key
+    scan_interval: 60                                       <-- the time between update (in seconds)
+    timeout: 30
+    value_template: "OK"
+    json_attributes:
+      - Siri
+```
+
+And choose this new sensor for the "Messages" entity
 
 ## Credits
 
