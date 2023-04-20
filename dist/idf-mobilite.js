@@ -42,7 +42,7 @@ const sncfLineColor = {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.1.1 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.1.2 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -56,9 +56,9 @@ class IDFMobiliteCard extends LitElement {
         const imagesUrl = new URL('images/', import.meta.url).href
         return html`
             <ha-card>
-                <div class="border${this.config.show_screen === true ? "-screen" : "-screen"}">
+                <div class="border${this.config.show_screen === true ? "-screen" : this.config.wall_panel === true ? "" : "-screen"}">
                     <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
-                        <div class="card-content${this.config.show_screen === true ? "-with-screen" : ""}">
+                        <div class="card-content${this.config.show_screen === true ? "-with-screen" : this.config.wall_panel === true ? "-nobg" : ""}">
                             ${this.config.lineType === "RER"
                                 ? this.createRERContent() : ""}
                             ${this.config.lineType === "BUS"
@@ -141,8 +141,8 @@ class IDFMobiliteCard extends LitElement {
 
         const imagesUrl = new URL('images/', import.meta.url).href
         return html`
-            <div class="rer-header ${this.config.show_screen === true ? "with-screen" : ""}">
-                <div class="rer-station-name">
+            <div class="rer-header ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "header-nobg " : ""}}">
+                <div class="rer-station-name${this.config.wall_panel === true ? "-nobg" : ""}">
                     ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
                 html`<div class="bus-destination-name">
                                 ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
@@ -168,10 +168,10 @@ class IDFMobiliteCard extends LitElement {
                 return html`
                     ${Object.keys(trains[train]).map(trainDestination => {
                     return html`
-                        <div class="rer-line">
+                        <div class="rer-line${this.config.wall_panel === true ? "-nobg" : ""}">
                             <div class="rer-line-title" style="border-color: ${sncfLineColor[train.substring(train.indexOf('-') + 1, train.length)]}">
                                 <div class="rer-line-title-logo">
-                                    <img src="${imagesUrl}${train.substring(0, train.indexOf('-'))}.png" class="rer-line-type-image">
+                                    <img src="${imagesUrl}${train.substring(0, train.indexOf('-'))}sq${this.config.wall_panel === true ? "_white" : ""}.png" class="rer-line-type-image">
                                 </div>
                                 <div class="rer-line-title-image">
                                     <img src="${imagesUrl}${train.substring(0, train.indexOf('-'))}/${train.substring(train.indexOf('-') + 1, train.length)}.png" alt="${train.substring(train.indexOf('-') + 1, train.length)}" class="${train.substring(0, train.indexOf('-'))}-image"/>
@@ -193,8 +193,8 @@ class IDFMobiliteCard extends LitElement {
                                         </div>
                                         <div class="rer-line-destination">
                                             ${trains[train][trainDestination][trainLine].destinationName.startsWith("Gare d") ?
-                                                html`${trains[train][trainDestination][trainLine].destinationName.substring(7, trains[train][trainDestination][trainLine].destinationName.length).trim()}<div class="bus-destination-img"><img src="${imagesUrl}train.png" class="bus-destination-image"/></div>`
-                                                : html`${trains[train][trainDestination][trainLine].destinationName}${trains[train][trainDestination][trainLine].destinationName.endsWith("Chessy") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}mickey.png" class="bus-destination-image"/></div>` : ""}`
+                                                html`${trains[train][trainDestination][trainLine].destinationName.substring(7, trains[train][trainDestination][trainLine].destinationName.length).trim()}<div class="bus-destination-img"><img src="${imagesUrl}train${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
+                                                : html`${trains[train][trainDestination][trainLine].destinationName}${trains[train][trainDestination][trainLine].destinationName.endsWith("Chessy") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}mickey${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>` : ""}`
                                             }
                                         </div>
                                         <div class="rer-line-departure">
@@ -209,8 +209,8 @@ class IDFMobiliteCard extends LitElement {
                                                         </div>
                                                     </div>` :
                                                         (trains[train][trainDestination][trainLine].nextDeparture == 0 ?
-                                                            html`<div class="rer-line-departure-message"><div class="rer-line-departure-message-text-blink">A l'approche</div></div>`
-                                                            : html`<div class="rer-line-departure-message"><div class="rer-line-departure-message-text">A quai</div></div>`)
+                                                            html`<div class="rer-line-departure-message"><div class="rer-line-departure-message-text-blink">à l'approche</div></div>`
+                                                            : html`<div class="rer-line-departure-message"><div class="rer-line-departure-message-text">à quai</div></div>`)
                                             }
                                         </div>
                                     </div>`
@@ -278,8 +278,8 @@ class IDFMobiliteCard extends LitElement {
 
         const imagesUrl = new URL('images/', import.meta.url).href
         return html`
-                <div class="bus-header ${this.config.show_screen === true ? "with-screen" : ""}">
-                    <div class="bus-station-name">
+                <div class="bus-header ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "header-nobg " : ""}">
+                    <div class="bus-station-name${this.config.wall_panel === true ? "-nobg" : ""}">
                         ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
                             html`<div class="bus-destination-name">
                                     ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
@@ -295,7 +295,7 @@ class IDFMobiliteCard extends LitElement {
                         <div class="bus-last-update-time">
                             ${lastUpdateTime}
                         </div>
-                        <div class="bus-last-update-text">
+                        <div class="bus-last-update-text${this.config.wall_panel === true ? "-nobg" : ""}">
                             Dernière mise à jour
                         </div>
                     </div>
@@ -303,27 +303,27 @@ class IDFMobiliteCard extends LitElement {
                 <div class="bus-lines">
                     ${Object.keys(buses).sort(function (a, b) { return a.localeCompare(b) }).map(bus => {
                         return html`
-                            <div class="bus-line">
+                            <div class="bus-line${this.config.wall_panel === true ? "-nobg" : ""}">
                                 ${Object.keys(buses[bus]).map((destination, index) => {
                                 return html`
                                     <div class="bus-line-detail">
                                         <div class="bus-img">
                                             ${index === 0 ?
                                                 html`<div class="bus-line-type">
-                                                                <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}.png" class="bus-line-type-image">
-                                                            </div>
-                                                            <div class="bus-line-image">
-                                                                <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
-                                                            </div>` : ""}
+                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-line-type-image">
+                                                    </div>
+                                                    <div class="bus-line-image">
+                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
+                                                    </div>` : ""}
                                         </div>
                                         <div class="bus-destination">
                                             ${this.config.show_train_ref ?
                                                 html`${buses[bus][destination][0].destinationRef}`
                                                 : html`
                                                     ${destination.indexOf("<RER>") > 0 ?
-                                                        html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}rer.png" class="bus-destination-image"/></div>`
+                                                        html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}rer${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
                                                         : destination.indexOf("<METRO>") > 0 ?
-                                                            html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<METRO>")) : destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}metro.png" class="bus-destination-image"/></div>`
+                                                            html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<METRO>")) : destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}metro${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
                                                     : destination}`
                                             }
                                         </div>
@@ -331,7 +331,7 @@ class IDFMobiliteCard extends LitElement {
                                             <div class="bus-stop-value">
                                                 ${buses[bus][destination][0].nextDeparture > 0 ?
                                                     buses[bus][destination][0].nextDeparture :
-                                                    (buses[bus][destination][0].nextDeparture == 0 ? html`<div class="bus-stop-value-text-blink">A l'approche</div>` : "A l'arrêt")
+                                                    (buses[bus][destination][0].nextDeparture == 0 ? html`<div class="bus-stop-value-text-blink">à l'approche</div>` : "à l'arrêt")
                                                 }
                                             </div>
                                         </div>
@@ -364,7 +364,7 @@ class IDFMobiliteCard extends LitElement {
 
         const imagesUrl = new URL('images/', import.meta.url).href
         return html`
-            <div class="message-div ${this.config.show_screen === true ? "with-screen" : ""}"">
+            <div class="message-div ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "footer-nobg " : ""}">
                 ${Object.keys(messages).length > 0 ?
                 html`<div class="message-div-text">
                         ${Object.keys(messages).map(key => {
@@ -455,6 +455,12 @@ class IDFMobiliteCard extends LitElement {
                 background-color:#516077;
                 min-height: 300px;
             }
+            .card-content-nobg {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 0px;
+            }
             .bus-header {
                 display: flex;
                 justify-content: space-between;
@@ -463,15 +469,34 @@ class IDFMobiliteCard extends LitElement {
                 border-radius: 9px 9px 0px 0px;
                 margin-bottom: 4px;
             }
+            .header-nobg {
+                background: none !important;
+                color: #FFFFFF !important;
+                border-bottom: 4px solid #050446;
+            }
+            .footer-nobg {
+                background: none !important;
+                color: #FFFFFF !important;
+            }
             .bus-station-name {
                 display: flex;
                 align-self: center;
                 background-color: #070572;
-                color: rgb(255, 255, 255);
+                color: #FFFFFF;
                 font-size: 18px;
                 font-weight: bold;
                 margin-left: 12px;
                 padding: 4px 12px;
+            }
+            .bus-station-name-nobg {
+                display: flex;
+                align-self: center;
+                color: #FFFFFF;
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 12px;
+                padding: 4px 12px;
+                background-color: #050446
             }
             .bus-last-update {
                 display: flex;
@@ -494,6 +519,12 @@ class IDFMobiliteCard extends LitElement {
                 color: #000000;
                 margin-top: -2px;
             }
+            .bus-last-update-text-nobg {
+                display: flex;
+                font-size: 8px;
+                color: #FFFFFF;
+                margin-top: -2px;
+            }
             .bus-lines {
                 display: flex;
                 flex-direction: column;
@@ -504,13 +535,27 @@ class IDFMobiliteCard extends LitElement {
                 justify-content: space-between;
                 flex-direction:column;
                 margin: 4px 0px;
+                color: #070572;
                 background-color: #FFFFFF;
+            }
+            .bus-line-nobg {
+                display: flex;
+                justify-content: space-between;
+                flex-direction:column;
+                color: #FFFFFF;
+                background-color: none !important;
             }
             .bus-line-detail {
                 display: flex;
                 justify-content: space-between;
                 border-bottom: 1px solid #516077;
-                background-color: #FFFFFF;
+                height:40px;
+                padding-right: 10px;
+            }
+            .bus-line-detail-nobg {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #516077;
                 height:40px;
                 padding-right: 10px;
             }
@@ -547,7 +592,6 @@ class IDFMobiliteCard extends LitElement {
                 display: flex;
                 flex: 6 ;
                 align-self: center;
-                color: #070572;
                 font-size: 18px;
                 font-weight: bold;
             }
@@ -596,11 +640,21 @@ class IDFMobiliteCard extends LitElement {
                 display: flex;
                 align-self: center;
                 background-color: #070572;
-                color: rgb(255, 255, 255);
+                color: #FFFFFF;
                 font-size: 18px;
                 font-weight: bold;
                 margin-left: 12px;
                 padding: 4px 12px;
+            }
+            .rer-station-name-nobg {
+                display: flex;
+                align-self: center;
+                color: #FFFFFF;
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 12px;
+                padding: 4px 12px;
+                background-color: #050446
             }
             .rer-content {
                 display: flex;
@@ -611,18 +665,26 @@ class IDFMobiliteCard extends LitElement {
                 display: flex;
                 flex-direction: column;
                 background-color: #FFFFFF;
+                color: #070572;
                 margin-bottom: 4px;
+            }
+            .rer-line-nobg {
+                display: flex;
+                justify-content: space-between;
+                flex-direction:column;
+                color: #FFFFFF;
+                background-color: none !important;
             }
             .rer-line-title {
                 display: flex;
                 border-bottom: 4px solid #070572;
-                background-color: #FFFFFF;
                 border-radius: 9px 9px 0px 0px;
                 min-height: 40px;
             }
             .rer-line-title-logo {
                 display: flex;
-                opacity: 0.33;
+                align-self: center;
+                margin-left: 2px;
             }
             .rer-line-type-image {
                 height: 25px;
@@ -642,7 +704,6 @@ class IDFMobiliteCard extends LitElement {
             .rer-line-title-name {
                 display: flex;
                 align-self: center;
-                color: #070572;
                 font-size: 18px;
                 font-weight: bold;
             }
@@ -670,7 +731,6 @@ class IDFMobiliteCard extends LitElement {
                 flex: 5;
                 align-self: center;
                 align-self: center;
-                color: #070572;
                 font-size: 18px;
                 font-weight: bold;
             }
