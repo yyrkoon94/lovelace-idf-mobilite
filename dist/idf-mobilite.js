@@ -594,6 +594,7 @@ class IDFMobiliteCard extends LitElement {
                 align-self: center;
                 font-size: 18px;
                 font-weight: bold;
+                padding-left: 2px;
             }
             .bus-destination-name {
                 display: flex;
