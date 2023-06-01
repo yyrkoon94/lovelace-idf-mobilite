@@ -41,6 +41,10 @@ class IDFMobiliteCardEditor extends LitElement {
         return this._config.entity || "";
     }
 
+    get _second_entity() {
+      return this._config.second_entity || "";
+   }
+
     get _messages() {
       return this._config.messages || "";
     }
@@ -53,6 +57,10 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.show_screen || false;
     }
 
+    get _show_station_name() {
+      return this._config.show_station_name === undefined ? true : this._config.show_station_name;
+    }
+
     get _display_info_message() {
       return this._config.display_info_message || false;
     }
@@ -63,6 +71,14 @@ class IDFMobiliteCardEditor extends LitElement {
 
     get _exclude_lines_ref() {
       return this._config.exclude_lines_ref || "";
+    }
+
+    get _exclude_second_lines() {
+      return this._config.exclude_second_lines || "";
+    }
+
+    get _exclude_second_lines_ref() {
+      return this._config.exclude_second_lines_ref || "";
     }
 
     get _show_train_ref() {
@@ -84,6 +100,13 @@ class IDFMobiliteCardEditor extends LitElement {
                         .configValue=${"entity"}
                         @value-changed="${this._valueChanged}"
                         ></ha-entity-picker>
+                    <ha-entity-picker
+                      label="Seconde ligne (RESTFul sensor)"
+                      .hass="${this.hass}"
+                      .value="${this._second_entity}"
+                      .configValue=${"second_entity"}
+                      @value-changed="${this._valueChanged}"
+                      ></ha-entity-picker>
                     <ha-entity-picker
                         label="Messages (RESTFul sensor)"
                         .hass="${this.hass}"
@@ -112,6 +135,14 @@ class IDFMobiliteCardEditor extends LitElement {
                             ></ha-switch>
                       </div>
                       <div>
+                        <span>Nom de la station</span>
+                        <ha-switch
+                            .checked=${this._show_station_name}
+                            .configValue="${"show_station_name"}"
+                            @change="${this._valueChanged}"
+                            ></ha-switch>
+                      </div>
+                      <div>
                         <span>Afficher les messages d'information</span>
                         <ha-switch
                             .checked=${this._display_info_message}
@@ -131,6 +162,18 @@ class IDFMobiliteCardEditor extends LitElement {
                       label="Exclure les destinations (ex: 458755;5655442;)"
                       .value="${this._exclude_lines_ref}"
                       .configValue=${"exclude_lines_ref"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    <ha-textfield
+                      label="Exclure les lignes 2ème ligne (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
+                      .value="${this._exclude_second_lines}"
+                      .configValue=${"exclude_second_lines"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    <ha-textfield
+                      label="Exclure les destinations 2ème ligne (ex: 458755;5655442;)"
+                      .value="${this._exclude_second_lines_ref}"
+                      .configValue=${"exclude_second_lines_ref"}
                       @input="${this._valueChanged}"
                     ></ha-textfield>
                     <div class="switch">

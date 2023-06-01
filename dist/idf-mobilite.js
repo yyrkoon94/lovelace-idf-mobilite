@@ -42,7 +42,7 @@ const sncfLineColor = {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.1.3 ", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.1.4", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -60,9 +60,14 @@ class IDFMobiliteCard extends LitElement {
                     <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
                         <div class="card-content${this.config.show_screen === true ? "-with-screen" : this.config.wall_panel === true ? "-nobg" : ""}">
                             ${this.config.lineType === "RER"
-                                ? this.createRERContent() : ""}
+                                ? this.createRERContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref) : ""}
                             ${this.config.lineType === "BUS"
-                                ? this.createBUSContent() : ""}
+                                ? this.createBUSContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref) : ""}
+                            ${this.config.second_entity && this.config.lineType === "RER"
+                                ? this.createRERContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, true) : ""}
+                            ${this.config.second_entity && this.config.lineType === "BUS"
+                                ? this.createBUSContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, true) : ""}
+                            ${this.createMessageDisplay()}
                         </div>
                         ${this.config.show_screen === true ?
                              html`
@@ -78,8 +83,7 @@ class IDFMobiliteCard extends LitElement {
         `;
     }
 
-    createRERContent() {
-        const lineDatas = this.hass.states[this.config.entity];
+    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, second_entity) {
         const messagesList = this.hass.states[this.config.messages];
         if (!lineDatas && !lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``
@@ -118,7 +122,7 @@ class IDFMobiliteCard extends LitElement {
                     if (lineRef != "") {
                         const nextDeparture = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
                         const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.length - 1)
-                        if ((!this.config.exclude_lines || this.config.exclude_lines.indexOf(lineRef) == -1) && (!this.config.exclude_lines_ref || this.config.exclude_lines_ref.indexOf(lineStop) == -1) && nextDeparture > -5 && nextDeparture < 60) {
+                        if ((!exclude_lines || exclude_lines.indexOf(lineRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1) && nextDeparture > -5 && nextDeparture < 60) {
                             const destinationName = stop.MonitoredVehicleJourney.DirectionName.length > 0 ? stop.MonitoredVehicleJourney.DirectionName[0].value.split('-').map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()).join('-').split(' ').map(item => item.charAt(0).toUpperCase() + item.slice(1)).join(' ') : stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
                             if (!trains[lineRef])
                                 trains[lineRef] = {}
@@ -141,28 +145,30 @@ class IDFMobiliteCard extends LitElement {
 
         const imagesUrl = new URL('images/', import.meta.url).href
         return html`
-            <div class="rer-header ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "header-nobg " : ""}}">
-                <div class="rer-station-name${this.config.wall_panel === true ? "-nobg" : ""}">
-                    ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
-                html`<div class="bus-destination-name">
-                                ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
-                            </div>
-                            ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}metro_white.png" class="bus-destination-image"/></div>` : ""}
-                            ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}rer_white.png" class="bus-destination-image"/></div>` : ""}
-                            ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}tram_white.png" class="bus-destination-image"/></div>` : ""}
-                        `
-                : stationName
+            ${this.config.show_station_name === undefined || this.config.show_station_name === true ?
+                html `<div class="rer-header ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "header-nobg " : ""}}">
+                    <div class="rer-station-name${this.config.wall_panel === true ? "-nobg" : ""}">
+                        ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
+                    html`<div class="bus-destination-name">
+                                    ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
+                                </div>
+                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}metro_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}rer_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}tram_white.png" class="bus-destination-image"/></div>` : ""}
+                            `
+                    : stationName }
+                    </div>
+                    ${!second_entity ?
+                        html`<div class="bus-last-update">
+                                <div class="bus-last-update-time">
+                                    ${lastUpdateTime}
+                                </div>
+                                <div class="bus-last-update-text">
+                                    Dernière mise à jour
+                                </div>
+                            </div>`: "" }
+                </div>`: ""
             }
-                </div>
-                <div class="bus-last-update">
-                    <div class="bus-last-update-time">
-                        ${lastUpdateTime}
-                    </div>
-                    <div class="bus-last-update-text">
-                        Dernière mise à jour
-                    </div>
-                </div>
-            </div>
             <div class="rer-content">
                 ${Object.keys(trains).sort(function (a, b) { return a.localeCompare(b) }).map(train => {
                 return html`
@@ -219,12 +225,10 @@ class IDFMobiliteCard extends LitElement {
                     })}`
                 })}
             </div>
-            ${this.createMessageDispaly()}
         `;
     }
 
-    createBUSContent() {
-        const lineDatas = this.hass.states[this.config.entity]
+    createBUSContent(lineDatas, exclude_lines, exclude_lines_ref, second_entity) {
         if (!lineDatas && !lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``
         // Last update date
@@ -259,7 +263,7 @@ class IDFMobiliteCard extends LitElement {
                         busRef = "metro-" + lineNumber
                     }
                     const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
-                    if ((!this.config.exclude_lines || this.config.exclude_lines.indexOf(busRef) == -1) && (!this.config.exclude_lines_ref || this.config.exclude_lines_ref.indexOf(lineStop) == -1)) {
+                    if ((!exclude_lines || exclude_lines.indexOf(busRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1)) {
                         const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
                         if (!buses[lineRef])
                             buses[lineRef] = {}
@@ -278,7 +282,8 @@ class IDFMobiliteCard extends LitElement {
 
         const imagesUrl = new URL('images/', import.meta.url).href
         return html`
-                <div class="bus-header ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "header-nobg " : ""}">
+            ${this.config.show_station_name === undefined || this.config.show_station_name === true ?
+                html `<div class="bus-header ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "header-nobg " : ""}" style="${second_entity ? 'border-radius: 0px !important' : ''}">
                     <div class="bus-station-name${this.config.wall_panel === true ? "-nobg" : ""}">
                         ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
                             html`<div class="bus-destination-name">
@@ -291,16 +296,19 @@ class IDFMobiliteCard extends LitElement {
                             : stationName
                         }
                     </div>
-                    <div class="bus-last-update">
-                        <div class="bus-last-update-time">
-                            ${lastUpdateTime}
-                        </div>
-                        <div class="bus-last-update-text${this.config.wall_panel === true ? "-nobg" : ""}">
-                            Dernière mise à jour
-                        </div>
-                    </div>
+                    ${!second_entity ?
+                        html`<div class="bus-last-update">
+                            <div class="bus-last-update-time">
+                                ${lastUpdateTime}
+                            </div>
+                            <div class="bus-last-update-text${this.config.wall_panel === true ? "-nobg" : ""}">
+                                Dernière mise à jour
+                            </div>
+                        </div>`: "" }
                 </div>
-                <div class="bus-lines">
+                `: ""
+                }
+                <div class="bus-lines" style="${this.config.second_entity && !second_entity ? 'flex-grow: 0;': ''}">
                     ${Object.keys(buses).sort(function (a, b) { return a.localeCompare(b) }).map(bus => {
                         return html`
                             <div class="bus-line${this.config.wall_panel === true ? "-nobg" : ""}">
@@ -345,11 +353,10 @@ class IDFMobiliteCard extends LitElement {
                             </div>`
                     })}
                 </div>
-                ${this.createMessageDispaly()}
         `;
     }
 
-    createMessageDispaly() {
+    createMessageDisplay() {
         //Build messages
         const messagesList = this.hass.states[this.config.messages];
         const messages = {}
@@ -468,6 +475,7 @@ class IDFMobiliteCard extends LitElement {
                 background-color: #FFFFFF;
                 border-radius: 9px 9px 0px 0px;
                 margin-bottom: 4px;
+                min-height: 45px;
             }
             .header-nobg {
                 background: none !important;
@@ -636,6 +644,7 @@ class IDFMobiliteCard extends LitElement {
                 background-color: #FFFFFF;
                 border-radius: 9px 9px 0px 0px;
                 margin-bottom: 4px;
+                min-height: 45px;
             }
             .rer-station-name {
                 display: flex;
