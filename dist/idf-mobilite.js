@@ -2,8 +2,9 @@ import {
     LitElement,
     html,
     css
-} from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module";
+} from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module"
 
+import nonRatpLineRef from "./referentiel-des-lignes-filtered.json" assert { type: 'json' }
 
 const sncfLineRef = {
     // https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/emplacement-des-gares-idf
@@ -42,7 +43,7 @@ const sncfLineColor = {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.1.4", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.1.5", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -231,6 +232,7 @@ class IDFMobiliteCard extends LitElement {
     createBUSContent(lineDatas, exclude_lines, exclude_lines_ref, second_entity) {
         if (!lineDatas && !lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``
+
         // Last update date
         const lastUpdateDate = new Date(Date.parse(lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp))
         const lastUpdateTime = (lastUpdateDate.getUTCHours() < 10 ? "0" + lastUpdateDate.getUTCHours() : lastUpdateDate.getUTCHours()) + ":" + (lastUpdateDate.getUTCMinutes() < 10 ? "0" + lastUpdateDate.getUTCMinutes() : lastUpdateDate.getUTCMinutes())
@@ -275,7 +277,34 @@ class IDFMobiliteCard extends LitElement {
                     }
                 }
                 else {
-                    //console.log("Ignoring line : " + busLine)
+                    // Try to find the line in the referential for non RATP lines
+                    const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf("::")+2, stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf(":"));
+                    nonRatpLineRef.every(line => {
+                        if (line.id_line == lineToFind) {
+                            const lineNumber = line.name_line
+                            const lineRef = "bus-" + lineNumber
+                            const busRef = "bus-" + lineNumber
+                            const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
+                            if ((!exclude_lines || exclude_lines.indexOf(busRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1)) {
+                                const nextDepartureTime = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
+                                if (nextDepartureTime > -1) {
+                                    const destinationName = this.titleCase(stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value)
+                                    if (!buses[lineRef])
+                                        buses[lineRef] = {}
+                                    if (!buses[lineRef][destinationName])
+                                        buses[lineRef][destinationName] = []
+                                    buses[lineRef][destinationName].push({
+                                        destinationRef: lineStop,
+                                        lineTextColor: line.textcolourweb_hexa,
+                                        lineBackgroundColor: line.colourweb_hexa,
+                                        nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
+                                    })
+                                }
+                            }
+                            return false
+                        }
+                        return true
+                    });
                 }
             }
         });
@@ -313,15 +342,18 @@ class IDFMobiliteCard extends LitElement {
                         return html`
                             <div class="bus-line${this.config.wall_panel === true ? "-nobg" : ""}">
                                 ${Object.keys(buses[bus]).map((destination, index) => {
-                                return html`
+                                    return html`
                                     <div class="bus-line-detail">
                                         <div class="bus-img">
                                             ${index === 0 ?
-                                                html`<div class="bus-line-type">
+                                            html`<div class="bus-line-type">
                                                         <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-line-type-image">
                                                     </div>
                                                     <div class="bus-line-image">
-                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt="${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image"/>
+                                                        ${!buses[bus][destination][0].lineTextColor ?
+                                                            html`<img src = "${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt = "${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image" />`
+                                                    : html`<div class="bus-line-image-no-ratp" style="color: #${buses[bus][destination][0].lineTextColor};background-color:#${buses[bus][destination][0].lineBackgroundColor}">${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}</div>`
+                                                        }
                                                     </div>` : ""}
                                         </div>
                                         <div class="bus-destination">
@@ -356,17 +388,28 @@ class IDFMobiliteCard extends LitElement {
         `;
     }
 
+    titleCase(str) {
+        //var newstr = str.split(' ').map(item =>
+         //   item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()).join(' ');
+        return str.split(' ').map(item =>
+            item.indexOf('-') < 0 ? item.charAt(0).toUpperCase() + item.slice(1).toLowerCase() :
+            item.split('-').map(item2 =>
+                item2.charAt(0).toUpperCase() + item2.slice(1).toLowerCase()).join('-')).join(' ');
+    }
+
     createMessageDisplay() {
         //Build messages
         const messagesList = this.hass.states[this.config.messages];
         const messages = {}
         if (messagesList && messagesList.attributes['Siri']) {
             const deliveryMessages = messagesList.attributes['Siri'].ServiceDelivery.GeneralMessageDelivery[0]
-            deliveryMessages.InfoMessage.forEach(infoMessage => {
-                if (!messages[infoMessage.InfoChannelRef.value])
-                    messages[infoMessage.InfoChannelRef.value] = { messages: [] }
-                messages[infoMessage.InfoChannelRef.value].messages.push(infoMessage.Content.Message[0].MessageText.value)
-            })
+            if (deliveryMessages.InfoMessage) {
+                deliveryMessages.InfoMessage.forEach(infoMessage => {
+                    if (!messages[infoMessage.InfoChannelRef.value])
+                        messages[infoMessage.InfoChannelRef.value] = { messages: [] }
+                    messages[infoMessage.InfoChannelRef.value].messages.push(infoMessage.Content.Message[0].MessageText.value)
+                })
+            }
         }
 
         const imagesUrl = new URL('images/', import.meta.url).href
@@ -586,6 +629,15 @@ class IDFMobiliteCard extends LitElement {
                 flex-grow: 1;
                 align-items: center;
                 justify-content: center;
+            }
+            .bus-line-image-no-ratp {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                height: 25px;
+                width: 40px;
+                font-weight: bold;
+                font-size: 18px;
             }
             .bus-image {
                 height: 25px;
