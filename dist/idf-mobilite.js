@@ -4,12 +4,9 @@ import {
     css
 } from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module"
 
+import { nonRatpLineRef } from "./referentiel-des-lignes-filtered.js"
 
-
-const nonRatpLineRef = await import("./referentiel-des-lignes-filtered.json", {
-    assert: { type: "json" },
-});
-console.log(nonRatpLineRef.default)
+//const nonRatpLineRef = await import("./referentiel-des-lignes-filtered.json", {assert: { type: "json" }})
 
 const sncfLineRef = {
     // https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/emplacement-des-gares-idf
@@ -48,7 +45,7 @@ const sncfLineColor = {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.1.6", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.1.7", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -284,7 +281,7 @@ class IDFMobiliteCard extends LitElement {
                 else {
                     // Try to find the line in the referential for non RATP lines
                     const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf("::")+2, stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf(":"));
-                    nonRatpLineRef.default.every(line => {
+                    nonRatpLineRef().every(line => {
                         if (line.id_line == lineToFind) {
                             const lineNumber = line.name_line
                             const lineRef = "bus-" + lineNumber
@@ -859,6 +856,7 @@ class IDFMobiliteCard extends LitElement {
                 padding-left: 10px;
                 padding-right: 10px;
                 margin-top: 8px;
+                overflow: hidden;
             }
             .message-div-text {
                 display: flex;
