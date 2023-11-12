@@ -153,6 +153,6 @@ The card is inspired by [Lesensei’s work][lesensei] on [idfm-card][idfm-card].
 [release-url]: https://github.com/yyrkoon94/lovelace-idf-mobilite/releases
 [prim-url]: https://prim.iledefrance-mobilites.fr/
 [area-reference-url]: https://data.iledefrance-mobilites.fr/explore/dataset/arrets/custom/
-[line-reference-url]: https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/perimetre-des-donnees-tr-disponibles-plateforme-idfm
+[line-reference-url]: https://prim.iledefrance-mobilites.fr/fr/jeux-de-donnees/perimetre-des-donnees-tr-disponibles-plateforme-idfm
 [lesensei]: https://github.com/lesensei
 [idfm-card]: https://github.com/lesensei/idfm-card
