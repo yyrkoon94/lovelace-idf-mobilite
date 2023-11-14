@@ -225,43 +225,43 @@ export function nonRatpLineRef() {
         "operatorname": "N4 Mobilités"
       },
       {
-        "colourweb_hexa": "ffce00",
+        "colourweb_hexa": "ffbe00",
         "transportmode": "bus",
         "id_line": "C00038",
         "textcolourweb_hexa": "000000",
-        "name_line": "32",
+        "name_line": "6132",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "f4a58b",
+        "colourweb_hexa": "ff1400",
         "transportmode": "bus",
         "id_line": "C00039",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "116",
+        "name_line": "6175",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "f4a58b",
+        "colourweb_hexa": "ff1400",
         "transportmode": "bus",
         "id_line": "C00040",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "108",
+        "name_line": "6178",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "9dcda1",
+        "colourweb_hexa": "82dc73",
         "transportmode": "bus",
         "id_line": "C00042",
         "textcolourweb_hexa": "000000",
-        "name_line": "33",
+        "name_line": "6133",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "98b3da",
+        "colourweb_hexa": "0055c8",
         "transportmode": "bus",
         "id_line": "C00043",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "24",
+        "name_line": "6124",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -273,43 +273,43 @@ export function nonRatpLineRef() {
         "operatorname": "RD Saclay"
       },
       {
-        "colourweb_hexa": "f19043",
+        "colourweb_hexa": "ff5a00",
         "transportmode": "bus",
         "id_line": "C00048",
         "textcolourweb_hexa": "000000",
-        "name_line": "40",
+        "name_line": "6140",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "007e49",
+        "colourweb_hexa": "00643c",
         "transportmode": "bus",
         "id_line": "C00049",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "42",
+        "name_line": "6142",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "ff00ff",
+        "colourweb_hexa": "ff82b4",
         "transportmode": "bus",
         "id_line": "C00050",
         "textcolourweb_hexa": "000000",
-        "name_line": "23",
+        "name_line": "6123",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "be418e",
+        "colourweb_hexa": "a0006e",
         "transportmode": "bus",
         "id_line": "C00051",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "45",
+        "name_line": "6145",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "daa3c6",
+        "colourweb_hexa": "a0006e",
         "transportmode": "bus",
         "id_line": "C00052",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "22",
+        "name_line": "6122",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -478,7 +478,7 @@ export function nonRatpLineRef() {
         "id_line": "C00083",
         "textcolourweb_hexa": "ffffff",
         "name_line": "101",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "c1ce00",
@@ -486,7 +486,7 @@ export function nonRatpLineRef() {
         "id_line": "C00084",
         "textcolourweb_hexa": "000000",
         "name_line": "7",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "76b72a",
@@ -494,7 +494,7 @@ export function nonRatpLineRef() {
         "id_line": "C00085",
         "textcolourweb_hexa": "000000",
         "name_line": "8",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "e5122e",
@@ -502,7 +502,7 @@ export function nonRatpLineRef() {
         "id_line": "C00086",
         "textcolourweb_hexa": "000000",
         "name_line": "1",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "f5e312",
@@ -510,7 +510,7 @@ export function nonRatpLineRef() {
         "id_line": "C00087",
         "textcolourweb_hexa": "000000",
         "name_line": "2",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "bf59e5",
@@ -518,7 +518,7 @@ export function nonRatpLineRef() {
         "id_line": "C00088",
         "textcolourweb_hexa": "000000",
         "name_line": "3",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "6bf5ff",
@@ -526,7 +526,7 @@ export function nonRatpLineRef() {
         "id_line": "C00089",
         "textcolourweb_hexa": "000000",
         "name_line": "4",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "2ecfff",
@@ -534,14 +534,14 @@ export function nonRatpLineRef() {
         "id_line": "C00090",
         "textcolourweb_hexa": "ffffff",
         "name_line": "107",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ff26d9",
         "transportmode": "bus",
         "id_line": "C00092",
         "textcolourweb_hexa": "000000",
-        "name_line": "205",
+        "name_line": "4305",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -558,7 +558,7 @@ export function nonRatpLineRef() {
         "id_line": "C00094",
         "textcolourweb_hexa": "ffffff",
         "name_line": "15",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "f3a4ba",
@@ -581,7 +581,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00100",
         "textcolourweb_hexa": "000000",
-        "name_line": "223",
+        "name_line": "4323",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -589,7 +589,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00101",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "224",
+        "name_line": "4324",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -597,7 +597,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00102",
         "textcolourweb_hexa": "000000",
-        "name_line": "225",
+        "name_line": "4325",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -606,14 +606,14 @@ export function nonRatpLineRef() {
         "id_line": "C00103",
         "textcolourweb_hexa": "000000",
         "name_line": "1025",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "97599f",
         "transportmode": "bus",
         "id_line": "C00104",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "226",
+        "name_line": "4326",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -686,7 +686,7 @@ export function nonRatpLineRef() {
         "id_line": "C00113",
         "textcolourweb_hexa": "ffffff",
         "name_line": "17",
-        "operatorname": "Transdev Ile-de-France Ecquevilly"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -758,7 +758,7 @@ export function nonRatpLineRef() {
         "id_line": "C00122",
         "textcolourweb_hexa": "ffffff",
         "name_line": "71",
-        "operatorname": "Transdev Ile-de-France Ecquevilly"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "f49c03",
@@ -877,31 +877,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00145",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "9A",
-        "operatorname": "Transdev Boucle des Lys"
-      },
-      {
-        "colourweb_hexa": "b0d6ed",
-        "transportmode": "bus",
-        "id_line": "C00146",
-        "textcolourweb_hexa": "000000",
-        "name_line": "9AB",
-        "operatorname": "Transdev Boucle des Lys"
-      },
-      {
-        "colourweb_hexa": "e69138",
-        "transportmode": "bus",
-        "id_line": "C00147",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "9B",
-        "operatorname": "Transdev Boucle des Lys"
-      },
-      {
-        "colourweb_hexa": "a9c153",
-        "transportmode": "bus",
-        "id_line": "C00148",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "9D",
+        "name_line": "9",
         "operatorname": "Transdev Boucle des Lys"
       },
       {
@@ -1198,7 +1174,7 @@ export function nonRatpLineRef() {
         "id_line": "C00191",
         "textcolourweb_hexa": "ffffff",
         "name_line": "11",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "98b3de",
@@ -1225,76 +1201,76 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Nord Seine-Saint-Denis"
       },
       {
-        "colourweb_hexa": "f4a8bc",
+        "colourweb_hexa": "c04192",
         "transportmode": "bus",
         "id_line": "C00198",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "16",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "98b3de",
+        "colourweb_hexa": "0064b0",
         "transportmode": "bus",
         "id_line": "C00199",
         "textcolourweb_hexa": "ffffff",
         "name_line": "17",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "f5a05f",
+        "colourweb_hexa": "f28e42",
         "transportmode": "bus",
         "id_line": "C00200",
         "textcolourweb_hexa": "000000",
         "name_line": "18",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "9bc0a9",
+        "colourweb_hexa": "81c491",
         "transportmode": "bus",
         "id_line": "C00201",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "19",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "d4c900",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C00202",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "21",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "b28e64",
+        "colourweb_hexa": "8d5e2a",
         "transportmode": "bus",
         "id_line": "C00203",
         "textcolourweb_hexa": "ffffff",
         "name_line": "22",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "f28f42",
+        "colourweb_hexa": "e3051c",
         "transportmode": "bus",
         "id_line": "C00204",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "23",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "98d4e2",
+        "colourweb_hexa": "97d4e2",
         "transportmode": "bus",
         "id_line": "C00205",
         "textcolourweb_hexa": "000000",
-        "name_line": "30B",
-        "operatorname": "CIF"
+        "name_line": "30 B",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "9c9a3e",
         "transportmode": "bus",
         "id_line": "C00206",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "30D",
-        "operatorname": "CIF"
+        "name_line": "30 D",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "f4a8bc",
@@ -1302,7 +1278,7 @@ export function nonRatpLineRef() {
         "id_line": "C00207",
         "textcolourweb_hexa": "000000",
         "name_line": "R8",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "e3051b",
@@ -1310,31 +1286,23 @@ export function nonRatpLineRef() {
         "id_line": "C00208",
         "textcolourweb_hexa": "ffffff",
         "name_line": "31",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "cec92b",
+        "colourweb_hexa": "00814f",
         "transportmode": "bus",
         "id_line": "C00209",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "32",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "9bcda4",
-        "transportmode": "bus",
-        "id_line": "C00210",
-        "textcolourweb_hexa": "000000",
-        "name_line": "32A",
-        "operatorname": "CIF"
-      },
-      {
-        "colourweb_hexa": "98b3de",
+        "colourweb_hexa": "4f91cd",
         "transportmode": "bus",
         "id_line": "C00211",
         "textcolourweb_hexa": "ffffff",
         "name_line": "33",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "98b3de",
@@ -1358,14 +1326,6 @@ export function nonRatpLineRef() {
         "id_line": "C00214",
         "textcolourweb_hexa": "ffffff",
         "name_line": "43",
-        "operatorname": "Transdev Nord Seine-Saint-Denis"
-      },
-      {
-        "colourweb_hexa": "98d4e2",
-        "transportmode": "bus",
-        "id_line": "C00215",
-        "textcolourweb_hexa": "000000",
-        "name_line": "44",
         "operatorname": "Transdev Nord Seine-Saint-Denis"
       },
       {
@@ -1409,20 +1369,20 @@ export function nonRatpLineRef() {
         "operatorname": "CIF"
       },
       {
-        "colourweb_hexa": "b28e64",
+        "colourweb_hexa": "8d5e2a",
         "transportmode": "bus",
         "id_line": "C00221",
         "textcolourweb_hexa": "ffffff",
         "name_line": "71",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
         "colourweb_hexa": "3bb2ff",
         "transportmode": "bus",
         "id_line": "C00223",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "EX93 Bobigny",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "f4a8bc",
@@ -1430,15 +1390,15 @@ export function nonRatpLineRef() {
         "id_line": "C00224",
         "textcolourweb_hexa": "000000",
         "name_line": "Gbus",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "662483",
+        "colourweb_hexa": "f3a4ba",
         "transportmode": "bus",
         "id_line": "C00225",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "116",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
         "colourweb_hexa": "f4a8bc",
@@ -1446,7 +1406,7 @@ export function nonRatpLineRef() {
         "id_line": "C00226",
         "textcolourweb_hexa": "000000",
         "name_line": "R117",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "81c391",
@@ -1454,7 +1414,7 @@ export function nonRatpLineRef() {
         "id_line": "C00228",
         "textcolourweb_hexa": "000000",
         "name_line": "R1",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "f28f42",
@@ -1462,7 +1422,7 @@ export function nonRatpLineRef() {
         "id_line": "C00229",
         "textcolourweb_hexa": "000000",
         "name_line": "R2",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "f5a05f",
@@ -1470,7 +1430,7 @@ export function nonRatpLineRef() {
         "id_line": "C00230",
         "textcolourweb_hexa": "000000",
         "name_line": "R3",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "98d0c1",
@@ -1478,7 +1438,7 @@ export function nonRatpLineRef() {
         "id_line": "C00231",
         "textcolourweb_hexa": "ffffff",
         "name_line": "R4",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "fece00",
@@ -1486,7 +1446,7 @@ export function nonRatpLineRef() {
         "id_line": "C00232",
         "textcolourweb_hexa": "000000",
         "name_line": "R5",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "98d4e2",
@@ -1494,7 +1454,7 @@ export function nonRatpLineRef() {
         "id_line": "C00233",
         "textcolourweb_hexa": "000000",
         "name_line": "R6",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "b397c7",
@@ -1502,7 +1462,7 @@ export function nonRatpLineRef() {
         "id_line": "C00234",
         "textcolourweb_hexa": "ffffff",
         "name_line": "R7",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "b28e64",
@@ -1510,7 +1470,7 @@ export function nonRatpLineRef() {
         "id_line": "C00235",
         "textcolourweb_hexa": "ffffff",
         "name_line": "R110",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "f5a05f",
@@ -1518,23 +1478,23 @@ export function nonRatpLineRef() {
         "id_line": "C00236",
         "textcolourweb_hexa": "000000",
         "name_line": "R111",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "f5a48c",
+        "colourweb_hexa": "b90745",
         "transportmode": "bus",
         "id_line": "C00237",
         "textcolourweb_hexa": "ffffff",
         "name_line": "R112",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "f5a48c",
+        "colourweb_hexa": "e3051b",
         "transportmode": "bus",
         "id_line": "C00238",
         "textcolourweb_hexa": "ffffff",
         "name_line": "R113",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "97b6e0",
@@ -1542,7 +1502,7 @@ export function nonRatpLineRef() {
         "id_line": "C00239",
         "textcolourweb_hexa": "ffffff",
         "name_line": "R104",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "97d4e2",
@@ -1550,23 +1510,23 @@ export function nonRatpLineRef() {
         "id_line": "C00240",
         "textcolourweb_hexa": "000000",
         "name_line": "R105",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "b397c7",
+        "colourweb_hexa": "662483",
         "transportmode": "bus",
         "id_line": "C00241",
         "textcolourweb_hexa": "ffffff",
         "name_line": "R106",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "dba2ca",
+        "colourweb_hexa": "b43d88",
         "transportmode": "bus",
         "id_line": "C00242",
         "textcolourweb_hexa": "ffffff",
         "name_line": "R107",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "f4a8bc",
@@ -1574,7 +1534,7 @@ export function nonRatpLineRef() {
         "id_line": "C00243",
         "textcolourweb_hexa": "000000",
         "name_line": "R108",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "ceacd2",
@@ -1582,55 +1542,47 @@ export function nonRatpLineRef() {
         "id_line": "C00244",
         "textcolourweb_hexa": "000000",
         "name_line": "R109",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "b80b4b",
+        "colourweb_hexa": "e3051c",
         "transportmode": "bus",
         "id_line": "C00245",
         "textcolourweb_hexa": "ffffff",
         "name_line": "701",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "8c5e2b",
+        "colourweb_hexa": "8d5e2a",
         "transportmode": "bus",
         "id_line": "C00246",
         "textcolourweb_hexa": "ffffff",
         "name_line": "702",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "dba2ca",
+        "colourweb_hexa": "5191ce",
         "transportmode": "bus",
         "id_line": "C00247",
         "textcolourweb_hexa": "ffffff",
         "name_line": "703",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "f28f42",
+        "colourweb_hexa": "f28e42",
         "transportmode": "bus",
         "id_line": "C00248",
         "textcolourweb_hexa": "000000",
         "name_line": "704",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "98d4e2",
-        "transportmode": "bus",
-        "id_line": "C00249",
-        "textcolourweb_hexa": "000000",
-        "name_line": "705",
-        "operatorname": "CIF"
-      },
-      {
-        "colourweb_hexa": "98d0c1",
+        "colourweb_hexa": "81c491",
         "transportmode": "bus",
         "id_line": "C00250",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "707",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
         "colourweb_hexa": "fece00",
@@ -1638,71 +1590,55 @@ export function nonRatpLineRef() {
         "id_line": "C00251",
         "textcolourweb_hexa": "000000",
         "name_line": "708",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "e3b326",
+        "colourweb_hexa": "e3b229",
         "transportmode": "bus",
         "id_line": "C00252",
         "textcolourweb_hexa": "000000",
         "name_line": "709",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "dba2ca",
+        "colourweb_hexa": "cfadd2",
         "transportmode": "bus",
         "id_line": "C00253",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "710",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "98d4e2",
+        "colourweb_hexa": "f3a4ba",
         "transportmode": "bus",
         "id_line": "C00254",
         "textcolourweb_hexa": "000000",
         "name_line": "711",
-        "operatorname": "CIF"
-      },
-      {
-        "colourweb_hexa": "df9aa0",
-        "transportmode": "bus",
-        "id_line": "C00255",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "714",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
         "colourweb_hexa": "fece00",
         "transportmode": "bus",
-        "id_line": "C00256",
+        "id_line": "C00255",
         "textcolourweb_hexa": "000000",
-        "name_line": "715",
-        "operatorname": "CIF"
+        "name_line": "714",
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "f5a160",
-        "transportmode": "bus",
-        "id_line": "C00257",
-        "textcolourweb_hexa": "000000",
-        "name_line": "751",
-        "operatorname": "CIF"
-      },
-      {
-        "colourweb_hexa": "d4ca00",
+        "colourweb_hexa": "09a78e",
         "transportmode": "bus",
         "id_line": "C00259",
-        "textcolourweb_hexa": "000000",
-        "name_line": "755",
-        "operatorname": "CIF"
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "715",
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "97b3de",
+        "colourweb_hexa": "5191ce",
         "transportmode": "bus",
         "id_line": "C00260",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "756",
-        "operatorname": "CIF"
+        "name_line": "716",
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
         "colourweb_hexa": "f28f42",
@@ -1710,7 +1646,7 @@ export function nonRatpLineRef() {
         "id_line": "C00261",
         "textcolourweb_hexa": "000000",
         "name_line": "Vitavil",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "00814f",
@@ -1733,16 +1669,16 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00264",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "95-01",
-        "operatorname": "CIF"
+        "name_line": "9501",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "006db8",
         "transportmode": "bus",
         "id_line": "C00265",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "95-02",
-        "operatorname": "CIF"
+        "name_line": "9502",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "e0b03b",
@@ -1913,27 +1849,27 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Argenteuil Boucles de Seine"
       },
       {
-        "colourweb_hexa": "2c964d",
+        "colourweb_hexa": "cec73d",
         "transportmode": "bus",
         "id_line": "C00299",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "10",
+        "textcolourweb_hexa": "000000",
+        "name_line": "1510",
         "operatorname": "Transdev Valmy"
       },
       {
-        "colourweb_hexa": "feca2a",
+        "colourweb_hexa": "ffcc30",
         "transportmode": "bus",
         "id_line": "C00301",
         "textcolourweb_hexa": "000000",
-        "name_line": "12",
+        "name_line": "1512",
         "operatorname": "Transdev Valmy"
       },
       {
-        "colourweb_hexa": "f39327",
+        "colourweb_hexa": "f38f53",
         "transportmode": "bus",
         "id_line": "C00302",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "13",
+        "textcolourweb_hexa": "000000",
+        "name_line": "1513",
         "operatorname": "Transdev Valmy"
       },
       {
@@ -1945,19 +1881,19 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Argenteuil Boucles de Seine"
       },
       {
-        "colourweb_hexa": "0e7ec2",
+        "colourweb_hexa": "006fb6",
         "transportmode": "bus",
         "id_line": "C00304",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "11",
+        "name_line": "1511",
         "operatorname": "Transdev Valmy"
       },
       {
-        "colourweb_hexa": "ff5ee3",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C00305",
         "textcolourweb_hexa": "000000",
-        "name_line": "33 SoisyBus",
+        "name_line": "1533",
         "operatorname": "Transdev Valmy"
       },
       {
@@ -1969,11 +1905,11 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Argenteuil Boucles de Seine"
       },
       {
-        "colourweb_hexa": "502361",
+        "colourweb_hexa": "65318f",
         "transportmode": "bus",
         "id_line": "C00307",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "37",
+        "name_line": "1537",
         "operatorname": "Transdev Valmy"
       },
       {
@@ -2017,11 +1953,11 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Argenteuil Boucles de Seine"
       },
       {
-        "colourweb_hexa": "be549a",
+        "colourweb_hexa": "b94e9a",
         "transportmode": "bus",
         "id_line": "C00315",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "14",
+        "name_line": "1514",
         "operatorname": "Transdev Valmy"
       },
       {
@@ -2045,7 +1981,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00319",
         "textcolourweb_hexa": "000000",
-        "name_line": "201",
+        "name_line": "4301",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -2054,14 +1990,14 @@ export function nonRatpLineRef() {
         "id_line": "C00321",
         "textcolourweb_hexa": "000000",
         "name_line": "103",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "4dffff",
         "transportmode": "bus",
         "id_line": "C00322",
         "textcolourweb_hexa": "000000",
-        "name_line": "203",
+        "name_line": "4303",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -2070,7 +2006,7 @@ export function nonRatpLineRef() {
         "id_line": "C00323",
         "textcolourweb_hexa": "000000",
         "name_line": "202",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "8ce39c",
@@ -2093,16 +2029,16 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00327",
         "textcolourweb_hexa": "000000",
-        "name_line": "54",
-        "operatorname": "Transdev Ile-de-France Nanterre"
+        "name_line": "054",
+        "operatorname": "Transdev Versailles"
       },
       {
-        "colourweb_hexa": "ab7e5c",
+        "colourweb_hexa": "8e6539",
         "transportmode": "bus",
         "id_line": "C00328",
         "textcolourweb_hexa": "ffffff",
         "name_line": "55",
-        "operatorname": "Transdev Ile-de-France Nanterre"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "0055c8",
@@ -2153,19 +2089,19 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Argenteuil Boucles de Seine"
       },
       {
-        "colourweb_hexa": "00ffff",
+        "colourweb_hexa": "82c8e6",
         "transportmode": "bus",
         "id_line": "C00339",
         "textcolourweb_hexa": "000000",
-        "name_line": "1 (future 401)",
+        "name_line": "401",
         "operatorname": "RD Bièvre"
       },
       {
-        "colourweb_hexa": "ff7800",
+        "colourweb_hexa": "ff5a00",
         "transportmode": "bus",
         "id_line": "C00340",
         "textcolourweb_hexa": "000000",
-        "name_line": "2 (future 402)",
+        "name_line": "402",
         "operatorname": "RD Bièvre"
       },
       {
@@ -2177,11 +2113,11 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Vallée Sud"
       },
       {
-        "colourweb_hexa": "c2ab42",
+        "colourweb_hexa": "ff0000",
         "transportmode": "bus",
         "id_line": "C00342",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "4 (future 412)",
+        "name_line": "412",
         "operatorname": "RD Bièvre"
       },
       {
@@ -2201,27 +2137,19 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Vallée Sud"
       },
       {
-        "colourweb_hexa": "fff500",
+        "colourweb_hexa": "ffbe00",
         "transportmode": "bus",
         "id_line": "C00345",
         "textcolourweb_hexa": "000000",
-        "name_line": "8 (future 408)",
+        "name_line": "408",
         "operatorname": "RD Bièvre"
       },
       {
-        "colourweb_hexa": "12ff00",
+        "colourweb_hexa": "00643c",
         "transportmode": "bus",
         "id_line": "C00346",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "9 (future 409)",
-        "operatorname": "RD Bièvre"
-      },
-      {
-        "colourweb_hexa": "ff0d00",
-        "transportmode": "bus",
-        "id_line": "C00348",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "12 (future 412)",
+        "name_line": "409",
         "operatorname": "RD Bièvre"
       },
       {
@@ -2429,7 +2357,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00382",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "24-10",
+        "name_line": "4340",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -2485,7 +2413,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00391",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "314",
+        "name_line": "4334",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -2566,7 +2494,7 @@ export function nonRatpLineRef() {
         "id_line": "C00408",
         "textcolourweb_hexa": "ffffff",
         "name_line": "11",
-        "operatorname": "Cars Hourtoule"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "f51cff",
@@ -2633,12 +2561,12 @@ export function nonRatpLineRef() {
         "operatorname": "Francilité Saint-Quentin-en-Yvelines"
       },
       {
-        "colourweb_hexa": "651235",
+        "colourweb_hexa": "b80c4b",
         "transportmode": "bus",
         "id_line": "C00420",
         "textcolourweb_hexa": "ffffff",
         "name_line": "111",
-        "operatorname": "Cars Hourtoule"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "98c22a",
@@ -2678,7 +2606,7 @@ export function nonRatpLineRef() {
         "id_line": "C00425",
         "textcolourweb_hexa": "000000",
         "name_line": "41",
-        "operatorname": "Cars Hourtoule"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -2737,11 +2665,11 @@ export function nonRatpLineRef() {
         "operatorname": "Cars Lacroix"
       },
       {
-        "colourweb_hexa": "f6b9ba",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C00446",
         "textcolourweb_hexa": "000000",
-        "name_line": "30-13",
+        "name_line": "1518",
         "operatorname": "Transdev Valmy"
       },
       {
@@ -2865,11 +2793,11 @@ export function nonRatpLineRef() {
         "operatorname": "Cars Lacroix"
       },
       {
-        "colourweb_hexa": "004171",
+        "colourweb_hexa": "5091cb",
         "transportmode": "bus",
         "id_line": "C00465",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "30-39",
+        "name_line": "1519",
         "operatorname": "Transdev Valmy"
       },
       {
@@ -2977,19 +2905,19 @@ export function nonRatpLineRef() {
         "operatorname": "Cars Rose"
       },
       {
-        "colourweb_hexa": "2fbdee",
+        "colourweb_hexa": "8ad3de",
         "transportmode": "bus",
         "id_line": "C00485",
         "textcolourweb_hexa": "000000",
-        "name_line": "38-02",
+        "name_line": "1520",
         "operatorname": "Transdev Valmy"
       },
       {
-        "colourweb_hexa": "f195be",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C00486",
         "textcolourweb_hexa": "000000",
-        "name_line": "38-03",
+        "name_line": "1521",
         "operatorname": "Transdev Valmy"
       },
       {
@@ -3257,19 +3185,19 @@ export function nonRatpLineRef() {
         "operatorname": "SAVAC"
       },
       {
-        "colourweb_hexa": "f3a9ba",
+        "colourweb_hexa": "ff82b4",
         "transportmode": "bus",
         "id_line": "C00525",
         "textcolourweb_hexa": "000000",
-        "name_line": "117",
+        "name_line": "6176",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "b398c3",
+        "colourweb_hexa": "640082",
         "transportmode": "bus",
         "id_line": "C00527",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "113",
+        "name_line": "6183",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -3289,11 +3217,11 @@ export function nonRatpLineRef() {
         "operatorname": "SAVAC"
       },
       {
-        "colourweb_hexa": "ceadcf",
+        "colourweb_hexa": "d282be",
         "transportmode": "bus",
         "id_line": "C00530",
         "textcolourweb_hexa": "000000",
-        "name_line": "263",
+        "name_line": "6163",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -3409,11 +3337,11 @@ export function nonRatpLineRef() {
         "operatorname": "Francilité Saint-Quentin-en-Yvelines"
       },
       {
-        "colourweb_hexa": "5191ce",
+        "colourweb_hexa": "38761d",
         "transportmode": "bus",
         "id_line": "C00546",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "7",
+        "name_line": "1",
         "operatorname": "Keolis Portes et Val de Brie"
       },
       {
@@ -3422,7 +3350,7 @@ export function nonRatpLineRef() {
         "id_line": "C00547",
         "textcolourweb_hexa": "ffffff",
         "name_line": "10",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "5a79b6",
@@ -3430,7 +3358,7 @@ export function nonRatpLineRef() {
         "id_line": "C00548",
         "textcolourweb_hexa": "000000",
         "name_line": "12",
-        "operatorname": "SETRA"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "b2ff00",
@@ -3462,7 +3390,7 @@ export function nonRatpLineRef() {
         "id_line": "C00552",
         "textcolourweb_hexa": "ffffff",
         "name_line": "1",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "db2f36",
@@ -3470,7 +3398,7 @@ export function nonRatpLineRef() {
         "id_line": "C00553",
         "textcolourweb_hexa": "ffffff",
         "name_line": "2",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "0097d5",
@@ -3478,7 +3406,7 @@ export function nonRatpLineRef() {
         "id_line": "C00554",
         "textcolourweb_hexa": "000000",
         "name_line": "3",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "ffdf00",
@@ -3486,7 +3414,7 @@ export function nonRatpLineRef() {
         "id_line": "C00555",
         "textcolourweb_hexa": "000000",
         "name_line": "4",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "f29503",
@@ -3494,7 +3422,7 @@ export function nonRatpLineRef() {
         "id_line": "C00556",
         "textcolourweb_hexa": "000000",
         "name_line": "5",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "0064a4",
@@ -3502,7 +3430,7 @@ export function nonRatpLineRef() {
         "id_line": "C00557",
         "textcolourweb_hexa": "ffffff",
         "name_line": "6",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "045ba3",
@@ -3529,6 +3457,14 @@ export function nonRatpLineRef() {
         "operatorname": "ADP"
       },
       {
+        "colourweb_hexa": "5cc5ed",
+        "transportmode": "rail",
+        "id_line": "C00563",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "CDG VAL",
+        "operatorname": "ADP"
+      },
+      {
         "colourweb_hexa": "314c9a",
         "transportmode": "bus",
         "id_line": "C00571",
@@ -3542,7 +3478,7 @@ export function nonRatpLineRef() {
         "id_line": "C00573",
         "textcolourweb_hexa": "ffffff",
         "name_line": "K",
-        "operatorname": "STRAV"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "ffdc00",
@@ -3550,7 +3486,7 @@ export function nonRatpLineRef() {
         "id_line": "C00574",
         "textcolourweb_hexa": "000000",
         "name_line": "J1",
-        "operatorname": "STRAV"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "fabd00",
@@ -3558,7 +3494,7 @@ export function nonRatpLineRef() {
         "id_line": "C00575",
         "textcolourweb_hexa": "000000",
         "name_line": "J2",
-        "operatorname": "STRAV"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "b65190",
@@ -3598,7 +3534,7 @@ export function nonRatpLineRef() {
         "id_line": "C00581",
         "textcolourweb_hexa": "ffffff",
         "name_line": "B",
-        "operatorname": "STRAV"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "95bc1b",
@@ -3646,7 +3582,7 @@ export function nonRatpLineRef() {
         "id_line": "C00594",
         "textcolourweb_hexa": "ffffff",
         "name_line": "O1",
-        "operatorname": "STRAV"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "004a98",
@@ -3654,7 +3590,7 @@ export function nonRatpLineRef() {
         "id_line": "C00597",
         "textcolourweb_hexa": "ffffff",
         "name_line": "U",
-        "operatorname": "STRAV"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "b3d1e8",
@@ -3733,80 +3669,80 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00607",
         "textcolourweb_hexa": "000000",
-        "name_line": "95-09",
+        "name_line": "9509",
         "operatorname": "Keolis Val d'Oise"
       },
       {
-        "colourweb_hexa": "b397c7",
+        "colourweb_hexa": "cfadd2",
         "transportmode": "bus",
         "id_line": "C00608",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "95-10",
+        "textcolourweb_hexa": "000000",
+        "name_line": "9510",
         "operatorname": "Keolis Val d'Oise"
       },
       {
-        "colourweb_hexa": "ffe600",
+        "colourweb_hexa": "fece00",
         "transportmode": "bus",
         "id_line": "C00609",
         "textcolourweb_hexa": "000000",
         "name_line": "22",
-        "operatorname": "Trans Val d'Oise"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "ff0000",
+        "colourweb_hexa": "e3051b",
         "transportmode": "bus",
         "id_line": "C00610",
         "textcolourweb_hexa": "ffffff",
         "name_line": "23",
-        "operatorname": "Trans Val d'Oise"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "8c0073",
+        "colourweb_hexa": "b90745",
         "transportmode": "bus",
         "id_line": "C00611",
         "textcolourweb_hexa": "ffffff",
         "name_line": "25",
-        "operatorname": "Trans Val d'Oise"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "1791ff",
+        "colourweb_hexa": "0064b0",
         "transportmode": "bus",
         "id_line": "C00612",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "24",
-        "operatorname": "Trans Val d'Oise"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "a3ccff",
+        "colourweb_hexa": "5191cd",
         "transportmode": "bus",
         "id_line": "C00613",
-        "textcolourweb_hexa": "000000",
-        "name_line": "24 sco",
-        "operatorname": "Trans Val d'Oise"
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "24 S",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "33f2ff",
+        "colourweb_hexa": "97d4e2",
         "transportmode": "bus",
         "id_line": "C00615",
         "textcolourweb_hexa": "000000",
         "name_line": "35",
-        "operatorname": "Trans Val d'Oise"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "e600ff",
+        "colourweb_hexa": "c04191",
         "transportmode": "bus",
         "id_line": "C00616",
         "textcolourweb_hexa": "ffffff",
         "name_line": "36",
-        "operatorname": "Trans Val d'Oise"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "33ff00",
+        "colourweb_hexa": "09a88e",
         "transportmode": "bus",
         "id_line": "C00617",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "37",
-        "operatorname": "Trans Val d'Oise"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "8ad3de",
@@ -3974,7 +3910,7 @@ export function nonRatpLineRef() {
         "id_line": "C00639",
         "textcolourweb_hexa": "000000",
         "name_line": "Express 19",
-        "operatorname": "AMV"
+        "operatorname": "STBC"
       },
       {
         "colourweb_hexa": "87d3df",
@@ -4065,36 +4001,36 @@ export function nonRatpLineRef() {
         "operatorname": "Stile"
       },
       {
-        "colourweb_hexa": "0dab00",
+        "colourweb_hexa": "00814f",
         "transportmode": "bus",
         "id_line": "C00656",
         "textcolourweb_hexa": "ffffff",
         "name_line": "8",
-        "operatorname": "TVF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "9cfa00",
+        "colourweb_hexa": "d3ca00",
         "transportmode": "bus",
         "id_line": "C00658",
         "textcolourweb_hexa": "000000",
         "name_line": "17",
-        "operatorname": "TVF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "034ad9",
+        "colourweb_hexa": "006db8",
         "transportmode": "bus",
         "id_line": "C00659",
         "textcolourweb_hexa": "ffffff",
         "name_line": "18",
-        "operatorname": "TVF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "de00d9",
+        "colourweb_hexa": "b90745",
         "transportmode": "bus",
         "id_line": "C00660",
         "textcolourweb_hexa": "ffffff",
         "name_line": "19",
-        "operatorname": "TVF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -4109,16 +4045,16 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00662",
         "textcolourweb_hexa": "000000",
-        "name_line": "DM02 A",
-        "operatorname": "Keolis Meyer"
+        "name_line": "DM2A",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "e20022",
         "transportmode": "bus",
         "id_line": "C00663",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "DM02 B",
-        "operatorname": "Keolis Meyer"
+        "name_line": "DM2B",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "f2a5b7",
@@ -4126,7 +4062,7 @@ export function nonRatpLineRef() {
         "id_line": "C00664",
         "textcolourweb_hexa": "000000",
         "name_line": "DM3A",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "99d4df",
@@ -4142,23 +4078,23 @@ export function nonRatpLineRef() {
         "id_line": "C00666",
         "textcolourweb_hexa": "ffffff",
         "name_line": "DM5",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ffce00",
         "transportmode": "bus",
         "id_line": "C00667",
         "textcolourweb_hexa": "000000",
-        "name_line": "DM06 A",
-        "operatorname": "Keolis Meyer"
+        "name_line": "DM6A",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "007e49",
         "transportmode": "bus",
         "id_line": "C00668",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "DM06 B",
-        "operatorname": "Keolis Meyer"
+        "name_line": "DM6B",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "a0981a",
@@ -4173,8 +4109,8 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00670",
         "textcolourweb_hexa": "000000",
-        "name_line": "DM08",
-        "operatorname": "Keolis Meyer"
+        "name_line": "DM8",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "be418e",
@@ -4182,7 +4118,7 @@ export function nonRatpLineRef() {
         "id_line": "C00671",
         "textcolourweb_hexa": "ffffff",
         "name_line": "DM9",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "99d4df",
@@ -4230,15 +4166,15 @@ export function nonRatpLineRef() {
         "id_line": "C00677",
         "textcolourweb_hexa": "000000",
         "name_line": "DM13",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "e20022",
         "transportmode": "bus",
         "id_line": "C00678",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "DM17 A",
-        "operatorname": "Keolis Meyer"
+        "name_line": "DM17",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "007e49",
@@ -4246,7 +4182,7 @@ export function nonRatpLineRef() {
         "id_line": "C00679",
         "textcolourweb_hexa": "ffffff",
         "name_line": "DM16",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "5292c9",
@@ -4262,7 +4198,7 @@ export function nonRatpLineRef() {
         "id_line": "C00681",
         "textcolourweb_hexa": "ffffff",
         "name_line": "DM19",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "0065ae",
@@ -4270,23 +4206,23 @@ export function nonRatpLineRef() {
         "id_line": "C00682",
         "textcolourweb_hexa": "ffffff",
         "name_line": "DM20",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ffce00",
         "transportmode": "bus",
         "id_line": "C00683",
         "textcolourweb_hexa": "000000",
-        "name_line": "DM21 A",
-        "operatorname": "Keolis Meyer"
+        "name_line": "M21A",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ceadcf",
         "transportmode": "bus",
         "id_line": "C00684",
         "textcolourweb_hexa": "000000",
-        "name_line": "DM21 B",
-        "operatorname": "Keolis Meyer"
+        "name_line": "M21B",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "e20022",
@@ -4310,23 +4246,23 @@ export function nonRatpLineRef() {
         "id_line": "C00688",
         "textcolourweb_hexa": "000000",
         "name_line": "DM26",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
-        "colourweb_hexa": "3bb2ff",
+        "colourweb_hexa": "e69138",
         "transportmode": "bus",
         "id_line": "C00689",
         "textcolourweb_hexa": "000000",
-        "name_line": "DM151",
-        "operatorname": "Keolis Meyer"
+        "name_line": "M151",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "99d4df",
         "transportmode": "bus",
         "id_line": "C00691",
         "textcolourweb_hexa": "000000",
-        "name_line": "DM153",
-        "operatorname": "Keolis Meyer"
+        "name_line": "M153",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ff1400",
@@ -4334,7 +4270,7 @@ export function nonRatpLineRef() {
         "id_line": "C00692",
         "textcolourweb_hexa": "ffffff",
         "name_line": "1",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "0055c8",
@@ -4342,7 +4278,7 @@ export function nonRatpLineRef() {
         "id_line": "C00693",
         "textcolourweb_hexa": "ffffff",
         "name_line": "2",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "00643c",
@@ -4350,7 +4286,7 @@ export function nonRatpLineRef() {
         "id_line": "C00694",
         "textcolourweb_hexa": "ffffff",
         "name_line": "3",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "ff8c57",
@@ -4358,15 +4294,15 @@ export function nonRatpLineRef() {
         "id_line": "C00695",
         "textcolourweb_hexa": "000000",
         "name_line": "4",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
-        "colourweb_hexa": "db8cff",
+        "colourweb_hexa": "daa3c6",
         "transportmode": "bus",
         "id_line": "C00696",
         "textcolourweb_hexa": "ffffff",
         "name_line": "5",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "8ce39c",
@@ -4374,7 +4310,7 @@ export function nonRatpLineRef() {
         "id_line": "C00697",
         "textcolourweb_hexa": "ffffff",
         "name_line": "6",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "a38c57",
@@ -4382,23 +4318,23 @@ export function nonRatpLineRef() {
         "id_line": "C00698",
         "textcolourweb_hexa": "ffffff",
         "name_line": "7",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
-        "colourweb_hexa": "8cff8c",
+        "colourweb_hexa": "78c696",
         "transportmode": "bus",
         "id_line": "C00699",
         "textcolourweb_hexa": "000000",
         "name_line": "8",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
-        "colourweb_hexa": "ff8ce3",
+        "colourweb_hexa": "f59eb3",
         "transportmode": "bus",
         "id_line": "C00700",
         "textcolourweb_hexa": "000000",
         "name_line": "9",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "ffbe00",
@@ -4406,22 +4342,22 @@ export function nonRatpLineRef() {
         "id_line": "C00701",
         "textcolourweb_hexa": "000000",
         "name_line": "10",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
-        "colourweb_hexa": "99d4df",
+        "colourweb_hexa": "82c8e6",
         "transportmode": "bus",
         "id_line": "C00702",
         "textcolourweb_hexa": "000000",
-        "name_line": "11",
+        "name_line": "6135",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "f4a25f",
+        "colourweb_hexa": "ff5a00",
         "transportmode": "bus",
         "id_line": "C00703",
         "textcolourweb_hexa": "000000",
-        "name_line": "12",
+        "name_line": "6136",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -4430,38 +4366,38 @@ export function nonRatpLineRef() {
         "id_line": "C00704",
         "textcolourweb_hexa": "ffffff",
         "name_line": "13",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
-        "colourweb_hexa": "8ce39c",
+        "colourweb_hexa": "00643c",
         "transportmode": "bus",
         "id_line": "C00705",
-        "textcolourweb_hexa": "000000",
-        "name_line": "101",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "6171",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "a38c57",
+        "colourweb_hexa": "6e491e",
         "transportmode": "bus",
         "id_line": "C00706",
-        "textcolourweb_hexa": "000000",
-        "name_line": "102",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "6172",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "ff8ce3",
+        "colourweb_hexa": "ff82b4",
         "transportmode": "bus",
         "id_line": "C00707",
         "textcolourweb_hexa": "000000",
-        "name_line": "103",
+        "name_line": "6173",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "c99eff",
+        "colourweb_hexa": "d282be",
         "transportmode": "bus",
         "id_line": "C00708",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "104",
+        "textcolourweb_hexa": "000000",
+        "name_line": "6174",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -4470,7 +4406,7 @@ export function nonRatpLineRef() {
         "id_line": "C00709",
         "textcolourweb_hexa": "ffffff",
         "name_line": "106",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "dc9600",
@@ -4478,7 +4414,7 @@ export function nonRatpLineRef() {
         "id_line": "C00710",
         "textcolourweb_hexa": "000000",
         "name_line": "107",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "008b5b",
@@ -4862,7 +4798,7 @@ export function nonRatpLineRef() {
         "id_line": "C00786",
         "textcolourweb_hexa": "000000",
         "name_line": "9",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "77b5fe",
@@ -4870,7 +4806,7 @@ export function nonRatpLineRef() {
         "id_line": "C00787",
         "textcolourweb_hexa": "000000",
         "name_line": "5",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "791cf8",
@@ -4878,7 +4814,7 @@ export function nonRatpLineRef() {
         "id_line": "C00788",
         "textcolourweb_hexa": "ffffff",
         "name_line": "6",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "25fde9",
@@ -4886,7 +4822,7 @@ export function nonRatpLineRef() {
         "id_line": "C00789",
         "textcolourweb_hexa": "000000",
         "name_line": "41",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "811453",
@@ -4894,7 +4830,7 @@ export function nonRatpLineRef() {
         "id_line": "C00790",
         "textcolourweb_hexa": "ffffff",
         "name_line": "42",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "568203",
@@ -4902,7 +4838,7 @@ export function nonRatpLineRef() {
         "id_line": "C00791",
         "textcolourweb_hexa": "ffffff",
         "name_line": "44",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "fd3f92",
@@ -4910,7 +4846,7 @@ export function nonRatpLineRef() {
         "id_line": "C00792",
         "textcolourweb_hexa": "000000",
         "name_line": "45",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "ff0000",
@@ -4918,7 +4854,7 @@ export function nonRatpLineRef() {
         "id_line": "C00793",
         "textcolourweb_hexa": "ffffff",
         "name_line": "1",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "00ff00",
@@ -4926,15 +4862,7 @@ export function nonRatpLineRef() {
         "id_line": "C00794",
         "textcolourweb_hexa": "000000",
         "name_line": "4",
-        "operatorname": "Transdev Ile-de-France Vulaines"
-      },
-      {
-        "colourweb_hexa": "1e7fcb",
-        "transportmode": "bus",
-        "id_line": "C00795",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "2",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "ed7f10",
@@ -4942,7 +4870,7 @@ export function nonRatpLineRef() {
         "id_line": "C00796",
         "textcolourweb_hexa": "ffffff",
         "name_line": "3",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "e73e01",
@@ -4950,7 +4878,7 @@ export function nonRatpLineRef() {
         "id_line": "C00797",
         "textcolourweb_hexa": "ffffff",
         "name_line": "112",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -4958,7 +4886,7 @@ export function nonRatpLineRef() {
         "id_line": "C00798",
         "textcolourweb_hexa": "000000",
         "name_line": "Express 46",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
         "colourweb_hexa": "3a8923",
@@ -4966,14 +4894,14 @@ export function nonRatpLineRef() {
         "id_line": "C00799",
         "textcolourweb_hexa": "ffffff",
         "name_line": "209",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "799c13",
         "transportmode": "bus",
         "id_line": "C00801",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "I",
+        "name_line": "3633",
         "operatorname": "Transdev Melun"
       },
       {
@@ -4990,14 +4918,14 @@ export function nonRatpLineRef() {
         "id_line": "C00813",
         "textcolourweb_hexa": "000000",
         "name_line": "43",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "bd1220",
         "transportmode": "bus",
         "id_line": "C00814",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "S15",
+        "name_line": "3665",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5006,7 +4934,7 @@ export function nonRatpLineRef() {
         "id_line": "C00815",
         "textcolourweb_hexa": "000000",
         "name_line": "34",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "f04c50",
@@ -5014,7 +4942,7 @@ export function nonRatpLineRef() {
         "id_line": "C00817",
         "textcolourweb_hexa": "ffffff",
         "name_line": "202",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "b33a00",
@@ -5022,7 +4950,7 @@ export function nonRatpLineRef() {
         "id_line": "C00818",
         "textcolourweb_hexa": "ffffff",
         "name_line": "211",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "cc99ff",
@@ -5030,7 +4958,7 @@ export function nonRatpLineRef() {
         "id_line": "C00819",
         "textcolourweb_hexa": "000000",
         "name_line": "3",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "e62e2b",
@@ -5038,15 +4966,15 @@ export function nonRatpLineRef() {
         "id_line": "C00820",
         "textcolourweb_hexa": "ffffff",
         "name_line": "7A",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "67abdf",
+        "colourweb_hexa": "b4dbf6",
         "transportmode": "bus",
         "id_line": "C00821",
         "textcolourweb_hexa": "000000",
         "name_line": "8A",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "a69514",
@@ -5054,7 +4982,7 @@ export function nonRatpLineRef() {
         "id_line": "C00822",
         "textcolourweb_hexa": "ffffff",
         "name_line": "9A",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "77ad1c",
@@ -5062,15 +4990,15 @@ export function nonRatpLineRef() {
         "id_line": "C00823",
         "textcolourweb_hexa": "ffffff",
         "name_line": "10",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "831f82",
+        "colourweb_hexa": "c27ba0",
         "transportmode": "bus",
         "id_line": "C00824",
         "textcolourweb_hexa": "ffffff",
         "name_line": "11A",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "009fe3",
@@ -5078,7 +5006,7 @@ export function nonRatpLineRef() {
         "id_line": "C00826",
         "textcolourweb_hexa": "000000",
         "name_line": "13A",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "e72d81",
@@ -5086,7 +5014,7 @@ export function nonRatpLineRef() {
         "id_line": "C00827",
         "textcolourweb_hexa": "ffffff",
         "name_line": "14A",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "ff6600",
@@ -5094,7 +5022,7 @@ export function nonRatpLineRef() {
         "id_line": "C00828",
         "textcolourweb_hexa": "ffffff",
         "name_line": "207",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "006b2d",
@@ -5102,7 +5030,7 @@ export function nonRatpLineRef() {
         "id_line": "C00830",
         "textcolourweb_hexa": "ffffff",
         "name_line": "17A",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "813318",
@@ -5110,7 +5038,7 @@ export function nonRatpLineRef() {
         "id_line": "C00831",
         "textcolourweb_hexa": "ffffff",
         "name_line": "18A",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "f6ab59",
@@ -5118,7 +5046,7 @@ export function nonRatpLineRef() {
         "id_line": "C00832",
         "textcolourweb_hexa": "000000",
         "name_line": "1",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "72bb81",
@@ -5126,7 +5054,7 @@ export function nonRatpLineRef() {
         "id_line": "C00833",
         "textcolourweb_hexa": "000000",
         "name_line": "2",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "ee8260",
@@ -5134,7 +5062,7 @@ export function nonRatpLineRef() {
         "id_line": "C00834",
         "textcolourweb_hexa": "000000",
         "name_line": "4",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "004c93",
@@ -5142,7 +5070,7 @@ export function nonRatpLineRef() {
         "id_line": "C00835",
         "textcolourweb_hexa": "000000",
         "name_line": "5",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -5397,7 +5325,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00875",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "A",
+        "name_line": "3604",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5405,15 +5333,15 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00876",
         "textcolourweb_hexa": "000000",
-        "name_line": "B",
+        "name_line": "3609",
         "operatorname": "Transdev Melun"
       },
       {
-        "colourweb_hexa": "d39d00",
+        "colourweb_hexa": "b45f06",
         "transportmode": "bus",
         "id_line": "C00877",
-        "textcolourweb_hexa": "000000",
-        "name_line": "C",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "3607",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5421,7 +5349,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00878",
         "textcolourweb_hexa": "000000",
-        "name_line": "Cd",
+        "name_line": "3608",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5429,7 +5357,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00879",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "D",
+        "name_line": "3602",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5437,7 +5365,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00880",
         "textcolourweb_hexa": "000000",
-        "name_line": "L",
+        "name_line": "3603",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5445,7 +5373,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00881",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "E",
+        "name_line": "3601",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5453,7 +5381,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00882",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "F",
+        "name_line": "3605",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5461,15 +5389,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00883",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "Fd",
-        "operatorname": "Transdev Melun"
-      },
-      {
-        "colourweb_hexa": "009de0",
-        "transportmode": "bus",
-        "id_line": "C00884",
-        "textcolourweb_hexa": "000000",
-        "name_line": "N",
+        "name_line": "3606",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5477,7 +5397,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00885",
         "textcolourweb_hexa": "000000",
-        "name_line": "M",
+        "name_line": "3610",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5485,7 +5405,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00886",
         "textcolourweb_hexa": "000000",
-        "name_line": "S6",
+        "name_line": "3656",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5493,7 +5413,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00887",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "K",
+        "name_line": "3612",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5501,7 +5421,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00890",
         "textcolourweb_hexa": "000000",
-        "name_line": "S4",
+        "name_line": "3654",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5509,7 +5429,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00891",
         "textcolourweb_hexa": "000000",
-        "name_line": "G",
+        "name_line": "3611",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5517,7 +5437,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00892",
         "textcolourweb_hexa": "000000",
-        "name_line": "S1",
+        "name_line": "3651",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5525,7 +5445,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00893",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "S2",
+        "name_line": "3652",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5533,7 +5453,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00894",
         "textcolourweb_hexa": "000000",
-        "name_line": "S3",
+        "name_line": "3653",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5541,7 +5461,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00895",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "J",
+        "name_line": "3634",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5549,7 +5469,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00897",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "O",
+        "name_line": "3630",
         "operatorname": "Transdev Melun"
       },
       {
@@ -5633,11 +5553,11 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Marne-et-Ourcq"
       },
       {
-        "colourweb_hexa": "f4cccc",
+        "colourweb_hexa": "8ad3de",
         "transportmode": "bus",
         "id_line": "C00909",
         "textcolourweb_hexa": "000000",
-        "name_line": "11",
+        "name_line": "S",
         "operatorname": "Transdev Marne-et-Ourcq"
       },
       {
@@ -5801,14 +5721,6 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Marne-et-Ourcq"
       },
       {
-        "colourweb_hexa": "6aa84f",
-        "transportmode": "bus",
-        "id_line": "C00931",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "47",
-        "operatorname": "Transdev Marne-et-Ourcq"
-      },
-      {
         "colourweb_hexa": "ef373e",
         "transportmode": "bus",
         "id_line": "C00934",
@@ -5913,11 +5825,11 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Brie et 2 Morin"
       },
       {
-        "colourweb_hexa": "b6d7a8",
+        "colourweb_hexa": "7ac597",
         "transportmode": "bus",
         "id_line": "C00948",
         "textcolourweb_hexa": "000000",
-        "name_line": "63",
+        "name_line": "R",
         "operatorname": "Transdev Marne-et-Ourcq"
       },
       {
@@ -5926,14 +5838,6 @@ export function nonRatpLineRef() {
         "id_line": "C00949",
         "textcolourweb_hexa": "000000",
         "name_line": "K",
-        "operatorname": "Transdev Marne-et-Ourcq"
-      },
-      {
-        "colourweb_hexa": "78a6d1",
-        "transportmode": "bus",
-        "id_line": "C00950",
-        "textcolourweb_hexa": "000000",
-        "name_line": "65",
         "operatorname": "Transdev Marne-et-Ourcq"
       },
       {
@@ -6021,40 +5925,40 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00962",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "68.01",
-        "operatorname": "Keolis Meyer"
+        "name_line": "6801",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "e20022",
         "transportmode": "bus",
         "id_line": "C00963",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "68.02",
-        "operatorname": "Keolis Meyer"
+        "name_line": "6802",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "007e49",
         "transportmode": "bus",
         "id_line": "C00964",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "68.05 A",
-        "operatorname": "Keolis Meyer"
+        "name_line": "685A",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "d6c900",
         "transportmode": "bus",
         "id_line": "C00965",
         "textcolourweb_hexa": "000000",
-        "name_line": "68.06",
-        "operatorname": "Keolis Meyer"
+        "name_line": "6806",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ceadcf",
         "transportmode": "bus",
         "id_line": "C00966",
         "textcolourweb_hexa": "000000",
-        "name_line": "68.08",
-        "operatorname": "Keolis Meyer"
+        "name_line": "6808",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "f3a4ba",
@@ -6085,16 +5989,16 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C00971",
         "textcolourweb_hexa": "000000",
-        "name_line": "68.100",
-        "operatorname": "Keolis Meyer"
+        "name_line": "6810",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "f19043",
         "transportmode": "bus",
         "id_line": "C00972",
         "textcolourweb_hexa": "000000",
-        "name_line": "68.05 B",
-        "operatorname": "Keolis Meyer"
+        "name_line": "685B",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "5291ce",
@@ -6221,71 +6125,71 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01002",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "184-001",
-        "operatorname": "Les Cars Bleus"
+        "name_line": "4001",
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "cdcb14",
         "transportmode": "bus",
         "id_line": "C01003",
         "textcolourweb_hexa": "000000",
-        "name_line": "184-003",
-        "operatorname": "Les Cars Bleus"
+        "name_line": "4003",
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "1ba196",
         "transportmode": "bus",
         "id_line": "C01004",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "184-004",
-        "operatorname": "Les Cars Bleus"
+        "name_line": "4004",
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "1f398e",
         "transportmode": "bus",
         "id_line": "C01005",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "184-005",
-        "operatorname": "Les Cars Bleus"
+        "name_line": "4005",
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "0f8747",
         "transportmode": "bus",
         "id_line": "C01006",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "184-006",
-        "operatorname": "Les Cars Bleus"
+        "name_line": "4006",
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "13a5e0",
         "transportmode": "bus",
         "id_line": "C01008",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "184-008",
-        "operatorname": "Les Cars Bleus"
+        "name_line": "4008",
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "0177a5",
         "transportmode": "bus",
         "id_line": "C01011",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "184-013",
-        "operatorname": "Les Cars Bleus"
+        "name_line": "4013",
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "006eb9",
         "transportmode": "bus",
         "id_line": "C01012",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "184-014",
-        "operatorname": "Les Cars Bleus"
+        "name_line": "4014",
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "e40613",
         "transportmode": "bus",
         "id_line": "C01013",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "284-001",
+        "name_line": "4341",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -6293,7 +6197,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01014",
         "textcolourweb_hexa": "000000",
-        "name_line": "284-002",
+        "name_line": "4342",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -6301,7 +6205,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01015",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "284-003",
+        "name_line": "4343",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -6309,7 +6213,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01016",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "284-004",
+        "name_line": "4344",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -6317,7 +6221,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01017",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "284-006",
+        "name_line": "4346",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -6361,12 +6265,12 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Brie et 2 Morin"
       },
       {
-        "colourweb_hexa": "e75294",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C01043",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "14",
-        "operatorname": "Darche Gros"
+        "textcolourweb_hexa": "000000",
+        "name_line": "3204",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
         "colourweb_hexa": "96d4e1",
@@ -6481,12 +6385,1972 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Brie et 2 Morin"
       },
       {
+        "colourweb_hexa": "216eb4",
+        "transportmode": "bus",
+        "id_line": "C01071",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "TVM",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01072",
+        "textcolourweb_hexa": "000000",
+        "name_line": "20",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "82dc73",
         "transportmode": "bus",
-        "id_line": "C01297",
+        "id_line": "C01073",
         "textcolourweb_hexa": "000000",
-        "name_line": "349",
-        "operatorname": "Transdev Nord Seine-Saint-Denis"
+        "name_line": "21",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01074",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "22",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01075",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "24",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01076",
+        "textcolourweb_hexa": "000000",
+        "name_line": "26",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01077",
+        "textcolourweb_hexa": "000000",
+        "name_line": "27",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01078",
+        "textcolourweb_hexa": "000000",
+        "name_line": "28",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01079",
+        "textcolourweb_hexa": "000000",
+        "name_line": "29",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01080",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "30",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01081",
+        "textcolourweb_hexa": "000000",
+        "name_line": "31",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "bus",
+        "id_line": "C01082",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "32",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01083",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "38",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01084",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "39",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01085",
+        "textcolourweb_hexa": "000000",
+        "name_line": "42",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01086",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "43",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01087",
+        "textcolourweb_hexa": "000000",
+        "name_line": "46",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01088",
+        "textcolourweb_hexa": "000000",
+        "name_line": "47",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01089",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "48",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01090",
+        "textcolourweb_hexa": "000000",
+        "name_line": "52",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01092",
+        "textcolourweb_hexa": "000000",
+        "name_line": "54",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01093",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "56",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "bus",
+        "id_line": "C01094",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "57",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01095",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "58",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01096",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "60",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01097",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "61",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01098",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "62",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01099",
+        "textcolourweb_hexa": "000000",
+        "name_line": "63",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01100",
+        "textcolourweb_hexa": "000000",
+        "name_line": "64",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01102",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "66",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01103",
+        "textcolourweb_hexa": "000000",
+        "name_line": "67",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01104",
+        "textcolourweb_hexa": "000000",
+        "name_line": "68",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01105",
+        "textcolourweb_hexa": "000000",
+        "name_line": "69",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01106",
+        "textcolourweb_hexa": "000000",
+        "name_line": "70",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01107",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "72",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01108",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "73",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01109",
+        "textcolourweb_hexa": "000000",
+        "name_line": "74",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01110",
+        "textcolourweb_hexa": "000000",
+        "name_line": "75",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01111",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "76",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01112",
+        "textcolourweb_hexa": "000000",
+        "name_line": "80",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01114",
+        "textcolourweb_hexa": "000000",
+        "name_line": "82",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01115",
+        "textcolourweb_hexa": "000000",
+        "name_line": "83",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01116",
+        "textcolourweb_hexa": "000000",
+        "name_line": "84",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01117",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "85",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01118",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "86",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01119",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "87",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01120",
+        "textcolourweb_hexa": "000000",
+        "name_line": "88",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01121",
+        "textcolourweb_hexa": "000000",
+        "name_line": "89",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01122",
+        "textcolourweb_hexa": "000000",
+        "name_line": "91",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01123",
+        "textcolourweb_hexa": "000000",
+        "name_line": "92",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01124",
+        "textcolourweb_hexa": "000000",
+        "name_line": "93",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01125",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "94",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01126",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "95",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01127",
+        "textcolourweb_hexa": "000000",
+        "name_line": "96",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01130",
+        "textcolourweb_hexa": "000000",
+        "name_line": "101",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01131",
+        "textcolourweb_hexa": "000000",
+        "name_line": "102",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01132",
+        "textcolourweb_hexa": "000000",
+        "name_line": "103",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01133",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "104",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01134",
+        "textcolourweb_hexa": "000000",
+        "name_line": "105",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01135",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "106",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01136",
+        "textcolourweb_hexa": "000000",
+        "name_line": "107",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01137",
+        "textcolourweb_hexa": "000000",
+        "name_line": "108",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01138",
+        "textcolourweb_hexa": "000000",
+        "name_line": "109",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01139",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "110",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01140",
+        "textcolourweb_hexa": "000000",
+        "name_line": "111",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01141",
+        "textcolourweb_hexa": "000000",
+        "name_line": "112",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01142",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "113",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01143",
+        "textcolourweb_hexa": "000000",
+        "name_line": "114",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01144",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "115",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01145",
+        "textcolourweb_hexa": "000000",
+        "name_line": "116",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01146",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "117",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01147",
+        "textcolourweb_hexa": "000000",
+        "name_line": "118",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01148",
+        "textcolourweb_hexa": "000000",
+        "name_line": "119",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01149",
+        "textcolourweb_hexa": "000000",
+        "name_line": "120",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01150",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "121",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01151",
+        "textcolourweb_hexa": "000000",
+        "name_line": "122",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01152",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "123",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01153",
+        "textcolourweb_hexa": "000000",
+        "name_line": "124",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01154",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "125",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01155",
+        "textcolourweb_hexa": "000000",
+        "name_line": "126",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01156",
+        "textcolourweb_hexa": "000000",
+        "name_line": "127",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01157",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "128",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "bus",
+        "id_line": "C01158",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "129",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01159",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "131",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01160",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "132",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01161",
+        "textcolourweb_hexa": "000000",
+        "name_line": "133",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01163",
+        "textcolourweb_hexa": "000000",
+        "name_line": "137",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01164",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "138",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01165",
+        "textcolourweb_hexa": "000000",
+        "name_line": "139",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01166",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "140",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01167",
+        "textcolourweb_hexa": "000000",
+        "name_line": "141",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01168",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "143",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01169",
+        "textcolourweb_hexa": "000000",
+        "name_line": "144",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01170",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "145",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01171",
+        "textcolourweb_hexa": "000000",
+        "name_line": "146",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01172",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "147",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01173",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "148",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01174",
+        "textcolourweb_hexa": "000000",
+        "name_line": "150",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01175",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "151",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01176",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "152",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01177",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "153",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01180",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "157",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01181",
+        "textcolourweb_hexa": "000000",
+        "name_line": "158",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01182",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "159",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01183",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "160",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01184",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "162",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01185",
+        "textcolourweb_hexa": "000000",
+        "name_line": "163",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01186",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "164",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01187",
+        "textcolourweb_hexa": "000000",
+        "name_line": "165",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01188",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "166",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01189",
+        "textcolourweb_hexa": "000000",
+        "name_line": "167",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01190",
+        "textcolourweb_hexa": "000000",
+        "name_line": "169",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01191",
+        "textcolourweb_hexa": "000000",
+        "name_line": "170",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01192",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "171",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01193",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "172",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01194",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "173",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01195",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "174",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01196",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "175",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01197",
+        "textcolourweb_hexa": "000000",
+        "name_line": "176",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01198",
+        "textcolourweb_hexa": "000000",
+        "name_line": "177",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01199",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "178",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01200",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "179",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "bus",
+        "id_line": "C01201",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "180",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01202",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "181",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01203",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "182",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01204",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "183",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01205",
+        "textcolourweb_hexa": "000000",
+        "name_line": "184",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01206",
+        "textcolourweb_hexa": "000000",
+        "name_line": "185",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01207",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "186",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01208",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "187",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01209",
+        "textcolourweb_hexa": "000000",
+        "name_line": "188",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01210",
+        "textcolourweb_hexa": "000000",
+        "name_line": "189",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01211",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "190",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01212",
+        "textcolourweb_hexa": "000000",
+        "name_line": "191",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01213",
+        "textcolourweb_hexa": "000000",
+        "name_line": "192",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01214",
+        "textcolourweb_hexa": "000000",
+        "name_line": "194",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01215",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "195",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01216",
+        "textcolourweb_hexa": "000000",
+        "name_line": "196",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01217",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "197",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01218",
+        "textcolourweb_hexa": "000000",
+        "name_line": "199",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01219",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "201",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01220",
+        "textcolourweb_hexa": "000000",
+        "name_line": "203",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01221",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "206",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01222",
+        "textcolourweb_hexa": "000000",
+        "name_line": "207",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01223",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "208A",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01224",
+        "textcolourweb_hexa": "000000",
+        "name_line": "210",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01225",
+        "textcolourweb_hexa": "000000",
+        "name_line": "211",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01226",
+        "textcolourweb_hexa": "000000",
+        "name_line": "212",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "bus",
+        "id_line": "C01227",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "213",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01228",
+        "textcolourweb_hexa": "000000",
+        "name_line": "214",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01229",
+        "textcolourweb_hexa": "000000",
+        "name_line": "215",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff0000",
+        "transportmode": "bus",
+        "id_line": "C01230",
+        "textcolourweb_hexa": "000000",
+        "name_line": "216",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01231",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "217",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01232",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "220",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ea9999",
+        "transportmode": "bus",
+        "id_line": "C01233",
+        "textcolourweb_hexa": "000000",
+        "name_line": "221",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01234",
+        "textcolourweb_hexa": "000000",
+        "name_line": "234",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01235",
+        "textcolourweb_hexa": "000000",
+        "name_line": "235",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01236",
+        "textcolourweb_hexa": "000000",
+        "name_line": "237",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01237",
+        "textcolourweb_hexa": "000000",
+        "name_line": "238",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01238",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "239",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01239",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "241",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01240",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "244",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01241",
+        "textcolourweb_hexa": "000000",
+        "name_line": "249",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01242",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "250",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01243",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "251",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff0000",
+        "transportmode": "bus",
+        "id_line": "C01244",
+        "textcolourweb_hexa": "000000",
+        "name_line": "252",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01245",
+        "textcolourweb_hexa": "000000",
+        "name_line": "253",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "bus",
+        "id_line": "C01246",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "255",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01247",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "256",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01248",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "258",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01249",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "261",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01250",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "262",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01251",
+        "textcolourweb_hexa": "000000",
+        "name_line": "268",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01252",
+        "textcolourweb_hexa": "000000",
+        "name_line": "269",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01253",
+        "textcolourweb_hexa": "000000",
+        "name_line": "270",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01254",
+        "textcolourweb_hexa": "000000",
+        "name_line": "272",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01255",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "274",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01256",
+        "textcolourweb_hexa": "000000",
+        "name_line": "275",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff0000",
+        "transportmode": "bus",
+        "id_line": "C01257",
+        "textcolourweb_hexa": "000000",
+        "name_line": "276",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01258",
+        "textcolourweb_hexa": "000000",
+        "name_line": "278",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01260",
+        "textcolourweb_hexa": "000000",
+        "name_line": "281",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "3bb2ff",
+        "transportmode": "bus",
+        "id_line": "C01261",
+        "textcolourweb_hexa": "000000",
+        "name_line": "ORLYBUS",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01262",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "285",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01263",
+        "textcolourweb_hexa": "000000",
+        "name_line": "286",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01264",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "289",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01265",
+        "textcolourweb_hexa": "000000",
+        "name_line": "290",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "bf9000",
+        "transportmode": "bus",
+        "id_line": "C01266",
+        "textcolourweb_hexa": "000000",
+        "name_line": "291",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ea9999",
+        "transportmode": "bus",
+        "id_line": "C01267",
+        "textcolourweb_hexa": "000000",
+        "name_line": "292",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01268",
+        "textcolourweb_hexa": "000000",
+        "name_line": "294",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01270",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "297",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "e69138",
+        "transportmode": "bus",
+        "id_line": "C01271",
+        "textcolourweb_hexa": "000000",
+        "name_line": "299",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01272",
+        "textcolourweb_hexa": "000000",
+        "name_line": "301",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01273",
+        "textcolourweb_hexa": "000000",
+        "name_line": "302",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "bus",
+        "id_line": "C01274",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "303",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01275",
+        "textcolourweb_hexa": "000000",
+        "name_line": "304",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01276",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "306",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01277",
+        "textcolourweb_hexa": "000000",
+        "name_line": "308",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01278",
+        "textcolourweb_hexa": "000000",
+        "name_line": "310",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01279",
+        "textcolourweb_hexa": "000000",
+        "name_line": "312",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01280",
+        "textcolourweb_hexa": "000000",
+        "name_line": "317",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01281",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "318",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01282",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "319",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01283",
+        "textcolourweb_hexa": "000000",
+        "name_line": "320",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01285",
+        "textcolourweb_hexa": "000000",
+        "name_line": "321",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01286",
+        "textcolourweb_hexa": "000000",
+        "name_line": "322",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01287",
+        "textcolourweb_hexa": "000000",
+        "name_line": "323",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01288",
+        "textcolourweb_hexa": "000000",
+        "name_line": "325",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01289",
+        "textcolourweb_hexa": "000000",
+        "name_line": "330",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01292",
+        "textcolourweb_hexa": "000000",
+        "name_line": "340",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01294",
+        "textcolourweb_hexa": "000000",
+        "name_line": "341",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01295",
+        "textcolourweb_hexa": "000000",
+        "name_line": "346",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "9900ff",
+        "transportmode": "bus",
+        "id_line": "C01298",
+        "textcolourweb_hexa": "000000",
+        "name_line": "350",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "f1c232",
+        "transportmode": "bus",
+        "id_line": "C01299",
+        "textcolourweb_hexa": "000000",
+        "name_line": "351",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "3bb2ff",
+        "transportmode": "bus",
+        "id_line": "C01300",
+        "textcolourweb_hexa": "000000",
+        "name_line": "ROISSYBUS",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01302",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "355",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01303",
+        "textcolourweb_hexa": "000000",
+        "name_line": "356",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01304",
+        "textcolourweb_hexa": "000000",
+        "name_line": "360",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01305",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "361",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01306",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "366",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01307",
+        "textcolourweb_hexa": "000000",
+        "name_line": "367",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01308",
+        "textcolourweb_hexa": "000000",
+        "name_line": "368",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01309",
+        "textcolourweb_hexa": "000000",
+        "name_line": "370",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01310",
+        "textcolourweb_hexa": "000000",
+        "name_line": "372",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01311",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "378",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01313",
+        "textcolourweb_hexa": "000000",
+        "name_line": "385",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01314",
+        "textcolourweb_hexa": "000000",
+        "name_line": "388",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01315",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "389",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01316",
+        "textcolourweb_hexa": "000000",
+        "name_line": "390",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01317",
+        "textcolourweb_hexa": "000000",
+        "name_line": "391",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01318",
+        "textcolourweb_hexa": "000000",
+        "name_line": "393",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01319",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "394",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01320",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "395",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01321",
+        "textcolourweb_hexa": "000000",
+        "name_line": "396",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C01322",
+        "textcolourweb_hexa": "000000",
+        "name_line": "399",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01323",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "421",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "bus",
+        "id_line": "C01324",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "467",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01326",
+        "textcolourweb_hexa": "000000",
+        "name_line": "485",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01327",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "488",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01328",
+        "textcolourweb_hexa": "000000",
+        "name_line": "492",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "216eb4",
+        "transportmode": "bus",
+        "id_line": "C01329",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "La Traverse de Charonne",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "bb4d98",
+        "transportmode": "bus",
+        "id_line": "C01330",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "La Traverse Bièvre Montsouris",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "c5a3ca",
+        "transportmode": "bus",
+        "id_line": "C01331",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TILLBUS",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "67328e",
+        "transportmode": "bus",
+        "id_line": "C01332",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "La Traverse Batignolles-Bichat",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "c5a3ca",
+        "transportmode": "bus",
+        "id_line": "C01333",
+        "textcolourweb_hexa": "000000",
+        "name_line": "La Traverse Ney - Flandre",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01334",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "520",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "67328e",
+        "transportmode": "bus",
+        "id_line": "C01335",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "LA NAVETTE",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "aaaaaa",
@@ -6497,12 +8361,172 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Vallée Sud"
       },
       {
+        "colourweb_hexa": "df9ab1",
+        "transportmode": "bus",
+        "id_line": "C01337",
+        "textcolourweb_hexa": "000000",
+        "name_line": "L'AUDONIENNE",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01338",
+        "textcolourweb_hexa": "000000",
+        "name_line": "EOLIEN",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "216eb4",
+        "transportmode": "bus",
+        "id_line": "C01340",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "AS AUTOBUS SURESNOIS",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01341",
+        "textcolourweb_hexa": "000000",
+        "name_line": "545",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "8e6538",
+        "transportmode": "bus",
+        "id_line": "C01342",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "TRANSPORT URBAIN BONDYNOIS",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01345",
+        "textcolourweb_hexa": "000000",
+        "name_line": "559A",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "67328e",
+        "transportmode": "bus",
+        "id_line": "C01347",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "V4",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01349",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "564",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01350",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "565",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "de8b53",
+        "transportmode": "bus",
+        "id_line": "C01351",
+        "textcolourweb_hexa": "000000",
+        "name_line": "566",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "89c7d6",
+        "transportmode": "bus",
+        "id_line": "C01352",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TIM",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "8e6538",
+        "transportmode": "bus",
+        "id_line": "C01353",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "SUBB",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "f4c931",
+        "transportmode": "bus",
+        "id_line": "C01354",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TUC",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "de8b53",
+        "transportmode": "bus",
+        "id_line": "C01356",
+        "textcolourweb_hexa": "000000",
+        "name_line": "RIVER PLAZA",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "f4c931",
         "transportmode": "bus",
         "id_line": "C01357",
         "textcolourweb_hexa": "000000",
         "name_line": "ClamiBus",
         "operatorname": "Transdev Vallée Sud"
+      },
+      {
+        "colourweb_hexa": "cdc83f",
+        "transportmode": "bus",
+        "id_line": "C01359",
+        "textcolourweb_hexa": "000000",
+        "name_line": "V3",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dfb039",
+        "transportmode": "bus",
+        "id_line": "C01360",
+        "textcolourweb_hexa": "000000",
+        "name_line": "CHOISYBUS",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "df9ab1",
+        "transportmode": "bus",
+        "id_line": "C01361",
+        "textcolourweb_hexa": "000000",
+        "name_line": "V2",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "328e5b",
+        "transportmode": "bus",
+        "id_line": "C01362",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "V5",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d35e3c",
+        "transportmode": "bus",
+        "id_line": "C01363",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "V7",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01365",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "TUVIM",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "90cfdc",
@@ -6513,6 +8537,14 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Vallée Sud"
       },
       {
+        "colourweb_hexa": "79bb92",
+        "transportmode": "bus",
+        "id_line": "C01367",
+        "textcolourweb_hexa": "000000",
+        "name_line": "V6",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "216eb4",
         "transportmode": "bus",
         "id_line": "C01368",
@@ -6521,12 +8553,436 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Vallée Sud"
       },
       {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01369",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "595",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "79bb92",
         "transportmode": "bus",
         "id_line": "C01370",
         "textcolourweb_hexa": "000000",
         "name_line": "L'Hirondelle",
         "operatorname": "Transdev Vallée Sud"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "metro",
+        "id_line": "C01371",
+        "textcolourweb_hexa": "000000",
+        "name_line": "1",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "metro",
+        "id_line": "C01372",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "2",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "metro",
+        "id_line": "C01373",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "3",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "metro",
+        "id_line": "C01374",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "4",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff7e2e",
+        "transportmode": "metro",
+        "id_line": "C01375",
+        "textcolourweb_hexa": "000000",
+        "name_line": "5",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6eca97",
+        "transportmode": "metro",
+        "id_line": "C01376",
+        "textcolourweb_hexa": "000000",
+        "name_line": "6",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "fa9aba",
+        "transportmode": "metro",
+        "id_line": "C01377",
+        "textcolourweb_hexa": "000000",
+        "name_line": "7",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "metro",
+        "id_line": "C01378",
+        "textcolourweb_hexa": "000000",
+        "name_line": "8",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "b6bd00",
+        "transportmode": "metro",
+        "id_line": "C01379",
+        "textcolourweb_hexa": "000000",
+        "name_line": "9",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "c9910d",
+        "transportmode": "metro",
+        "id_line": "C01380",
+        "textcolourweb_hexa": "000000",
+        "name_line": "10",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "704b1c",
+        "transportmode": "metro",
+        "id_line": "C01381",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "11",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "007852",
+        "transportmode": "metro",
+        "id_line": "C01382",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "12",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6ec4e8",
+        "transportmode": "metro",
+        "id_line": "C01383",
+        "textcolourweb_hexa": "000000",
+        "name_line": "13",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "62259d",
+        "transportmode": "metro",
+        "id_line": "C01384",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "14",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "afafaf",
+        "transportmode": "funicular",
+        "id_line": "C01385",
+        "textcolourweb_hexa": "000000",
+        "name_line": "FUNICULAIRE",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6ec4e8",
+        "transportmode": "metro",
+        "id_line": "C01386",
+        "textcolourweb_hexa": "000000",
+        "name_line": "3B",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6eca97",
+        "transportmode": "metro",
+        "id_line": "C01387",
+        "textcolourweb_hexa": "000000",
+        "name_line": "7B",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "5ec5ed",
+        "transportmode": "rail",
+        "id_line": "C01388",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "ORLYVAL",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "003ca6",
+        "transportmode": "tram",
+        "id_line": "C01389",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "T1",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "cf009e",
+        "transportmode": "tram",
+        "id_line": "C01390",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "T2",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff7e2e",
+        "transportmode": "tram",
+        "id_line": "C01391",
+        "textcolourweb_hexa": "000000",
+        "name_line": "T3a",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01392",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N24",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01393",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N52",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01394",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N51",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01395",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N44",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01396",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N42",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01397",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N23",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01398",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N34",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01399",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N33",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01400",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N31",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01401",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N21",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01402",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N61",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01403",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N62",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01404",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N32",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01405",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N45",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01406",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N43",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01407",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N22",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01408",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N63",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01409",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N53",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01410",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N71",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01411",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N41",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01412",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N35",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01413",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N01",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01414",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N02",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01415",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N11",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C01416",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N16",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01417",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N15",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01418",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N14",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C01419",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N13",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C01420",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N12",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "3c91dc",
+        "transportmode": "bus",
+        "id_line": "C01421",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N122",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01422",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N153",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "f9dc00",
@@ -6609,76 +9065,76 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Mobilité Roissy"
       },
       {
-        "colourweb_hexa": "b60058",
+        "colourweb_hexa": "d8005b",
         "transportmode": "bus",
         "id_line": "C01435",
         "textcolourweb_hexa": "ffffff",
         "name_line": "A",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "b6c92f",
+        "colourweb_hexa": "95c11f",
         "transportmode": "bus",
         "id_line": "C01436",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "B",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "c4a7cd",
+        "colourweb_hexa": "da98c3",
         "transportmode": "bus",
         "id_line": "C01437",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "C",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "3495d5",
+        "colourweb_hexa": "0098d8",
         "transportmode": "bus",
         "id_line": "C01438",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "Ea",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "813684",
+        "colourweb_hexa": "951b81",
         "transportmode": "bus",
         "id_line": "C01439",
         "textcolourweb_hexa": "ffffff",
         "name_line": "G",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "3495d5",
+        "colourweb_hexa": "0098d8",
         "transportmode": "bus",
         "id_line": "C01440",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "Eb",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "e5ac52",
+        "colourweb_hexa": "f59e57",
         "transportmode": "bus",
         "id_line": "C01441",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "I",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "249446",
+        "colourweb_hexa": "009b3e",
         "transportmode": "bus",
         "id_line": "C01442",
         "textcolourweb_hexa": "ffffff",
         "name_line": "F",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "c0ce2b",
+        "colourweb_hexa": "bccf00",
         "transportmode": "bus",
         "id_line": "C01443",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "Emplet",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
         "colourweb_hexa": "0069b8",
@@ -6686,7 +9142,7 @@ export function nonRatpLineRef() {
         "id_line": "C01444",
         "textcolourweb_hexa": "ffffff",
         "name_line": "208",
-        "operatorname": "INTERVAL"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "ed808d",
@@ -6694,7 +9150,7 @@ export function nonRatpLineRef() {
         "id_line": "C01445",
         "textcolourweb_hexa": "000000",
         "name_line": "204",
-        "operatorname": "INTERVAL"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "db0073",
@@ -6702,7 +9158,7 @@ export function nonRatpLineRef() {
         "id_line": "C01446",
         "textcolourweb_hexa": "ffffff",
         "name_line": "205",
-        "operatorname": "INTERVAL"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "6862ab",
@@ -6710,7 +9166,7 @@ export function nonRatpLineRef() {
         "id_line": "C01447",
         "textcolourweb_hexa": "ffffff",
         "name_line": "206",
-        "operatorname": "INTERVAL"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "00a9c2",
@@ -6718,7 +9174,7 @@ export function nonRatpLineRef() {
         "id_line": "C01448",
         "textcolourweb_hexa": "000000",
         "name_line": "210",
-        "operatorname": "INTERVAL"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "f9aa0d",
@@ -6726,135 +9182,127 @@ export function nonRatpLineRef() {
         "id_line": "C01450",
         "textcolourweb_hexa": "000000",
         "name_line": "203",
-        "operatorname": "INTERVAL"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
-        "colourweb_hexa": "b3a016",
+        "colourweb_hexa": "b2a01f",
         "transportmode": "bus",
         "id_line": "C01451",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "19",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "f4aacc",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C01452",
         "textcolourweb_hexa": "000000",
-        "name_line": "4A",
-        "operatorname": "Cars Moreau"
+        "name_line": "3240",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "f4aacc",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C01453",
         "textcolourweb_hexa": "000000",
-        "name_line": "4B",
-        "operatorname": "Cars Moreau"
+        "name_line": "3241",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "f4aacc",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C01454",
         "textcolourweb_hexa": "000000",
-        "name_line": "4C",
-        "operatorname": "Cars Moreau"
+        "name_line": "3243",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "f4aacc",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C01455",
         "textcolourweb_hexa": "000000",
-        "name_line": "4D",
-        "operatorname": "Cars Moreau"
+        "name_line": "3244",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "1d1d1b",
+        "colourweb_hexa": "00b297",
         "transportmode": "bus",
         "id_line": "C01456",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "1",
-        "operatorname": "Cars Moreau"
+        "name_line": "3201",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "f4aacc",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C01457",
         "textcolourweb_hexa": "000000",
-        "name_line": "4BD",
-        "operatorname": "Cars Moreau"
+        "name_line": "3242",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "96acd9",
+        "colourweb_hexa": "c4a4cc",
         "transportmode": "bus",
         "id_line": "C01459",
         "textcolourweb_hexa": "000000",
-        "name_line": "211",
-        "operatorname": "Cars Moreau"
+        "name_line": "3256",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "98b3de",
+        "colourweb_hexa": "8ad3de",
         "transportmode": "bus",
         "id_line": "C01461",
         "textcolourweb_hexa": "000000",
-        "name_line": "201",
-        "operatorname": "Cars Moreau"
+        "name_line": "3250",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "99a9d7",
+        "colourweb_hexa": "8ad3de",
         "transportmode": "bus",
         "id_line": "C01462",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "202",
-        "operatorname": "Cars Moreau"
+        "textcolourweb_hexa": "000000",
+        "name_line": "3257",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "98b4df",
+        "colourweb_hexa": "8ad3de",
         "transportmode": "bus",
         "id_line": "C01463",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "203",
-        "operatorname": "Cars Moreau"
+        "textcolourweb_hexa": "000000",
+        "name_line": "3258",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "2569b2",
+        "colourweb_hexa": "006fb6",
         "transportmode": "bus",
         "id_line": "C01464",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "2",
-        "operatorname": "Cars Moreau"
+        "name_line": "3202",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "9dc78e",
+        "colourweb_hexa": "7ac597",
         "transportmode": "bus",
         "id_line": "C01467",
         "textcolourweb_hexa": "000000",
-        "name_line": "BRAY 9",
-        "operatorname": "Cars Moreau"
+        "name_line": "3252",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "9dc78e",
+        "colourweb_hexa": "7ac597",
         "transportmode": "bus",
         "id_line": "C01468",
         "textcolourweb_hexa": "000000",
-        "name_line": "BRAY 3",
-        "operatorname": "Cars Moreau"
+        "name_line": "3253",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "99aeda",
+        "colourweb_hexa": "8ad3de",
         "transportmode": "bus",
         "id_line": "C01469",
         "textcolourweb_hexa": "000000",
-        "name_line": "204",
-        "operatorname": "Cars Moreau"
-      },
-      {
-        "colourweb_hexa": "9dc78e",
-        "transportmode": "bus",
-        "id_line": "C01471",
-        "textcolourweb_hexa": "000000",
-        "name_line": "BRAY 11",
-        "operatorname": "Cars Moreau"
+        "name_line": "3260",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -6921,12 +9369,20 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Ile-de-France Conflans"
       },
       {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C01481",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "426",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "ff0000",
         "transportmode": "bus",
         "id_line": "C01482",
         "textcolourweb_hexa": "ffffff",
         "name_line": "27",
-        "operatorname": "Transdev Ile-de-France Nanterre"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "00b0f0",
@@ -6934,23 +9390,39 @@ export function nonRatpLineRef() {
         "id_line": "C01483",
         "textcolourweb_hexa": "ffffff",
         "name_line": "28",
-        "operatorname": "Transdev Ile-de-France Nanterre"
+        "operatorname": "Transdev Versailles"
       },
       {
-        "colourweb_hexa": "ff7600",
+        "colourweb_hexa": "e1cd03",
         "transportmode": "bus",
         "id_line": "C01484",
         "textcolourweb_hexa": "000000",
         "name_line": "29",
-        "operatorname": "Transdev Ile-de-France Nanterre"
+        "operatorname": "Transdev Versailles"
       },
       {
-        "colourweb_hexa": "ac9072",
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01485",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "459",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C01488",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "471",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "daa3c6",
         "transportmode": "bus",
         "id_line": "C01489",
         "textcolourweb_hexa": "000000",
         "name_line": "06",
-        "operatorname": "Transdev Ile-de-France Nanterre"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "33bdd9",
@@ -6977,20 +9449,20 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Argenteuil Boucles de Seine"
       },
       {
-        "colourweb_hexa": "45ffc7",
+        "colourweb_hexa": "25c0df",
         "transportmode": "bus",
         "id_line": "C01493",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "38",
-        "operatorname": "Transdev Ile-de-France Nanterre"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "010101",
         "transportmode": "bus",
         "id_line": "C01494",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "SAMOIS",
-        "operatorname": "Cars Losay"
+        "name_line": "7 (ex SAMOIS)",
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "ff0000",
@@ -6998,7 +9470,7 @@ export function nonRatpLineRef() {
         "id_line": "C01495",
         "textcolourweb_hexa": "000000",
         "name_line": "2271",
-        "operatorname": "Orgebus"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "bf19ff",
@@ -7006,7 +9478,7 @@ export function nonRatpLineRef() {
         "id_line": "C01496",
         "textcolourweb_hexa": "ffffff",
         "name_line": "2276",
-        "operatorname": "Orgebus"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "fbcc9a",
@@ -7014,7 +9486,7 @@ export function nonRatpLineRef() {
         "id_line": "C01497",
         "textcolourweb_hexa": "000000",
         "name_line": "2274",
-        "operatorname": "Orgebus"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "4cff00",
@@ -7022,7 +9494,7 @@ export function nonRatpLineRef() {
         "id_line": "C01498",
         "textcolourweb_hexa": "000000",
         "name_line": "2273",
-        "operatorname": "Orgebus"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -7030,7 +9502,7 @@ export function nonRatpLineRef() {
         "id_line": "C01499",
         "textcolourweb_hexa": "000000",
         "name_line": "Express 47",
-        "operatorname": "ProCars"
+        "operatorname": "Francilité Grand Provinois"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -7038,39 +9510,39 @@ export function nonRatpLineRef() {
         "id_line": "C01500",
         "textcolourweb_hexa": "000000",
         "name_line": "Express 50",
-        "operatorname": "ProCars"
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "006eb6",
+        "colourweb_hexa": "006fb6",
         "transportmode": "bus",
         "id_line": "C01501",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "1-1",
-        "operatorname": "ProCars"
+        "name_line": "3251",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "ef83b3",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C01502",
         "textcolourweb_hexa": "000000",
-        "name_line": "3",
-        "operatorname": "ProCars"
+        "name_line": "3262",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "109539",
+        "colourweb_hexa": "008b5b",
         "transportmode": "bus",
         "id_line": "C01503",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "5",
-        "operatorname": "ProCars"
+        "name_line": "3215",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "70746f",
+        "colourweb_hexa": "9b9842",
         "transportmode": "bus",
         "id_line": "C01504",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "6-1",
-        "operatorname": "ProCars"
+        "name_line": "3261",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -7078,111 +9550,103 @@ export function nonRatpLineRef() {
         "id_line": "C01505",
         "textcolourweb_hexa": "000000",
         "name_line": "Express 07",
-        "operatorname": "ProCars"
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "de3d6b",
+        "colourweb_hexa": "b6134c",
         "transportmode": "bus",
         "id_line": "C01506",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "8",
-        "operatorname": "ProCars"
+        "name_line": "3218",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "48b274",
+        "colourweb_hexa": "cec73d",
         "transportmode": "bus",
         "id_line": "C01507",
         "textcolourweb_hexa": "000000",
-        "name_line": "11",
-        "operatorname": "ProCars"
+        "name_line": "3211",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "be91c1",
+        "colourweb_hexa": "c4a4cc",
         "transportmode": "bus",
         "id_line": "C01508",
         "textcolourweb_hexa": "000000",
-        "name_line": "12",
-        "operatorname": "ProCars"
+        "name_line": "3212",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "283c82",
+        "colourweb_hexa": "7ac597",
         "transportmode": "bus",
         "id_line": "C01509",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "13",
-        "operatorname": "ProCars"
+        "textcolourweb_hexa": "000000",
+        "name_line": "3213",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "f8c335",
+        "colourweb_hexa": "dfaf47",
         "transportmode": "bus",
         "id_line": "C01510",
         "textcolourweb_hexa": "000000",
-        "name_line": "14",
-        "operatorname": "ProCars"
+        "name_line": "3214",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "f9da61",
+        "colourweb_hexa": "f9d960",
         "transportmode": "bus",
         "id_line": "C01511",
         "textcolourweb_hexa": "000000",
         "name_line": "15",
-        "operatorname": "ProCars"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "75b843",
+        "colourweb_hexa": "9b9856",
         "transportmode": "bus",
         "id_line": "C01512",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "16",
-        "operatorname": "ProCars"
+        "name_line": "3249",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "984b1e",
+        "colourweb_hexa": "8d653d",
         "transportmode": "bus",
         "id_line": "C01513",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "46-1",
-        "operatorname": "ProCars"
+        "name_line": "3246",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "76a56d",
-        "transportmode": "bus",
-        "id_line": "C01516",
-        "textcolourweb_hexa": "000000",
-        "name_line": "PROBUS A",
-        "operatorname": "ProCars"
-      },
-      {
-        "colourweb_hexa": "b5ccb1",
+        "colourweb_hexa": "b94e9a",
         "transportmode": "bus",
         "id_line": "C01517",
         "textcolourweb_hexa": "000000",
-        "name_line": "PROBUS B",
-        "operatorname": "ProCars"
+        "name_line": "3208",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "7f9b79",
+        "colourweb_hexa": "7ac597",
         "transportmode": "bus",
         "id_line": "C01518",
         "textcolourweb_hexa": "000000",
-        "name_line": "PROBUS C",
-        "operatorname": "ProCars"
+        "name_line": "3207",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "3a6c2c",
+        "colourweb_hexa": "8ad3de",
         "transportmode": "bus",
         "id_line": "C01519",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "PROBUS D",
-        "operatorname": "ProCars"
+        "name_line": "3209",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "349436",
+        "colourweb_hexa": "ffcc30",
         "transportmode": "bus",
         "id_line": "C01520",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "PROBUS E",
-        "operatorname": "ProCars"
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD 3209",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
         "colourweb_hexa": "79ac2b",
@@ -7270,14 +9734,6 @@ export function nonRatpLineRef() {
         "id_line": "C01533",
         "textcolourweb_hexa": "000000",
         "name_line": "444",
-        "operatorname": "Francilité Saint-Quentin-en-Yvelines"
-      },
-      {
-        "colourweb_hexa": "b1b9df",
-        "transportmode": "bus",
-        "id_line": "C01534",
-        "textcolourweb_hexa": "000000",
-        "name_line": "460",
         "operatorname": "Francilité Saint-Quentin-en-Yvelines"
       },
       {
@@ -7501,8 +9957,8 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01565",
         "textcolourweb_hexa": "000000",
-        "name_line": "EXPRESS 91-04",
-        "operatorname": "Albatrans"
+        "name_line": "EXPRESS 9104",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -7673,27 +10129,11 @@ export function nonRatpLineRef() {
         "operatorname": "TRA"
       },
       {
-        "colourweb_hexa": "9f9825",
-        "transportmode": "bus",
-        "id_line": "C01590",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "627",
-        "operatorname": "Transdev Nord Seine-Saint-Denis"
-      },
-      {
         "colourweb_hexa": "f3a4ba",
         "transportmode": "bus",
         "id_line": "C01591",
         "textcolourweb_hexa": "000000",
         "name_line": "637",
-        "operatorname": "Transdev Nord Seine-Saint-Denis"
-      },
-      {
-        "colourweb_hexa": "ffce00",
-        "transportmode": "bus",
-        "id_line": "C01592",
-        "textcolourweb_hexa": "000000",
-        "name_line": "640",
         "operatorname": "Transdev Nord Seine-Saint-Denis"
       },
       {
@@ -7937,6 +10377,14 @@ export function nonRatpLineRef() {
         "operatorname": "TICE"
       },
       {
+        "colourweb_hexa": "008b5a",
+        "transportmode": "bus",
+        "id_line": "C01633",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N132",
+        "operatorname": "Transdev Pays de Fontainebleau"
+      },
+      {
         "colourweb_hexa": "ff582a",
         "transportmode": "bus",
         "id_line": "C01634",
@@ -7953,12 +10401,28 @@ export function nonRatpLineRef() {
         "operatorname": "RD Mantois"
       },
       {
+        "colourweb_hexa": "fedf53",
+        "transportmode": "bus",
+        "id_line": "C01636",
+        "textcolourweb_hexa": "000000",
+        "name_line": "N131",
+        "operatorname": "Transdev Cœur Essonne"
+      },
+      {
         "colourweb_hexa": "ed1b2a",
         "transportmode": "bus",
         "id_line": "C01637",
         "textcolourweb_hexa": "ffffff",
         "name_line": "N150",
         "operatorname": "Transdev Vexin"
+      },
+      {
+        "colourweb_hexa": "5191cd",
+        "transportmode": "bus",
+        "id_line": "C01638",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N140",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "1765ae",
@@ -7985,7 +10449,7 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Vexin"
       },
       {
-        "colourweb_hexa": "008b5a",
+        "colourweb_hexa": "00814f",
         "transportmode": "bus",
         "id_line": "C01642",
         "textcolourweb_hexa": "ffffff",
@@ -7993,12 +10457,36 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Val d'Yerres Val de Seine"
       },
       {
-        "colourweb_hexa": "008b5a",
+        "colourweb_hexa": "00814f",
         "transportmode": "bus",
         "id_line": "C01643",
         "textcolourweb_hexa": "ffffff",
         "name_line": "N135",
         "operatorname": "Keolis Val d'Yerres Val de Seine"
+      },
+      {
+        "colourweb_hexa": "5191cd",
+        "transportmode": "bus",
+        "id_line": "C01644",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N143",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
+      },
+      {
+        "colourweb_hexa": "008b5a",
+        "transportmode": "bus",
+        "id_line": "C01645",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N144",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "0aa896",
+        "transportmode": "bus",
+        "id_line": "C01646",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N145",
+        "operatorname": "SNCF"
       },
       {
         "colourweb_hexa": "fedf53",
@@ -8009,7 +10497,7 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Vexin"
       },
       {
-        "colourweb_hexa": "fedf53",
+        "colourweb_hexa": "fece00",
         "transportmode": "bus",
         "id_line": "C01648",
         "textcolourweb_hexa": "000000",
@@ -8041,19 +10529,19 @@ export function nonRatpLineRef() {
         "operatorname": "RD Saclay"
       },
       {
-        "colourweb_hexa": "056bff",
+        "colourweb_hexa": "0055c8",
         "transportmode": "bus",
         "id_line": "C01657",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "18 (future 418)",
+        "name_line": "418",
         "operatorname": "RD Bièvre"
       },
       {
-        "colourweb_hexa": "bfed00",
+        "colourweb_hexa": "d2d200",
         "transportmode": "bus",
         "id_line": "C01658",
         "textcolourweb_hexa": "000000",
-        "name_line": "15 (future 415)",
+        "name_line": "415",
         "operatorname": "RD Bièvre"
       },
       {
@@ -8086,15 +10574,15 @@ export function nonRatpLineRef() {
         "id_line": "C01663",
         "textcolourweb_hexa": "ffffff",
         "name_line": "109",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
-        "colourweb_hexa": "e30f13",
+        "colourweb_hexa": "eb2132",
         "transportmode": "bus",
         "id_line": "C01664",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "3",
-        "operatorname": "Cars Moreau"
+        "name_line": "3203",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
         "colourweb_hexa": "009640",
@@ -8141,8 +10629,8 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01673",
         "textcolourweb_hexa": "000000",
-        "name_line": "DM21 S",
-        "operatorname": "Keolis Meyer"
+        "name_line": "M21S",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "009fe3",
@@ -8156,7 +10644,7 @@ export function nonRatpLineRef() {
         "colourweb_hexa": "3bb2ff",
         "transportmode": "bus",
         "id_line": "C01675",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "EX100 Persan",
         "operatorname": "Keolis Mobilité Roissy"
       },
@@ -8185,12 +10673,44 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Ile-de-France Rambouillet"
       },
       {
+        "colourweb_hexa": "00ae41",
+        "transportmode": "tram",
+        "id_line": "C01679",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "T3b",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01680",
+        "textcolourweb_hexa": "000000",
+        "name_line": "35",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "00643c",
         "transportmode": "bus",
         "id_line": "C01681",
         "textcolourweb_hexa": "ffffff",
         "name_line": "3",
         "operatorname": "Keolis Argenteuil Boucles de Seine"
+      },
+      {
+        "colourweb_hexa": "dfaf47",
+        "transportmode": "bus",
+        "id_line": "C01683",
+        "textcolourweb_hexa": "000000",
+        "name_line": "T4",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "62259d",
+        "transportmode": "tram",
+        "id_line": "C01684",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "T5",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "f28c1c",
@@ -8201,68 +10721,84 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Ile-de-France Conflans"
       },
       {
-        "colourweb_hexa": "2f287f",
+        "colourweb_hexa": "312783",
         "transportmode": "bus",
         "id_line": "C01686",
         "textcolourweb_hexa": "ffffff",
         "name_line": "L",
-        "operatorname": "INTERVAL"
+        "operatorname": "Francilité Pays de Montereau"
       },
       {
-        "colourweb_hexa": "84d3db",
+        "colourweb_hexa": "82c8e6",
         "transportmode": "bus",
         "id_line": "C01687",
         "textcolourweb_hexa": "000000",
-        "name_line": "31",
+        "name_line": "6131",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "f3a9ba",
+        "colourweb_hexa": "ff82b4",
         "transportmode": "bus",
         "id_line": "C01688",
         "textcolourweb_hexa": "000000",
-        "name_line": "118",
+        "name_line": "6177",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "b398c3",
+        "colourweb_hexa": "640082",
         "transportmode": "bus",
         "id_line": "C01689",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "114",
+        "name_line": "6184",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "a29a24",
+        "colourweb_hexa": "6e6e00",
         "transportmode": "bus",
         "id_line": "C01690",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "109",
+        "name_line": "6179",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "a29a24",
+        "colourweb_hexa": "6e6e00",
         "transportmode": "bus",
         "id_line": "C01691",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "110",
+        "name_line": "6180",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "9ad0bf",
+        "colourweb_hexa": "00a092",
         "transportmode": "bus",
         "id_line": "C01692",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "111",
+        "name_line": "6181",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "9ad0bf",
+        "colourweb_hexa": "00a092",
         "transportmode": "bus",
         "id_line": "C01693",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "112",
+        "name_line": "6182",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C01695",
+        "textcolourweb_hexa": "000000",
+        "name_line": "247",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C01696",
+        "textcolourweb_hexa": "000000",
+        "name_line": "248",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "8c4b25",
@@ -8289,27 +10825,27 @@ export function nonRatpLineRef() {
         "operatorname": "RD Saclay"
       },
       {
-        "colourweb_hexa": "98b6dc",
+        "colourweb_hexa": "3c91dc",
         "transportmode": "bus",
         "id_line": "C01700",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "264",
+        "name_line": "6164",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "f19043",
+        "colourweb_hexa": "ff5a00",
         "transportmode": "bus",
         "id_line": "C01701",
         "textcolourweb_hexa": "000000",
-        "name_line": "261",
+        "name_line": "6161",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "e20022",
+        "colourweb_hexa": "ff1400",
         "transportmode": "bus",
         "id_line": "C01702",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "262",
+        "name_line": "6162",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -8318,7 +10854,7 @@ export function nonRatpLineRef() {
         "id_line": "C01703",
         "textcolourweb_hexa": "ffffff",
         "name_line": "S1",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "33e58c",
@@ -8326,7 +10862,7 @@ export function nonRatpLineRef() {
         "id_line": "C01704",
         "textcolourweb_hexa": "000000",
         "name_line": "S2",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ff7f00",
@@ -8334,7 +10870,7 @@ export function nonRatpLineRef() {
         "id_line": "C01705",
         "textcolourweb_hexa": "000000",
         "name_line": "S3",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ff00ff",
@@ -8342,7 +10878,7 @@ export function nonRatpLineRef() {
         "id_line": "C01706",
         "textcolourweb_hexa": "ffffff",
         "name_line": "S4",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "40ff00",
@@ -8350,7 +10886,7 @@ export function nonRatpLineRef() {
         "id_line": "C01707",
         "textcolourweb_hexa": "000000",
         "name_line": "S5",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "d5c900",
@@ -8367,6 +10903,14 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "ffffff",
         "name_line": "30-47",
         "operatorname": "Cars Lacroix"
+      },
+      {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C01710",
+        "textcolourweb_hexa": "000000",
+        "name_line": "487",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "d6c900",
@@ -8457,36 +11001,68 @@ export function nonRatpLineRef() {
         "operatorname": "SAVAC"
       },
       {
-        "colourweb_hexa": "285697",
-        "transportmode": "bus",
-        "id_line": "C01722",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "2",
-        "operatorname": "ProCars"
-      },
-      {
-        "colourweb_hexa": "dc3235",
+        "colourweb_hexa": "f58f53",
         "transportmode": "bus",
         "id_line": "C01724",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "10",
-        "operatorname": "ProCars"
+        "textcolourweb_hexa": "000000",
+        "name_line": "3210",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "769fc6",
+        "colourweb_hexa": "8ad3de",
         "transportmode": "bus",
         "id_line": "C01725",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "17",
-        "operatorname": "ProCars"
+        "textcolourweb_hexa": "000000",
+        "name_line": "3217",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "337137",
+        "colourweb_hexa": "8d653d",
         "transportmode": "bus",
         "id_line": "C01726",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "PROBUS Scolaire",
-        "operatorname": "ProCars"
+        "name_line": "3259",
+        "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "ffcc30",
+        "transportmode": "rail",
+        "id_line": "C01727",
+        "textcolourweb_hexa": "000000",
+        "name_line": "C",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "008b5b",
+        "transportmode": "rail",
+        "id_line": "C01728",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "D",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "b94e9a",
+        "transportmode": "rail",
+        "id_line": "C01729",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "E",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "f58f53",
+        "transportmode": "rail",
+        "id_line": "C01730",
+        "textcolourweb_hexa": "000000",
+        "name_line": "P",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "f49fb3",
+        "transportmode": "rail",
+        "id_line": "C01731",
+        "textcolourweb_hexa": "000000",
+        "name_line": "R",
+        "operatorname": "SNCF"
       },
       {
         "colourweb_hexa": "97d4e2",
@@ -8497,12 +11073,116 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Val d'Oise"
       },
       {
+        "colourweb_hexa": "00b297",
+        "transportmode": "rail",
+        "id_line": "C01736",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "84653d",
+        "transportmode": "rail",
+        "id_line": "C01737",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "H",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "9b9842",
+        "transportmode": "rail",
+        "id_line": "C01738",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "K",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "cec73d",
+        "transportmode": "rail",
+        "id_line": "C01739",
+        "textcolourweb_hexa": "000000",
+        "name_line": "J",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "c4a4cc",
+        "transportmode": "rail",
+        "id_line": "C01740",
+        "textcolourweb_hexa": "000000",
+        "name_line": "L",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "b6134c",
+        "transportmode": "rail",
+        "id_line": "C01741",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "U",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "eb2132",
+        "transportmode": "rail",
+        "id_line": "C01742",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "A",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "5091cb",
+        "transportmode": "rail",
+        "id_line": "C01743",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "B",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C01744",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Centre - Val de Loire",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C01745",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Bourgogne - Franche-Comté",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C01746",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Hauts-de-France",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C01747",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Grand-Est",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C01748",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Normandie",
+        "operatorname": "SNCF"
+      },
+      {
         "colourweb_hexa": "bd3f7c",
         "transportmode": "bus",
         "id_line": "C01751",
         "textcolourweb_hexa": "ffffff",
         "name_line": "O2",
-        "operatorname": "STRAV"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "d6c900",
@@ -8517,7 +11197,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01753",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "S5",
+        "name_line": "3655",
         "operatorname": "Transdev Melun"
       },
       {
@@ -8529,6 +11209,14 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Argenteuil Boucles de Seine"
       },
       {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C01756",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "337",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "cbe859",
         "transportmode": "bus",
         "id_line": "C01757",
@@ -8537,12 +11225,12 @@ export function nonRatpLineRef() {
         "operatorname": "Autocars Dominique"
       },
       {
-        "colourweb_hexa": "b397c7",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C01759",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "749",
-        "operatorname": "CIF"
+        "name_line": "719",
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
         "colourweb_hexa": "26ffd1",
@@ -8550,14 +11238,14 @@ export function nonRatpLineRef() {
         "id_line": "C01763",
         "textcolourweb_hexa": "000000",
         "name_line": "102",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ff4c00",
         "transportmode": "bus",
         "id_line": "C01764",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "221",
+        "name_line": "4321",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -8565,7 +11253,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01765",
         "textcolourweb_hexa": "000000",
-        "name_line": "222",
+        "name_line": "4322",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -8582,7 +11270,7 @@ export function nonRatpLineRef() {
         "id_line": "C01772",
         "textcolourweb_hexa": "ffffff",
         "name_line": "30",
-        "operatorname": "Transdev Ile-de-France Nanterre"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "c5a3cd",
@@ -8593,6 +11281,14 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Seine et Oise Est"
       },
       {
+        "colourweb_hexa": "704b1c",
+        "transportmode": "tram",
+        "id_line": "C01774",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "T7",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "a38c57",
         "transportmode": "bus",
         "id_line": "C01775",
@@ -8601,28 +11297,36 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Argenteuil Boucles de Seine"
       },
       {
-        "colourweb_hexa": "e5000f",
+        "colourweb_hexa": "e3051c",
         "transportmode": "bus",
         "id_line": "C01776",
         "textcolourweb_hexa": "ffffff",
         "name_line": "9",
-        "operatorname": "TVF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "40c9ff",
+        "colourweb_hexa": "96d4e1",
         "transportmode": "bus",
         "id_line": "C01777",
         "textcolourweb_hexa": "000000",
         "name_line": "12",
-        "operatorname": "TVF"
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "98b3de",
+        "colourweb_hexa": "8d5e2a",
         "transportmode": "bus",
         "id_line": "C01779",
         "textcolourweb_hexa": "ffffff",
         "name_line": "171",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Est"
+      },
+      {
+        "colourweb_hexa": "3c91dc",
+        "transportmode": "bus",
+        "id_line": "C01780",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "La Navette de Thiais",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "b80c4b",
@@ -8705,6 +11409,22 @@ export function nonRatpLineRef() {
         "operatorname": "Francilité Saint-Quentin-en-Yvelines"
       },
       {
+        "colourweb_hexa": "e2231a",
+        "transportmode": "tram",
+        "id_line": "C01794",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "T6",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "837902",
+        "transportmode": "tram",
+        "id_line": "C01795",
+        "textcolourweb_hexa": "000000",
+        "name_line": "T8",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "7ac597",
         "transportmode": "bus",
         "id_line": "C01796",
@@ -8729,11 +11449,11 @@ export function nonRatpLineRef() {
         "operatorname": "RD Mantois"
       },
       {
-        "colourweb_hexa": "de9b9f",
+        "colourweb_hexa": "a50034",
         "transportmode": "bus",
         "id_line": "C01799",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "260",
+        "name_line": "6160",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -8741,31 +11461,31 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01801",
         "textcolourweb_hexa": "000000",
-        "name_line": "3A",
-        "operatorname": "CIF"
+        "name_line": "3",
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "e52529",
+        "colourweb_hexa": "eb2132",
         "transportmode": "bus",
         "id_line": "C01802",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "16",
+        "name_line": "1516",
         "operatorname": "Transdev Valmy"
       },
       {
-        "colourweb_hexa": "019caf",
+        "colourweb_hexa": "00b297",
         "transportmode": "bus",
         "id_line": "C01804",
-        "textcolourweb_hexa": "000000",
-        "name_line": "15",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "1515",
         "operatorname": "Transdev Valmy"
       },
       {
-        "colourweb_hexa": "f4a25f",
+        "colourweb_hexa": "6e491e",
         "transportmode": "bus",
         "id_line": "C01805",
-        "textcolourweb_hexa": "000000",
-        "name_line": "34",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "6134",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -8777,19 +11497,43 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Senart"
       },
       {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C01807",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N66",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01808",
+        "textcolourweb_hexa": "000000",
+        "name_line": "254",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "82dc73",
+        "transportmode": "bus",
+        "id_line": "C01809",
+        "textcolourweb_hexa": "000000",
+        "name_line": "380",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "8cff00",
         "transportmode": "bus",
         "id_line": "C01810",
         "textcolourweb_hexa": "000000",
         "name_line": "108",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "7f78ed",
         "transportmode": "bus",
         "id_line": "C01811",
         "textcolourweb_hexa": "000000",
-        "name_line": "206A",
+        "name_line": "4306",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -8797,24 +11541,24 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C01812",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "206B",
+        "name_line": "4316",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
-        "colourweb_hexa": "9ad0be",
+        "colourweb_hexa": "96d4e1",
         "transportmode": "bus",
         "id_line": "C01813",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "753",
-        "operatorname": "CIF"
+        "textcolourweb_hexa": "000000",
+        "name_line": "713",
+        "operatorname": "Keolis Roissy Pays de France Est"
       },
       {
-        "colourweb_hexa": "9bc0a9",
+        "colourweb_hexa": "e3b229",
         "transportmode": "bus",
         "id_line": "C01815",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "32ZA",
-        "operatorname": "CIF"
+        "textcolourweb_hexa": "000000",
+        "name_line": "32 ZA",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "fece00",
@@ -8822,7 +11566,23 @@ export function nonRatpLineRef() {
         "id_line": "C01816",
         "textcolourweb_hexa": "000000",
         "name_line": "R114",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01818",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "208B",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "a0006e",
+        "transportmode": "bus",
+        "id_line": "C01819",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "208S",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -8831,6 +11591,14 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "000000",
         "name_line": "02E",
         "operatorname": "Transdev Marne-et-Ourcq"
+      },
+      {
+        "colourweb_hexa": "00643c",
+        "transportmode": "bus",
+        "id_line": "C01821",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "486",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "ffbe00",
@@ -8913,6 +11681,14 @@ export function nonRatpLineRef() {
         "operatorname": "Autocars Dominique"
       },
       {
+        "colourweb_hexa": "0077ba",
+        "transportmode": "bus",
+        "id_line": "C01833",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "D",
+        "operatorname": "Autocars Dominique"
+      },
+      {
         "colourweb_hexa": "b51f1f",
         "transportmode": "bus",
         "id_line": "C01836",
@@ -8937,20 +11713,212 @@ export function nonRatpLineRef() {
         "operatorname": "SAVAC"
       },
       {
-        "colourweb_hexa": "4f91cd",
+        "colourweb_hexa": "9a9940",
         "transportmode": "bus",
-        "id_line": "C01866",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "24",
-        "operatorname": "CIF"
+        "id_line": "C01839",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Le Bus du port",
+        "operatorname": "RATP"
       },
       {
-        "colourweb_hexa": "ff7300",
+        "colourweb_hexa": "b6134c",
+        "transportmode": "bus",
+        "id_line": "C01840",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "U",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "f58f53",
+        "transportmode": "bus",
+        "id_line": "C01841",
+        "textcolourweb_hexa": "000000",
+        "name_line": "P",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "8d653d",
+        "transportmode": "bus",
+        "id_line": "C01842",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "H",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "dfaf47",
+        "transportmode": "tram",
+        "id_line": "C01843",
+        "textcolourweb_hexa": "000000",
+        "name_line": "T4",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "9b9842",
+        "transportmode": "bus",
+        "id_line": "C01844",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "K",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "00b297",
+        "transportmode": "bus",
+        "id_line": "C01845",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "cec73d",
+        "transportmode": "bus",
+        "id_line": "C01846",
+        "textcolourweb_hexa": "000000",
+        "name_line": "J",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "c4a4cc",
+        "transportmode": "bus",
+        "id_line": "C01847",
+        "textcolourweb_hexa": "000000",
+        "name_line": "L",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "f49fb3",
+        "transportmode": "bus",
+        "id_line": "C01848",
+        "textcolourweb_hexa": "000000",
+        "name_line": "R",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "eb2132",
+        "transportmode": "bus",
+        "id_line": "C01849",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "A",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "5091cb",
+        "transportmode": "bus",
+        "id_line": "C01850",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "B",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "ffcc30",
+        "transportmode": "bus",
+        "id_line": "C01851",
+        "textcolourweb_hexa": "000000",
+        "name_line": "C",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "008b5b",
+        "transportmode": "bus",
+        "id_line": "C01852",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "D",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "b94e9a",
+        "transportmode": "bus",
+        "id_line": "C01853",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "E",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C01854",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Grand-Est Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C01855",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Bourgogne - Franche-Comté Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C01856",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Centre - Val de Loire Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C01857",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Centre - Val-de-Loire",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C01858",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Centre - Val-de-Loire Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C01859",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Normandie Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C01862",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Hauts-de-France Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C01863",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Hauts-de-France",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C01864",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Hauts-de-France Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "cfadd2",
+        "transportmode": "bus",
+        "id_line": "C01866",
+        "textcolourweb_hexa": "000000",
+        "name_line": "24",
+        "operatorname": "Keolis Roissy Pays de France Est"
+      },
+      {
+        "colourweb_hexa": "f28e42",
         "transportmode": "bus",
         "id_line": "C01867",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "20",
-        "operatorname": "Trans Val d'Oise"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "eb6793",
@@ -8958,7 +11926,7 @@ export function nonRatpLineRef() {
         "id_line": "C01868",
         "textcolourweb_hexa": "ffffff",
         "name_line": "40",
-        "operatorname": "STAVO"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "79ac2b",
@@ -8990,7 +11958,7 @@ export function nonRatpLineRef() {
         "id_line": "C01872",
         "textcolourweb_hexa": "000000",
         "name_line": "43",
-        "operatorname": "STAVO"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "4db5ff",
@@ -8998,7 +11966,7 @@ export function nonRatpLineRef() {
         "id_line": "C01873",
         "textcolourweb_hexa": "ffffff",
         "name_line": "51",
-        "operatorname": "STAVO"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "991835",
@@ -9041,14 +12009,6 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Marne-la-Vallée"
       },
       {
-        "colourweb_hexa": "ffce00",
-        "transportmode": "bus",
-        "id_line": "C01884",
-        "textcolourweb_hexa": "000000",
-        "name_line": "611",
-        "operatorname": "Transdev Nord Seine-Saint-Denis"
-      },
-      {
         "colourweb_hexa": "95bc1b",
         "transportmode": "bus",
         "id_line": "C01886",
@@ -9071,6 +12031,14 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "000000",
         "name_line": "TàD Bassée",
         "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "d20d44",
+        "transportmode": "bus",
+        "id_line": "C01900",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Le P'tit Bus du Pré",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "77623a",
@@ -9097,12 +12065,12 @@ export function nonRatpLineRef() {
         "operatorname": "Autocars Dominique"
       },
       {
-        "colourweb_hexa": "8cad08",
+        "colourweb_hexa": "9b993b",
         "transportmode": "bus",
         "id_line": "C01934",
         "textcolourweb_hexa": "ffffff",
         "name_line": "105",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "00b397",
@@ -9118,7 +12086,7 @@ export function nonRatpLineRef() {
         "id_line": "C01947",
         "textcolourweb_hexa": "ffffff",
         "name_line": "8",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "eb2132",
@@ -9134,7 +12102,7 @@ export function nonRatpLineRef() {
         "id_line": "C01950",
         "textcolourweb_hexa": "ffffff",
         "name_line": "2272",
-        "operatorname": "Orgebus"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -9193,28 +12161,28 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Ile-de-France Rambouillet"
       },
       {
-        "colourweb_hexa": "ee765d",
+        "colourweb_hexa": "e62e2b",
         "transportmode": "bus",
         "id_line": "C01958",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "7B",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "f39a80",
+        "colourweb_hexa": "e62e2b",
         "transportmode": "bus",
         "id_line": "C01959",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "7C",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "f9c5b3",
+        "colourweb_hexa": "e62e2b",
         "transportmode": "bus",
         "id_line": "C01960",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "7D",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "b4dbf6",
@@ -9222,31 +12190,31 @@ export function nonRatpLineRef() {
         "id_line": "C01961",
         "textcolourweb_hexa": "000000",
         "name_line": "8B",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "dac062",
+        "colourweb_hexa": "a69514",
         "transportmode": "bus",
         "id_line": "C01962",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "9B",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "eddb8e",
+        "colourweb_hexa": "a69514",
         "transportmode": "bus",
         "id_line": "C01963",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "9C",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "7a6e00",
+        "colourweb_hexa": "a69514",
         "transportmode": "bus",
         "id_line": "C01964",
         "textcolourweb_hexa": "ffffff",
         "name_line": "9D",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "a862a5",
@@ -9254,7 +12222,7 @@ export function nonRatpLineRef() {
         "id_line": "C01965",
         "textcolourweb_hexa": "000000",
         "name_line": "11B",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "cf95c2",
@@ -9262,7 +12230,7 @@ export function nonRatpLineRef() {
         "id_line": "C01966",
         "textcolourweb_hexa": "000000",
         "name_line": "11C",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "e4c2dd",
@@ -9270,31 +12238,31 @@ export function nonRatpLineRef() {
         "id_line": "C01967",
         "textcolourweb_hexa": "000000",
         "name_line": "11D",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "59c6f2",
+        "colourweb_hexa": "009fe3",
         "transportmode": "bus",
         "id_line": "C01969",
         "textcolourweb_hexa": "000000",
         "name_line": "13B",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "a1daf7",
+        "colourweb_hexa": "009fe3",
         "transportmode": "bus",
         "id_line": "C01970",
         "textcolourweb_hexa": "000000",
         "name_line": "13C",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "ee77a5",
+        "colourweb_hexa": "e72d81",
         "transportmode": "bus",
         "id_line": "C01971",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "14B",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "3b9860",
@@ -9302,15 +12270,15 @@ export function nonRatpLineRef() {
         "id_line": "C01973",
         "textcolourweb_hexa": "ffffff",
         "name_line": "17B",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "e2bb8b",
+        "colourweb_hexa": "813318",
         "transportmode": "bus",
         "id_line": "C01974",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "18B",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "98d4e2",
@@ -9489,6 +12457,22 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Marne-et-Ourcq"
       },
       {
+        "colourweb_hexa": "f58f53",
+        "transportmode": "tram",
+        "id_line": "C01999",
+        "textcolourweb_hexa": "000000",
+        "name_line": "T11",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "3c91dc",
+        "transportmode": "bus",
+        "id_line": "C02000",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "259",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "e3004f",
         "transportmode": "bus",
         "id_line": "C02005",
@@ -9503,6 +12487,22 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "ffffff",
         "name_line": "30-49",
         "operatorname": "Cars Lacroix"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C02007",
+        "textcolourweb_hexa": "000000",
+        "name_line": "168",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "d2d200",
+        "transportmode": "bus",
+        "id_line": "C02008",
+        "textcolourweb_hexa": "000000",
+        "name_line": "353",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "c4a4cc",
@@ -9521,11 +12521,19 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Marne-la-Vallée"
       },
       {
+        "colourweb_hexa": "f58f53",
+        "transportmode": "bus",
+        "id_line": "C02019",
+        "textcolourweb_hexa": "000000",
+        "name_line": "T11",
+        "operatorname": "SNCF"
+      },
+      {
         "colourweb_hexa": "ec7404",
         "transportmode": "bus",
         "id_line": "C02020",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "207",
+        "name_line": "4307",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -9533,7 +12541,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02021",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "208",
+        "name_line": "4308",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -9541,7 +12549,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02022",
         "textcolourweb_hexa": "000000",
-        "name_line": "227",
+        "name_line": "4327",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -9549,7 +12557,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02023",
         "textcolourweb_hexa": "000000",
-        "name_line": "228",
+        "name_line": "4328",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -9557,7 +12565,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02024",
         "textcolourweb_hexa": "000000",
-        "name_line": "229",
+        "name_line": "4329",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -9565,7 +12573,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02025",
         "textcolourweb_hexa": "000000",
-        "name_line": "230",
+        "name_line": "4330",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -9573,16 +12581,24 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02026",
         "textcolourweb_hexa": "000000",
-        "name_line": "231",
+        "name_line": "4331",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C02027",
+        "textcolourweb_hexa": "000000",
+        "name_line": "260",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02030",
         "textcolourweb_hexa": "ffffff",
         "name_line": "Soirée Louvres",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "ffeb00",
@@ -9590,15 +12606,15 @@ export function nonRatpLineRef() {
         "id_line": "C02031",
         "textcolourweb_hexa": "000000",
         "name_line": "12",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
-        "colourweb_hexa": "cda796",
+        "colourweb_hexa": "813318",
         "transportmode": "bus",
         "id_line": "C02032",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "18C",
-        "operatorname": "Transdev Ile-de-France Nemours"
+        "operatorname": "Transdev Vallée du Loing"
       },
       {
         "colourweb_hexa": "f28f42",
@@ -9629,8 +12645,8 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02039",
         "textcolourweb_hexa": "000000",
-        "name_line": "DM20 S",
-        "operatorname": "Keolis Meyer"
+        "name_line": "M20S",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "e5377d",
@@ -9657,12 +12673,12 @@ export function nonRatpLineRef() {
         "operatorname": "Cars Lacroix"
       },
       {
-        "colourweb_hexa": "f4aacc",
+        "colourweb_hexa": "f49fb3",
         "transportmode": "bus",
         "id_line": "C02056",
         "textcolourweb_hexa": "000000",
-        "name_line": "4E",
-        "operatorname": "Cars Moreau"
+        "name_line": "3245",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
         "colourweb_hexa": "ceadd2",
@@ -9689,10 +12705,10 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Mobilité Roissy"
       },
       {
-        "colourweb_hexa": "cec92b",
+        "colourweb_hexa": "00814f",
         "transportmode": "bus",
         "id_line": "C02061",
-        "textcolourweb_hexa": "000000",
+        "textcolourweb_hexa": "ffffff",
         "name_line": "32",
         "operatorname": "Keolis Mobilité Roissy"
       },
@@ -9701,7 +12717,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02062",
         "textcolourweb_hexa": "000000",
-        "name_line": "EX100 Chelles",
+        "name_line": "EX 100",
         "operatorname": "Keolis Mobilité Roissy"
       },
       {
@@ -9709,8 +12725,8 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02065",
         "textcolourweb_hexa": "000000",
-        "name_line": "68.01S",
-        "operatorname": "Keolis Meyer"
+        "name_line": "681S",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "8d5e2a",
@@ -9788,9 +12804,9 @@ export function nonRatpLineRef() {
         "colourweb_hexa": "fdc300",
         "transportmode": "bus",
         "id_line": "C02076",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "76",
-        "operatorname": "Transdev Ile-de-France Ecquevilly"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "ffcc00",
@@ -9815,6 +12831,30 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "000000",
         "name_line": "31C",
         "operatorname": "Transdev Brie et 2 Morin"
+      },
+      {
+        "colourweb_hexa": "d282be",
+        "transportmode": "bus",
+        "id_line": "C02080",
+        "textcolourweb_hexa": "000000",
+        "name_line": "559B",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C02081",
+        "textcolourweb_hexa": "000000",
+        "name_line": "559C",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "bus",
+        "id_line": "C02082",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "559D",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "82dc73",
@@ -10006,7 +13046,7 @@ export function nonRatpLineRef() {
         "id_line": "C02111",
         "textcolourweb_hexa": "ffffff",
         "name_line": "41",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "c9d201",
@@ -10014,7 +13054,7 @@ export function nonRatpLineRef() {
         "id_line": "C02112",
         "textcolourweb_hexa": "000000",
         "name_line": "42",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "996633",
@@ -10309,8 +13349,8 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02156",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "09",
-        "operatorname": "Transdev Ile-de-France St-Fargeau-Ponthierry"
+        "name_line": "19",
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "004a99",
@@ -10318,7 +13358,7 @@ export function nonRatpLineRef() {
         "id_line": "C02159",
         "textcolourweb_hexa": "ffffff",
         "name_line": "21",
-        "operatorname": "Transdev Ile-de-France St-Fargeau-Ponthierry"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "38761d",
@@ -10350,23 +13390,23 @@ export function nonRatpLineRef() {
         "id_line": "C02164",
         "textcolourweb_hexa": "000000",
         "name_line": "34",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "f5a48d",
+        "colourweb_hexa": "ceacd2",
         "transportmode": "bus",
         "id_line": "C02165",
-        "textcolourweb_hexa": "ffffff",
+        "textcolourweb_hexa": "000000",
         "name_line": "11.5",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
-        "colourweb_hexa": "97b6e0",
+        "colourweb_hexa": "5191cd",
         "transportmode": "bus",
         "id_line": "C02166",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "12ZI",
-        "operatorname": "CIF"
+        "name_line": "12 ZI",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "dba2ca",
@@ -10449,12 +13489,12 @@ export function nonRatpLineRef() {
         "operatorname": "Aéroport Paris-Beauvais / SAGEB"
       },
       {
-        "colourweb_hexa": "a88cff",
+        "colourweb_hexa": "8cc2ff",
         "transportmode": "bus",
         "id_line": "C02183",
         "textcolourweb_hexa": "ffffff",
         "name_line": "53",
-        "operatorname": "Keolis Yvelines"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "ff8ce3",
@@ -10462,7 +13502,7 @@ export function nonRatpLineRef() {
         "id_line": "C02184",
         "textcolourweb_hexa": "000000",
         "name_line": "54",
-        "operatorname": "Keolis Yvelines"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "ffce00",
@@ -10566,7 +13606,7 @@ export function nonRatpLineRef() {
         "id_line": "C02202",
         "textcolourweb_hexa": "ffffff",
         "name_line": "111",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -10575,6 +13615,14 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "000000",
         "name_line": "Express 27",
         "operatorname": "Transdev Ile-de-France Conflans"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C02205",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "PC",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "ff1400",
@@ -10597,16 +13645,8 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02209",
         "textcolourweb_hexa": "000000",
-        "name_line": "S9",
+        "name_line": "3659",
         "operatorname": "Transdev Melun"
-      },
-      {
-        "colourweb_hexa": "e3b326",
-        "transportmode": "bus",
-        "id_line": "C02214",
-        "textcolourweb_hexa": "000000",
-        "name_line": "40",
-        "operatorname": "Transdev Nord Seine-Saint-Denis"
       },
       {
         "colourweb_hexa": "79ac2b",
@@ -10638,10 +13678,10 @@ export function nonRatpLineRef() {
         "id_line": "C02219",
         "textcolourweb_hexa": "000000",
         "name_line": "52",
-        "operatorname": "Keolis Yvelines"
+        "operatorname": "Transdev Versailles"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02220",
         "textcolourweb_hexa": "ffffff",
@@ -10653,7 +13693,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02221",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "209",
+        "name_line": "4309",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -10761,12 +13801,12 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Marne-et-Ourcq"
       },
       {
-        "colourweb_hexa": "ff00ff",
+        "colourweb_hexa": "bb4b9b",
         "transportmode": "bus",
         "id_line": "C02239",
         "textcolourweb_hexa": "ffffff",
         "name_line": "460",
-        "operatorname": "Transdev Ile-de-France Nanterre"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "007a45",
@@ -10775,6 +13815,38 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "ffffff",
         "name_line": "500",
         "operatorname": "N4 Mobilités"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C02243",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "25",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C02244",
+        "textcolourweb_hexa": "000000",
+        "name_line": "45",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "dc9600",
+        "transportmode": "bus",
+        "id_line": "C02245",
+        "textcolourweb_hexa": "000000",
+        "name_line": "59",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e5b1e",
+        "transportmode": "bus",
+        "id_line": "C02246",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "71",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "3bb2ff",
@@ -10793,6 +13865,14 @@ export function nonRatpLineRef() {
         "operatorname": "RD Mantois"
       },
       {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C02251",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "77",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "a3c2e6",
         "transportmode": "bus",
         "id_line": "C02252",
@@ -10801,12 +13881,20 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Marne-et-Ourcq"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C02254",
+        "textcolourweb_hexa": "000000",
+        "name_line": "40",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02255",
         "textcolourweb_hexa": "ffffff",
         "name_line": "Soirée Survilliers - Fosses",
-        "operatorname": "CIF"
+        "operatorname": "Keolis Roissy Pays de France Ouest"
       },
       {
         "colourweb_hexa": "f29200",
@@ -10822,10 +13910,10 @@ export function nonRatpLineRef() {
         "id_line": "C02258",
         "textcolourweb_hexa": "ffffff",
         "name_line": "40",
-        "operatorname": "Transdev Ile-de-France Vulaines"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02260",
         "textcolourweb_hexa": "ffffff",
@@ -10833,7 +13921,7 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Val d'Yerres Val de Seine"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02261",
         "textcolourweb_hexa": "ffffff",
@@ -10841,7 +13929,7 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Val d'Yerres Val de Seine"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02262",
         "textcolourweb_hexa": "ffffff",
@@ -10881,6 +13969,14 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Nord Seine-Saint-Denis"
       },
       {
+        "colourweb_hexa": "6eca97",
+        "transportmode": "bus",
+        "id_line": "C02268",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de substitution du métro 6",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "3bb2ff",
         "transportmode": "bus",
         "id_line": "C02269",
@@ -10909,15 +14005,15 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02272",
         "textcolourweb_hexa": "000000",
-        "name_line": "S11",
+        "name_line": "3661",
         "operatorname": "Transdev Melun"
       },
       {
-        "colourweb_hexa": "7f3c8c",
+        "colourweb_hexa": "351c75",
         "transportmode": "bus",
         "id_line": "C02273",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "S12",
+        "name_line": "3662",
         "operatorname": "Transdev Melun"
       },
       {
@@ -10925,15 +14021,15 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02274",
         "textcolourweb_hexa": "000000",
-        "name_line": "S13",
+        "name_line": "3663",
         "operatorname": "Transdev Melun"
       },
       {
-        "colourweb_hexa": "bd1220",
+        "colourweb_hexa": "ff0000",
         "transportmode": "bus",
         "id_line": "C02275",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "S14",
+        "name_line": "3664",
         "operatorname": "Transdev Melun"
       },
       {
@@ -10941,7 +14037,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02276",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "V",
+        "name_line": "3631",
         "operatorname": "Transdev Melun"
       },
       {
@@ -10950,7 +14046,7 @@ export function nonRatpLineRef() {
         "id_line": "C02277",
         "textcolourweb_hexa": "000000",
         "name_line": "14",
-        "operatorname": "Transdev Ile-de-France St-Fargeau-Ponthierry"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "bd1220",
@@ -10958,7 +14054,7 @@ export function nonRatpLineRef() {
         "id_line": "C02278",
         "textcolourweb_hexa": "ffffff",
         "name_line": "20",
-        "operatorname": "Transdev Ile-de-France St-Fargeau-Ponthierry"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "008a2f",
@@ -10966,22 +14062,22 @@ export function nonRatpLineRef() {
         "id_line": "C02279",
         "textcolourweb_hexa": "000000",
         "name_line": "23",
-        "operatorname": "Transdev Ile-de-France St-Fargeau-Ponthierry"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
-        "colourweb_hexa": "7e1518",
+        "colourweb_hexa": "6aa84f",
         "transportmode": "bus",
         "id_line": "C02280",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "S16",
+        "name_line": "3666",
         "operatorname": "Transdev Melun"
       },
       {
-        "colourweb_hexa": "9c9d9f",
+        "colourweb_hexa": "ea9999",
         "transportmode": "bus",
         "id_line": "C02281",
         "textcolourweb_hexa": "000000",
-        "name_line": "P",
+        "name_line": "3632",
         "operatorname": "Transdev Melun"
       },
       {
@@ -10989,7 +14085,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02282",
         "textcolourweb_hexa": "000000",
-        "name_line": "T",
+        "name_line": "3613",
         "operatorname": "Transdev Melun"
       },
       {
@@ -10997,7 +14093,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02283",
         "textcolourweb_hexa": "000000",
-        "name_line": "S7",
+        "name_line": "3657",
         "operatorname": "Transdev Melun"
       },
       {
@@ -11005,7 +14101,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02284",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "S8",
+        "name_line": "3658",
         "operatorname": "Transdev Melun"
       },
       {
@@ -11014,7 +14110,7 @@ export function nonRatpLineRef() {
         "id_line": "C02286",
         "textcolourweb_hexa": "ffffff",
         "name_line": "14",
-        "operatorname": "Keolis Versailles"
+        "operatorname": "Transdev Versailles"
       },
       {
         "colourweb_hexa": "008a2f",
@@ -11022,7 +14118,15 @@ export function nonRatpLineRef() {
         "id_line": "C02287",
         "textcolourweb_hexa": "000000",
         "name_line": "115",
-        "operatorname": "Transdev Ile-de-France St-Fargeau-Ponthierry"
+        "operatorname": "Transdev Pays de Fontainebleau"
+      },
+      {
+        "colourweb_hexa": "996633",
+        "transportmode": "bus",
+        "id_line": "C02288",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "193",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "bd1220",
@@ -11030,7 +14134,7 @@ export function nonRatpLineRef() {
         "id_line": "C02289",
         "textcolourweb_hexa": "ffffff",
         "name_line": "113",
-        "operatorname": "Transdev Ile-de-France St-Fargeau-Ponthierry"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "fae91a",
@@ -11038,7 +14142,7 @@ export function nonRatpLineRef() {
         "id_line": "C02290",
         "textcolourweb_hexa": "000000",
         "name_line": "114",
-        "operatorname": "Transdev Ile-de-France St-Fargeau-Ponthierry"
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "fecb00",
@@ -11053,24 +14157,24 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02293",
         "textcolourweb_hexa": "000000",
-        "name_line": "S10",
+        "name_line": "3660",
         "operatorname": "Transdev Melun"
       },
       {
-        "colourweb_hexa": "949494",
+        "colourweb_hexa": "b94e9a",
         "transportmode": "bus",
         "id_line": "C02294",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "NANGIBUS",
-        "operatorname": "ProCars"
+        "name_line": "3216",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "fecb00",
+        "colourweb_hexa": "ffcc30",
         "transportmode": "bus",
         "id_line": "C02295",
         "textcolourweb_hexa": "000000",
-        "name_line": "TàD 52",
-        "operatorname": "ProCars"
+        "name_line": "TàD Nangis / Saint-Just",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
         "colourweb_hexa": "ffce00",
@@ -11129,6 +14233,14 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Boucle des Lys"
       },
       {
+        "colourweb_hexa": "ffbe00",
+        "transportmode": "bus",
+        "id_line": "C02310",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de subsitution du métro 1",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "f3a4ba",
         "transportmode": "bus",
         "id_line": "C02311",
@@ -11145,12 +14257,28 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev CSO"
       },
       {
+        "colourweb_hexa": "ff82b4",
+        "transportmode": "bus",
+        "id_line": "C02314",
+        "textcolourweb_hexa": "000000",
+        "name_line": "263",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "8a5d99",
         "transportmode": "bus",
         "id_line": "C02316",
         "textcolourweb_hexa": "ffffff",
         "name_line": "6",
         "operatorname": "RD Saclay"
+      },
+      {
+        "colourweb_hexa": "5091cb",
+        "transportmode": "tram",
+        "id_line": "C02317",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "T9",
+        "operatorname": "Keolis Ouest Val-de-Marne"
       },
       {
         "colourweb_hexa": "783f04",
@@ -11161,12 +14289,12 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Brie et 2 Morin"
       },
       {
-        "colourweb_hexa": "d9ead3",
-        "transportmode": "bus",
-        "id_line": "C02345",
+        "colourweb_hexa": "8d653d",
+        "transportmode": "tram",
+        "id_line": "C02344",
         "textcolourweb_hexa": "000000",
-        "name_line": "61B",
-        "operatorname": "Transdev Marne-et-Ourcq"
+        "name_line": "T13",
+        "operatorname": "SNCF"
       },
       {
         "colourweb_hexa": "ff9900",
@@ -11174,7 +14302,7 @@ export function nonRatpLineRef() {
         "id_line": "C02351",
         "textcolourweb_hexa": "000000",
         "name_line": "51",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "cfc83b",
@@ -11201,12 +14329,100 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Argenteuil Boucles de Seine"
       },
       {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C02363",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Corbeil - La Ferté Alais",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C02364",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Corbeil - Melun",
+        "operatorname": "SNCF"
+      },
+      {
         "colourweb_hexa": "ffcc30",
         "transportmode": "bus",
         "id_line": "C02365",
         "textcolourweb_hexa": "000000",
         "name_line": "Coulommiers - La Ferté Gaucher Centre",
         "operatorname": "Transdev Brie et 2 Morin"
+      },
+      {
+        "colourweb_hexa": "65318f",
+        "transportmode": "bus",
+        "id_line": "C02366",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "3219",
+        "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C02368",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Centre - Val de Loire",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C02369",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Centre - Val de Loire Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C02370",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Normandie",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C02371",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Normandie Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C02372",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Hauts-de-France",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C02373",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Hauts-de-France Bus",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "rail",
+        "id_line": "C02375",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Normandie",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C02376",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TER Normandie Bus",
+        "operatorname": "SNCF"
       },
       {
         "colourweb_hexa": "54aee3",
@@ -11221,15 +14437,23 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02383",
         "textcolourweb_hexa": "000000",
-        "name_line": "TàD 6",
-        "operatorname": "Transdev CEAT"
+        "name_line": "TàD Coeur Essonne 6",
+        "operatorname": "Transdev Cœur Essonne"
+      },
+      {
+        "colourweb_hexa": "5091cb",
+        "transportmode": "bus",
+        "id_line": "C02385",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus de substitution du RER B",
+        "operatorname": "SNCF"
       },
       {
         "colourweb_hexa": "ff5c00",
         "transportmode": "bus",
         "id_line": "C02387",
         "textcolourweb_hexa": "000000",
-        "name_line": "232",
+        "name_line": "4332",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -11249,11 +14473,11 @@ export function nonRatpLineRef() {
         "operatorname": "Cars Soeur"
       },
       {
-        "colourweb_hexa": "852a90",
+        "colourweb_hexa": "b4a7d6",
         "transportmode": "bus",
         "id_line": "C02393",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "284-005",
+        "name_line": "4345",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -11265,12 +14489,12 @@ export function nonRatpLineRef() {
         "operatorname": "SAVAC"
       },
       {
-        "colourweb_hexa": "3bb2ff",
+        "colourweb_hexa": "cf47db",
         "transportmode": "bus",
         "id_line": "C02395",
-        "textcolourweb_hexa": "000000",
-        "name_line": "DM154",
-        "operatorname": "Keolis Meyer"
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "M154",
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "e4b428",
@@ -11286,7 +14510,7 @@ export function nonRatpLineRef() {
         "id_line": "C02397",
         "textcolourweb_hexa": "000000",
         "name_line": "DM50",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "99d4df",
@@ -11294,7 +14518,7 @@ export function nonRatpLineRef() {
         "id_line": "C02398",
         "textcolourweb_hexa": "000000",
         "name_line": "DM5S",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "ceadcf",
@@ -11302,7 +14526,7 @@ export function nonRatpLineRef() {
         "id_line": "C02399",
         "textcolourweb_hexa": "000000",
         "name_line": "DM9S",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "e69138",
@@ -11327,6 +14551,70 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "000000",
         "name_line": "DM152S",
         "operatorname": "RD Saclay"
+      },
+      {
+        "colourweb_hexa": "003ca6",
+        "transportmode": "bus",
+        "id_line": "C02404",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Caméléon T1",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "cf009e",
+        "transportmode": "bus",
+        "id_line": "C02405",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Caméléon T2",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "f58f53",
+        "transportmode": "bus",
+        "id_line": "C02406",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Caméléon T3a",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "00ae41",
+        "transportmode": "bus",
+        "id_line": "C02407",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Caméléon T3b",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "62259d",
+        "transportmode": "bus",
+        "id_line": "C02408",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Caméléon T5",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "eb2132",
+        "transportmode": "bus",
+        "id_line": "C02409",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Caméléon T6",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "704b1c",
+        "transportmode": "bus",
+        "id_line": "C02410",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Caméléon T7",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "837902",
+        "transportmode": "bus",
+        "id_line": "C02411",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Caméléon T8",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "a0006e",
@@ -11366,7 +14654,7 @@ export function nonRatpLineRef() {
         "id_line": "C02418",
         "textcolourweb_hexa": "ffffff",
         "name_line": "105A",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "9900ff",
@@ -11374,7 +14662,7 @@ export function nonRatpLineRef() {
         "id_line": "C02419",
         "textcolourweb_hexa": "ffffff",
         "name_line": "105B",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "fecb00",
@@ -11414,7 +14702,7 @@ export function nonRatpLineRef() {
         "id_line": "C02426",
         "textcolourweb_hexa": "ffffff",
         "name_line": "21",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "f4cccc",
@@ -11422,7 +14710,7 @@ export function nonRatpLineRef() {
         "id_line": "C02427",
         "textcolourweb_hexa": "ffffff",
         "name_line": "22",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "6aa84f",
@@ -11430,7 +14718,7 @@ export function nonRatpLineRef() {
         "id_line": "C02428",
         "textcolourweb_hexa": "ffffff",
         "name_line": "71",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "93c47d",
@@ -11438,7 +14726,7 @@ export function nonRatpLineRef() {
         "id_line": "C02429",
         "textcolourweb_hexa": "ffffff",
         "name_line": "81",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "38761d",
@@ -11446,7 +14734,7 @@ export function nonRatpLineRef() {
         "id_line": "C02430",
         "textcolourweb_hexa": "ffffff",
         "name_line": "82",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
       },
       {
         "colourweb_hexa": "b90845",
@@ -11457,44 +14745,44 @@ export function nonRatpLineRef() {
         "operatorname": "Francilité Ouest Essonne"
       },
       {
-        "colourweb_hexa": "006eb6",
+        "colourweb_hexa": "006fb6",
         "transportmode": "bus",
         "id_line": "C02432",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "1-2",
-        "operatorname": "ProCars"
+        "name_line": "3254",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "006eb6",
+        "colourweb_hexa": "006fb6",
         "transportmode": "bus",
         "id_line": "C02433",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "1-3",
-        "operatorname": "ProCars"
+        "name_line": "3255",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "70746f",
-        "transportmode": "bus",
-        "id_line": "C02434",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "6-3",
-        "operatorname": "ProCars"
-      },
-      {
-        "colourweb_hexa": "984b1e",
+        "colourweb_hexa": "8d653d",
         "transportmode": "bus",
         "id_line": "C02435",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "46-2",
-        "operatorname": "ProCars"
+        "name_line": "3247",
+        "operatorname": "Francilité Grand Provinois"
       },
       {
-        "colourweb_hexa": "984b1e",
+        "colourweb_hexa": "8d653d",
         "transportmode": "bus",
         "id_line": "C02436",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "46-3",
-        "operatorname": "ProCars"
+        "name_line": "3248",
+        "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "00a092",
+        "transportmode": "bus",
+        "id_line": "C02437",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "209",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "41a776",
@@ -11519,6 +14807,14 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "000000",
         "name_line": "23",
         "operatorname": "Keolis Seine et Oise Est"
+      },
+      {
+        "colourweb_hexa": "f7403a",
+        "transportmode": "bus",
+        "id_line": "C02442",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus de substitution du RER A",
+        "operatorname": "SNCF"
       },
       {
         "colourweb_hexa": "e69138",
@@ -11606,7 +14902,15 @@ export function nonRatpLineRef() {
         "id_line": "C02456",
         "textcolourweb_hexa": "000000",
         "name_line": "9",
-        "operatorname": "Transdev CEAT"
+        "operatorname": "Transdev Côteaux de la Marne"
+      },
+      {
+        "colourweb_hexa": "8ad3de",
+        "transportmode": "bus",
+        "id_line": "C02457",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Ligne Bleue",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "f49fb3",
@@ -11617,19 +14921,35 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Senart"
       },
       {
+        "colourweb_hexa": "8d653d",
+        "transportmode": "bus",
+        "id_line": "C02459",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "382",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
+        "id_line": "C02460",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD Coeur Essonne 7",
+        "operatorname": "Transdev Cœur Essonne"
+      },
+      {
         "colourweb_hexa": "d6c900",
         "transportmode": "bus",
         "id_line": "C02461",
         "textcolourweb_hexa": "000000",
         "name_line": "DM3B",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "8d653d",
         "transportmode": "bus",
         "id_line": "C02462",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "17",
+        "name_line": "1517",
         "operatorname": "Transdev Valmy"
       },
       {
@@ -11637,7 +14957,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02463",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "27",
+        "name_line": "1527",
         "operatorname": "Transdev Valmy"
       },
       {
@@ -11662,7 +14982,7 @@ export function nonRatpLineRef() {
         "id_line": "C02466",
         "textcolourweb_hexa": "000000",
         "name_line": "TàD Coeur Essonne 1",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "fecb00",
@@ -11670,7 +14990,7 @@ export function nonRatpLineRef() {
         "id_line": "C02467",
         "textcolourweb_hexa": "000000",
         "name_line": "TàD Coeur Essonne 2",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
       },
       {
         "colourweb_hexa": "fecb00",
@@ -11678,7 +14998,15 @@ export function nonRatpLineRef() {
         "id_line": "C02468",
         "textcolourweb_hexa": "000000",
         "name_line": "TàD Coeur Essonne 5",
-        "operatorname": "Keolis Meyer"
+        "operatorname": "Transdev Cœur Essonne"
+      },
+      {
+        "colourweb_hexa": "8d653d",
+        "transportmode": "bus",
+        "id_line": "C02469",
+        "textcolourweb_hexa": "000000",
+        "name_line": "T13",
+        "operatorname": "SNCF"
       },
       {
         "colourweb_hexa": "f28e42",
@@ -11687,6 +15015,14 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "000000",
         "name_line": "913.17A",
         "operatorname": "Francilité Ouest Essonne"
+      },
+      {
+        "colourweb_hexa": "007852",
+        "transportmode": "bus",
+        "id_line": "C02471",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus de substitution du métro 12",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "f28e42",
@@ -11713,11 +15049,27 @@ export function nonRatpLineRef() {
         "operatorname": "Francilité Ouest Essonne"
       },
       {
-        "colourweb_hexa": "daa3c6",
+        "colourweb_hexa": "fa9aba",
+        "transportmode": "bus",
+        "id_line": "C02475",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de substitution du métro 7",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "662583",
+        "transportmode": "bus",
+        "id_line": "C02476",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Villeparisis",
+        "operatorname": "Keolis Roissy Pays de France Est"
+      },
+      {
+        "colourweb_hexa": "a0006e",
         "transportmode": "bus",
         "id_line": "C02478",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "115",
+        "name_line": "6185",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
@@ -11745,12 +15097,20 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev CSO"
       },
       {
-        "colourweb_hexa": "8e7cc3",
+        "colourweb_hexa": "b898c4",
         "transportmode": "bus",
         "id_line": "C02482",
         "textcolourweb_hexa": "ffffff",
         "name_line": "177",
-        "operatorname": "Transdev Ile-de-France Ecquevilly"
+        "operatorname": "Transdev Versailles"
+      },
+      {
+        "colourweb_hexa": "c9910d",
+        "transportmode": "bus",
+        "id_line": "C02483",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de substitution du métro 10",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "aaaaaa",
@@ -11761,15 +15121,15 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Val d'Yerres Val de Seine"
       },
       {
-        "colourweb_hexa": "fecb00",
+        "colourweb_hexa": "ffbe00",
         "transportmode": "bus",
         "id_line": "C02485",
         "textcolourweb_hexa": "000000",
-        "name_line": "TàD 31",
+        "name_line": "TàD 6131",
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02486",
         "textcolourweb_hexa": "ffffff",
@@ -11783,6 +15143,14 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "ffffff",
         "name_line": "N138",
         "operatorname": "Transdev Brie et 2 Morin"
+      },
+      {
+        "colourweb_hexa": "274e13",
+        "transportmode": "bus",
+        "id_line": "C02488",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Navette autonome Vincennes",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "652c8f",
@@ -11809,6 +15177,14 @@ export function nonRatpLineRef() {
         "operatorname": "Transdev Boucle des Lys"
       },
       {
+        "colourweb_hexa": "829300",
+        "transportmode": "bus",
+        "id_line": "C02492",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus de substitution du métro 3",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "fecb00",
         "transportmode": "bus",
         "id_line": "C02493",
@@ -11817,11 +15193,19 @@ export function nonRatpLineRef() {
         "operatorname": "RD Saclay"
       },
       {
+        "colourweb_hexa": "674ea7",
+        "transportmode": "bus",
+        "id_line": "C02494",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus de substitution du métro 14",
+        "operatorname": "RATP"
+      },
+      {
         "colourweb_hexa": "fecb00",
         "transportmode": "bus",
         "id_line": "C02495",
         "textcolourweb_hexa": "000000",
-        "name_line": "TàD 205",
+        "name_line": "TàD 4305",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -11829,7 +15213,7 @@ export function nonRatpLineRef() {
         "transportmode": "bus",
         "id_line": "C02496",
         "textcolourweb_hexa": "000000",
-        "name_line": "TàD 201/202",
+        "name_line": "TàD 4301/202",
         "operatorname": "Keolis Val d'Essonne Deux Vallées"
       },
       {
@@ -11945,7 +15329,15 @@ export function nonRatpLineRef() {
         "operatorname": "Autocars Dominique"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "cec73d",
+        "transportmode": "bus",
+        "id_line": "C02512",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de substitution du métro 9",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "640082",
         "transportmode": "bus",
         "id_line": "C02513",
         "textcolourweb_hexa": "ffffff",
@@ -11953,12 +15345,12 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Vélizy Vallée de la Bièvre"
       },
       {
-        "colourweb_hexa": "6e6e00",
+        "colourweb_hexa": "a0006e",
         "transportmode": "bus",
-        "id_line": "C02515",
-        "textcolourweb_hexa": "ffffff",
-        "name_line": "SRL Houilles",
-        "operatorname": "Keolis Argenteuil Boucles de Seine"
+        "id_line": "C02514",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de substitution du métro 4",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "3c91dc",
@@ -12009,7 +15401,7 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Portes et Val de Brie"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02522",
         "textcolourweb_hexa": "ffffff",
@@ -12017,7 +15409,7 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Portes et Val de Brie"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02523",
         "textcolourweb_hexa": "ffffff",
@@ -12033,12 +15425,76 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Portes et Val de Brie"
       },
       {
-        "colourweb_hexa": "662d91",
+        "colourweb_hexa": "ffd966",
+        "transportmode": "bus",
+        "id_line": "C02525",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de substitution de l'ORLYVAL",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "662483",
         "transportmode": "bus",
         "id_line": "C02526",
         "textcolourweb_hexa": "ffffff",
         "name_line": "N155",
         "operatorname": "Keolis Seine et Oise Est"
+      },
+      {
+        "colourweb_hexa": "0055c8",
+        "transportmode": "bus",
+        "id_line": "C02527",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus de substitution du métro 2",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6e6e00",
+        "transportmode": "tram",
+        "id_line": "C02528",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "T10",
+        "operatorname": "RD Bièvre"
+      },
+      {
+        "colourweb_hexa": "a50034",
+        "transportmode": "tram",
+        "id_line": "C02529",
+        "textcolourweb_hexa": "000000",
+        "name_line": "T12",
+        "operatorname": "SNCF"
+      },
+      {
+        "colourweb_hexa": "704b1c",
+        "transportmode": "bus",
+        "id_line": "C02531",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus de substitution du métro 11",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "ff7e2e",
+        "transportmode": "bus",
+        "id_line": "C02532",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de substitution du métro 5",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "e19bdf",
+        "transportmode": "bus",
+        "id_line": "C02533",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de substitution du métro 8",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "6ec4e8",
+        "transportmode": "bus",
+        "id_line": "C02534",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de substitution du métro 13",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "87d3df",
@@ -12055,6 +15511,14 @@ export function nonRatpLineRef() {
         "textcolourweb_hexa": "000000",
         "name_line": "15",
         "operatorname": "Keolis Seine et Oise Est"
+      },
+      {
+        "colourweb_hexa": "f58f53",
+        "transportmode": "bus",
+        "id_line": "C02538",
+        "textcolourweb_hexa": "000000",
+        "name_line": "311",
+        "operatorname": "RATP"
       },
       {
         "colourweb_hexa": "4d90cd",
@@ -12323,6 +15787,118 @@ export function nonRatpLineRef() {
       {
         "colourweb_hexa": "fecb00",
         "transportmode": "bus",
+        "id_line": "C02572",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD",
+        "operatorname": "Transdev Pays de Fontainebleau"
+      },
+      {
+        "colourweb_hexa": "6ec4e8",
+        "transportmode": "bus",
+        "id_line": "C02573",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de Substitution du métro 3B",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
+        "id_line": "C02574",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD Z1",
+        "operatorname": "Francilité Pays de Montereau"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
+        "id_line": "C02575",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD Z2",
+        "operatorname": "Francilité Pays de Montereau"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
+        "id_line": "C02576",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD Z3",
+        "operatorname": "Francilité Pays de Montereau"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
+        "id_line": "C02577",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD Z4",
+        "operatorname": "Francilité Pays de Montereau"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
+        "id_line": "C02578",
+        "textcolourweb_hexa": "000000",
+        "name_line": "991 - TàD Zac Clomarts",
+        "operatorname": "Francilité Pays de Montereau"
+      },
+      {
+        "colourweb_hexa": "652c8f",
+        "transportmode": "bus",
+        "id_line": "C02579",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Montereau Nord",
+        "operatorname": "Francilité Pays de Montereau"
+      },
+      {
+        "colourweb_hexa": "652c8f",
+        "transportmode": "bus",
+        "id_line": "C02580",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Montereau Sud",
+        "operatorname": "Francilité Pays de Montereau"
+      },
+      {
+        "colourweb_hexa": "ffcc30",
+        "transportmode": "bus",
+        "id_line": "C02581",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD Nangis / La-Chapelle-Rablais",
+        "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
+        "id_line": "C02582",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD Balade du Montois",
+        "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
+        "id_line": "C02583",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD Heure de pointe - Provinois",
+        "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "65318f",
+        "transportmode": "bus",
+        "id_line": "C02584",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soir Provins",
+        "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "65318f",
+        "transportmode": "bus",
+        "id_line": "C02585",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soir Nangis",
+        "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
         "id_line": "C02587",
         "textcolourweb_hexa": "000000",
         "name_line": "TàD Nord Meulan - Les Mureaux",
@@ -12337,12 +15913,68 @@ export function nonRatpLineRef() {
         "operatorname": "Keolis Seine et Oise Est"
       },
       {
-        "colourweb_hexa": "652c8f",
+        "colourweb_hexa": "662583",
         "transportmode": "bus",
         "id_line": "C02589",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "Soirée Poissy - Carrières-sous-Poissy - Verneuil-sur-Seine - Les Mureaux",
+        "name_line": "Bus Soir Poissy",
         "operatorname": "Keolis Seine et Oise Est"
+      },
+      {
+        "colourweb_hexa": "6eca97",
+        "transportmode": "bus",
+        "id_line": "C02590",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Bus de Substitution du métro 7B",
+        "operatorname": "RATP"
+      },
+      {
+        "colourweb_hexa": "662583",
+        "transportmode": "bus",
+        "id_line": "C02591",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Mitry-le-Neuf",
+        "operatorname": "Keolis Roissy Pays de France Est"
+      },
+      {
+        "colourweb_hexa": "662583",
+        "transportmode": "bus",
+        "id_line": "C02592",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Mitry-Claye",
+        "operatorname": "Keolis Roissy Pays de France Est"
+      },
+      {
+        "colourweb_hexa": "c04192",
+        "transportmode": "bus",
+        "id_line": "C02593",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "712",
+        "operatorname": "Keolis Roissy Pays de France Est"
+      },
+      {
+        "colourweb_hexa": "3c91dc",
+        "transportmode": "bus",
+        "id_line": "C02594",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N137",
+        "operatorname": "Transdev Pays de Fontainebleau"
+      },
+      {
+        "colourweb_hexa": "652c8f",
+        "transportmode": "bus",
+        "id_line": "C02595",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Fontainebleau",
+        "operatorname": "Transdev Pays de Fontainebleau"
+      },
+      {
+        "colourweb_hexa": "652c8f",
+        "transportmode": "bus",
+        "id_line": "C02596",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Morêt-sur-Loing",
+        "operatorname": "Transdev Pays de Fontainebleau"
       },
       {
         "colourweb_hexa": "e06666",
@@ -12353,12 +15985,228 @@ export function nonRatpLineRef() {
         "operatorname": "Autocars Dominique"
       },
       {
-        "colourweb_hexa": "cccccc",
+        "colourweb_hexa": "009ee0",
         "transportmode": "bus",
         "id_line": "C02599",
         "textcolourweb_hexa": "ffffff",
-        "name_line": "Navette Salon Aéronautique",
-        "operatorname": "RATP Cap Expertise"
+        "name_line": "4318",
+        "operatorname": "Keolis Val d'Essonne Deux Vallées"
+      },
+      {
+        "colourweb_hexa": "00814f",
+        "transportmode": "bus",
+        "id_line": "C02600",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N146",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
+      },
+      {
+        "colourweb_hexa": "81c491",
+        "transportmode": "bus",
+        "id_line": "C02601",
+        "textcolourweb_hexa": "000000",
+        "name_line": "R121",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
+      },
+      {
+        "colourweb_hexa": "662583",
+        "transportmode": "bus",
+        "id_line": "C02602",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Garges",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
+      },
+      {
+        "colourweb_hexa": "662583",
+        "transportmode": "bus",
+        "id_line": "C02603",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Goussainville",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
+      },
+      {
+        "colourweb_hexa": "662483",
+        "transportmode": "bus",
+        "id_line": "C02604",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "R9",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
+      },
+      {
+        "colourweb_hexa": "662583",
+        "transportmode": "bus",
+        "id_line": "C02605",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Soirée Gonesse",
+        "operatorname": "Keolis Roissy Pays de France Ouest"
+      },
+      {
+        "colourweb_hexa": "20c57e",
+        "transportmode": "bus",
+        "id_line": "C02607",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "4347",
+        "operatorname": "Keolis Val d'Essonne Deux Vallées"
+      },
+      {
+        "colourweb_hexa": "26dfdf",
+        "transportmode": "bus",
+        "id_line": "C02608",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "4348",
+        "operatorname": "Keolis Val d'Essonne Deux Vallées"
+      },
+      {
+        "colourweb_hexa": "cc0000",
+        "transportmode": "bus",
+        "id_line": "C02609",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "4349",
+        "operatorname": "Keolis Val d'Essonne Deux Vallées"
+      },
+      {
+        "colourweb_hexa": "1ba196",
+        "transportmode": "bus",
+        "id_line": "C02610",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "4007",
+        "operatorname": "Transdev Vallée du Loing"
+      },
+      {
+        "colourweb_hexa": "fecb00",
+        "transportmode": "bus",
+        "id_line": "C02611",
+        "textcolourweb_hexa": "000000",
+        "name_line": "TàD Goêle",
+        "operatorname": "Keolis Roissy Pays de France Est"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C02612",
+        "textcolourweb_hexa": "000000",
+        "name_line": "4002",
+        "operatorname": "Transdev Pays de Fontainebleau"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C02613",
+        "textcolourweb_hexa": "000000",
+        "name_line": "B.A.LA.DE (future TàD Balade en Provinois)",
+        "operatorname": "Francilité Grand Provinois"
+      },
+      {
+        "colourweb_hexa": "ff5a00",
+        "transportmode": "bus",
+        "id_line": "C02615",
+        "textcolourweb_hexa": "000000",
+        "name_line": "11",
+        "operatorname": "Transdev Boucle des Lys"
+      },
+      {
+        "colourweb_hexa": "82c8e6",
+        "transportmode": "bus",
+        "id_line": "C02616",
+        "textcolourweb_hexa": "000000",
+        "name_line": "12",
+        "operatorname": "Transdev Boucle des Lys"
+      },
+      {
+        "colourweb_hexa": "ff00ff",
+        "transportmode": "bus",
+        "id_line": "C02617",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "2",
+        "operatorname": "Keolis Portes et Val de Brie"
+      },
+      {
+        "colourweb_hexa": "c4a4cc",
+        "transportmode": "bus",
+        "id_line": "C02618",
+        "textcolourweb_hexa": "000000",
+        "name_line": "Gs",
+        "operatorname": "Transdev Marne-et-Ourcq"
+      },
+      {
+        "colourweb_hexa": "3d85c6",
+        "transportmode": "bus",
+        "id_line": "C02619",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "3s",
+        "operatorname": "Keolis Portes et Val de Brie"
+      },
+      {
+        "colourweb_hexa": "3d85c6",
+        "transportmode": "bus",
+        "id_line": "C02620",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "4s",
+        "operatorname": "Keolis Portes et Val de Brie"
+      },
+      {
+        "colourweb_hexa": "3d85c6",
+        "transportmode": "bus",
+        "id_line": "C02621",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "5S",
+        "operatorname": "Keolis Portes et Val de Brie"
+      },
+      {
+        "colourweb_hexa": "aaaaaa",
+        "transportmode": "bus",
+        "id_line": "C02622",
+        "textcolourweb_hexa": "000000",
+        "name_line": "W",
+        "operatorname": "Autocars Dominique"
+      },
+      {
+        "colourweb_hexa": "ff1400",
+        "transportmode": "bus",
+        "id_line": "C02625",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "46",
+        "operatorname": "Stivo"
+      },
+      {
+        "colourweb_hexa": "662583",
+        "transportmode": "bus",
+        "id_line": "C02626",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus Soir Vernouillet-Verneuil",
+        "operatorname": "Keolis Seine et Oise Est"
+      },
+      {
+        "colourweb_hexa": "662583",
+        "transportmode": "bus",
+        "id_line": "C02627",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus Soir Les Mureaux",
+        "operatorname": "Keolis Seine et Oise Est"
+      },
+      {
+        "colourweb_hexa": "662d91",
+        "transportmode": "bus",
+        "id_line": "C02628",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "Bus Soir Carrières-sous-Poissy",
+        "operatorname": "Keolis Seine et Oise Est"
+      },
+      {
+        "colourweb_hexa": "9f9822",
+        "transportmode": "bus",
+        "id_line": "C02629",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "N",
+        "operatorname": "Keolis Argenteuil Boucles de Seine"
+      },
+      {
+        "colourweb_hexa": "640082",
+        "transportmode": "bus",
+        "id_line": "C02630",
+        "textcolourweb_hexa": "ffffff",
+        "name_line": "612",
+        "operatorname": "Transdev Nord Seine-Saint-Denis"
       }
     ]
   }

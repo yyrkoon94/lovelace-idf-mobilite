@@ -45,7 +45,7 @@ const sncfLineColor = {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.1.7", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.1.8", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -248,7 +248,7 @@ class IDFMobiliteCard extends LitElement {
             if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) {
                 var busLine = stop.MonitoredVehicleJourney.OperatorRef.value;
                 // OCTAVE, PCCMOD, STAEL = Metro, KOWM=TRAM
-                if (busLine.indexOf("SAE-BUS") > 0 || busLine.indexOf("SAE-TRAM") > 0 || busLine.indexOf("OCTAVE") > 0 || busLine.indexOf("PCCMOD") > 0 || busLine.indexOf("STAEL") > 0 || busLine.indexOf("KOVM") > 0) {
+                if (busLine && (busLine.indexOf("SAE-BUS") > 0 || busLine.indexOf("SAE-TRAM") > 0 || busLine.indexOf("OCTAVE") > 0 || busLine.indexOf("PCCMOD") > 0 || busLine.indexOf("STAEL") > 0 || busLine.indexOf("KOVM") > 0)) {
                     busLine = busLine.replace("KOVM_", "SAE-TRAM.")
                     // check if the line is exclude
                     var lineRef = ""
@@ -284,8 +284,8 @@ class IDFMobiliteCard extends LitElement {
                     nonRatpLineRef().every(line => {
                         if (line.id_line == lineToFind) {
                             const lineNumber = line.name_line
-                            const lineRef = "bus-" + lineNumber
-                            const busRef = "bus-" + lineNumber
+                            const lineRef = line.transportmode+"-" + lineNumber
+                            const busRef = line.transportmode+"-" + lineNumber
                             const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
                             if ((!exclude_lines || exclude_lines.indexOf(busRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1)) {
                                 const nextDepartureTime = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
