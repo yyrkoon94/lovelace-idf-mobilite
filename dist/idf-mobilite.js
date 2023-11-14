@@ -45,7 +45,7 @@ const sncfLineColor = {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.1.8", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.1.9", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -295,12 +295,18 @@ class IDFMobiliteCard extends LitElement {
                                         buses[lineRef] = {}
                                     if (!buses[lineRef][destinationName])
                                         buses[lineRef][destinationName] = []
-                                    buses[lineRef][destinationName].push({
-                                        destinationRef: lineStop,
-                                        lineTextColor: line.textcolourweb_hexa,
-                                        lineBackgroundColor: line.colourweb_hexa,
-                                        nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
-                                    })
+                                    if (line.transportmode != "tram")
+                                        buses[lineRef][destinationName].push({
+                                            destinationRef: lineStop,
+                                            lineTextColor: line.textcolourweb_hexa,
+                                            lineBackgroundColor: line.colourweb_hexa,
+                                            nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
+                                        })
+                                    else
+                                        buses[lineRef][destinationName].push({
+                                            destinationRef: lineStop,
+                                            nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
+                                        })
                                 }
                             }
                             return false
