@@ -88,7 +88,7 @@ class IDFMobiliteCard extends LitElement {
 
     createRERContent(lineDatas, exclude_lines, exclude_lines_ref, second_entity) {
         const messagesList = this.hass.states[this.config.messages];
-        if (!lineDatas && !lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
+        if (!lineDatas?.attributes['Siri']  || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``
 
         // Last update date
@@ -232,7 +232,7 @@ class IDFMobiliteCard extends LitElement {
     }
 
     createBUSContent(lineDatas, exclude_lines, exclude_lines_ref, second_entity) {
-        if (!lineDatas && !lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
+        if (!lineDatas?.attributes['Siri'] || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``
 
         // Last update date
