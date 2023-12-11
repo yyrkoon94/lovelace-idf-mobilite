@@ -106,10 +106,10 @@ class IDFMobiliteCard extends LitElement {
             if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) {
                 const trainLine = stop.MonitoredVehicleJourney.OperatorRef.value;
                 // OCTAVE, PCCMOD, STAEL = Metro, KOWM=TRAM
-                if (trainLine.indexOf("RER") != -1 || trainLine.indexOf("SNCF") != -1) {
+                if (trainLine.includes("RER") || trainLine.includes("SNCF")) {
                     // SNCF line
                     var lineRef = ""
-                    if (trainLine.indexOf("SNCF") != -1) {
+                    if (trainLine.includes("SNCF")) {
                         const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.indexOf("::") + 2, stop.MonitoredVehicleJourney.LineRef.value.length - 1)
                         if (sncfLineRef[lineToFind]) {
                             // Train found
@@ -117,6 +117,14 @@ class IDFMobiliteCard extends LitElement {
                                 lineRef = "train-" + sncfLineRef[lineToFind]
                             else
                                 lineRef = "rer-" + sncfLineRef[lineToFind]
+                        } else {
+                            // TER trains
+                            const line = IDFMobiliteCard.findNonRatpLineData(lineToFind);
+                            if (line?.name_line?.includes("TER")) {
+                                lineRef = "train-ter";
+                            } else {
+                                console.log("Unknown line: " + line?.name_line);
+                            }
                         }
                     }
                     else {
@@ -132,7 +140,7 @@ class IDFMobiliteCard extends LitElement {
                             if (!trains[lineRef][destinationName])
                                 trains[lineRef][destinationName] = []
                             trains[lineRef][destinationName].push({
-                                vehiculeName: stop.MonitoredVehicleJourney.JourneyNote[0].value,
+                                vehiculeName: stop.MonitoredVehicleJourney.JourneyNote != "" ? stop.MonitoredVehicleJourney.JourneyNote[0].value : lineRef.substring(lineRef.indexOf("-") + 1).toLocaleUpperCase(),
                                 destinationName: stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value,
                                 destinationRef: stop.MonitoredVehicleJourney.DestinationRef.value,
                                 nextDeparture: nextDeparture, monitoringRef: stop.MonitoringRef.value
@@ -441,7 +449,7 @@ class IDFMobiliteCard extends LitElement {
 
     setConfig(config) {
         if (!config.entity) {
-            throw new Error("You need to define entities");
+            throw new Error("You need to define an entity");
         }
         this.config = config;
     }
@@ -449,7 +457,19 @@ class IDFMobiliteCard extends LitElement {
     // The height of your card. Home Assistant uses this to automatically
     // distribute all cards over the available columns.
     getCardSize() {
-        return this.config.entities.length + 1;
+        return this.config.entity.length + 1;
+    }
+
+    static findNonRatpLineData(lineToFind) {
+        let lineData;
+        nonRatpLineRef().every(line => {
+            if (line.id_line == lineToFind) {
+                lineData = line;
+                return false;
+            }
+            return true;
+        });
+        return lineData;
     }
 
     static async getConfigElement() {
@@ -459,7 +479,7 @@ class IDFMobiliteCard extends LitElement {
 
     static getStubConfig() {
         return {
-            entities: "",
+            entity: "",
             messages: "",
             lineType: "BUS",
             show_screen: false,
