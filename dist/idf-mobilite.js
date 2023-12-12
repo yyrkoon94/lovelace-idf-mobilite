@@ -45,7 +45,7 @@ const sncfLineColor = {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.1.11", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.1.12", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -96,7 +96,7 @@ class IDFMobiliteCard extends LitElement {
         const lastUpdateTime = (lastUpdateDate.getUTCHours() < 10 ? "0" + lastUpdateDate.getUTCHours() : lastUpdateDate.getUTCHours()) + ":" + (lastUpdateDate.getUTCMinutes() < 10 ? "0" + lastUpdateDate.getUTCMinutes() : lastUpdateDate.getUTCMinutes())
 
         // Station name (take the first stopPointName)
-        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
+        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit?.length > 0 ?
             lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
             : "API ERROR"
 
@@ -202,7 +202,7 @@ class IDFMobiliteCard extends LitElement {
                                         </div>
                                         <div class="rer-line-destination">
                                             ${trains[train][trainDestination][trainLine].destinationName.startsWith("Gare d") ?
-                                                html`${trains[train][trainDestination][trainLine].destinationName.substring(7, trains[train][trainDestination][trainLine].destinationName.length).trim()}<div class="bus-destination-img"><img src="${imagesUrl}train${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
+                                                html`<div class="bus-destination-name">${trains[train][trainDestination][trainLine].destinationName.substring(7, trains[train][trainDestination][trainLine].destinationName.length).trim()}</div><div class="bus-destination-img"><img src="${imagesUrl}train${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
                                                 : html`${trains[train][trainDestination][trainLine].destinationName}${trains[train][trainDestination][trainLine].destinationName.endsWith("Chessy") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}mickey${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>` : ""}`
                                             }
                                         </div>
@@ -239,7 +239,7 @@ class IDFMobiliteCard extends LitElement {
         const lastUpdateDate = new Date(Date.parse(lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp))
         const lastUpdateTime = (lastUpdateDate.getUTCHours() < 10 ? "0" + lastUpdateDate.getUTCHours() : lastUpdateDate.getUTCHours()) + ":" + (lastUpdateDate.getUTCMinutes() < 10 ? "0" + lastUpdateDate.getUTCMinutes() : lastUpdateDate.getUTCMinutes())
         // Station name (take the first stopPointName)
-        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
+        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit?.length > 0 ?
             lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
             : "API ERROR"
         // Build Line/Time
@@ -577,12 +577,16 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 8px;
                 color: #000000;
                 margin-top: -2px;
+                text-wrap: nowrap;
+                overflow: hidden;
             }
             .bus-last-update-text-nobg {
                 display: flex;
                 font-size: 8px;
                 color: #FFFFFF;
                 margin-top: -2px;
+                text-wrap: nowrap;
+                overflow: hidden;
             }
             .bus-lines {
                 display: flex;
@@ -646,6 +650,7 @@ class IDFMobiliteCard extends LitElement {
                 width: 40px;
                 font-weight: bold;
                 font-size: 18px;
+                text-wrap: nowrap;
             }
             .bus-image {
                 height: 25px;
@@ -663,16 +668,20 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 18px;
                 font-weight: bold;
                 padding-left: 2px;
+                text-wrap: nowrap;
+                overflow: hidden;
             }
             .bus-destination-name {
                 display: flex;
                 align-items: center;
+                overflow: hidden;
             }
             .bus-destination-img {
                 display: flex;
                 flex: 1;
                 align-items: center;
                 margin-left: 5px;
+                margin-right: 5px;
             }
             .bus-destination-image {
                 height: 20px;
@@ -715,6 +724,8 @@ class IDFMobiliteCard extends LitElement {
                 font-weight: bold;
                 margin-left: 12px;
                 padding: 4px 12px;
+                text-wrap: nowrap;
+                overflow: hidden;
             }
             .rer-station-name-nobg {
                 display: flex;
@@ -724,7 +735,9 @@ class IDFMobiliteCard extends LitElement {
                 font-weight: bold;
                 margin-left: 12px;
                 padding: 4px 12px;
-                background-color: #050446
+                background-color: #050446;
+                text-wrap: nowrap;
+                overflow: hidden;
             }
             .rer-content {
                 display: flex;
@@ -776,6 +789,8 @@ class IDFMobiliteCard extends LitElement {
                 align-self: center;
                 font-size: 18px;
                 font-weight: bold;
+                text-wrap: nowrap;
+                overflow: hidden;
             }
             .rer-line-detail {
                 display: flex;
@@ -803,6 +818,8 @@ class IDFMobiliteCard extends LitElement {
                 align-self: center;
                 font-size: 18px;
                 font-weight: bold;
+                text-wrap: nowrap;
+                overflow: hidden;
             }
             .rer-line-departure {
                 display: flex;
