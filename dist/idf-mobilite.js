@@ -420,10 +420,19 @@ class IDFMobiliteCard extends LitElement {
         if (messagesList && messagesList.attributes['Siri']) {
             const deliveryMessages = messagesList.attributes['Siri'].ServiceDelivery.GeneralMessageDelivery[0]
             if (deliveryMessages.InfoMessage) {
-                deliveryMessages.InfoMessage.forEach(infoMessage => {
-                    if (!messages[infoMessage.InfoChannelRef.value])
-                        messages[infoMessage.InfoChannelRef.value] = { messages: [] }
-                    messages[infoMessage.InfoChannelRef.value].messages.push(infoMessage.Content.Message[0].MessageText.value)
+                deliveryMessages.InfoMessage
+                .sort((a, b) => { // sort messages from the shortest validity
+                    const data_a = new Date(a.ValidUntilTime);
+                    const data_b = new Date(b.ValidUntilTime);
+                    return ((data_a < data_b) ? -1 : ((data_a > data_b) ? 1 : 0));
+                })
+                .forEach(infoMessage => {
+                    // show only messages which are still valid
+                    if (new Date(infoMessage.ValidUntilTime) > new Date()) {
+                        if (!messages[infoMessage.InfoChannelRef.value])
+                            messages[infoMessage.InfoChannelRef.value] = { messages: [] }
+                        messages[infoMessage.InfoChannelRef.value].messages.push(infoMessage.Content.Message[0].MessageText.value)
+                    }
                 })
             }
         }
