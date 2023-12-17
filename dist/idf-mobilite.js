@@ -387,14 +387,15 @@ class IDFMobiliteCard extends LitElement {
                                             <div class="bus-stop-value">
                                                 ${buses[bus][destination][0].nextDeparture > 0 ?
                                                     buses[bus][destination][0].nextDeparture :
-                                                    (buses[bus][destination][0].nextDeparture == 0 ? html`<div class="bus-stop-value-text-blink">à l'approche</div>` : "à l'arrêt")
+                                                    html`<div class="bus-stop-value-text-blink">0</div>`
                                                 }
                                             </div>
                                         </div>
                                         <div class="bus-stop">
-                                            <div class="bus-stop-value">
-                                                ${buses[bus][destination][1] ? (buses[bus][destination][1].nextDeparture > 0 ? buses[bus][destination][1].nextDeparture : "") : ""}
-                                            </div>
+                                            ${(buses[bus][destination][1] && buses[bus][destination][1].nextDeparture > 0) ?
+                                                html`<div class="bus-stop-value">${buses[bus][destination][1].nextDeparture}</div>` :
+                                                html`<div class="bus-stop-value-empty"> </div>`
+                                            }
                                         </div>
                                     </div>`
                                 })}
@@ -734,11 +735,18 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 18px;
                 font-weight: bold;
                 color: #CAA94C;
-                padding: 2px 5px 5px 5px;
+                padding: 5px 5px 5px 5px;
                 border-radius: 5px;
                 text-align: center;
                 white-space: nowrap;
-                min-width: 20px;
+                width: 35px;
+            }
+            .bus-stop-value-empty {
+                background: #222222;
+                border-radius: 5px;
+                white-space: nowrap;
+                height: 30px;
+                width: 45px;
             }
             .bus-stop-value-text-blink {
                 animation: blinker 3s linear infinite;
