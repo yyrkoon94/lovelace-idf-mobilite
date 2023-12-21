@@ -420,30 +420,47 @@ class IDFMobiliteCard extends LitElement {
         if (messagesList && messagesList.attributes['Siri']) {
             const deliveryMessages = messagesList.attributes['Siri'].ServiceDelivery.GeneralMessageDelivery[0]
             if (deliveryMessages.InfoMessage) {
-                deliveryMessages.InfoMessage.forEach(infoMessage => {
-                    if (!messages[infoMessage.InfoChannelRef.value])
-                        messages[infoMessage.InfoChannelRef.value] = { messages: [] }
-                    messages[infoMessage.InfoChannelRef.value].messages.push(infoMessage.Content.Message[0].MessageText.value)
+                deliveryMessages.InfoMessage
+                .sort((a, b) => { // sort messages from the shortest validity
+                    const data_a = new Date(a.ValidUntilTime);
+                    const data_b = new Date(b.ValidUntilTime);
+                    return ((data_a < data_b) ? -1 : ((data_a > data_b) ? 1 : 0));
+                })
+                .forEach(infoMessage => {
+                    // show only messages which are still valid
+                    if (new Date(infoMessage.ValidUntilTime) > new Date()) {
+                        if (!messages[infoMessage.InfoChannelRef.value])
+                            messages[infoMessage.InfoChannelRef.value] = { messages: [] }
+                        messages[infoMessage.InfoChannelRef.value].messages.push(infoMessage.Content.Message[0].MessageText.value)
+                    }
                 })
             }
         }
 
         const imagesUrl = new URL('images/', import.meta.url).href
+        let displayedTextLength = 0;
+        const messageText = Object.keys(messages).map(key => {
+            let concatMessage = "";
+            messages[key].messages.forEach((message, index) => { concatMessage += message + (index < messages[key].messages.length - 1 ? " /// " : "") })
+            if (key == "Information" && this.config.display_info_message === true) {
+                displayedTextLength += concatMessage.length;
+                return html`<img src="${imagesUrl}general/info.png" class="message-icon">${concatMessage}`
+            } else if (key == "Perturbation") {
+                displayedTextLength += concatMessage.length;
+                return html`<img src="${imagesUrl}general/warning.png" class="message-icon">${concatMessage}`
+            } else if (key == "Commercial" && this.config.display_commercial_message === true) {
+                displayedTextLength += concatMessage.length;
+                return concatMessage
+            }
+        });
+        const textSpeed = Math.max(Math.floor(displayedTextLength / 10), 5); // set min speed to 5 for very short texts
+
         return html`
             <div class="message-div ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "footer-nobg " : ""}">
-                ${Object.keys(messages).length > 0 ?
-                html`<div class="message-div-text">
-                        ${Object.keys(messages).map(key => {
-                    var concatMessage = "";
-                    messages[key].messages.forEach((message, index) => { concatMessage += message + (index < messages[key].messages.length - 1 ? " /// " : "") })
-                    if (key == "Information" && this.config.display_info_message === true)
-                        return html`<img src="${imagesUrl}info.png" class="message-icon">${concatMessage}`
-                    else if (key == "Perturbation")
-                        return html`<img src="${imagesUrl}warning.png" class="message-icon">${concatMessage}`
-                    else if (key == "Commercial" && this.config.display_commercial_message === true)
-                        return concatMessage
-                })}</div>`
-                : ""}
+                ${messageText.length > 0 ?
+                    html`<div class="message-div-text" style="animation: ScrollMessage ${textSpeed}s linear infinite;">${messageText}</div>`
+                    : ""
+                }
             </div>`
     }
 
@@ -906,7 +923,6 @@ class IDFMobiliteCard extends LitElement {
                 justify-content: right;
                 flex-grow: 1;
                 white-space: nowrap;
-                animation: ScrollMessage 60s linear infinite;
             }
             .message-icon {
                 align-self: center;
