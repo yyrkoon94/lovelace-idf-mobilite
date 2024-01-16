@@ -444,10 +444,10 @@ class IDFMobiliteCard extends LitElement {
             messages[key].messages.forEach((message, index) => { concatMessage += message + (index < messages[key].messages.length - 1 ? " /// " : "") })
             if (key == "Information" && this.config.display_info_message === true) {
                 displayedTextLength += concatMessage.length;
-                return html`<img src="${imagesUrl}general/info.png" class="message-icon">${concatMessage}`
+                return html`<img src="${imagesUrl}info.png" class="message-icon">${concatMessage}`
             } else if (key == "Perturbation") {
                 displayedTextLength += concatMessage.length;
-                return html`<img src="${imagesUrl}general/warning.png" class="message-icon">${concatMessage}`
+                return html`<img src="${imagesUrl}warning.png" class="message-icon">${concatMessage}`
             } else if (key == "Commercial" && this.config.display_commercial_message === true) {
                 displayedTextLength += concatMessage.length;
                 return concatMessage
