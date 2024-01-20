@@ -85,6 +85,10 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.show_train_ref || false;
     }
 
+    get _show_bus_stop_label() {
+      return this._config._show_bus_stop_label || false;
+    }
+
     render() {
         if (!this.hass) {
           return html``;
@@ -148,6 +152,15 @@ class IDFMobiliteCardEditor extends LitElement {
                             .checked=${this._display_info_message}
                             .configValue="${"display_info_message"}"
                             @change="${this._valueChanged}"
+                            ></ha-switch>
+                      </div>
+                      <div>
+                        <span>Afficher "à l'approche/à l'arrêt" pour les BUS</span>
+                        <ha-switch
+                            .checked=${this._show_bus_stop_label}
+                            .configValue="${"show_bus_stop_label"}"
+                            @change="${this._valueChanged}"
+                            ?disabled="${this._lineType !== "BUS"}"
                             ></ha-switch>
                       </div>
                     </div>

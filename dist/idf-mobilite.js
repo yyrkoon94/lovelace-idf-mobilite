@@ -384,18 +384,10 @@ class IDFMobiliteCard extends LitElement {
                                             }
                                         </div>
                                         <div class="bus-stop">
-                                            <div class="bus-stop-value">
-                                                ${buses[bus][destination][0].nextDeparture > 0 ?
-                                                    buses[bus][destination][0].nextDeparture :
-                                                    html`<div class="bus-stop-value-text-blink">0</div>`
-                                                }
-                                            </div>
+                                            ${this.getBusDeparture(buses[bus][destination][0])}
                                         </div>
                                         <div class="bus-stop">
-                                            ${(buses[bus][destination][1] && buses[bus][destination][1].nextDeparture > 0) ?
-                                                html`<div class="bus-stop-value">${buses[bus][destination][1].nextDeparture}</div>` :
-                                                html`<div class="bus-stop-value-empty"> </div>`
-                                            }
+                                            ${this.getBusDeparture(buses[bus][destination][1])}
                                         </div>
                                     </div>`
                                 })}
@@ -403,6 +395,21 @@ class IDFMobiliteCard extends LitElement {
                     })}
                 </div>
         `;
+    }
+
+    getBusDeparture(busDestinationStop) {
+        return busDestinationStop ? html`
+            <div class="bus-stop-value">
+                ${busDestinationStop.nextDeparture > 0 ?
+                    busDestinationStop.nextDeparture :
+                    (this.config.show_bus_stop_label ?
+                        (busDestinationStop.nextDeparture == 0 ?
+                            html`<div class="bus-stop-value-text-blink">à l'approche</div>` :
+                            "à l'arrêt") :
+                        html`<div class="bus-stop-value-text-blink">0</div>`)
+                }
+            </div>` :
+            html`<div class="bus-stop-value-empty"> </div>`
     }
 
     titleCase(str) {
@@ -501,7 +508,8 @@ class IDFMobiliteCard extends LitElement {
             messages: "",
             lineType: "BUS",
             show_screen: false,
-            exclude_lines: ""
+            exclude_lines: "",
+            show_bus_stop_label: false,
         }
     }
 
@@ -739,7 +747,7 @@ class IDFMobiliteCard extends LitElement {
                 border-radius: 5px;
                 text-align: center;
                 white-space: nowrap;
-                width: 35px;
+                min-width: 35px;
             }
             .bus-stop-value-empty {
                 background: #222222;
