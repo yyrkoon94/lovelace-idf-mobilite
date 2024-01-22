@@ -45,7 +45,7 @@ const sncfLineColor = {
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.1.14", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.1.15", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -747,14 +747,14 @@ class IDFMobiliteCard extends LitElement {
                 border-radius: 5px;
                 text-align: center;
                 white-space: nowrap;
-                min-width: 35px;
+                min-width: 28px;
             }
             .bus-stop-value-empty {
                 background: #222222;
                 border-radius: 5px;
                 white-space: nowrap;
                 height: 30px;
-                width: 45px;
+                width: 38px;
             }
             .bus-stop-value-text-blink {
                 animation: blinker 3s linear infinite;

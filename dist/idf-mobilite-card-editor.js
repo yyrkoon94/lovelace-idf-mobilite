@@ -86,7 +86,7 @@ class IDFMobiliteCardEditor extends LitElement {
     }
 
     get _show_bus_stop_label() {
-      return this._config._show_bus_stop_label || false;
+      return this._config.show_bus_stop_label === undefined ? true : this._config.show_bus_stop_label;
     }
 
     render() {
