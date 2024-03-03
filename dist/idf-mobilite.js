@@ -632,9 +632,7 @@ class IDFMobiliteCard extends LitElement {
             }
             .bus-img {
                 display: flex;
-                flex: 1;
-                justify-content: space-between;
-                min-width: 45px;
+                width: 75px;
                 margin-right: 4px;
             }
             .bus-line-type {
@@ -644,17 +642,17 @@ class IDFMobiliteCard extends LitElement {
                 align-items: center;
                 justify-content: center;
                 margin-left: 3px;
-                margin-right: 3px;
             }
             .bus-line-type-image {
                 height: 25px;
             }
             .bus-line-image {
                 display:flex;
-                flex-grow: 1;
+                flex: 1;
                 align-items: center;
                 justify-content: center;
                 vertical-align: middle;
+                margin-left: 3px;
             }
             .bus-line-image-no-ratp {
                 display: flex;
@@ -662,7 +660,7 @@ class IDFMobiliteCard extends LitElement {
                 align-items: center;
                 justify-content: center;
                 height: 25px;
-                min-width: 40px;
+                min-width: 30px;
                 font-weight: bold;
                 font-size: 18px;
                 text-wrap: nowrap;
@@ -678,7 +676,7 @@ class IDFMobiliteCard extends LitElement {
             }
             .bus-destination {
                 display: flex;
-                flex: 5;
+                flex: 1;
                 align-self: center;
                 font-size: 18px;
                 font-weight: bold;
@@ -703,9 +701,10 @@ class IDFMobiliteCard extends LitElement {
             }
             .bus-stop {
                 display: flex;
-                flex: 1;
                 align-self: center;
                 justify-content: end;
+                margin-left: 3px;
+                margin-right: 3px;
             }
             .bus-stop-value {
                 background: #000000;
