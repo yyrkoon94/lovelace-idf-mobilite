@@ -156,7 +156,7 @@ class IDFMobiliteCard extends LitElement {
                                     : html``}
                                     ${trainData[train].icon ?
                                     html`<img src="${imagesUrl}${trainData[train].transportmode}/${ trainData[train].icon}" alt="${trainData[train].shortname_line}" class="${train.substring(0, train.indexOf('-'))}-image"/>`
-                                    : html`<div class="bus-line-image-no-ratp" style="color: #${trainData[train].textcolourweb_hexa};background-color:#${trainData[train].colourweb_hexa};width:15px;">${trainData[train].shortname_line}</div>`}
+                                    : html`<div class="bus-line-image-no-ratp" style="color: #${trainData[train].textcolourweb_hexa};background-color:#${trainData[train].colourweb_hexa};min-width:15px;">${trainData[train].shortname_line}</div>`}
                                 </div>
                                 <div class="rer-line-title-name">
                                     ${trainDestination}
@@ -304,7 +304,7 @@ class IDFMobiliteCard extends LitElement {
                                                         html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}general/rer${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
                                                         : destination.indexOf("<METRO>") > 0 ?
                                                             html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<METRO>")) : destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}general/metro${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
-                                                    : destination}`
+                                                    : html`<div class="bus-destination-name">${destination}</div>`}`
                                             }
                                         </div>
                                         <div class="bus-stop">
