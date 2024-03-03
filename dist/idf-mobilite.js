@@ -224,9 +224,16 @@ class IDFMobiliteCard extends LitElement {
                 // Try to find the line in the referential for non RATP lines
                 const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf("::")+2, stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf(":"));
                 const line = IDFMobiliteCard.findNonRatpLineData(lineToFind);
-                if (line) {
-                    const lineNumber = line.name_line
-                    const lineRef = line.transportmode + "-" + lineNumber
+                let lineRef;
+                switch(line?.transportmode) {
+                    case "rail": // skip rail
+                        break;
+                    default:
+                        lineRef = line.transportmode + "-" + line.name_line
+                        break;
+                }
+
+                if (lineRef) {
                     const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
                     if ((!exclude_lines || !exclude_lines.includes(lineRef)) && (!exclude_lines_ref || !exclude_lines_ref.includes(lineStop))) {
                         const nextDepartureTime = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)

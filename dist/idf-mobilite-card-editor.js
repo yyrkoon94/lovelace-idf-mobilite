@@ -173,7 +173,7 @@ class IDFMobiliteCardEditor extends LitElement {
                             .checked=${this._show_replacement_bus}
                             .configValue="${"_show_replacement_bus"}"
                             @change="${this._valueChanged}"
-                            ?disabled="${this._lineType !== "BUS"}"
+                            ?disabled="${this._lineType === "BUS"}"
                             ></ha-switch>
                       </div>
                     </div>
