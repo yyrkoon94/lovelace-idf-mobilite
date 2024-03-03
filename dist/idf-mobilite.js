@@ -608,28 +608,35 @@ class IDFMobiliteCard extends LitElement {
             }
             .bus-line-detail {
                 display: flex;
+                flex-wrap: wrap; /* Allow flex items to wrap to the next line */
                 justify-content: space-between;
                 border-bottom: 1px solid #516077;
-                height:40px;
+                min-height: 40px;
                 padding-right: 10px;
             }
             .bus-line-detail-nobg {
                 display: flex;
+                flex-wrap: wrap; /* Allow flex items to wrap to the next line */
                 justify-content: space-between;
                 border-bottom: 1px solid #516077;
-                height:40px;
+                min-height: 40px;
                 padding-right: 10px;
             }
             .bus-img {
                 display: flex;
                 flex: 1;
                 justify-content: space-between;
-                min-width: 62px;
+                min-width: 45px;
                 margin-right: 4px;
             }
             .bus-line-type {
                 display: flex;
                 opacity: 0.33;
+                vertical-align: middle;
+                align-items: center;
+                justify-content: center;
+                margin-left: 3px;
+                margin-right: 3px;
             }
             .bus-line-type-image {
                 height: 25px;
@@ -639,13 +646,15 @@ class IDFMobiliteCard extends LitElement {
                 flex-grow: 1;
                 align-items: center;
                 justify-content: center;
+                vertical-align: middle;
             }
             .bus-line-image-no-ratp {
-                display:flex;
+                display: flex;
+                border-radius: 3px;
                 align-items: center;
                 justify-content: center;
                 height: 25px;
-                width: 40px;
+                min-width: 40px;
                 font-weight: bold;
                 font-size: 18px;
                 text-wrap: nowrap;
@@ -661,11 +670,11 @@ class IDFMobiliteCard extends LitElement {
             }
             .bus-destination {
                 display: flex;
-                flex: 6 ;
+                flex: 5;
                 align-self: center;
                 font-size: 18px;
                 font-weight: bold;
-                padding-left: 2px;
+                margin-left: 3px;
                 text-wrap: nowrap;
                 overflow: hidden;
             }
@@ -799,9 +808,10 @@ class IDFMobiliteCard extends LitElement {
             }
             .rer-line-detail {
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: space-between;
                 border-bottom: 1px solid #516077;
-                height:40px;
+                min-height:40px;
             }
             .rer-line-vehicule {
                 display: flex;
