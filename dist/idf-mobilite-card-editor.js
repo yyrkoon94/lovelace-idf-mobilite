@@ -86,7 +86,11 @@ class IDFMobiliteCardEditor extends LitElement {
     }
 
     get _show_bus_stop_label() {
-      return this._config.show_bus_stop_label === undefined ? true : this._config.show_bus_stop_label;
+      return this._config.show_bus_stop_label === undefined ? false : this._config.show_bus_stop_label;
+    }
+
+    get _show_replacement_bus() {
+      return this._config.show_replacement_bus === undefined ? false : this._config.show_replacement_bus;
     }
 
     render() {
@@ -159,6 +163,15 @@ class IDFMobiliteCardEditor extends LitElement {
                         <ha-switch
                             .checked=${this._show_bus_stop_label}
                             .configValue="${"show_bus_stop_label"}"
+                            @change="${this._valueChanged}"
+                            ?disabled="${this._lineType !== "BUS"}"
+                            ></ha-switch>
+                      </div>
+                      <div>
+                        <span>Afficher les buses de replacement</span>
+                        <ha-switch
+                            .checked=${this._show_replacement_bus}
+                            .configValue="${"_show_replacement_bus"}"
                             @change="${this._valueChanged}"
                             ?disabled="${this._lineType !== "BUS"}"
                             ></ha-switch>

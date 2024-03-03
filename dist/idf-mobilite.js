@@ -83,7 +83,7 @@ class IDFMobiliteCard extends LitElement {
                         }
                         break;
                     case "bus":
-                        if (line?.type?.includes("REPLACEMENT")) { // REPLACEMENT BUS
+                        if (line?.type?.includes("REPLACEMENT") && this.config.show_replacement_bus) { // REPLACEMENT BUS
                             lineRef = "bus-rep-" + line.shortname_line;
                         }
                         break;
@@ -462,6 +462,7 @@ class IDFMobiliteCard extends LitElement {
             show_screen: false,
             exclude_lines: "",
             show_bus_stop_label: false,
+            show_replacement_bus: false,
         }
     }
 
