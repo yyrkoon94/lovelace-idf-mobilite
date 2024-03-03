@@ -156,7 +156,7 @@ class IDFMobiliteCard extends LitElement {
                                     : html``}
                                     ${trainData[train].icon ?
                                     html`<img src="${imagesUrl}${trainData[train].transportmode}/${ trainData[train].icon}" alt="${trainData[train].shortname_line}" class="${train.substring(0, train.indexOf('-'))}-image"/>`
-                                    : html`<div class="bus-line-image-no-ratp" style="color: #${trainData[train].textcolourweb_hexa};background-color:#${trainData[train].colourweb_hexa};min-width:15px;">${trainData[train].shortname_line}</div>`}
+                                    : html`<div class="bus-line-image-no-ratp" style="color: #${trainData[train].textcolourweb_hexa};background-color:#${trainData[train].colourweb_hexa};">${trainData[train].shortname_line}</div>`}
                                 </div>
                                 <div class="rer-line-title-name">
                                     ${trainDestination}
