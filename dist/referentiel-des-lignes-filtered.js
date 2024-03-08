@@ -790,7 +790,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00084",
-    "name_line": "7",
+    "name_line": "7 (Future 437)",
     "shortname_line": "7",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -806,7 +806,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00085",
-    "name_line": "8",
+    "name_line": "8 (Future 438)",
     "shortname_line": "8",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -3314,7 +3314,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "f49fb3",
-    "textcolourweb_hexa": "000000",
+    "textcolourweb_hexa": "ffffff",
     "picto": {
       "id": "37b0b83646222f1e3a45084a6eb6a7f7",
       "filename": "5fb4d9c76c4cc_bus_fc.png"
@@ -3661,7 +3661,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Vallée Sud",
     "networkname": "Vallée Grand Sud Paris",
-    "colourweb_hexa": "6166ff",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -3673,7 +3673,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Vallée Sud",
     "networkname": "Vallée Grand Sud Paris",
-    "colourweb_hexa": "61edd5",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -5046,8 +5046,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00489",
-    "name_line": "3903",
-    "shortname_line": "3903",
+    "name_line": "39-003",
+    "shortname_line": "39-003",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -5774,7 +5774,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00547",
-    "name_line": "10",
+    "name_line": "10 (Future 440)",
     "shortname_line": "10",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -5790,7 +5790,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00548",
-    "name_line": "12",
+    "name_line": "12 (Future 451)",
     "shortname_line": "12",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -5850,7 +5850,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00552",
-    "name_line": "1",
+    "name_line": "1 (Future 431)",
     "shortname_line": "1",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -5866,7 +5866,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00553",
-    "name_line": "2",
+    "name_line": "2 (Future 432)",
     "shortname_line": "2",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -5882,7 +5882,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00554",
-    "name_line": "3",
+    "name_line": "3 (Future 433)",
     "shortname_line": "3",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -5894,7 +5894,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00555",
-    "name_line": "4",
+    "name_line": "4 (Future 434)",
     "shortname_line": "4",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -5910,7 +5910,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00556",
-    "name_line": "5",
+    "name_line": "5 (Future 435)",
     "shortname_line": "5",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -5926,7 +5926,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00557",
-    "name_line": "6",
+    "name_line": "6 (Future 436)",
     "shortname_line": "6",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6006,7 +6006,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00573",
-    "name_line": "K",
+    "name_line": "K (Future 428)",
     "shortname_line": "K",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6022,7 +6022,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00574",
-    "name_line": "J1",
+    "name_line": "J1 (Future 427)",
     "shortname_line": "J1",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6038,7 +6038,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00575",
-    "name_line": "J2",
+    "name_line": "J2 (Future 427)",
     "shortname_line": "J2",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6118,7 +6118,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00581",
-    "name_line": "B",
+    "name_line": "B (Future 450)",
     "shortname_line": "B",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6214,7 +6214,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00594",
-    "name_line": "O1",
+    "name_line": "O1 (Future 429)",
     "shortname_line": "O1",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6230,7 +6230,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00597",
-    "name_line": "U",
+    "name_line": "U (Future 449)",
     "shortname_line": "U",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -7927,7 +7927,7 @@ export function idfMobiliteLineRef() {
   {
     "id_line": "C00753",
     "name_line": "Express A14 Les Mureaux",
-    "shortname_line": "EXP A14",
+    "shortname_line": "A14",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
@@ -7943,7 +7943,7 @@ export function idfMobiliteLineRef() {
   {
     "id_line": "C00754",
     "name_line": "Express A14 Verneuil",
-    "shortname_line": "EXP A14",
+    "shortname_line": "A14",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
@@ -13812,7 +13812,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Vallée Sud",
     "networkname": "Vallée Grand Sud Paris",
-    "colourweb_hexa": "aaaaaa",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -14076,7 +14076,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Vallée Sud",
     "networkname": "Vallée Grand Sud Paris",
-    "colourweb_hexa": "90cfdc",
+    "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -14100,7 +14100,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Vallée Sud",
     "networkname": "Vallée Grand Sud Paris",
-    "colourweb_hexa": "216eb4",
+    "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -14124,7 +14124,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Vallée Sud",
     "networkname": "Vallée Grand Sud Paris",
-    "colourweb_hexa": "79bb92",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -18512,7 +18512,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01751",
-    "name_line": "O2",
+    "name_line": "O2 (Future 430)",
     "shortname_line": "O2",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -21614,7 +21614,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02111",
-    "name_line": "41",
+    "name_line": "41 (Future 443)",
     "shortname_line": "41",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -21630,7 +21630,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02112",
-    "name_line": "42",
+    "name_line": "42 (Future 444)",
     "shortname_line": "42",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -23740,7 +23740,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02351",
-    "name_line": "51",
+    "name_line": "51 (Future 445)",
     "shortname_line": "51",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -24384,7 +24384,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02426",
-    "name_line": "21",
+    "name_line": "21 (Future 441)",
     "shortname_line": "21",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -24400,7 +24400,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02427",
-    "name_line": "22",
+    "name_line": "22 (Future 442)",
     "shortname_line": "22",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -24416,7 +24416,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02428",
-    "name_line": "71",
+    "name_line": "71 (Future 446)",
     "shortname_line": "71",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -24432,7 +24432,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02429",
-    "name_line": "81",
+    "name_line": "81 (Future 447)",
     "shortname_line": "81",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -24448,7 +24448,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02430",
-    "name_line": "82",
+    "name_line": "82 (Future 448)",
     "shortname_line": "82",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -24748,7 +24748,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02456",
-    "name_line": "9",
+    "name_line": "9 (Future 439)",
     "shortname_line": "9",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -26178,7 +26178,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
     "colourweb_hexa": "4d90cd",
-    "textcolourweb_hexa": "000000",
+    "textcolourweb_hexa": "ffffff",
     "picto": {
       "id": "37b0b83646222f1e3a45084a6eb6a7f7",
       "filename": "5fb4d9c76c4cc_bus_fc.png"
