@@ -1,12 +1,15 @@
 #!/usr/bin/python3
 
 # python3 -m pip install selenium
-# scripts/import_images.py -i dist/referentiel-des-lignes.json -m dist/images -o dist/referentiel-des-lignes-filtered-idf.js
+# scripts/update_database.py -m dist/images -o dist/referentiel-des-lignes-filtered.js [ -r dist/referentiel-des-lignes.json ]
 
 import argparse
 import json
 import os
+import requests
+import tempfile
 import time
+
 from tqdm import tqdm
 from selenium import webdriver
 
@@ -54,7 +57,7 @@ class DatabaseSynchronizer:
         file_path = f"{folder_path}/{shortname_line}.svg"
 
         if (content == None or not content.startswith("<svg")):
-            print(f"Error: {shortname_line}({id_line} => {url})")
+            print(f"Download error: {shortname_line}({id_line} => {url})")
         else:
             if not os.path.isdir(folder_path):
                 os.makedirs(folder_path)
@@ -116,16 +119,76 @@ class DatabaseSynchronizer:
         return 0
 
 
+class DatabaseDownloader:
+    DATABASE_URL = "https://data.iledefrance-mobilites.fr/api/explore/v2.1/catalog/datasets/referentiel-des-lignes/exports/json"
+
+    def __init__(self, json_filepath):
+        self.json_filepath = json_filepath
+
+    def __download(self):
+        try:
+            response = requests.get(DatabaseDownloader.DATABASE_URL)
+            response.raise_for_status()  # Raise an exception for HTTP errors (status codes other than 2xx)
+            return response.content
+
+        except requests.exceptions.RequestException as e:
+            print("Failed to download the file:", e)
+            return None
+
+    def process(self):
+        json_data = self.__download()
+
+        try:
+            # Parse JSON data
+            data = json.loads(json_data)
+
+            # Save JSON data to a file with proper indentation
+            with open(self.json_filepath, 'w') as f:
+                json.dump(data, f, indent=4)
+
+            print(f"JSON data saved to '{self.json_filepath}' file.")
+            return 0
+        except (OSError, json.JSONDecodeError) as e:
+            print(f"An error occurred: {e}")
+            return 1
+
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Synchronize data with RATP database')
+    parser = argparse.ArgumentParser(description='Update local RATP database')
 
     # Add command-line arguments
-    parser.add_argument('-i', '--input-json-filepath', type=str, help='Path to JSON file', required=True)
-    parser.add_argument('-m', '--image-path', type=str, help='Output path for images', required=True)
+    parser.add_argument('-m', '--image-path', type=str, help='Output path for download images', required=True)
     parser.add_argument('-o', '--output-js-filepath', type=str, help='Output file for JS content', required=True)
+    parser.add_argument('-r', '--raw-database-path', type=str, help='Save optionally raw database file', default=None)
 
     # Parse the command-line arguments
     args = parser.parse_args()
 
-    synchronizer = DatabaseSynchronizer(args.input_json_filepath, args.image_path, args.output_js_filepath)
-    exit(synchronizer.process())
+    # Check if raw_database_path is None
+    if args.raw_database_path is None:
+        try:
+            # Create a temporary file but don't delete it
+            with tempfile.NamedTemporaryFile(delete=False) as tmp_file:
+                json_path = tmp_file.name
+        except (OSError, ValueError) as e:
+            print(f"An error occurred: {e}")
+            exit(1)
+    else:
+        json_path = args.raw_database_path
+
+    # Process with the existing raw database path
+    downloader = DatabaseDownloader(json_path)
+    if downloader.process() == 0:
+        synchronizer = DatabaseSynchronizer(json_path, args.image_path, args.output_js_filepath)
+        status = synchronizer.process()
+        status = 0
+    else:
+        status = 1
+
+    if args.raw_database_path is None:
+        try:
+            os.remove(json_path)
+        except OSError as e:
+            print(f"An error occurred: {e}")
+            status = 1
+    exit(status)
