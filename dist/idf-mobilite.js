@@ -4,44 +4,7 @@ import {
     css
 } from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module"
 
-import { nonRatpLineRef } from "./referentiel-des-lignes-filtered.js"
-
-//const nonRatpLineRef = await import("./referentiel-des-lignes-filtered.json", {assert: { type: "json" }})
-
-const sncfLineRef = {
-    // https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/emplacement-des-gares-idf
-    C01742: "A",
-    C01743: "B",
-    C01727: "C",
-    C01728: "D",
-    C01729: "E",
-    C01737: "H",
-    C01739: "J",
-    C01738: "K",
-    C01740: "L",
-    C01736: "N",
-    C01730: "P",
-    C01731: "R",
-    C01741: "U",
-
-}
-
-const sncfLineColor = {
-    // https://prim.iledefrance-mobilites.fr/fr/donnees-statiques/emplacement-des-gares-idf
-    "A": "#FF0000",
-    "B": "#238FC9",
-    "C": "#FFCB00",
-    "D": "#008B5A",
-    "E": "#D1448F",
-    "H": "#976238",
-    "J": "#D5C932",
-    "K": "#9E9640",
-    "L": "#D0A0C7",
-    "N": "#00B593",
-    "P": "#FF8741",
-    "R": "#FF97A8",
-    "U": "#D00042",
-}
+import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
@@ -75,7 +38,7 @@ class IDFMobiliteCard extends LitElement {
                         ${this.config.show_screen === true ?
                              html`
                                 <div class="ratp-img">
-                                    <img src="${imagesUrl}ratp.png" class="ratp-image">
+                                    <img src="${imagesUrl}general/ratp.png" class="ratp-image">
                                     <div class="blink-point"></div>
                                 </div>
                             `
@@ -89,66 +52,63 @@ class IDFMobiliteCard extends LitElement {
     createRERContent(lineDatas, exclude_lines, exclude_lines_ref, second_entity) {
         const messagesList = this.hass.states[this.config.messages];
         if (!lineDatas?.attributes['Siri']  || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
-            return html``
+            return html``;
+        let serviceDelivery = lineDatas.attributes['Siri'].ServiceDelivery;
 
         // Last update date
-        const lastUpdateDate = new Date(Date.parse(lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp))
-        const lastUpdateTime = (lastUpdateDate.getUTCHours() < 10 ? "0" + lastUpdateDate.getUTCHours() : lastUpdateDate.getUTCHours()) + ":" + (lastUpdateDate.getUTCMinutes() < 10 ? "0" + lastUpdateDate.getUTCMinutes() : lastUpdateDate.getUTCMinutes())
-
+        const lastUpdateDate = new Date(serviceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
+        const lastUpdateTime = `${String(lastUpdateDate.getUTCHours()).padStart(2, '0')}:${String(lastUpdateDate.getUTCMinutes()).padStart(2, '0')}`;
         // Station name (take the first stopPointName)
-        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit?.length > 0 ?
-            lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
-            : "API ERROR"
+        const stationName = serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
+            serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
+            : "API ERROR";
 
         // Build Line/Time
         const trains = {};
-        lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
+        const trainData = {};
+        serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
             if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) {
-                const trainLine = stop.MonitoredVehicleJourney.OperatorRef.value;
-                // OCTAVE, PCCMOD, STAEL = Metro, KOWM=TRAM
-                if (trainLine.includes("RER") || trainLine.includes("SNCF")) {
-                    // SNCF line
-                    var lineRef = ""
-                    if (trainLine.includes("SNCF")) {
-                        const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.indexOf("::") + 2, stop.MonitoredVehicleJourney.LineRef.value.length - 1)
-                        if (sncfLineRef[lineToFind]) {
-                            // Train found
-                            if (sncfLineRef[lineToFind] > "E")
-                                lineRef = "train-" + sncfLineRef[lineToFind]
-                            else
-                                lineRef = "rer-" + sncfLineRef[lineToFind]
-                        } else {
-                            // TER trains
-                            const line = IDFMobiliteCard.findNonRatpLineData(lineToFind);
-                            if (line?.name_line?.includes("TER")) {
-                                lineRef = "train-ter";
-                            } else {
-                                console.log("Unknown line: " + line?.name_line);
-                            }
+                const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.indexOf("::") + 2, stop.MonitoredVehicleJourney.LineRef.value.length - 1);
+                const line = IDFMobiliteCard.findNonRatpLineData(lineToFind);
+                let lineRef;
+                // accept all rail vehicles, and replacement bus, no metro/tram/funicular
+                switch(line?.transportmode) {
+                    case "rail":
+                        if (line?.transportsubmode?.includes("local")) { // RER
+                            lineRef = "rer-" + line.name_line;
+                        } else if (line?.transportsubmode?.includes("suburbanRailway")) { // TRAIN
+                            lineRef = "train-" + line.name_line;
+                        } else if (line?.transportsubmode?.includes("regionalRail")) { // TER
+                            lineRef = "train-" + line.shortname_line;
                         }
-                    }
-                    else {
-                        lineRef = "rer-" + trainLine.substring(trainLine.lastIndexOf('.') + 1, trainLine.length - 1)
-                    }
-                    if (lineRef != "") {
-                        const nextDeparture = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
-                        const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.length - 1)
-                        if ((!exclude_lines || exclude_lines.indexOf(lineRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1) && nextDeparture > -5 && nextDeparture < 60) {
-                            const destinationName = stop.MonitoredVehicleJourney.DirectionName.length > 0 ? stop.MonitoredVehicleJourney.DirectionName[0].value.split('-').map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()).join('-').split(' ').map(item => item.charAt(0).toUpperCase() + item.slice(1)).join(' ') : stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
-                            if (!trains[lineRef])
-                                trains[lineRef] = {}
-                            if (!trains[lineRef][destinationName])
-                                trains[lineRef][destinationName] = []
-                            trains[lineRef][destinationName].push({
-                                vehiculeName: stop.MonitoredVehicleJourney.JourneyNote != "" ? stop.MonitoredVehicleJourney.JourneyNote[0].value : lineRef.substring(lineRef.indexOf("-") + 1).toLocaleUpperCase(),
-                                destinationName: stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value,
-                                destinationRef: stop.MonitoredVehicleJourney.DestinationRef.value,
-                                nextDeparture: nextDeparture, monitoringRef: stop.MonitoringRef.value
-                            })
+                        break;
+                    case "bus":
+                        if (line?.type?.includes("REPLACEMENT") && this.config.show_replacement_bus) { // REPLACEMENT BUS
+                            lineRef = "bus-rep-" + line.shortname_line;
                         }
-                    }
-                    else {
-                        console.log("Ignoring line : " + trainLine)
+                        break;
+                    default:
+                        IDFMobiliteCard.logUnknownLine(line);
+                        break;
+                }
+
+                if (lineRef) {
+                    const nextDeparture = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60);
+                    const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.length - 1);
+                    if ((!exclude_lines || exclude_lines.indexOf(lineRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1) && nextDeparture > -5 && nextDeparture < 60) {
+                        const destinationName = stop.MonitoredVehicleJourney.DirectionName.length > 0 ? stop.MonitoredVehicleJourney.DirectionName[0].value.split('-').map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()).join('-').split(' ').map(item => item.charAt(0).toUpperCase() + item.slice(1)).join(' ') : stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value;
+                        if (!trains[lineRef])
+                            trains[lineRef] = {};
+                        if (!trains[lineRef][destinationName])
+                            trains[lineRef][destinationName] = [];
+                        trains[lineRef][destinationName].push({
+                            vehiculeName: stop.MonitoredVehicleJourney.JourneyNote != "" ? stop.MonitoredVehicleJourney.JourneyNote[0].value : lineRef.substring(lineRef.indexOf("-") + 1).toLocaleUpperCase(),
+                            destinationName: stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value,
+                            destinationRef: stop.MonitoredVehicleJourney.DestinationRef.value,
+                            nextDeparture: nextDeparture, monitoringRef: stop.MonitoringRef.value
+                        });
+                        if (!trainData[lineRef])
+                            trainData[lineRef] = line;
                     }
                 }
             }
@@ -163,9 +123,9 @@ class IDFMobiliteCard extends LitElement {
                     html`<div class="bus-destination-name">
                                     ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
                                 </div>
-                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}metro_white.png" class="bus-destination-image"/></div>` : ""}
-                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}rer_white.png" class="bus-destination-image"/></div>` : ""}
-                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}tram_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/metro_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/rer_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/tram_white.png" class="bus-destination-image"/></div>` : ""}
                             `
                     : stationName }
                     </div>
@@ -186,12 +146,17 @@ class IDFMobiliteCard extends LitElement {
                     ${Object.keys(trains[train]).map(trainDestination => {
                     return html`
                         <div class="rer-line${this.config.wall_panel === true ? "-nobg" : ""}">
-                            <div class="rer-line-title" style="border-color: ${sncfLineColor[train.substring(train.indexOf('-') + 1, train.length)]}">
+                            <div class="rer-line-title" style="border-color: #${trainData[train].colourweb_hexa.toUpperCase()}">
                                 <div class="rer-line-title-logo">
-                                    <img src="${imagesUrl}${train.substring(0, train.indexOf('-'))}sq${this.config.wall_panel === true ? "_white" : ""}.png" class="rer-line-type-image">
+                                    <img src="${imagesUrl}general/${train.substring(0, train.indexOf('-'))}${train.includes("bus") === true ? "" : "sq"}${this.config.wall_panel === true ? "_white" : ""}.png" class="rer-line-type-image">
                                 </div>
                                 <div class="rer-line-title-image">
-                                    <img src="${imagesUrl}${train.substring(0, train.indexOf('-'))}/${train.substring(train.indexOf('-') + 1, train.length)}.png" alt="${train.substring(train.indexOf('-') + 1, train.length)}" class="${train.substring(0, train.indexOf('-'))}-image"/>
+                                    ${train.includes("rep") ?
+                                    html`<img src="${imagesUrl}general/warning.png" alt="warning" class="${train.substring(0, train.indexOf('-'))}-image"/>`
+                                    : html``}
+                                    ${trainData[train].icon ?
+                                    html`<img src="${imagesUrl}${trainData[train].transportmode}/${ trainData[train].icon}" alt="${trainData[train].shortname_line}" class="${train.substring(0, train.indexOf('-'))}-image"/>`
+                                    : html`<div class="bus-line-image-no-ratp" style="color: #${trainData[train].textcolourweb_hexa};background-color:#${trainData[train].colourweb_hexa};">${trainData[train].shortname_line}</div>`}
                                 </div>
                                 <div class="rer-line-title-name">
                                     ${trainDestination}
@@ -210,8 +175,8 @@ class IDFMobiliteCard extends LitElement {
                                         </div>
                                         <div class="rer-line-destination">
                                             ${trains[train][trainDestination][trainLine].destinationName.startsWith("Gare d") ?
-                                                html`<div class="bus-destination-name">${trains[train][trainDestination][trainLine].destinationName.substring(7, trains[train][trainDestination][trainLine].destinationName.length).trim()}</div><div class="bus-destination-img"><img src="${imagesUrl}train${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
-                                                : html`${trains[train][trainDestination][trainLine].destinationName}${trains[train][trainDestination][trainLine].destinationName.endsWith("Chessy") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}mickey${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>` : ""}`
+                                                html`<div class="bus-destination-name">${trains[train][trainDestination][trainLine].destinationName.substring(7, trains[train][trainDestination][trainLine].destinationName.length).trim()}</div><div class="bus-destination-img"><img src="${imagesUrl}general/train${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
+                                                : html`${trains[train][trainDestination][trainLine].destinationName}${trains[train][trainDestination][trainLine].destinationName.endsWith("Chessy") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/mickey${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>` : ""}`
                                             }
                                         </div>
                                         <div class="rer-line-departure">
@@ -240,87 +205,53 @@ class IDFMobiliteCard extends LitElement {
     }
 
     createBUSContent(lineDatas, exclude_lines, exclude_lines_ref, second_entity) {
-        if (!lineDatas?.attributes['Siri'] || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
-            return html``
+        if (!lineDatas?.attributes['Siri']  || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
+            return html``;
+        let serviceDelivery = lineDatas.attributes['Siri'].ServiceDelivery;
 
         // Last update date
-        const lastUpdateDate = new Date(Date.parse(lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].ResponseTimestamp))
-        const lastUpdateTime = (lastUpdateDate.getUTCHours() < 10 ? "0" + lastUpdateDate.getUTCHours() : lastUpdateDate.getUTCHours()) + ":" + (lastUpdateDate.getUTCMinutes() < 10 ? "0" + lastUpdateDate.getUTCMinutes() : lastUpdateDate.getUTCMinutes())
+        const lastUpdateDate = new Date(serviceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
+        const lastUpdateTime = `${String(lastUpdateDate.getUTCHours()).padStart(2, '0')}:${String(lastUpdateDate.getUTCMinutes()).padStart(2, '0')}`;
         // Station name (take the first stopPointName)
-        const stationName = lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit?.length > 0 ?
-            lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
-            : "API ERROR"
+        const stationName = serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
+            serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
+            : "API ERROR";
         // Build Line/Time
         const buses = {};
-        lineDatas.attributes['Siri'].ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
+        const busData = {};
+        serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
             if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) {
-                var busLine = stop.MonitoredVehicleJourney.OperatorRef.value;
-                // OCTAVE, PCCMOD, STAEL = Metro, KOWM=TRAM
-                if (busLine && (busLine.indexOf("SAE-BUS") > 0 || busLine.indexOf("SAE-TRAM") > 0 || busLine.indexOf("OCTAVE") > 0 || busLine.indexOf("PCCMOD") > 0 || busLine.indexOf("STAEL") > 0 || busLine.indexOf("KOVM") > 0)) {
-                    busLine = busLine.replace("KOVM_", "SAE-TRAM.")
-                    // check if the line is exclude
-                    var lineRef = ""
-                    var busRef = ""
-                    const lineNumber = busLine.substring(busLine.lastIndexOf('.') + 1, busLine.length - 1)
-                    if (busLine.indexOf("SAE-BUS") > 0) {
-                        lineRef = "bus-" + lineNumber.padStart(3, 0)
-                        busRef = "bus-" + lineNumber
-                    }
-                    if (busLine.indexOf("SAE-TRAM") > 0) {
-                        lineRef = "tram-" + lineNumber
-                        busRef = "tram-" + lineNumber
-                    }
-                    if (busLine.indexOf("OCTAVE") > 0 || busLine.indexOf("PCCMOD") > 0 || busLine.indexOf("STAEL") > 0) {
-                        lineRef = "metro-" + lineNumber.padStart(2, 0)
-                        busRef = "metro-" + lineNumber
-                    }
-                    const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
-                    if ((!exclude_lines || exclude_lines.indexOf(busRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1)) {
-                        const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value
-                        if (!buses[lineRef])
-                            buses[lineRef] = {}
-                        if (!buses[lineRef][destinationName])
-                            buses[lineRef][destinationName] = []
-                        buses[lineRef][destinationName].push({
-                            destinationRef: lineStop,
-                            nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)})
-                    }
+                // Try to find the line in the referential for non RATP lines
+                const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf("::")+2, stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf(":"));
+                const line = IDFMobiliteCard.findNonRatpLineData(lineToFind);
+                let lineRef;
+                switch(line?.transportmode) {
+                    case "rail": // skip rail
+                        break;
+                    default:
+                        lineRef = line.transportmode + "-" + line.name_line
+                        break;
                 }
-                else {
-                    // Try to find the line in the referential for non RATP lines
-                    const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf("::")+2, stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf(":"));
-                    nonRatpLineRef().every(line => {
-                        if (line.id_line == lineToFind) {
-                            const lineNumber = line.name_line
-                            const lineRef = line.transportmode+"-" + lineNumber
-                            const busRef = line.transportmode+"-" + lineNumber
-                            const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
-                            if ((!exclude_lines || exclude_lines.indexOf(busRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1)) {
-                                const nextDepartureTime = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
-                                if (nextDepartureTime > -1) {
-                                    const destinationName = this.titleCase(stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value)
-                                    if (!buses[lineRef])
-                                        buses[lineRef] = {}
-                                    if (!buses[lineRef][destinationName])
-                                        buses[lineRef][destinationName] = []
-                                    if (line.transportmode != "tram")
-                                        buses[lineRef][destinationName].push({
-                                            destinationRef: lineStop,
-                                            lineTextColor: line.textcolourweb_hexa,
-                                            lineBackgroundColor: line.colourweb_hexa,
-                                            nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
-                                        })
-                                    else
-                                        buses[lineRef][destinationName].push({
-                                            destinationRef: lineStop,
-                                            nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
-                                        })
-                                }
-                            }
-                            return false
+
+                if (lineRef) {
+                    const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
+                    if ((!exclude_lines || !exclude_lines.includes(lineRef)) && (!exclude_lines_ref || !exclude_lines_ref.includes(lineStop))) {
+                        const nextDepartureTime = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
+                        if (nextDepartureTime > -1) {
+                            const destinationName = IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value)
+                            if (!buses[lineRef])
+                                buses[lineRef] = {}
+                            if (!buses[lineRef][destinationName])
+                                buses[lineRef][destinationName] = []
+                            buses[lineRef][destinationName].push({
+                                destinationRef: lineStop,
+                                nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
+                            })
+                            if (!busData[lineRef])
+                                busData[lineRef] = line;
                         }
-                        return true
-                    });
+                    }
+                    return false
                 }
             }
         });
@@ -334,9 +265,9 @@ class IDFMobiliteCard extends LitElement {
                             html`<div class="bus-destination-name">
                                     ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
                                 </div>
-                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}metro_white.png" class="bus-destination-image"/></div>` : ""}
-                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}rer_white.png" class="bus-destination-image"/></div>` : ""}
-                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}tram_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/metro_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/rer_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/tram_white.png" class="bus-destination-image"/></div>` : ""}
                             `
                             : stationName
                         }
@@ -363,12 +294,12 @@ class IDFMobiliteCard extends LitElement {
                                         <div class="bus-img">
                                             ${index === 0 ?
                                             html`<div class="bus-line-type">
-                                                        <img src="${imagesUrl}${bus.substring(0, bus.indexOf('-'))}${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-line-type-image">
+                                                        <img src="${imagesUrl}general/${bus.substring(0, bus.indexOf('-'))}${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-line-type-image">
                                                     </div>
                                                     <div class="bus-line-image">
-                                                        ${!buses[bus][destination][0].lineTextColor ?
-                                                            html`<img src = "${imagesUrl}${bus.substring(0, bus.indexOf('-'))}/${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}.png" alt = "${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}" class="${bus.substring(0, bus.indexOf('-'))}-image" />`
-                                                    : html`<div class="bus-line-image-no-ratp" style="color: #${buses[bus][destination][0].lineTextColor};background-color:#${buses[bus][destination][0].lineBackgroundColor}">${bus.substring(bus.indexOf('-') + 1, bus.length).replace(/^0+/, '')}</div>`
+                                                        ${busData[bus].icon ?
+                                                            html`<img src = "${imagesUrl}${busData[bus].transportmode}/${busData[bus].icon}" alt = "${busData[bus].name_line}" class="${bus.substring(0, bus.indexOf('-'))}-image" />`
+                                                    : html`<div class="bus-line-image-no-ratp" style="color: #${busData[bus].textcolourweb_hexa};background-color:#${busData[bus].colourweb_hexa}">${busData[bus].shortname_line}</div>`
                                                         }
                                                     </div>` : ""}
                                         </div>
@@ -377,10 +308,10 @@ class IDFMobiliteCard extends LitElement {
                                                 html`${buses[bus][destination][0].destinationRef}`
                                                 : html`
                                                     ${destination.indexOf("<RER>") > 0 ?
-                                                        html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}rer${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
+                                                        html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<RER>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<RER>")) : destination.substring(0, destination.indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}general/rer${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
                                                         : destination.indexOf("<METRO>") > 0 ?
-                                                            html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<METRO>")) : destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}metro${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
-                                                    : destination}`
+                                                            html`<div class="bus-destination-name">${destination.substring(0, destination.indexOf("<METRO>")).endsWith("-") ? destination.substring(0, destination.indexOf("-<METRO>")) : destination.substring(0, destination.indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}general/metro${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
+                                                    : html`<div class="bus-destination-name">${destination}</div>`}`
                                             }
                                         </div>
                                         <div class="bus-stop">
@@ -410,15 +341,6 @@ class IDFMobiliteCard extends LitElement {
                 }
             </div>` :
             html`<div class="bus-stop-value-empty"> </div>`
-    }
-
-    titleCase(str) {
-        //var newstr = str.split(' ').map(item =>
-         //   item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()).join(' ');
-        return str.split(' ').map(item =>
-            item.indexOf('-') < 0 ? item.charAt(0).toUpperCase() + item.slice(1).toLowerCase() :
-            item.split('-').map(item2 =>
-                item2.charAt(0).toUpperCase() + item2.slice(1).toLowerCase()).join('-')).join(' ');
     }
 
     createMessageDisplay() {
@@ -452,10 +374,10 @@ class IDFMobiliteCard extends LitElement {
             messages[key].messages.forEach((message, index) => { concatMessage += message + (index < messages[key].messages.length - 1 ? " /// " : "") })
             if (key == "Information" && this.config.display_info_message === true) {
                 displayedTextLength += concatMessage.length;
-                return html`<img src="${imagesUrl}info.png" class="message-icon">${concatMessage}`
+                return html`<img src="${imagesUrl}general/info.png" class="message-icon">${concatMessage}`
             } else if (key == "Perturbation") {
                 displayedTextLength += concatMessage.length;
-                return html`<img src="${imagesUrl}warning.png" class="message-icon">${concatMessage}`
+                return html`<img src="${imagesUrl}general/warning.png" class="message-icon">${concatMessage}`
             } else if (key == "Commercial" && this.config.display_commercial_message === true) {
                 displayedTextLength += concatMessage.length;
                 return concatMessage
@@ -485,9 +407,46 @@ class IDFMobiliteCard extends LitElement {
         return this.config.entity.length + 1;
     }
 
+    static logUnknownLine(line) {
+        console.log("Unknown line: " + line?.name_line + " operator: " + line?.operatorname + " type: " + line?.transportmode + " subtype: " + line?.transportsubmode);
+    }
+
+    static reformatString(str) {
+        // in case where at least one letter is lowercase, then we skip
+        // we want to reformat only the string if all letter are uppercase
+        // hard to check if all letters are uppercase cause it must include all special french letters
+        if (/[a-z]/.test(str))
+            return str;
+        const exclusions = new Set(['de', 'du', 'le', 'la', 'les', 'et', 'via', 'sur', 'en']);
+        // Split the input string into words
+        const words = str.split(/\s+/);
+        // Transform each word
+        return words.map((word, index) => {
+            // If the word is enclosed in < > tags, convert it to uppercase
+            if (/^<.*>$/.test(word)) {
+                return word.toUpperCase();
+            }
+            // If the word contains a hyphen, capitalize each part
+            if (word.includes('-')) {
+                const hyphenatedParts = word.split('-');
+                return hyphenatedParts.map((part, part_idx) => {
+                    if (index > 0 && part_idx > 0 && exclusions.has(part.toLowerCase()))
+                        return part.toLowerCase()
+                    return part.charAt(0).toUpperCase() + part.slice(1).toLowerCase();
+                }).join('-');
+            }
+            // If the word is in the exclusion list and it's not the first word, keep it as is
+            if (index > 0 && exclusions.has(word.toLowerCase())) {
+                return word.toLowerCase();
+            }
+            // Capitalize the first letter of each word
+            return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+        }).join(' ');
+    }
+
     static findNonRatpLineData(lineToFind) {
         let lineData;
-        nonRatpLineRef().every(line => {
+        idfMobiliteLineRef().every(line => {
             if (line.id_line == lineToFind) {
                 lineData = line;
                 return false;
@@ -510,6 +469,7 @@ class IDFMobiliteCard extends LitElement {
             show_screen: false,
             exclude_lines: "",
             show_bus_stop_label: false,
+            show_replacement_bus: false,
         }
     }
 
@@ -656,44 +616,51 @@ class IDFMobiliteCard extends LitElement {
             }
             .bus-line-detail {
                 display: flex;
+                flex-wrap: wrap; /* Allow flex items to wrap to the next line */
                 justify-content: space-between;
                 border-bottom: 1px solid #516077;
-                height:40px;
+                min-height: 40px;
                 padding-right: 10px;
             }
             .bus-line-detail-nobg {
                 display: flex;
+                flex-wrap: wrap; /* Allow flex items to wrap to the next line */
                 justify-content: space-between;
                 border-bottom: 1px solid #516077;
-                height:40px;
+                min-height: 40px;
                 padding-right: 10px;
             }
             .bus-img {
                 display: flex;
-                flex: 1;
-                justify-content: space-between;
-                min-width: 62px;
+                width: 75px;
                 margin-right: 4px;
             }
             .bus-line-type {
                 display: flex;
                 opacity: 0.33;
+                vertical-align: middle;
+                align-items: center;
+                justify-content: center;
+                margin-left: 3px;
             }
             .bus-line-type-image {
                 height: 25px;
             }
             .bus-line-image {
                 display:flex;
-                flex-grow: 1;
+                flex: 1;
                 align-items: center;
                 justify-content: center;
+                vertical-align: middle;
+                margin-left: 3px;
             }
             .bus-line-image-no-ratp {
-                display:flex;
+                display: flex;
+                border-radius: 3px;
                 align-items: center;
                 justify-content: center;
                 height: 25px;
-                width: 40px;
+                min-width: 30px;
                 font-weight: bold;
                 font-size: 18px;
                 text-wrap: nowrap;
@@ -709,11 +676,11 @@ class IDFMobiliteCard extends LitElement {
             }
             .bus-destination {
                 display: flex;
-                flex: 6 ;
+                flex: 1;
                 align-self: center;
                 font-size: 18px;
                 font-weight: bold;
-                padding-left: 2px;
+                margin-left: 3px;
                 text-wrap: nowrap;
                 overflow: hidden;
             }
@@ -734,9 +701,10 @@ class IDFMobiliteCard extends LitElement {
             }
             .bus-stop {
                 display: flex;
-                flex: 1;
                 align-self: center;
                 justify-content: end;
+                margin-left: 3px;
+                margin-right: 3px;
             }
             .bus-stop-value {
                 background: #000000;
@@ -847,9 +815,10 @@ class IDFMobiliteCard extends LitElement {
             }
             .rer-line-detail {
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: space-between;
                 border-bottom: 1px solid #516077;
-                height:40px;
+                min-height:40px;
             }
             .rer-line-vehicule {
                 display: flex;
