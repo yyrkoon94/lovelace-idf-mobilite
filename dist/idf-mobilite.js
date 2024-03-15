@@ -632,27 +632,22 @@ class IDFMobiliteCard extends LitElement {
             }
             .bus-img {
                 display: flex;
-                width: 75px;
+                min-width: 62px;
                 margin-right: 4px;
             }
             .bus-line-type {
                 display: flex;
                 opacity: 0.33;
-                vertical-align: middle;
-                align-items: center;
-                justify-content: center;
-                margin-left: 3px;
+
             }
             .bus-line-type-image {
                 height: 25px;
             }
             .bus-line-image {
-                display:flex;
-                flex: 1;
+                display: flex;
+                flex-grow: 1;
                 align-items: center;
                 justify-content: center;
-                vertical-align: middle;
-                margin-left: 3px;
             }
             .bus-line-image-no-ratp {
                 display: flex;
@@ -664,6 +659,8 @@ class IDFMobiliteCard extends LitElement {
                 font-weight: bold;
                 font-size: 18px;
                 text-wrap: nowrap;
+                padding-left: 3px;
+                padding-right: 3px;
             }
             .bus-image {
                 height: 25px;
