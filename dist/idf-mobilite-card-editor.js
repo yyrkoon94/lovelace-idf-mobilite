@@ -73,12 +73,20 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.exclude_lines_ref || "";
     }
 
+    get _exclude_lines_missions() {
+      return this._config.exclude_lines_missions || "";
+    }
+
     get _exclude_second_lines() {
       return this._config.exclude_second_lines || "";
     }
 
     get _exclude_second_lines_ref() {
       return this._config.exclude_second_lines_ref || "";
+    }
+
+    get _exclude_second_lines_missions() {
+      return this._config.exclude_second_lines_missions || "";
     }
 
     get _show_train_ref() {
@@ -178,6 +186,12 @@ class IDFMobiliteCardEditor extends LitElement {
                       @input="${this._valueChanged}"
                     ></ha-textfield>
                     <ha-textfield
+                      label="Exclure les missions (ex: VOLA;POPI;PASA;)"
+                      .value="${this._exclude_lines_missions}"
+                      .configValue=${"exclude_lines_missions"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    <ha-textfield
                       label="Exclure les lignes 2ème ligne (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
                       .value="${this._exclude_second_lines}"
                       .configValue=${"exclude_second_lines"}
@@ -187,6 +201,12 @@ class IDFMobiliteCardEditor extends LitElement {
                       label="Exclure les destinations 2ème ligne (ex: 458755;5655442;)"
                       .value="${this._exclude_second_lines_ref}"
                       .configValue=${"exclude_second_lines_ref"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    <ha-textfield
+                      label="Exclure les missions 2ème ligne (ex: VOLA;POPI;PASA;)"
+                      .value="${this._exclude_second_lines_missions}"
+                      .configValue=${"exclude_second_lines_missions"}
                       @input="${this._valueChanged}"
                     ></ha-textfield>
                     <div class="switch">
