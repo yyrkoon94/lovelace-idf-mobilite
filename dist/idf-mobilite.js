@@ -56,8 +56,7 @@ class IDFMobiliteCard extends LitElement {
         let serviceDelivery = lineDatas.attributes['Siri'].ServiceDelivery;
 
         // Last update date
-        const lastUpdateDate = new Date(serviceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
-        const lastUpdateTime = `${String(lastUpdateDate.getUTCHours()).padStart(2, '0')}:${String(lastUpdateDate.getUTCMinutes()).padStart(2, '0')}`;
+        const lastUpdateTime = IDFMobiliteCard.parseTimestamp(serviceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
         // Station name (take the first stopPointName)
         const stationName = serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
             serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
@@ -210,8 +209,7 @@ class IDFMobiliteCard extends LitElement {
         let serviceDelivery = lineDatas.attributes['Siri'].ServiceDelivery;
 
         // Last update date
-        const lastUpdateDate = new Date(serviceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
-        const lastUpdateTime = `${String(lastUpdateDate.getUTCHours()).padStart(2, '0')}:${String(lastUpdateDate.getUTCMinutes()).padStart(2, '0')}`;
+        const lastUpdateTime = IDFMobiliteCard.parseTimestamp(serviceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
         // Station name (take the first stopPointName)
         const stationName = serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
             serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
@@ -405,6 +403,11 @@ class IDFMobiliteCard extends LitElement {
     // distribute all cards over the available columns.
     getCardSize() {
         return this.config.entity.length + 1;
+    }
+
+    static parseTimestamp(timestamp) {
+        const lastUpdateDate = new Date(timestamp)
+        return `${String(lastUpdateDate.getHours()).padStart(2, '0')}:${String(lastUpdateDate.getMinutes()).padStart(2, '0')}`;
     }
 
     static logUnknownLine(line) {
