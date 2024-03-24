@@ -1482,7 +1482,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00153",
@@ -3142,7 +3142,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00288",
@@ -3662,7 +3662,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Vallée Sud",
     "networkname": "Vallée Grand Sud Paris",
     "colourweb_hexa": "ff1400",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00344",
@@ -4414,7 +4414,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00436",
@@ -7002,7 +7002,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00654",
@@ -14101,7 +14101,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Vallée Sud",
     "networkname": "Vallée Grand Sud Paris",
     "colourweb_hexa": "ff82b4",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01369",
@@ -14125,7 +14125,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Vallée Sud",
     "networkname": "Vallée Grand Sud Paris",
     "colourweb_hexa": "00643c",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01371",
@@ -15769,7 +15769,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Grand Provinois",
     "networkname": "Provinois - Brie et Seine",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01506",
@@ -16313,7 +16313,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Vexin",
     "networkname": "Vexin",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01553",
@@ -22362,13 +22362,13 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02179",
-    "name_line": "Aérobus",
-    "shortname_line": "Aérobus",
+    "name_line": "A01 Paris Porte Maillot",
+    "shortname_line": "A01 PPM",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Aéroport Paris-Beauvais / SAGEB",
-    "networkname": null,
+    "networkname": "Aérobus",
     "colourweb_hexa": "0000cc",
     "textcolourweb_hexa": "ffffff"
   },
@@ -24407,7 +24407,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "f4cccc",
+    "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "ffffff",
     "picto": {
       "id": "37b0b83646222f1e3a45084a6eb6a7f7",
@@ -27486,6 +27486,150 @@ export function idfMobiliteLineRef() {
     "operatorname": "RD Mantois",
     "networkname": null,
     "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02668",
+    "name_line": "N72",
+    "shortname_line": "N72",
+    "transportmode": "bus",
+    "transportsubmode": "nightBus",
+    "type": null,
+    "operatorname": "Transdev Côteaux de la Marne",
+    "networkname": "Noctilien",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02669",
+    "name_line": "2281",
+    "shortname_line": "2281",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Marne-la-Vallée",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02670",
+    "name_line": "2282",
+    "shortname_line": "2282",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Marne-la-Vallée",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02671",
+    "name_line": "2283",
+    "shortname_line": "2283",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Marne-la-Vallée",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02672",
+    "name_line": "2284",
+    "shortname_line": "2284",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Marne-la-Vallée",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02673",
+    "name_line": "2254",
+    "shortname_line": "2254",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Marne-la-Vallée",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02674",
+    "name_line": "Soirée du chemin herbu",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Keolis Nord Val d’Oise",
+    "networkname": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02675",
+    "name_line": "Soirée Persan-Beaumont",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Keolis Nord Val d’Oise",
+    "networkname": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02676",
+    "name_line": "Soirée Persan-Beaumont",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Keolis Nord Val d’Oise",
+    "networkname": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02677",
+    "name_line": "A02 Saint Denis Université",
+    "shortname_line": "A02 SDU",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Aéroport Paris-Beauvais / SAGEB",
+    "networkname": "Aérobus",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02678",
+    "name_line": "A03 Paris La Défense",
+    "shortname_line": "A03 DEF",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Aéroport Paris-Beauvais / SAGEB",
+    "networkname": "Aérobus",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02679",
+    "name_line": "A05 Disneyland Paris",
+    "shortname_line": "A05 DIS",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Aéroport Paris-Beauvais / SAGEB",
+    "networkname": "Aérobus",
+    "colourweb_hexa": "aaaaaa",
     "textcolourweb_hexa": "000000"
   }
 ]
