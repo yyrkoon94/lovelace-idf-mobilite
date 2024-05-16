@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.2.2", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.2.3", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -218,7 +218,7 @@ class IDFMobiliteCard extends LitElement {
         const buses = {};
         const busData = {};
         serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
-            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) {
+            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && ((stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) || stop.MonitoredVehicleJourney.DestinationName.length > 0)) {
                 // Try to find the line in the referential for non RATP lines
                 const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf("::")+2, stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf(":"));
                 const line = IDFMobiliteCard.findNonRatpLineData(lineToFind);
@@ -236,7 +236,7 @@ class IDFMobiliteCard extends LitElement {
                     if ((!exclude_lines || !exclude_lines.includes(lineRef)) && (!exclude_lines_ref || !exclude_lines_ref.includes(lineStop))) {
                         const nextDepartureTime = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
                         if (nextDepartureTime > -1) {
-                            const destinationName = IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value)
+                            const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length >0 ? IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value) : IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.DestinationName[0].value)
                             if (!buses[lineRef])
                                 buses[lineRef] = {}
                             if (!buses[lineRef][destinationName])
