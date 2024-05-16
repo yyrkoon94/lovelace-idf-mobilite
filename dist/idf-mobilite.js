@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.2.3", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.2.4", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -218,7 +218,7 @@ class IDFMobiliteCard extends LitElement {
         const buses = {};
         const busData = {};
         serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
-            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && ((stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) || stop.MonitoredVehicleJourney.DestinationName.length > 0)) {
+            if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && ((stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) || stop.MonitoredVehicleJourney.DestinationName.length > 0  && stop.MonitoredVehicleJourney.DestinationName[0].value.indexOf("Bus Estime Dans") == -1)) {
                 // Try to find the line in the referential for non RATP lines
                 const lineToFind = stop.MonitoredVehicleJourney.LineRef.value.substring(stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf("::")+2, stop.MonitoredVehicleJourney.LineRef.value.lastIndexOf(":"));
                 const line = IDFMobiliteCard.findNonRatpLineData(lineToFind);
@@ -415,11 +415,6 @@ class IDFMobiliteCard extends LitElement {
     }
 
     static reformatString(str) {
-        // in case where at least one letter is lowercase, then we skip
-        // we want to reformat only the string if all letter are uppercase
-        // hard to check if all letters are uppercase cause it must include all special french letters
-        if (/[a-z]/.test(str))
-            return str;
         const exclusions = new Set(['de', 'du', 'le', 'la', 'les', 'et', 'via', 'sur', 'en']);
         // Split the input string into words
         const words = str.split(/\s+/);
@@ -429,6 +424,11 @@ class IDFMobiliteCard extends LitElement {
             if (/^<.*>$/.test(word)) {
                 return word.toUpperCase();
             }
+            // in case where at least one letter is lowercase, then we skip
+            // we want to reformat only the string if all letter are uppercase
+            // hard to check if all letters are uppercase cause it must include all special french letters
+            if (/[a-z]/.test(word))
+                return word;
             // If the word contains a hyphen, capitalize each part
             if (word.includes('-')) {
                 const hyphenatedParts = word.split('-');
