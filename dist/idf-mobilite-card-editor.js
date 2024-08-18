@@ -93,37 +93,25 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.show_replacement_bus === undefined ? false : this._config.show_replacement_bus;
     }
 
+    get _nb_departure_first_line() {
+      return this._config.nb_departure_first_line || "";
+    }
+
+    get _nb_departure_second_line() {
+      return this._config.nb_departure_second_line || "";
+    }
+
     render() {
         if (!this.hass) {
           return html``;
         }
 
-        return html`
+      return html`
             <div class="card-config">
                 <div class="side-by-side">
-                    <ha-entity-picker
-                        label="Ligne (RESTFul sensor)"
-                        .hass="${this.hass}"
-                        .value="${this._entity}"
-                        .configValue=${"entity"}
-                        @value-changed="${this._valueChanged}"
-                        ></ha-entity-picker>
-                    <ha-entity-picker
-                      label="Seconde ligne (RESTFul sensor)"
-                      .hass="${this.hass}"
-                      .value="${this._second_entity}"
-                      .configValue=${"second_entity"}
-                      @value-changed="${this._valueChanged}"
-                      ></ha-entity-picker>
-                    <ha-entity-picker
-                        label="Messages (RESTFul sensor)"
-                        .hass="${this.hass}"
-                        .value="${this._messages}"
-                        .configValue=${"messages"}
-                        @value-changed="${this._valueChanged}"
-                        ></ha-entity-picker>
+                    <h2>Type d'Arrêt</h2>
                     <ha-select
-                        label="Line Type"
+                        label="Type"
                         .hass="${this.hass}"
                         .value="${this._lineType}"
                         .configValue=${"lineType"}
@@ -133,6 +121,81 @@ class IDFMobiliteCardEditor extends LitElement {
                         <ha-list-item value="RER">RER/SNCF</ha-list-item>
                         <ha-list-item value="BUS">Bus/Tram/Métro</ha-list-item>
                     </ha-select>
+                    <h2>Premier Arrêt</h2>
+                    <ha-entity-picker
+                        label="Arrêt (RESTFul sensor)"
+                        .hass="${this.hass}"
+                        .value="${this._entity}"
+                        .configValue=${"entity"}
+                        @value-changed="${this._valueChanged}"
+                        ></ha-entity-picker>
+                    <h4>Filtrage des données :</h4>
+                    <ha-textfield
+                      label="Exclure les lignes (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
+                      .value="${this._exclude_lines}"
+                      .configValue=${"exclude_lines"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    <ha-textfield
+                      label="Exclure les destinations (ex: 458755;5655442;)"
+                      .value="${this._exclude_lines_ref}"
+                      .configValue=${"exclude_lines_ref"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    ${this._config.lineType == 'RER' ?
+                      html`
+                        <ha-textfield
+                            label="Nombre de départs à afficher (si vide = tous)"
+                            .value="${this._nb_departure_first_line}"
+                            .configValue=${"nb_departure_first_line"}
+                            @input="${this._valueChanged}"
+                          ></ha-textfield>` : ''}
+                    <h2>Second Arrêt (optionel)</h2>
+                    <ha-entity-picker
+                      label="Arrêt (RESTFul sensor)"
+                      .hass="${this.hass}"
+                      .value="${this._second_entity}"
+                      .configValue=${"second_entity"}
+                      @value-changed="${this._valueChanged}"
+                      ></ha-entity-picker>
+                    <h4>Filtrage des données :</h4>
+                    <ha-textfield
+                      label="Exclure les lignes (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
+                      .value="${this._exclude_second_lines}"
+                      .configValue=${"exclude_second_lines"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    <ha-textfield
+                      label="Exclure les destinations (ex: 458755;5655442;)"
+                      .value="${this._exclude_second_lines_ref}"
+                      .configValue=${"exclude_second_lines_ref"}
+                      @input="${this._valueChanged}"
+                    ></ha-textfield>
+                    ${this._config.lineType == 'RER' ?
+                      html`
+                        <ha-textfield
+                                label="Nombre de départs à afficher (si vide = tous)"
+                                .value="${this._nb_departure_second_line}"
+                                .configValue=${"nb_departure_second_line"}
+                                @input="${this._valueChanged}"
+                              ></ha-textfield>` : ''}
+                    <h2>Messages d'information / perturbations (optionel)</h2>
+                    <ha-entity-picker
+                        label="Messages (RESTFul sensor)"
+                        .hass="${this.hass}"
+                        .value="${this._messages}"
+                        .configValue=${"messages"}
+                        @value-changed="${this._valueChanged}"
+                        ></ha-entity-picker>
+                    <div>
+                        <span>Afficher les messages d'information</span>
+                        <ha-switch
+                            .checked=${this._display_info_message}
+                            .configValue="${"display_info_message"}"
+                            @change="${this._valueChanged}"
+                            ></ha-switch>
+                      </div>
+                    <h2>Options d'affichage</h2>
                     <div class="switch">
                       <div>
                         <span>Mode écran</span>
@@ -150,59 +213,32 @@ class IDFMobiliteCardEditor extends LitElement {
                             @change="${this._valueChanged}"
                             ></ha-switch>
                       </div>
+                    </div>
+                    ${this._config.lineType == 'BUS' ?
+                      html`
+                        <div class="switch">
                       <div>
-                        <span>Afficher les messages d'information</span>
-                        <ha-switch
-                            .checked=${this._display_info_message}
-                            .configValue="${"display_info_message"}"
-                            @change="${this._valueChanged}"
-                            ></ha-switch>
-                      </div>
-                      <div>
-                        <span>Afficher "à l'approche/à l'arrêt" pour les BUS</span>
+                        <span>Afficher "à l'approche/à l'arrêt" au lieu de "0"</span>
                         <ha-switch
                             .checked=${this._show_bus_stop_label}
                             .configValue="${"show_bus_stop_label"}"
                             @change="${this._valueChanged}"
-                            ?disabled="${this._lineType !== "BUS"}"
                             ></ha-switch>
-                      </div>
-                      <div>
-                        <span>Afficher les buses de replacement</span>
-                        <ha-switch
-                            .checked=${this._show_replacement_bus}
-                            .configValue="${"_show_replacement_bus"}"
-                            @change="${this._valueChanged}"
-                            ?disabled="${this._lineType === "BUS"}"
-                            ></ha-switch>
-                      </div>
+                      </div>` : ''}
+                    ${this._config.lineType == 'RER' ?
+                      html`
+                        <div style="text-align: center">
+                          <span>Afficher les bus de replacement</span>
+                          <ha-switch
+                              .checked=${this._show_replacement_bus}
+                              .configValue="${"_show_replacement_bus"}"
+                              @change="${this._valueChanged}"
+                              ></ha-switch>
+                        </div>` : ''}
+
                     </div>
-                    Filtrage des données :
-                    <ha-textfield
-                      label="Exclure les lignes (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
-                      .value="${this._exclude_lines}"
-                      .configValue=${"exclude_lines"}
-                      @input="${this._valueChanged}"
-                    ></ha-textfield>
-                    <ha-textfield
-                      label="Exclure les destinations (ex: 458755;5655442;)"
-                      .value="${this._exclude_lines_ref}"
-                      .configValue=${"exclude_lines_ref"}
-                      @input="${this._valueChanged}"
-                    ></ha-textfield>
-                    <ha-textfield
-                      label="Exclure les lignes 2ème ligne (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
-                      .value="${this._exclude_second_lines}"
-                      .configValue=${"exclude_second_lines"}
-                      @input="${this._valueChanged}"
-                    ></ha-textfield>
-                    <ha-textfield
-                      label="Exclure les destinations 2ème ligne (ex: 458755;5655442;)"
-                      .value="${this._exclude_second_lines_ref}"
-                      .configValue=${"exclude_second_lines_ref"}
-                      @input="${this._valueChanged}"
-                    ></ha-textfield>
-                    <div class="switch">
+                    <h2>Aide à la configuration :</h2>
+                    <div>
                       <div>
                         <span>Afficher les références des destinations</span>
                         <ha-switch

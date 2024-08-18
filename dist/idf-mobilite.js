@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.2.4", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.2.5", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -26,11 +26,11 @@ class IDFMobiliteCard extends LitElement {
                     <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
                         <div class="card-content${this.config.show_screen === true ? "-with-screen" : this.config.wall_panel === true ? "-nobg" : ""}">
                             ${this.config.lineType === "RER"
-                                ? this.createRERContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref) : ""}
+                                ? this.createRERContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref, this.config.nb_departure_first_line) : ""}
                             ${this.config.lineType === "BUS"
                                 ? this.createBUSContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref) : ""}
                             ${this.config.second_entity && this.config.lineType === "RER"
-                                ? this.createRERContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, true) : ""}
+                                ? this.createRERContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, this.config.nb_departure_second_line, true) : ""}
                             ${this.config.second_entity && this.config.lineType === "BUS"
                                 ? this.createBUSContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, true) : ""}
                             ${this.createMessageDisplay()}
@@ -49,18 +49,17 @@ class IDFMobiliteCard extends LitElement {
         `;
     }
 
-    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, second_entity) {
+    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, second_entity) {
         const messagesList = this.hass.states[this.config.messages];
         if (!lineDatas?.attributes['Siri']  || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``;
         let serviceDelivery = lineDatas.attributes['Siri'].ServiceDelivery;
-
         // Last update date
         const lastUpdateTime = IDFMobiliteCard.parseTimestamp(serviceDelivery.StopMonitoringDelivery[0].ResponseTimestamp)
         // Station name (take the first stopPointName)
         const stationName = serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
             serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
-            : "API ERROR";
+            : "Pas de départ prévu";
 
         // Build Line/Time
         const trains = {};
@@ -100,6 +99,7 @@ class IDFMobiliteCard extends LitElement {
                             trains[lineRef] = {};
                         if (!trains[lineRef][destinationName])
                             trains[lineRef][destinationName] = [];
+                        if (trains[lineRef][destinationName].length >= nb_departure) return;
                         trains[lineRef][destinationName].push({
                             vehiculeName: stop.MonitoredVehicleJourney.JourneyNote != "" ? stop.MonitoredVehicleJourney.JourneyNote[0].value : lineRef.substring(lineRef.indexOf("-") + 1).toLocaleUpperCase(),
                             destinationName: stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value,
@@ -213,7 +213,7 @@ class IDFMobiliteCard extends LitElement {
         // Station name (take the first stopPointName)
         const stationName = serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.length > 0 ?
             serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall.StopPointName[0].value
-            : "API ERROR";
+            : "Pas de départ prévu";
         // Build Line/Time
         const buses = {};
         const busData = {};
