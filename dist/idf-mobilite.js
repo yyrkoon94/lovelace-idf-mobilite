@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.2.6", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.2.7", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -116,7 +116,7 @@ class IDFMobiliteCard extends LitElement {
         const imagesUrl = new URL('images/', import.meta.url).href
         return html`
             ${this.config.show_station_name === undefined || this.config.show_station_name === true ?
-                html `<div class="rer-header ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "header-nobg " : ""}}">
+                html `<div class="rer-header ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "header-nobg " : ""}" style="${second_entity ? 'border-radius: 0px !important' : ''}">
                     <div class="rer-station-name${this.config.wall_panel === true ? "-nobg" : ""}">
                         ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
                     html`<div class="bus-destination-name">
@@ -133,7 +133,7 @@ class IDFMobiliteCard extends LitElement {
                                 <div class="bus-last-update-time">
                                     ${lastUpdateTime}
                                 </div>
-                                <div class="bus-last-update-text">
+                                <div class="bus-last-update-text${this.config.wall_panel === true ? "-nobg" : ""}">
                                     Dernière mise à jour
                                 </div>
                             </div>`: "" }
@@ -905,7 +905,7 @@ class IDFMobiliteCard extends LitElement {
                 display: flex;
                 justify-content: center;
                 overflow-x: auto;
-                height: 20px;
+                height: 20px !important;
                 border-radius: 0px 0px 9px 9px;
                 background-color: #FFFFFF;
                 color: #000000;
