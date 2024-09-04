@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.2.5", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.2.6", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -282,7 +282,18 @@ class IDFMobiliteCard extends LitElement {
                 </div>
                 `: ""
                 }
-                <div class="bus-lines" style="${this.config.second_entity && !second_entity ? 'flex-grow: 0;': ''}">
+                <div class="bus-lines" style="${this.config.second_entity && !second_entity ? 'flex-grow: 0;' : ''}">
+                    ${Object.keys(buses).length === 0 ?
+                      html`
+                        <div class="bus-line${this.config.wall_panel === true ? "-nobg" : ""}">
+                            <div class="bus-line-detail">
+                                <div class="bus-img">
+                                    <div class="bus-line-image"><img src="${imagesUrl}general/warning.png" class="bus-image"></div>
+                                </div>
+                                <div class="bus-destination">Arrêt non desservi</div>
+                            </div>
+                        </div>`
+                    : html``}
                     ${Object.keys(buses).sort(function (a, b) { return a.localeCompare(b) }).map(bus => {
                         return html`
                             <div class="bus-line${this.config.wall_panel === true ? "-nobg" : ""}">
