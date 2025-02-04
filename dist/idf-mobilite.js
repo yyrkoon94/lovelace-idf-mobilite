@@ -26,11 +26,11 @@ class IDFMobiliteCard extends LitElement {
                     <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
                         <div class="card-content${this.config.show_screen === true ? "-with-screen" : this.config.wall_panel === true ? "-nobg" : ""}">
                             ${this.config.lineType === "RER"
-                                ? this.createRERContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref, this.config.nb_departure_first_line) : ""}
+                                ? this.createRERContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref, this.config.nb_departure_first_line, this.config.show_hour_departure_first_line, this.config.show_departure_platform_first_line) : ""}
                             ${this.config.lineType === "BUS"
                                 ? this.createBUSContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref) : ""}
                             ${this.config.second_entity && this.config.lineType === "RER"
-                                ? this.createRERContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, this.config.nb_departure_second_line, true) : ""}
+                                ? this.createRERContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, this.config.nb_departure_second_line, this.config.show_hour_departure_second_line, this.config.show_departure_platform_second_line, true) : ""}
                             ${this.config.second_entity && this.config.lineType === "BUS"
                                 ? this.createBUSContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, true) : ""}
                             ${this.createMessageDisplay()}
@@ -49,7 +49,7 @@ class IDFMobiliteCard extends LitElement {
         `;
     }
 
-    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, second_entity) {
+    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, show_hour_departure, show_departure_platform, second_entity) {
         const messagesList = this.hass.states[this.config.messages];
         if (!lineDatas?.attributes['Siri']  || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``;
@@ -92,7 +92,10 @@ class IDFMobiliteCard extends LitElement {
 
                 if (lineRef) {
                     const nextDeparture = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60);
+                    const nextDepartureValue = new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime));
+                    const nextDepartureHour = (nextDepartureValue.getHours()<10?"0"+nextDepartureValue.getHours():nextDepartureValue.getHours())+":"+(nextDepartureValue.getMinutes()<10?"0"+nextDepartureValue.getMinutes():nextDepartureValue.getMinutes());
                     const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.length - 1);
+                    const platform = stop.MonitoredVehicleJourney.MonitoredCall.ArrivalPlatformName ? stop.MonitoredVehicleJourney.MonitoredCall.ArrivalPlatformName.value : "";
                     if ((!exclude_lines || exclude_lines.indexOf(lineRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1) && nextDeparture > -5 && nextDeparture < 60) {
                         const destinationName = stop.MonitoredVehicleJourney.DirectionName.length > 0 ? stop.MonitoredVehicleJourney.DirectionName[0].value.split('-').map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()).join('-').split(' ').map(item => item.charAt(0).toUpperCase() + item.slice(1)).join(' ') : stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value;
                         if (!trains[lineRef])
@@ -104,7 +107,10 @@ class IDFMobiliteCard extends LitElement {
                             vehiculeName: stop.MonitoredVehicleJourney.JourneyNote != "" ? stop.MonitoredVehicleJourney.JourneyNote[0].value : lineRef.substring(lineRef.indexOf("-") + 1).toLocaleUpperCase(),
                             destinationName: stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value,
                             destinationRef: stop.MonitoredVehicleJourney.DestinationRef.value,
-                            nextDeparture: nextDeparture, monitoringRef: stop.MonitoringRef.value
+                            nextDeparture: nextDeparture,
+                            nextDepartureHour: nextDepartureHour,
+                            platform: platform,
+                            monitoringRef: stop.MonitoringRef.value
                         });
                         if (!trainData[lineRef])
                             trainData[lineRef] = line;
@@ -181,19 +187,25 @@ class IDFMobiliteCard extends LitElement {
                                         <div class="rer-line-departure">
                                             ${trains[train][trainDestination][trainLine].nextDeparture > 0 ?
                                                 html`
-                                                    <div class="rer-line-departure-time-content">
-                                                        <div class="rer-line-departure-time">
-                                                            ${trains[train][trainDestination][trainLine].nextDeparture}
+                                                    <div class="${!show_hour_departure ?'rer-line-departure-time-content':'rer-line-departure-message'}">
+                                                        <div class="${!show_hour_departure ?'rer-line-departure-time': 'rer-line-departure-message-text'}">
+                                                            ${show_hour_departure ? html`${trains[train][trainDestination][trainLine].nextDepartureHour}`: html`${trains[train][trainDestination][trainLine].nextDeparture}`}
                                                         </div>
+                                                        ${!show_hour_departure ? html`
                                                         <div class="rer-line-departure-minute">
                                                             min
-                                                        </div>
+                                                        </div>`:html``}
                                                     </div>` :
                                                         (trains[train][trainDestination][trainLine].nextDeparture == 0 ?
                                                             html`<div class="rer-line-departure-message"><div class="rer-line-departure-message-text-blink">à l'approche</div></div>`
                                                             : html`<div class="rer-line-departure-message"><div class="rer-line-departure-message-text">à quai</div></div>`)
                                             }
+                                            ${trains[train][trainDestination][trainLine].platform != "" && show_departure_platform ?
+                                                html`<div class="rer-line-departure-platform">${trains[train][trainDestination][trainLine].platform}</div>`: ""
+                                            }
                                         </div>
+
+
                                     </div>`
                             })}
                         </div>`
@@ -860,6 +872,7 @@ class IDFMobiliteCard extends LitElement {
                 height: 40px;
                 background: #4D4D4D;
                 align-self: center;
+                justify-content: space-between;
             }
             .rer-line-departure-time-content {
                 display: flex;
@@ -891,6 +904,18 @@ class IDFMobiliteCard extends LitElement {
                 padding-right: 5px;
                 background: #000000;
                 color: #CAA94C;
+            }
+            .rer-line-departure-platform {
+                background: #ffffff;
+                align-items: center;
+                margin: 5px;
+                border-radius: 5px;
+                border: 1px solid #070572;
+                font-size: 18px;
+                font-weight: bold;
+                padding-left: 5px;
+                padding-right: 5px;
+                display: flex;
             }
             .rer-line-departure-message-text-blink {
                 display: flex;

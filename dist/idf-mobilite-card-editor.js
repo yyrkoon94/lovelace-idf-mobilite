@@ -101,6 +101,22 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.nb_departure_second_line || "";
     }
 
+    get _show_hour_departure_first_line() {
+      return this._config.show_hour_departure_first_line|| false;
+    }
+
+    get _show_hour_departure_second_line() {
+      return this._config.show_hour_departure_second_line|| false;
+    }
+
+    get _show_departure_platform_first_line() {
+      return this._config.show_departure_platform_first_line|| false;
+    }
+
+    get _show_departure_platform_second_line() {
+      return this._config.show_departure_platform_second_line|| false;
+    }
+
     render() {
         if (!this.hass) {
           return html``;
@@ -149,7 +165,23 @@ class IDFMobiliteCardEditor extends LitElement {
                             .value="${this._nb_departure_first_line}"
                             .configValue=${"nb_departure_first_line"}
                             @input="${this._valueChanged}"
-                          ></ha-textfield>` : ''}
+                          ></ha-textfield>
+                        <div>
+                          <span>Afficher l'heure de départ au lieu du delais</span>
+                            <ha-switch
+                                .checked=${this._show_hour_departure_first_line}
+                                .configValue="${"show_hour_departure_first_line"}"
+                                @change="${this._valueChanged}"
+                            ></ha -switch>
+                        </div>
+                        <div>
+                          <span>Afficher le quai de départ</span>
+                          <ha-switch
+                              .checked=${this._show_departure_platform_first_line}
+                              .configValue="${"show_departure_platform_first_line"}"
+                              @change="${this._valueChanged}"
+                          ></ha -switch>
+                        </div>` : ''}
                     <h2>Second Arrêt (optionel)</h2>
                     <ha-entity-picker
                       label="Arrêt (RESTFul sensor)"
@@ -178,7 +210,23 @@ class IDFMobiliteCardEditor extends LitElement {
                                 .value="${this._nb_departure_second_line}"
                                 .configValue=${"nb_departure_second_line"}
                                 @input="${this._valueChanged}"
-                              ></ha-textfield>` : ''}
+                              ></ha-textfield>
+                        <div>
+                          <span>Afficher l'heure de départ au lieu du delais</span>
+                              <ha-switch
+                                  .checked=${this._show_hour_departure_second_line}
+                                  .configValue="${"show_hour_departure_second_line"}"
+                                  @change="${this._valueChanged}"
+                              ></ha -switch>
+                        </div>
+                        <div>
+                          <span>Afficher le quai de départ</span>
+                          <ha-switch
+                              .checked=${this._show_departure_platform_second_line}
+                              .configValue="${"show_departure_platform_second_line"}"
+                              @change="${this._valueChanged}"
+                          ></ha -switch>
+                        </div>` : ''}
                     <h2>Messages d'information / perturbations (optionel)</h2>
                     <ha-entity-picker
                         label="Messages (RESTFul sensor)"
