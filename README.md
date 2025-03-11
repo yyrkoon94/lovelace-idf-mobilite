@@ -3,7 +3,7 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![release][release-badge]][release-url]
 
-** **IMPORTANT INFORMATION** : RIM has changed its quota policy for accounts created since March 2024 with only 1000 calls per day by default (which is not enough if you refresh the REST sensor every 60 seconds and more over if you have several sensors). The easiest solution is probably to refresh more than every 60 seconds, but you can also request additional quota when your quota is exceeded on the PRIM website ** 
+** **IMPORTANT INFORMATION** : PRIM has changed its quota policy for accounts created since March 2024 with only 1000 calls per day by default (which is not enough if you refresh the REST sensor every 60 seconds and more over if you have several sensors). The easiest solution is probably to refresh more than every 60 seconds, but you can also request additional quota when your quota is exceeded on the PRIM website ** 
 
 A new [Home Assistant][home-assistant] Lovelace Card to show all types of upcoming vehicles on the Ile de France Mobilite network.
 
