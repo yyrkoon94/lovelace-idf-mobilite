@@ -57,6 +57,10 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.show_screen || false;
     }
 
+    get _wall_panel() {
+      return this._config.wall_panel || false;
+    }
+
     get _show_station_name() {
       return this._config.show_station_name === undefined ? true : this._config.show_station_name;
     }
@@ -117,6 +121,22 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.show_departure_platform_second_line|| false;
     }
 
+    get _group_destination_first_line() {
+      return this._config.group_destination_first_line|| false;
+    }
+
+    get _group_destination_second_line() {
+      return this._config.group_destination_second_line|| false;
+    }
+
+    get _group_destination_name_first_line() {
+      return this._config.group_destination_name_first_line|| "";
+    }
+
+    get _group_destination_name_second_line() {
+      return this._config.group_destination_name_second_line|| "";
+    }
+
     render() {
         if (!this.hass) {
           return html``;
@@ -137,6 +157,16 @@ class IDFMobiliteCardEditor extends LitElement {
                         <ha-list-item value="RER">RER/SNCF</ha-list-item>
                         <ha-list-item value="BUS">Bus/Tram/Métro</ha-list-item>
                     </ha-select>
+                    ${this._config.lineType == 'RER' ?
+                      html`
+                        <div>
+                          <span>Afficher les bus de replacement</span>
+                          <ha-switch
+                              .checked=${this._show_replacement_bus}
+                              .configValue="${"_show_replacement_bus"}"
+                              @change="${this._valueChanged}"
+                              ></ha-switch>
+                        </div>` : ''}
                     <h2>Premier Arrêt</h2>
                     <ha-entity-picker
                         label="Arrêt (RESTFul sensor)"
@@ -160,6 +190,7 @@ class IDFMobiliteCardEditor extends LitElement {
                     ></ha-textfield>
                     ${this._config.lineType == 'RER' ?
                       html`
+                        <h4>Options d'affichage :</h4>
                         <ha-textfield
                             label="Nombre de départs à afficher (si vide = tous)"
                             .value="${this._nb_departure_first_line}"
@@ -181,7 +212,23 @@ class IDFMobiliteCardEditor extends LitElement {
                               .configValue="${"show_departure_platform_first_line"}"
                               @change="${this._valueChanged}"
                           ></ha -switch>
-                        </div>` : ''}
+                        </div>
+                        <div>
+                          <span>Grouper les destinations</span>
+                          <ha-switch
+                              .checked=${this._group_destination_first_line}
+                              .configValue="${"group_destination_first_line"}"
+                              @change="${this._valueChanged}"
+                          ></ha -switch>
+                        </div>
+                        ${this._config.group_destination_first_line ? html`
+                          <ha-textfield
+                            label="Libellé de la destination (si vide = toutes)"
+                            .value="${this._group_destination_name_first_line}"
+                            .configValue=${"group_destination_name_first_line"}
+                            @input="${this._valueChanged}"
+                          ></ha-textfield>
+                        <div>`: ``}` : ''}
                     <h2>Second Arrêt (optionel)</h2>
                     <ha-entity-picker
                       label="Arrêt (RESTFul sensor)"
@@ -205,6 +252,7 @@ class IDFMobiliteCardEditor extends LitElement {
                     ></ha-textfield>
                     ${this._config.lineType == 'RER' ?
                       html`
+                        <h4>Options d'affichage :</h4>
                         <ha-textfield
                                 label="Nombre de départs à afficher (si vide = tous)"
                                 .value="${this._nb_departure_second_line}"
@@ -226,7 +274,23 @@ class IDFMobiliteCardEditor extends LitElement {
                               .configValue="${"show_departure_platform_second_line"}"
                               @change="${this._valueChanged}"
                           ></ha -switch>
-                        </div>` : ''}
+                        </div>
+                        <div>
+                          <span>Grouper les destinations</span>
+                          <ha-switch
+                              .checked=${this._group_destination_second_line}
+                              .configValue="${"group_destination_second_line"}"
+                              @change="${this._valueChanged}"
+                          ></ha -switch>
+                        </div>
+                        ${this._config.group_destination_second_line ? html`
+                          <ha-textfield
+                            label="Libellé de la destination (si vide = toutes)"
+                            .value="${this._group_destination_name_second_line}"
+                            .configValue=${"group_destination_name_second_line"}
+                            @input="${this._valueChanged}"
+                          ></ha-textfield>
+                        <div>`: ``}` : ''}
                     <h2>Messages d'information / perturbations (optionel)</h2>
                     <ha-entity-picker
                         label="Messages (RESTFul sensor)"
@@ -243,28 +307,33 @@ class IDFMobiliteCardEditor extends LitElement {
                             @change="${this._valueChanged}"
                             ></ha-switch>
                       </div>
-                    <h2>Options d'affichage</h2>
-                    <div class="switch">
-                      <div>
-                        <span>Mode écran</span>
-                        <ha-switch
-                            .checked=${this._show_screen}
-                            .configValue="${"show_screen"}"
-                            @change="${this._valueChanged}"
-                            ></ha-switch>
-                      </div>
-                      <div>
-                        <span>Nom de la station</span>
-                        <ha-switch
-                            .checked=${this._show_station_name}
-                            .configValue="${"show_station_name"}"
-                            @change="${this._valueChanged}"
-                            ></ha-switch>
-                      </div>
+                    <h2>Options générales d'affichage</h2>
+                    <div>
+                      <span>Mode écran</span>
+                      <ha-switch
+                          .checked=${this._show_screen}
+                          .configValue="${"show_screen"}"
+                          @change="${this._valueChanged}"
+                          ></ha-switch>
+                    </div>
+                    <div>
+                      <span>Nom de la station</span>
+                      <ha-switch
+                          .checked=${this._show_station_name}
+                          .configValue="${"show_station_name"}"
+                          @change="${this._valueChanged}"
+                          ></ha-switch>
+                    </div>
+                    <div>
+                      <span>Mode sans bordure (pour wall-panel sur fond noir)</span>
+                      <ha-switch
+                          .checked=${this._wall_panel}
+                          .configValue="${"wall_panel"}"
+                          @change="${this._valueChanged}"
+                          ></ha-switch>
                     </div>
                     ${this._config.lineType == 'BUS' ?
                       html`
-                        <div class="switch">
                       <div>
                         <span>Afficher "à l'approche/à l'arrêt" au lieu de "0"</span>
                         <ha-switch
@@ -273,22 +342,11 @@ class IDFMobiliteCardEditor extends LitElement {
                             @change="${this._valueChanged}"
                             ></ha-switch>
                       </div>` : ''}
-                    ${this._config.lineType == 'RER' ?
-                      html`
-                        <div style="text-align: center">
-                          <span>Afficher les bus de replacement</span>
-                          <ha-switch
-                              .checked=${this._show_replacement_bus}
-                              .configValue="${"_show_replacement_bus"}"
-                              @change="${this._valueChanged}"
-                              ></ha-switch>
-                        </div>` : ''}
-
                     </div>
-                    <h2>Aide à la configuration :</h2>
+                    <h2>Aide à la configuration</h2>
                     <div>
                       <div>
-                        <span>Afficher les références des destinations</span>
+                        <span>Afficher les références des destinations pour les filtres</span>
                         <ha-switch
                             .checked=${this._show_train_ref}
                             .configValue="${"show_train_ref"}"
@@ -345,10 +403,12 @@ class IDFMobiliteCardEditor extends LitElement {
               display: block;
               margin-bottom: 16px;
             }
+            ha-switch {
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
             .switch {
               display: flex;
-              margin-bottom: 16px;
-              margin-top: 16px;
               justify-content: space-around;
             }
         `;

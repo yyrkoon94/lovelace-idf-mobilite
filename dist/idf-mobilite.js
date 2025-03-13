@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.2.10", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.2.11", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -26,11 +26,11 @@ class IDFMobiliteCard extends LitElement {
                     <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
                         <div class="card-content${this.config.show_screen === true ? "-with-screen" : this.config.wall_panel === true ? "-nobg" : ""}">
                             ${this.config.lineType === "RER"
-                                ? this.createRERContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref, this.config.nb_departure_first_line, this.config.show_hour_departure_first_line, this.config.show_departure_platform_first_line) : ""}
+                                ? this.createRERContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref, this.config.nb_departure_first_line, this.config.show_hour_departure_first_line, this.config.show_departure_platform_first_line, this.config.group_destination_first_line, this.config.group_destination_name_first_line) : ""}
                             ${this.config.lineType === "BUS"
                                 ? this.createBUSContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref) : ""}
                             ${this.config.second_entity && this.config.lineType === "RER"
-                                ? this.createRERContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, this.config.nb_departure_second_line, this.config.show_hour_departure_second_line, this.config.show_departure_platform_second_line, true) : ""}
+                                ? this.createRERContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, this.config.nb_departure_second_line, this.config.show_hour_departure_second_line, this.config.show_departure_platform_second_line, this.config.group_destination_second_line, this.config.group_destination_name_second_line, true) : ""}
                             ${this.config.second_entity && this.config.lineType === "BUS"
                                 ? this.createBUSContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, true) : ""}
                             ${this.createMessageDisplay()}
@@ -49,8 +49,13 @@ class IDFMobiliteCard extends LitElement {
         `;
     }
 
-    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, show_hour_departure, show_departure_platform, second_entity) {
-        const messagesList = this.hass.states[this.config.messages];
+    /********************************************************
+    **                                                     **
+    **                       RER CONTENT                   **
+    **                                                     **
+    *********************************************************/
+    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, show_hour_departure, show_departure_platform, groupDestination, groupDestinationName, second_entity) {
+        const messagesList = this.hass.states[this.config.messages]
         if (!lineDatas?.attributes['Siri']  || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``;
         let serviceDelivery = lineDatas.attributes['Siri'].ServiceDelivery;
@@ -62,7 +67,7 @@ class IDFMobiliteCard extends LitElement {
             : "Pas de départ prévu";
 
         // Build Line/Time
-        const trains = {};
+        let trains = {};
         const trainData = {};
         serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
             if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 && stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value.indexOf("Bus Estime Dans") == -1) {
@@ -86,10 +91,9 @@ class IDFMobiliteCard extends LitElement {
                         }
                         break;
                     default:
-                        IDFMobiliteCard.logUnknownLine(line);
+                        //IDFMobiliteCard.logUnknownLine(line);
                         break;
                 }
-
                 if (lineRef) {
                     const nextDeparture = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60);
                     const nextDepartureValue = new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime));
@@ -97,13 +101,25 @@ class IDFMobiliteCard extends LitElement {
                     const lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(stop.MonitoredVehicleJourney.DestinationRef.value.indexOf(":Q:") + 3, stop.MonitoredVehicleJourney.DestinationRef.value.length - 1);
                     const platform = stop.MonitoredVehicleJourney.MonitoredCall.ArrivalPlatformName ? stop.MonitoredVehicleJourney.MonitoredCall.ArrivalPlatformName.value : "";
                     if ((!exclude_lines || exclude_lines.indexOf(lineRef) == -1) && (!exclude_lines_ref || exclude_lines_ref.indexOf(lineStop) == -1) && nextDeparture > -5 && nextDeparture < 60) {
-                        const destinationName = stop.MonitoredVehicleJourney.DirectionName.length > 0 ? stop.MonitoredVehicleJourney.DirectionName[0].value.split('-').map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()).join('-').split(' ').map(item => item.charAt(0).toUpperCase() + item.slice(1)).join(' ') : stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value;
+                        let destinationName = stop.MonitoredVehicleJourney.DirectionName.length > 0 ? stop.MonitoredVehicleJourney.DirectionName[0].value.split('-').map(item => item.charAt(0).toUpperCase() + item.slice(1).toLowerCase()).join('-').split(' ').map(item => item.charAt(0).toUpperCase() + item.slice(1)).join(' ') : stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value;
                         if (!trains[lineRef])
                             trains[lineRef] = {};
-                        if (!trains[lineRef][destinationName])
-                            trains[lineRef][destinationName] = [];
-                        if (trains[lineRef][destinationName].length >= nb_departure) return;
-                        trains[lineRef][destinationName].push({
+                        if (groupDestination)
+                            if (!trains[lineRef][0]) {
+                                trains[lineRef][0] = []
+                                trains[lineRef].destinationName = destinationName
+                            }
+                            else {
+                                if (trains[lineRef].destinationName.indexOf(destinationName) == -1)
+                                    trains[lineRef].destinationName = trains[lineRef].destinationName + " • " + destinationName
+                            }
+
+                        else
+                            if (!trains[lineRef][destinationName])
+                                trains[lineRef][destinationName] = [];
+                        const destinationTable = groupDestination ? trains[lineRef][0] : trains[lineRef][destinationName]
+                        if (destinationTable.length >= nb_departure) return;
+                        destinationTable.push({
                             vehiculeName: stop.MonitoredVehicleJourney.JourneyNote != "" ? stop.MonitoredVehicleJourney.JourneyNote[0].value : lineRef.substring(lineRef.indexOf("-") + 1).toLocaleUpperCase(),
                             destinationName: stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value,
                             destinationRef: stop.MonitoredVehicleJourney.DestinationRef.value,
@@ -118,7 +134,14 @@ class IDFMobiliteCard extends LitElement {
                 }
             }
         });
-
+        if (groupDestination) {
+            const trainsGrouped = {};
+            for (const currentLine in trains) {
+                trainsGrouped[currentLine] = {}
+                trainsGrouped[currentLine][groupDestinationName ? groupDestinationName : trains[currentLine].destinationName] = trains[currentLine][0]
+            }
+            trains = trainsGrouped
+        }
         const imagesUrl = new URL('images/', import.meta.url).href
         return html`
             ${this.config.show_station_name === undefined || this.config.show_station_name === true ?
@@ -215,6 +238,11 @@ class IDFMobiliteCard extends LitElement {
         `;
     }
 
+    /********************************************************
+    **                                                     **
+    **                       BUS CONTENT                   **
+    **                                                     **
+    *********************************************************/
     createBUSContent(lineDatas, exclude_lines, exclude_lines_ref, second_entity) {
         if (!lineDatas?.attributes['Siri']  || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``;
