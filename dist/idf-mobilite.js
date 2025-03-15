@@ -2,13 +2,13 @@ import {
     LitElement,
     html,
     css
-} from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module"
+} from "./lit/lit-core.min.js"
 
 import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.2.11", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.2.12", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -1006,3 +1006,11 @@ class IDFMobiliteCard extends LitElement {
     }
 }
 customElements.define("idf-mobilite-card", IDFMobiliteCard);
+
+window.customCards = window.customCards || [];
+window.customCards.push({
+  type: 'idf-mobilite-card',
+  name: 'Ile de France Mobilité',
+  preview: false,
+  description: 'Lovelace Card to show all types of upcoming vehicles on the Ile de France Mobilite network',
+});
