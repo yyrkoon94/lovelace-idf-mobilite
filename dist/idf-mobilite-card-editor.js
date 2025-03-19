@@ -121,6 +121,14 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.show_hour_departure_second_line|| false;
     }
 
+    get _show_hour_departure_index_first_line() {
+      return this._config.show_hour_departure_index_first_line|| "";
+    }
+
+    get _show_hour_departure_index_second_line() {
+      return this._config.show_hour_departure_second_first_line|| "";
+    }
+
     get _show_departure_platform_first_line() {
       return this._config.show_departure_platform_first_line|| false;
     }
@@ -213,6 +221,14 @@ class IDFMobiliteCardEditor extends LitElement {
                                 @change="${this._valueChanged}"
                             ></ha -switch>
                         </div>
+                        ${this._config.show_hour_departure_first_line ? html`
+                          <ha-textfield
+                            label="Nombre de lignes où conserver le delais (si vide = aucune)"
+                            .value="${this._show_hour_departure_index_first_line}"
+                            .configValue=${"show_hour_departure_index_first_line"}
+                            @input="${this._valueChanged}"
+                          ></ha-textfield>
+                        <div>`: ``}
                         <div>
                           <span>Afficher le quai de départ</span>
                           <ha-switch
@@ -275,6 +291,14 @@ class IDFMobiliteCardEditor extends LitElement {
                                   @change="${this._valueChanged}"
                               ></ha -switch>
                         </div>
+                        ${this._config.show_hour_departure_second_line ? html`
+                          <ha-textfield
+                            label="Nombre de lignes où conserver le delais (si vide = aucune)"
+                            .value="${this._show_hour_departure_index_second_line}"
+                            .configValue=${"show_hour_departure_index_second_line"}
+                            @input="${this._valueChanged}"
+                          ></ha-textfield>
+                        <div>`: ``}
                         <div>
                           <span>Afficher le quai de départ</span>
                           <ha-switch

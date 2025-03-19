@@ -26,11 +26,11 @@ class IDFMobiliteCard extends LitElement {
                     <div class="idf-${this.config.show_screen === true ? "with-" : ""}screen">
                         <div class="card-content${this.config.show_screen === true ? "-with-screen" : this.config.wall_panel === true ? "-nobg" : ""}">
                             ${this.config.lineType === "RER"
-                                ? this.createRERContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref, this.config.nb_departure_first_line, this.config.show_hour_departure_first_line, this.config.show_departure_platform_first_line, this.config.group_destination_first_line, this.config.group_destination_name_first_line) : ""}
+                                ? this.createRERContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref, this.config.nb_departure_first_line, this.config.show_hour_departure_first_line, this.config.show_hour_departure_index_first_line, this.config.show_departure_platform_first_line, this.config.group_destination_first_line, this.config.group_destination_name_first_line) : ""}
                             ${this.config.lineType === "BUS"
                                 ? this.createBUSContent(this.hass.states[this.config.entity], this.config.exclude_lines, this.config.exclude_lines_ref) : ""}
                             ${this.config.second_entity && this.config.lineType === "RER"
-                                ? this.createRERContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, this.config.nb_departure_second_line, this.config.show_hour_departure_second_line, this.config.show_departure_platform_second_line, this.config.group_destination_second_line, this.config.group_destination_name_second_line, true) : ""}
+                                ? this.createRERContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, this.config.nb_departure_second_line, this.config.show_hour_departure_second_line, this.config.show_hour_departure_index_second_line,this.config.show_departure_platform_second_line, this.config.group_destination_second_line, this.config.group_destination_name_second_line, true) : ""}
                             ${this.config.second_entity && this.config.lineType === "BUS"
                                 ? this.createBUSContent(this.hass.states[this.config.second_entity], this.config.exclude_second_lines, this.config.exclude_second_lines_ref, true) : ""}
                             ${this.createMessageDisplay()}
@@ -54,7 +54,7 @@ class IDFMobiliteCard extends LitElement {
     **                       RER CONTENT                   **
     **                                                     **
     *********************************************************/
-    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, show_hour_departure, show_departure_platform, groupDestination, groupDestinationName, second_entity) {
+    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, show_hour_departure, show_hour_departure_index, show_departure_platform, groupDestination, groupDestinationName, second_entity) {
         const messagesList = this.hass.states[this.config.messages]
         if (!lineDatas?.attributes['Siri']  || !lineDatas.attributes['Siri']?.ServiceDelivery?.StopMonitoringDelivery[0].ResponseTimestamp)
             return html``;
@@ -172,7 +172,8 @@ class IDFMobiliteCard extends LitElement {
             <div class="rer-content">
                 ${Object.keys(trains).sort(function (a, b) { return a.localeCompare(b) }).map(train => {
                 return html`
-                    ${Object.keys(trains[train]).map(trainDestination => {
+                    ${Object.keys(trains[train]).sort(function (a, b) { return a.localeCompare(b) }).map(trainDestination => {
+                    let lineCount=-1
                     return html`
                         <div class="rer-line${this.config.wall_panel === true ? "-nobg" : ""}">
                             <div class="rer-line-title" style="border-color: #${trainData[train].colourweb_hexa.toUpperCase()}">
@@ -192,6 +193,7 @@ class IDFMobiliteCard extends LitElement {
                                 </div>
                             </div>
                             ${Object.keys(trains[train][trainDestination]).map(trainLine => {
+                                lineCount=lineCount+1
                                 return html`
                                     <div class="rer-line-detail">
                                         <div class="rer-line-vehicule">
@@ -211,11 +213,11 @@ class IDFMobiliteCard extends LitElement {
                                         <div class="rer-line-departure">
                                             ${trains[train][trainDestination][trainLine].nextDeparture > 0 ?
                                                 html`
-                                                    <div class="${!show_hour_departure ?'rer-line-departure-time-content':'rer-line-departure-message'}">
-                                                        <div class="${!show_hour_departure ?'rer-line-departure-time': 'rer-line-departure-message-text'}">
-                                                            ${show_hour_departure ? html`${trains[train][trainDestination][trainLine].nextDepartureHour}`: html`${trains[train][trainDestination][trainLine].nextDeparture}`}
+                                                    <div class="${!show_hour_departure || (show_hour_departure && show_hour_departure_index && lineCount<show_hour_departure_index)?'rer-line-departure-time-content':'rer-line-departure-message'}">
+                                                        <div class="${!show_hour_departure || (show_hour_departure && show_hour_departure_index && lineCount<show_hour_departure_index) ?'rer-line-departure-time':'rer-line-departure-message-text'}">
+                                                            ${!show_hour_departure || (show_hour_departure && show_hour_departure_index && lineCount<show_hour_departure_index) ? html`${trains[train][trainDestination][trainLine].nextDeparture}`:html`${trains[train][trainDestination][trainLine].nextDepartureHour}`}
                                                         </div>
-                                                        ${!show_hour_departure ? html`
+                                                        ${!show_hour_departure || (show_hour_departure && show_hour_departure_index && lineCount<show_hour_departure_index) ? html`
                                                         <div class="rer-line-departure-minute">
                                                             min
                                                         </div>`:html``}
@@ -259,6 +261,7 @@ class IDFMobiliteCard extends LitElement {
         const buses = {};
         const busData = {};
         const destinationMap = {};
+        const destinationRefLineStop = {};
         serviceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit.forEach(stop => {
             if (stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime && (stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0) || stop.MonitoredVehicleJourney.DestinationName.length > 0 ) {
                 // Try to find the line in the referential for non RATP lines
@@ -276,12 +279,14 @@ class IDFMobiliteCard extends LitElement {
                 if (lineRef) {
                     let lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(0, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
                     lineStop = lineStop.substring(lineStop.lastIndexOf(":") + 1, lineStop.length)
-                    if ((!exclude_lines || !exclude_lines.includes(lineRef)) && (!exclude_lines_ref || !exclude_lines_ref.includes(lineStop))) {
+                    const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 ? IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value) : IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.DestinationName[0].value)
+                    const directionRef = stop.MonitoredVehicleJourney.DirectionRef ? stop.MonitoredVehicleJourney.DirectionRef.value : stop.MonitoredVehicleJourney.DestinationRef.value
+                    if (!destinationRefLineStop[directionRef] && lineStop != "BusEstimeDans")
+                        destinationRefLineStop[directionRef] = lineStop
+                    if ((!exclude_lines || !exclude_lines.includes(lineRef)) && (!exclude_lines_ref || !exclude_lines_ref.includes(lineStop)) && (!exclude_lines_ref || !exclude_lines_ref.includes(destinationRefLineStop[directionRef]))) {
                         const nextDepartureTime = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
-                        if (nextDepartureTime > -1 || (nextDepartureTime == -1 && stop.MonitoredVehicleJourney.MonitoredCall.CallNote && stop.MonitoredVehicleJourney.MonitoredCall.CallNote[0].value)) {
-                            const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 ? IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value) : IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.DestinationName[0].value)
-                            const directionRef = stop.MonitoredVehicleJourney.DirectionRef ? stop.MonitoredVehicleJourney.DirectionRef.value : stop.MonitoredVehicleJourney.DestinationRef.value
-                            if (!destinationMap[directionRef] && destinationName != "Bus Estime Dans" && lineStop!='BusEstimeDans')
+                        if (nextDepartureTime > -1 || (stop.MonitoredVehicleJourney.MonitoredCall.CallNote && stop.MonitoredVehicleJourney.MonitoredCall.CallNote[0].value)) {
+                            if (!destinationMap[directionRef] && destinationName != "Bus Estime Dans")
                                 destinationMap[directionRef] = destinationName
 
                             if (!buses[lineRef])
