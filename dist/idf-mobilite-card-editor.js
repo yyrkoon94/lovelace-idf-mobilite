@@ -69,6 +69,14 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.display_info_message || false;
     }
 
+    get _display_commercial_message() {
+      return this._config.display_commercial_message || false;
+    }
+
+    get _no_messages_scroll() {
+      return this._config.no_messages_scroll || false;
+    }
+
     get _exclude_lines() {
       return this._config.exclude_lines || "";
     }
@@ -306,7 +314,23 @@ class IDFMobiliteCardEditor extends LitElement {
                             .configValue="${"display_info_message"}"
                             @change="${this._valueChanged}"
                             ></ha-switch>
-                      </div>
+                    </div>
+                    <div>
+                        <span>Afficher les messages commerciaux</span>
+                        <ha-switch
+                            .checked=${this._display_commercial_message}
+                            .configValue="${"display_commercial_message"}"
+                            @change="${this._valueChanged}"
+                            ></ha-switch>
+                    </div>
+                    <div>
+                        <span>Ne pas faire défiler les messages</span>
+                        <ha-switch
+                            .checked=${this._no_messages_scroll}
+                            .configValue="${"no_messages_scroll"}"
+                            @change="${this._valueChanged}"
+                            ></ha-switch>
+                    </div>
                     <h2>Options générales d'affichage</h2>
                     <div>
                       <span>Mode écran</span>
