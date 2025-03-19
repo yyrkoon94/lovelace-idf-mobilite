@@ -5,7 +5,7 @@ export function idfMobiliteLineRef() {
     "name_line": "482",
     "shortname_line": "482",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Ouest Val-de-Marne",
     "networkname": "Seine Grand Orly",
@@ -62,258 +62,254 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00009",
-    "name_line": "3",
-    "shortname_line": "3",
+    "name_line": "3103",
+    "shortname_line": "3103",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "662583",
+    "colourweb_hexa": "662d9a",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "5319a8521d577c020540a400addb4b97",
+      "filename": "20241209T105157Z-ee60b144-7be6-4cc9-b736-bdb527687b75.png"
     }
   },
   {
     "id_line": "C00010",
-    "name_line": "4",
-    "shortname_line": "4",
+    "name_line": "3104",
+    "shortname_line": "3104",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "b90745",
+    "colourweb_hexa": "ed1c2a",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "f5c3fcb6ea23f47320b6fbdbbacd36f1",
+      "filename": "20241209T105338Z-6473050a-93a9-4027-8e77-7d27e11c9ef4.png"
     }
   },
   {
     "id_line": "C00011",
-    "name_line": "5",
-    "shortname_line": "5",
+    "name_line": "3105",
+    "shortname_line": "3105",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "c04192",
+    "colourweb_hexa": "bb4b9b",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "b81eb951bb9434eac0c6216ebd72e0a2",
+      "filename": "20241209T105449Z-0a5869a2-5f18-4454-b061-1132252001eb.png"
     }
   },
   {
     "id_line": "C00012",
-    "name_line": "7",
-    "shortname_line": "7",
+    "name_line": "3107",
+    "shortname_line": "3107",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "81c491",
+    "colourweb_hexa": "78c696",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "353a33ce76768622bdc491276d78cd93",
+      "filename": "20241209T111904Z-3e8b9f47-8d2f-42aa-98be-d35bb34deea6.png"
     }
   },
   {
     "id_line": "C00014",
-    "name_line": "10",
-    "shortname_line": "10",
+    "name_line": "3110",
+    "shortname_line": "3110",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "fece00",
+    "colourweb_hexa": "e0b03b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "5a8a4037af011e9f793b1414561512cf",
+      "filename": "20241209T112026Z-433ea119-cf14-4290-bc06-afd0b55bb4d5.png"
     }
   },
   {
     "id_line": "C00015",
-    "name_line": "11",
-    "shortname_line": "11",
+    "name_line": "3111",
+    "shortname_line": "3111",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
     "colourweb_hexa": "018150",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00016",
-    "name_line": "14",
-    "shortname_line": "14",
+    "name_line": "3114",
+    "shortname_line": "3114",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "f28e42",
+    "colourweb_hexa": "f78f4b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "142267bf40af379009b7639744de5bde",
+      "filename": "20241209T113315Z-47e55019-8eb4-4a6b-a512-3e3b7433baa5.png"
     }
   },
   {
     "id_line": "C00017",
-    "name_line": "18",
-    "shortname_line": "18",
+    "name_line": "3118",
+    "shortname_line": "3118",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "0064b0",
+    "colourweb_hexa": "006db8",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "ae7f64515293169655e8023175bde18a",
+      "filename": "20241209T113520Z-fb0d3949-d710-4e8e-b2d9-1b86542db15c.png"
     }
   },
   {
     "id_line": "C00018",
-    "name_line": "21",
-    "shortname_line": "21",
+    "name_line": "3119",
+    "shortname_line": "3119",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "e3051c",
+    "colourweb_hexa": "ed1c2a",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "a7fe97b450b38822bd95689b65f5a460",
+      "filename": "20241209T113732Z-147b4f79-b06c-4b49-af4e-06809801b6e8.png"
     }
   },
   {
     "id_line": "C00019",
-    "name_line": "23",
-    "shortname_line": "23",
+    "name_line": "3123",
+    "shortname_line": "3123",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "e3b229",
+    "colourweb_hexa": "ffcd03",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "498b03e5071f9d4fbf7ad2824431a602",
+      "filename": "20241209T131340Z-e311dc59-39f0-43c0-ab91-aeee12db66b1.png"
     }
   },
   {
     "id_line": "C00020",
-    "name_line": "121",
-    "shortname_line": "121",
+    "name_line": "3115",
+    "shortname_line": "3115",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "8d5e2a",
+    "colourweb_hexa": "8e6539",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "8510cbcd12266306484b0400c879f0a9",
+      "filename": "20241209T115405Z-e41d6444-367c-40bf-952b-724eff757df2.png"
     }
   },
   {
     "id_line": "C00021",
-    "name_line": "201",
-    "shortname_line": "201",
+    "name_line": "3145",
+    "shortname_line": "3145",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "81c391",
+    "colourweb_hexa": "0a8c5a",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "c13bbb3c301a0f07d00d17d4b9552da2",
+      "filename": "20241210T085258Z-e5f6188a-f7fa-4f94-a3a9-9835cbec8048.png"
     }
   },
   {
     "id_line": "C00024",
-    "name_line": "209",
-    "shortname_line": "209",
+    "name_line": "3109",
+    "shortname_line": "3109",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "d4ca00",
+    "colourweb_hexa": "cec92b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "a48d616f885ec59af32e29be26c79b71",
+      "filename": "20241209T115013Z-6f5b58b1-7d2e-4d8f-91a0-54bad7006bb4.png"
     }
   },
   {
     "id_line": "C00025",
-    "name_line": "309",
-    "shortname_line": "309",
+    "name_line": "3146",
+    "shortname_line": "3146",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "97d4e2",
+    "colourweb_hexa": "87d3df",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "ef531e95f07fd8cc8d2ca5770bff54aa",
+      "filename": "20241210T085409Z-5e2dae5e-c101-4666-baf5-259e1a728858.png"
     }
   },
   {
     "id_line": "C00026",
-    "name_line": "409",
-    "shortname_line": "409",
+    "name_line": "3147",
+    "shortname_line": "3147",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "fece00",
+    "colourweb_hexa": "e0b03b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "14ee7fe1d9d9cd5933e118091819489c",
+      "filename": "20241210T102609Z-823e50e3-84d3-47d8-81de-c7c489d13e02.png"
     }
   },
   {
     "id_line": "C00027",
-    "name_line": "EX16 Ozoir",
-    "shortname_line": "EX16",
+    "name_line": "7716",
+    "shortname_line": "7716",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": "SEASONAL_LINE_TYPE",
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
+    "colourweb_hexa": "87d3df",
+    "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "4753b197d4532d050e36c6839a62a63e",
+      "filename": "20241210T090333Z-1ec61ca1-1f25-48c3-91ff-d13caa150aa7.png"
     }
   },
   {
@@ -534,86 +530,90 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00054",
-    "name_line": "2",
-    "shortname_line": "2",
+    "name_line": "5332 (ex 2)",
+    "shortname_line": "5332",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "f58755",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00057",
-    "name_line": "9",
-    "shortname_line": "9",
+    "name_line": "5209 (ex 9)",
+    "shortname_line": "5209",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "95bae5",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "87d3df",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00060",
-    "name_line": "13",
-    "shortname_line": "13",
+    "name_line": "5213 (ex 13)",
+    "shortname_line": "5213",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "fc96d0",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00061",
-    "name_line": "501",
-    "shortname_line": "501",
+    "name_line": "5116",
+    "shortname_line": "5116",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "96b28a",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "4499a005afde11dff34f54de3cdd00eb",
+      "filename": "20250103T090100Z-1617d42a-31c6-453d-a1a7-2189a7103f5e.png"
+    }
   },
   {
     "id_line": "C00062",
-    "name_line": "Express 60",
-    "shortname_line": "60",
+    "name_line": "7806 (ex Express 60)",
+    "shortname_line": "7806",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "4d90cd",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00063",
-    "name_line": "65",
-    "shortname_line": "65",
+    "name_line": "5265 (ex 65)",
+    "shortname_line": "5265",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "d977cf",
+    "colourweb_hexa": "bb4b9b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00064",
-    "name_line": "Express 67",
-    "shortname_line": "67",
+    "name_line": "5367 (ex Express 67)",
+    "shortname_line": "5367",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "4d90cd",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -762,111 +762,99 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00082",
-    "name_line": "10-01",
-    "shortname_line": "10-01",
+    "name_line": "4437",
+    "shortname_line": "4437",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "ffce00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "008c5a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00083",
-    "name_line": "101",
-    "shortname_line": "101",
+    "name_line": "4553",
+    "shortname_line": "4553",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "e30613",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00084",
-    "name_line": "437 (ex 7)",
+    "name_line": "437",
     "shortname_line": "437",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "c1ce00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00085",
-    "name_line": "438 (ex 8)",
+    "name_line": "438",
     "shortname_line": "438",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "76b72a",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00086",
-    "name_line": "1",
-    "shortname_line": "1",
+    "name_line": "4511",
+    "shortname_line": "4511",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "e5122e",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00087",
-    "name_line": "2",
-    "shortname_line": "2",
+    "name_line": "4512",
+    "shortname_line": "4512",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "f5e312",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00089",
-    "name_line": "4",
-    "shortname_line": "4",
+    "name_line": "4514",
+    "shortname_line": "4514",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "63c2ef",
+    "colourweb_hexa": "82c8e6",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00090",
-    "name_line": "107",
-    "shortname_line": "107",
+    "name_line": "4501",
+    "shortname_line": "4501",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "3c91dc",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00092",
@@ -877,8 +865,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Val d'Essonne Deux Vallées",
     "networkname": "Essonne Sud Est",
-    "colourweb_hexa": "ff26d9",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00093",
@@ -894,43 +882,39 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00094",
-    "name_line": "15",
-    "shortname_line": "15",
+    "name_line": "4515",
+    "shortname_line": "4515",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "86ca7d",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00097",
-    "name_line": "319",
-    "shortname_line": "319",
+    "name_line": "4442",
+    "shortname_line": "4442",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "f3a4ba",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "ed1c2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00098",
-    "name_line": "331",
-    "shortname_line": "331",
+    "name_line": "4441",
+    "shortname_line": "4441",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "8d5e2a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00100",
@@ -970,8 +954,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00103",
-    "name_line": "1025",
-    "shortname_line": "1025",
+    "name_line": "4510",
+    "shortname_line": "4510",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -994,19 +978,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00105",
-    "name_line": "330",
-    "shortname_line": "330",
+    "name_line": "4413",
+    "shortname_line": "4413",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "83c491",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00106",
@@ -1017,12 +997,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "e0b03b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00107",
@@ -1033,12 +1009,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "8e6539",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00108",
@@ -1050,7 +1022,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "RD Mantois",
     "networkname": "Mantois",
     "colourweb_hexa": "dfaf47",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00109",
@@ -1073,12 +1045,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "bb4b9b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00111",
@@ -1089,24 +1057,20 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "cef12b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00112",
-    "name_line": "14",
-    "shortname_line": "14",
+    "name_line": "5314 (ex 14)",
+    "shortname_line": "5314",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "a5be9a",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "78c696",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00113",
@@ -1129,12 +1093,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00115",
@@ -1145,12 +1105,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "78c696",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00116",
@@ -1161,12 +1117,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "008c5a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00117",
@@ -1177,12 +1129,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "006db8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00118",
@@ -1198,14 +1146,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00119",
-    "name_line": "41",
-    "shortname_line": "41",
+    "name_line": "5341 (ex 41)",
+    "shortname_line": "5341",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "6c666e",
+    "colourweb_hexa": "006db8",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -1246,38 +1194,38 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00124",
-    "name_line": "170",
-    "shortname_line": "170",
+    "name_line": "5270 (ex 170)",
+    "shortname_line": "5270",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "f49c03",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00125",
-    "name_line": "171",
-    "shortname_line": "171",
+    "name_line": "5271 (ex 171)",
+    "shortname_line": "5271",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "a2c335",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00126",
-    "name_line": "172",
-    "shortname_line": "172",
+    "name_line": "5299 (ex 172)",
+    "shortname_line": "5299",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "9a95bb",
+    "colourweb_hexa": "662d91",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -1289,12 +1237,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "ffcd03",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00129",
@@ -1305,12 +1249,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "87d3df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00130",
@@ -1321,36 +1261,32 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "b80c4b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00137",
-    "name_line": "511",
-    "shortname_line": "511",
+    "name_line": "5211 (ex 511)",
+    "shortname_line": "5211",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "8a8946",
+    "colourweb_hexa": "9b993b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00138",
-    "name_line": "512",
-    "shortname_line": "512",
+    "name_line": "5212 (ex 512)",
+    "shortname_line": "5212",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "8a8946",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00139",
@@ -1410,11 +1346,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00144",
@@ -1426,11 +1358,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "ea9999",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00145",
@@ -1442,11 +1370,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "d9d2e9",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00149",
@@ -1474,15 +1398,19 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00151",
-    "name_line": "Express 16",
-    "shortname_line": "EX16",
+    "name_line": "7816",
+    "shortname_line": "7816",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "a892024b2d03be36fe2e7cf2c8d41e06",
+      "filename": "20250103T091530Z-12e324f1-b5a4-40da-b4a3-859e88c49eef.png"
+    }
   },
   {
     "id_line": "C00153",
@@ -1494,11 +1422,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "fbe800",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00154",
@@ -1546,11 +1470,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "9fc5e8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00159",
@@ -1562,11 +1482,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "0055c8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00160",
@@ -1590,11 +1506,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "a2c119",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00162",
@@ -1606,294 +1518,270 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "a2c119",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00163",
-    "name_line": "1",
-    "shortname_line": "1",
+    "name_line": "5311 (ex 1)",
+    "shortname_line": "5311",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "e180ad",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00164",
-    "name_line": "3",
-    "shortname_line": "3",
+    "name_line": "5233 (ex 3)",
+    "shortname_line": "5233",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "fae91a",
+    "colourweb_hexa": "e0b03b",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00165",
-    "name_line": "4",
-    "shortname_line": "4",
+    "name_line": "5334 (ex 4)",
+    "shortname_line": "5334",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "91127c",
+    "colourweb_hexa": "662d91",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00166",
-    "name_line": "5",
-    "shortname_line": "5",
+    "name_line": "5325 (ex 5)",
+    "shortname_line": "5325",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "69addb",
+    "colourweb_hexa": "006db8",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00167",
-    "name_line": "61",
-    "shortname_line": "61",
+    "name_line": "4461",
+    "shortname_line": "4461",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "e3051c",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00168",
-    "name_line": "8",
-    "shortname_line": "8",
+    "name_line": "5208 (ex 8)",
+    "shortname_line": "5208",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "20a12e",
+    "colourweb_hexa": "008c5a",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00170",
-    "name_line": "10",
-    "shortname_line": "10",
+    "name_line": "7810 (ex Express 10)",
+    "shortname_line": "7810",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "4d90cd",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00171",
-    "name_line": "11",
-    "shortname_line": "11",
+    "name_line": "7811 (ex Express 11)",
+    "shortname_line": "7811",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "4d90cd",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00172",
-    "name_line": "15",
-    "shortname_line": "15",
+    "name_line": "5215 (ex 15)",
+    "shortname_line": "5215",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "97bf0d",
+    "colourweb_hexa": "9b993b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00173",
-    "name_line": "18",
-    "shortname_line": "18",
+    "name_line": "5318 (ex 18)",
+    "shortname_line": "5318",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "db006b",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C00174",
-    "name_line": "19",
-    "shortname_line": "19",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Sud Yvelines",
-    "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ef8360",
+    "colourweb_hexa": "b80c4b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00175",
-    "name_line": "20",
-    "shortname_line": "20",
+    "name_line": "5320 (ex 20)",
+    "shortname_line": "5320",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "9f4690",
+    "colourweb_hexa": "662d91",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00176",
-    "name_line": "22",
-    "shortname_line": "22",
+    "name_line": "4450",
+    "shortname_line": "4450",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "00814f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00177",
-    "name_line": "24",
-    "shortname_line": "24",
+    "name_line": "5224 (ex 24)",
+    "shortname_line": "5224",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "fcf26c",
+    "colourweb_hexa": "e0b03b",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00178",
-    "name_line": "25",
-    "shortname_line": "25",
+    "name_line": "5225 (ex 25)",
+    "shortname_line": "5225",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "a05599",
+    "colourweb_hexa": "bb4b9b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00179",
-    "name_line": "26",
-    "shortname_line": "26",
+    "name_line": "5226 (ex 26)",
+    "shortname_line": "5226",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "e675a7",
+    "colourweb_hexa": "b80c4b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00180",
-    "name_line": "29",
-    "shortname_line": "29",
+    "name_line": "5269 (ex 29)",
+    "shortname_line": "5269",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "e1021d",
+    "colourweb_hexa": "ed1c2a",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00181",
-    "name_line": "30",
-    "shortname_line": "30",
+    "name_line": "5230 (ex 30)",
+    "shortname_line": "5230",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "8eccc1",
+    "colourweb_hexa": "00b397",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00182",
-    "name_line": "A",
-    "shortname_line": "A",
+    "name_line": "5301 (ex A)",
+    "shortname_line": "5301",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "e1001a",
+    "colourweb_hexa": "ed1c2a",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00183",
-    "name_line": "B",
-    "shortname_line": "B",
+    "name_line": "5302 (ex B)",
+    "shortname_line": "5302",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "007bc0",
+    "colourweb_hexa": "006db8",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00184",
-    "name_line": "E",
-    "shortname_line": "E",
+    "name_line": "5303 (ex E)",
+    "shortname_line": "5303",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "f1a811",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00187",
-    "name_line": "23",
-    "shortname_line": "23",
+    "name_line": "5333 (ex 23)",
+    "shortname_line": "5333",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "9d9fa1",
+    "colourweb_hexa": "b80c4b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00188",
-    "name_line": "89",
-    "shortname_line": "89",
+    "name_line": "5389 (ex 89)",
+    "shortname_line": "5389",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "fcea18",
+    "colourweb_hexa": "e0b03b",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -1906,11 +1794,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "00814f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00191",
@@ -1922,15 +1806,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "c04191",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00194",
-    "name_line": "1312 (ex 12)",
+    "name_line": "1312",
     "shortname_line": "1312",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -1938,15 +1818,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "8d5e2a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00196",
-    "name_line": "1314 (ex14)",
+    "name_line": "1314",
     "shortname_line": "1314",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -1954,11 +1830,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "662483",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00197",
@@ -1970,27 +1842,23 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "0064b0",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00198",
-    "name_line": "2116 (ex 16)",
+    "name_line": "2116",
     "shortname_line": "2116",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Est",
     "networkname": "Roissy Est",
-    "colourweb_hexa": "c04192",
+    "colourweb_hexa": "bb4b9b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00199",
-    "name_line": "2117 (ex 17)",
+    "name_line": "2117",
     "shortname_line": "2117",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2002,7 +1870,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00200",
-    "name_line": "2118 (ex 18)",
+    "name_line": "2118",
     "shortname_line": "2118",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2014,7 +1882,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00201",
-    "name_line": "2119 (ex 19)",
+    "name_line": "2119",
     "shortname_line": "2119",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2026,7 +1894,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00202",
-    "name_line": "2121 (ex 21)",
+    "name_line": "2121",
     "shortname_line": "2121",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2038,7 +1906,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00203",
-    "name_line": "2122 (ex 22)",
+    "name_line": "2122",
     "shortname_line": "2122",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2050,7 +1918,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00204",
-    "name_line": "2123 (ex 23)",
+    "name_line": "2123",
     "shortname_line": "2123",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -2070,11 +1938,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "97d4e2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00206",
@@ -2086,11 +1950,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "9c9a3e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00207",
@@ -2102,11 +1962,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f4a8bc",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00208",
@@ -2118,11 +1974,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "e3051b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00209",
@@ -2134,11 +1986,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "00814f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00211",
@@ -2150,11 +1998,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "4f91cd",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00213",
@@ -2166,11 +2010,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "f28f42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00214",
@@ -2182,11 +2022,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "c04191",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00216",
@@ -2198,15 +2034,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "f3a4ba",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00217",
-    "name_line": "1346 (ex 46)",
+    "name_line": "1346",
     "shortname_line": "1346",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2214,15 +2046,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "ceacd2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00218",
-    "name_line": "1347 (ex47)",
+    "name_line": "1347",
     "shortname_line": "1347",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2230,15 +2058,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "81c391",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00219",
-    "name_line": "1348 (ex 48)",
+    "name_line": "1348",
     "shortname_line": "1348",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2246,15 +2070,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "e3b229",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00220",
-    "name_line": "1350 (ex 50)",
+    "name_line": "1350",
     "shortname_line": "1350",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2262,15 +2082,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "97d4e2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00221",
-    "name_line": "2127 (ex 71)",
+    "name_line": "2127",
     "shortname_line": "2127",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -2282,19 +2098,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00223",
-    "name_line": "EX93 Bobigny",
-    "shortname_line": "EX93",
+    "name_line": "EX 93",
+    "shortname_line": "EX 93",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00224",
@@ -2306,15 +2118,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f4a8bc",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00225",
-    "name_line": "2176 (ex 116)",
+    "name_line": "2176",
     "shortname_line": "2176",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2334,11 +2142,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f4a8bc",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00228",
@@ -2350,11 +2154,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "81c391",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00229",
@@ -2366,11 +2166,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f28f42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00230",
@@ -2382,11 +2178,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f5a05f",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00231",
@@ -2398,11 +2190,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "98d0c1",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00232",
@@ -2414,11 +2202,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "fece00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00233",
@@ -2430,11 +2214,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "98d4e2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00234",
@@ -2446,11 +2226,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "b397c7",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00235",
@@ -2462,11 +2238,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "b28e64",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00236",
@@ -2478,11 +2250,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f5a05f",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00237",
@@ -2494,11 +2262,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "b90745",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00238",
@@ -2510,11 +2274,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "e3051b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00239",
@@ -2526,11 +2286,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "97b6e0",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00240",
@@ -2542,11 +2298,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "97d4e2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00241",
@@ -2558,11 +2310,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "662483",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00242",
@@ -2574,11 +2322,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "b43d88",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00243",
@@ -2590,11 +2334,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f4a8bc",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00244",
@@ -2606,15 +2346,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "ceacd2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00245",
-    "name_line": "2101 (ex 701)",
+    "name_line": "2101",
     "shortname_line": "2101",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2626,7 +2362,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00246",
-    "name_line": "2102 (ex 702)",
+    "name_line": "2102",
     "shortname_line": "2102",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2638,7 +2374,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00247",
-    "name_line": "2103 (ex 703)",
+    "name_line": "2103",
     "shortname_line": "2103",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2646,15 +2382,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Est",
     "networkname": "Roissy Est",
     "colourweb_hexa": "87d3df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00248",
-    "name_line": "2104 (ex 704)",
+    "name_line": "2104",
     "shortname_line": "2104",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2662,15 +2394,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Est",
     "networkname": "Roissy Est",
     "colourweb_hexa": "f28e42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00250",
-    "name_line": "2107 (ex 707)",
+    "name_line": "2107",
     "shortname_line": "2107",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2678,31 +2406,23 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Est",
     "networkname": "Roissy Est",
     "colourweb_hexa": "81c491",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00251",
-    "name_line": "2108 (ex 708)",
+    "name_line": "2108",
     "shortname_line": "2108",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Est",
     "networkname": "Roissy Est",
-    "colourweb_hexa": "fece00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d3ca00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00252",
-    "name_line": "2109 (ex 709)",
+    "name_line": "2109",
     "shortname_line": "2109",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2714,7 +2434,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00253",
-    "name_line": "2110 (ex 710)",
+    "name_line": "2110",
     "shortname_line": "2110",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2722,15 +2442,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Est",
     "networkname": "Roissy Est",
     "colourweb_hexa": "cfadd2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00254",
-    "name_line": "2111 (ex 711)",
+    "name_line": "2111",
     "shortname_line": "2111",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2738,47 +2454,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Est",
     "networkname": "Roissy Est",
     "colourweb_hexa": "f3a4ba",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C00255",
-    "name_line": "714",
-    "shortname_line": "714",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Roissy Pays de France Est",
-    "networkname": "Roissy Est",
-    "colourweb_hexa": "fece00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C00259",
-    "name_line": "715",
-    "shortname_line": "715",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Roissy Pays de France Est",
-    "networkname": "Roissy Est",
-    "colourweb_hexa": "09a78e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00260",
-    "name_line": "2163 (ex 716)",
+    "name_line": "2163",
     "shortname_line": "2163",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -2798,11 +2478,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f28f42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00262",
@@ -2814,11 +2490,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
     "colourweb_hexa": "00814f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00263",
@@ -2829,8 +2501,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00264",
@@ -2841,12 +2513,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
-    "colourweb_hexa": "97b6e0",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00265",
@@ -2858,11 +2526,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "006db8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00267",
@@ -2873,12 +2537,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "e0b03b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00270",
@@ -2889,12 +2549,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "78c696",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00271",
@@ -2905,12 +2561,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "ffcd03",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00272",
@@ -2921,12 +2573,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "ffcd03",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00273",
@@ -2937,12 +2585,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00274",
@@ -2953,12 +2597,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "f59eb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00275",
@@ -2969,36 +2609,32 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "e0b03b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00276",
-    "name_line": "23",
-    "shortname_line": "23",
+    "name_line": "5323 (ex 23)",
+    "shortname_line": "5323",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ac8fab",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00279",
-    "name_line": "27",
-    "shortname_line": "27",
+    "name_line": "5295 (ex 27)",
+    "shortname_line": "5295",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "f5b5d3",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00280",
@@ -3009,12 +2645,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "662d91",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00281",
@@ -3025,12 +2657,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "8e6539",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00285",
@@ -3041,12 +2669,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "cec92b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00286",
@@ -3057,23 +2681,19 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "bb4b9b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00287",
-    "name_line": "Express 4",
-    "shortname_line": "EX4",
+    "name_line": "7804",
+    "shortname_line": "7804",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -3109,7 +2729,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Argenteuil Boucles de Seine",
     "networkname": "Argenteuil - Boucles de Seine",
-    "colourweb_hexa": "ff8c57",
+    "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -3145,7 +2765,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Argenteuil Boucles de Seine",
     "networkname": "Argenteuil - Boucles de Seine",
-    "colourweb_hexa": "5a230a",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -3170,11 +2790,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "cec73d",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00301",
@@ -3186,11 +2802,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "ffcc30",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00302",
@@ -3202,11 +2814,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "f38f53",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00303",
@@ -3230,11 +2838,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "006fb6",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00305",
@@ -3246,11 +2850,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "f49fb3",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00306",
@@ -3274,11 +2874,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "65318f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00308",
@@ -3350,11 +2946,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "b94e9a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00316",
@@ -3389,7 +2981,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Val d'Essonne Deux Vallées",
     "networkname": "Essonne Sud Est",
-    "colourweb_hexa": "00ff66",
+    "colourweb_hexa": "78c696",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -3401,19 +2993,19 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Val d'Essonne Deux Vallées",
     "networkname": "Essonne Sud Est",
-    "colourweb_hexa": "4dffff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00323",
-    "name_line": "202",
-    "shortname_line": "202",
+    "name_line": "4530",
+    "shortname_line": "4530",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "741b47",
+    "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -3509,7 +3101,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Argenteuil Boucles de Seine",
     "networkname": "Argenteuil - Boucles de Seine",
-    "colourweb_hexa": "e11400",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -3645,300 +3237,228 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "ffffff"
   },
   {
-    "id_line": "C00351",
-    "name_line": "Inter-Vals",
-    "shortname_line": "InterVals",
-    "transportmode": "bus",
-    "transportsubmode": "regionalBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "14488e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
     "id_line": "C00354",
-    "name_line": "A",
+    "name_line": "4115 (ex A)",
     "shortname_line": "A",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "e95e25",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C00355",
-    "name_line": "B",
-    "shortname_line": "B",
-    "transportmode": "bus",
-    "transportsubmode": "regionalBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "fdcc0d",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C00356",
-    "name_line": "BM",
-    "shortname_line": "BM",
-    "transportmode": "bus",
-    "transportsubmode": "regionalBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "afc936",
-    "textcolourweb_hexa": "000000",
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "60203e66dd0e59e6786f23b454fc0e33",
+      "filename": "20250226T183208Z-8f4ec39c-b20b-44e0-a0cf-c693b115f7ba.png"
     }
   },
   {
-    "id_line": "C00357",
-    "name_line": "C",
-    "shortname_line": "C",
+    "id_line": "C00355",
+    "name_line": "4113 (ex B)",
+    "shortname_line": "4113",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "baa3cb",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "d95376b50fbe9bdb24647997695f0cab",
+      "filename": "20250225T141300Z-a3fd2408-fccc-4f3c-b6fd-0ff9dddd4ee3.png"
+    }
+  },
+  {
+    "id_line": "C00356",
+    "name_line": "4118 (fusion ex 19, 18, C, BM)",
+    "shortname_line": "4118",
+    "transportmode": "bus",
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": "Val d'Yerres Val de Seine",
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "5af855ffc0431bbd103e032f200a97da",
+      "filename": "20250225T183909Z-73689c0e-6c3e-4681-886d-3f12f0442326.png"
+    }
   },
   {
     "id_line": "C00358",
-    "name_line": "D",
-    "shortname_line": "D",
+    "name_line": "4114 (fusion ex 14, 12, F, D)",
+    "shortname_line": "4114",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "1fa12e",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C00359",
-    "name_line": "E",
-    "shortname_line": "E",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "00b2ff",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C00360",
-    "name_line": "F",
-    "shortname_line": "F",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "d9e7b1",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "66bc75efae54a488bda6a11e67856401",
+      "filename": "20250225T181643Z-242192b0-b022-4f58-b247-775526f4ed1b.png"
+    }
   },
   {
     "id_line": "C00363",
-    "name_line": "LP1",
-    "shortname_line": "LP1",
+    "name_line": "4150 (ex LP1)",
+    "shortname_line": "4150",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "9c9ea1",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "eb0ec125038f8abfd74e6e8ca5f8ffef",
+      "filename": "20250225T141500Z-58d3275c-c66c-4771-bcc7-95546d165276.png"
+    }
   },
   {
     "id_line": "C00364",
-    "name_line": "501",
-    "shortname_line": "501",
+    "name_line": "4159 (ex 501)",
+    "shortname_line": "4159",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "eb690b",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "4fbc525af71cc12cfaa82e520e5c6c8d",
+      "filename": "20250225T191950Z-10dac74c-bf84-42d4-9234-c9ba8c8e16e0.png"
+    }
   },
   {
     "id_line": "C00365",
-    "name_line": "LM1",
-    "shortname_line": "LM1",
+    "name_line": "4160 (ex LM1)",
+    "shortname_line": "4160",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "e30059",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "4df10bcbed59f93e85497855c76fdcd5",
+      "filename": "20250225T164240Z-897554ef-192e-4e93-9699-71691a3d474e.png"
+    }
   },
   {
     "id_line": "C00366",
-    "name_line": "LM2",
-    "shortname_line": "LM2",
+    "name_line": "4161 (ex LM2)",
+    "shortname_line": "4161",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "e30059",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "92759ec95e2e79b4127de336b4317ff4",
+      "filename": "20250225T164058Z-a5351d83-ffa3-43bf-a381-c9909a2912d8.png"
+    }
   },
   {
     "id_line": "C00367",
-    "name_line": "LM3",
-    "shortname_line": "LM3",
+    "name_line": "4162 (ex LM3)",
+    "shortname_line": "4162",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "e30059",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C00369",
-    "name_line": "12",
-    "shortname_line": "12",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "7a6fac",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C00370",
-    "name_line": "13",
-    "shortname_line": "13",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "ccb299",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C00371",
-    "name_line": "14",
-    "shortname_line": "14",
-    "transportmode": "bus",
-    "transportsubmode": "regionalBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "1da6df",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C00372",
-    "name_line": "18",
-    "shortname_line": "18",
-    "transportmode": "bus",
-    "transportsubmode": "regionalBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "83d1f2",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C00373",
-    "name_line": "19",
-    "shortname_line": "19",
-    "transportmode": "bus",
-    "transportsubmode": "regionalBus",
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "e75094",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "9efffc9f830d34e1b3884f68bd3c1a3a",
+      "filename": "20250225T163853Z-11b4e2f5-77d6-4d89-880b-8a1c8be29e0d.png"
+    }
   },
   {
     "id_line": "C00374",
-    "name_line": "LP2",
-    "shortname_line": "LP2",
+    "name_line": "4151 (ex LP2)",
+    "shortname_line": "4151",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "f092ba",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "e0c885056433ad36f35526079f6af9a8",
+      "filename": "20250225T183522Z-6223ca7c-916a-490c-b7b0-3c2c83703288.png"
+    }
   },
   {
     "id_line": "C00376",
-    "name_line": "16",
-    "shortname_line": "16",
+    "name_line": "4116 (ex 16)",
+    "shortname_line": "4116",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "f29520",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C00377",
-    "name_line": "RD",
-    "shortname_line": "RD",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "7a2512",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "d968b7bda53c4504e830ebb1dc10815d",
+      "filename": "20250225T175540Z-d7315fb0-d535-444d-a249-b4f5ef480cf6.png"
+    }
   },
   {
     "id_line": "C00378",
-    "name_line": "17",
-    "shortname_line": "17",
+    "name_line": "4117 (ex 17)",
+    "shortname_line": "4117",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "bf1f25",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "14b45cd1b243e456578afb47ae31ecc2",
+      "filename": "20250225T175129Z-ba08219d-2b84-4b6d-afa3-79d81944b0dc.png"
+    }
   },
   {
     "id_line": "C00379",
-    "name_line": "Express 191-100",
-    "shortname_line": "191-100",
+    "name_line": "4121 (ex Express 191-100)",
+    "shortname_line": "4121",
     "transportmode": "bus",
-    "transportsubmode": "expressBus",
+    "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "74f22d07e95a57a80807ecda68cec727",
+      "filename": "20250225T184542Z-017db20b-c5ad-405a-b8a3-6088a91c95be.png"
+    }
   },
   {
     "id_line": "C00380",
-    "name_line": "24-06",
-    "shortname_line": "24-06",
+    "name_line": "4277",
+    "shortname_line": "4277",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "40b9d4",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "e23832175b4dfaac86a383a25646c825",
+      "filename": "20250103T081449Z-4ad4db92-ac3d-4350-a066-e08d20db63a0.png"
+    }
   },
   {
     "id_line": "C00382",
@@ -3954,75 +3474,83 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00385",
-    "name_line": "301",
-    "shortname_line": "301",
+    "name_line": "4203",
+    "shortname_line": "4203",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "0b5394",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "553e704cb341bdf9cf354d2992465c44",
+      "filename": "20250103T081542Z-515ee9ff-effe-4214-b93f-34b3ce317b0a.png"
+    }
   },
   {
     "id_line": "C00386",
-    "name_line": "302",
-    "shortname_line": "302",
+    "name_line": "4230",
+    "shortname_line": "4230",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "ffd966",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "0802cf7e50df21878da745d8168b1f29",
+      "filename": "20250103T081627Z-1e1c167f-c79e-45a3-ac35-6694f3a77822.png"
+    }
   },
   {
     "id_line": "C00387",
-    "name_line": "312",
-    "shortname_line": "312",
+    "name_line": "4274",
+    "shortname_line": "4274",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "ffed00",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "468a45be640d0835b807d91305628f85",
+      "filename": "20250103T081654Z-ccb86907-1650-4737-953b-6bca0091f37a.png"
+    }
   },
   {
     "id_line": "C00388",
-    "name_line": "303",
-    "shortname_line": "303",
+    "name_line": "4243",
+    "shortname_line": "4243",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "38761d",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "68fdb765d0202f810ac4cc63fdfd62e7",
+      "filename": "20250103T081711Z-c44db74b-90e7-477e-a0bb-79969983c7b7.png"
+    }
   },
   {
     "id_line": "C00389",
-    "name_line": "313",
-    "shortname_line": "313",
+    "name_line": "4273",
+    "shortname_line": "4273",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "00957e",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C00390",
-    "name_line": "304",
-    "shortname_line": "304",
-    "transportmode": "bus",
-    "transportsubmode": "regionalBus",
-    "type": null,
-    "operatorname": "TISSE",
-    "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "cc0000",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "5e28c934be27efa30fe533a9f8a15abe",
+      "filename": "20250103T081732Z-11501b5b-5fed-4b27-8fb2-96e5a8936535.png"
+    }
   },
   {
     "id_line": "C00391",
@@ -4038,15 +3566,19 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00392",
-    "name_line": "305",
-    "shortname_line": "305",
+    "name_line": "4233",
+    "shortname_line": "4233",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "660000",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "e5a2f4030716ec510506b31e9ef5c61d",
+      "filename": "20250103T081755Z-194182f8-6bee-48bf-8b86-410679ec1828.png"
+    }
   },
   {
     "id_line": "C00393",
@@ -4098,7 +3630,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00400",
-    "name_line": "1317 (ex 9517)",
+    "name_line": "1317",
     "shortname_line": "1317",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -4110,43 +3642,39 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00401",
-    "name_line": "05",
-    "shortname_line": "05",
+    "name_line": "5315 (ex 5)",
+    "shortname_line": "5315",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "644c18",
+    "colourweb_hexa": "8e6539",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00402",
-    "name_line": "7",
-    "shortname_line": "7",
+    "name_line": "5327 (ex 7)",
+    "shortname_line": "5327",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "007790",
+    "colourweb_hexa": "006db8",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00403",
-    "name_line": "5110 (ex 10)",
+    "name_line": "5110",
     "shortname_line": "5110",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00408",
@@ -4162,107 +3690,95 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00409",
-    "name_line": "12",
-    "shortname_line": "12",
+    "name_line": "5312 (ex 12)",
+    "shortname_line": "5312",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "f51cff",
+    "colourweb_hexa": "bb4b9b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00410",
-    "name_line": "14",
-    "shortname_line": "14",
+    "name_line": "5324 (ex 14)",
+    "shortname_line": "5324",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "253883",
+    "colourweb_hexa": "006db8",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00411",
-    "name_line": "15",
-    "shortname_line": "15",
+    "name_line": "7815",
+    "shortname_line": "7815",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "8666290b324e65bd4abb850330ed0060",
+      "filename": "20250103T091740Z-6602b424-0405-4391-9419-94e0c7478b67.png"
+    }
   },
   {
     "id_line": "C00413",
-    "name_line": "17",
-    "shortname_line": "17",
+    "name_line": "5117",
+    "shortname_line": "5117",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "8dd0db",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "338e3670f7dfd715bc6495bd2e4ae8ca",
+      "filename": "20250103T092336Z-bdfb8eb8-68da-4885-8914-23a8f8489bd7.png"
+    }
   },
   {
     "id_line": "C00414",
-    "name_line": "Q",
-    "shortname_line": "Q",
+    "name_line": "5214 (ex Q)",
+    "shortname_line": "5214",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "a0c7eb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C00415",
-    "name_line": "19",
-    "shortname_line": "19",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Transdev Sud Yvelines",
-    "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "b8ffe0",
+    "colourweb_hexa": "87d3df",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00416",
-    "name_line": "5112 (Ex 20)",
+    "name_line": "5112",
     "shortname_line": "5112",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "73c6c8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00418",
-    "name_line": "5101  (Ex 8)",
+    "name_line": "5101",
     "shortname_line": "5101",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "e74215",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00420",
@@ -4278,50 +3794,50 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00421",
-    "name_line": "B",
-    "shortname_line": "B",
+    "name_line": "5201 (ex B)",
+    "shortname_line": "5201",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "98c22a",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00422",
-    "name_line": "V",
-    "shortname_line": "V",
+    "name_line": "5219 (ex V)",
+    "shortname_line": "5219",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "b698c7",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00423",
-    "name_line": "P",
-    "shortname_line": "P",
+    "name_line": "5206 (ex P)",
+    "shortname_line": "5206",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "faf19b",
+    "colourweb_hexa": "ffcd03",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00424",
-    "name_line": "M",
-    "shortname_line": "M",
+    "name_line": "5289 (ex M)",
+    "shortname_line": "5289",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "eb631a",
+    "colourweb_hexa": "b80c4b",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -4338,19 +3854,23 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00426",
-    "name_line": "Express 78",
-    "shortname_line": "EX78",
+    "name_line": "7818",
+    "shortname_line": "7818",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "808de20f212d2b6f6729b6cff7554d88",
+      "filename": "20250103T094936Z-016c687f-7c99-4391-9087-1eb244dd9236.png"
+    }
   },
   {
     "id_line": "C00436",
-    "name_line": "1353 (ex 3004 )",
+    "name_line": "1353",
     "shortname_line": "1353",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -4358,11 +3878,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "b90745",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00437",
@@ -4371,14 +3887,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "1a171b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "1d1d1b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00442",
@@ -4387,14 +3899,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "ffe535",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "ffe533",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00443",
@@ -4403,14 +3911,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "00aad1",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "00aad2",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00444",
@@ -4419,14 +3923,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "ValBus",
-    "colourweb_hexa": "9fc11d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "9dc327",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00445",
@@ -4435,14 +3935,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
     "colourweb_hexa": "0075aa",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00446",
@@ -4454,11 +3950,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "f49fb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00447",
@@ -4467,14 +3959,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "ValBus",
-    "colourweb_hexa": "3d99d0",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "3d99d4",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00448",
@@ -4483,14 +3971,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "f08b27",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "f18825",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00451",
@@ -4499,14 +3983,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "ValBus",
-    "colourweb_hexa": "90c4e7",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "8fc4eb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00452",
@@ -4515,14 +3995,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "ValBus",
-    "colourweb_hexa": "a03187",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "a2338a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00454",
@@ -4533,12 +4009,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "662d91",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00455",
@@ -4547,18 +4019,14 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": null,
-    "colourweb_hexa": "c0b112",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "bfb007",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00456",
-    "name_line": "1351 (ex 3029, 3025)",
+    "name_line": "1351",
     "shortname_line": "1351",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -4566,11 +4034,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "f3a4ba",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00458",
@@ -4579,14 +4043,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": null,
-    "colourweb_hexa": "ca2c86",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "cc3089",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00459",
@@ -4595,14 +4055,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": null,
-    "colourweb_hexa": "008563",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "008866",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00460",
@@ -4611,14 +4067,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": null,
-    "colourweb_hexa": "008fd3",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "009fe3",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00461",
@@ -4627,18 +4079,14 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": null,
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
     "colourweb_hexa": "e8bb00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00462",
-    "name_line": "1316 (ex 3036)",
+    "name_line": "1316",
     "shortname_line": "1316",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -4646,11 +4094,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "00814f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00463",
@@ -4659,14 +4103,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "ValBus",
-    "colourweb_hexa": "bd1220",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "bd1d1d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00464",
@@ -4675,14 +4115,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "8d0231",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "8c072f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00465",
@@ -4694,11 +4130,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "5091cb",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00466",
@@ -4707,14 +4139,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": null,
-    "colourweb_hexa": "dfa0c4",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "e0a0c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00467",
@@ -4723,14 +4151,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "ValBus",
-    "colourweb_hexa": "e2007a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "e6007e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00471",
@@ -4739,14 +4163,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Valoise",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "2291d0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00472",
@@ -4755,14 +4175,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Valoise",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "2291d0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00473",
@@ -4771,14 +4187,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Valoise",
-    "colourweb_hexa": "008b45",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "00904a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00476",
@@ -4787,14 +4199,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Valoise",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "57aadf",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00477",
@@ -4803,14 +4211,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Valoise",
-    "colourweb_hexa": "d3a576",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "d4a677",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00478",
@@ -4819,14 +4223,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Busval d'Oise",
-    "colourweb_hexa": "007f99",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "007d9a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00479",
@@ -4835,7 +4235,7 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
+    "operatorname": "Francilité Val Parisis",
     "networkname": null,
     "colourweb_hexa": "008fd3",
     "textcolourweb_hexa": "ffffff"
@@ -4847,46 +4247,34 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
+    "operatorname": "Francilité Val Parisis",
     "networkname": null,
     "colourweb_hexa": "f08b27",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00481",
     "name_line": "CitéVal Sud Herblay",
     "shortname_line": "CitéVal S",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
-    "operatorname": "Cars Lacroix",
+    "operatorname": "Francilité Val Parisis",
     "networkname": null,
     "colourweb_hexa": "00538d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00482",
-    "name_line": "3615",
-    "shortname_line": "3615",
+    "name_line": "5275 (ex 3615)",
+    "shortname_line": "5275",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "cc99ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00484",
@@ -4895,10 +4283,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Rose",
-    "networkname": null,
-    "colourweb_hexa": "feca2a",
-    "textcolourweb_hexa": "000000"
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "feca2b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00485",
@@ -4910,11 +4298,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "8ad3de",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00486",
@@ -4926,11 +4310,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "f49fb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00487",
@@ -4939,42 +4319,34 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Rose",
-    "networkname": null,
-    "colourweb_hexa": "108642",
-    "textcolourweb_hexa": "000000"
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "02853a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00488",
-    "name_line": "3902",
-    "shortname_line": "3902",
+    "name_line": "5232 (ex 39-02)",
+    "shortname_line": "5232",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "c094a2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00489",
-    "name_line": "39-003",
-    "shortname_line": "39-003",
+    "name_line": "5313 (ex 39-003)",
+    "shortname_line": "5313",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "005377",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00490",
@@ -4986,22 +4358,18 @@ export function idfMobiliteLineRef() {
     "operatorname": "RD Saclay",
     "networkname": "Paris Saclay",
     "colourweb_hexa": "f0bcd4",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00494",
-    "name_line": "3907A",
-    "shortname_line": "3907A",
+    "name_line": "5252 (ex 3907A)",
+    "shortname_line": "5252",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "97b0af",
+    "colourweb_hexa": "cec92b",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -5014,91 +4382,67 @@ export function idfMobiliteLineRef() {
     "operatorname": "RD Saclay",
     "networkname": "Paris Saclay",
     "colourweb_hexa": "009a7a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00496",
-    "name_line": "3910",
-    "shortname_line": "3910",
+    "name_line": "5339 (ex 39-10)",
+    "shortname_line": "5339",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "9d0a6d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "b80c4b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00497",
-    "name_line": "39-12",
-    "shortname_line": "39-12",
+    "name_line": "5146",
+    "shortname_line": "5146",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "b0b9df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00498",
-    "name_line": "3913",
-    "shortname_line": "3913",
+    "name_line": "5363 (ex 39-13)",
+    "shortname_line": "5363",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "463d91",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "662d91",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00500",
-    "name_line": "3917",
-    "shortname_line": "3917",
+    "name_line": "5347 (ex 39-17)",
+    "shortname_line": "5347",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "86bc25",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "9b993b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00502",
-    "name_line": "3918",
-    "shortname_line": "3918",
+    "name_line": "5359 (ex 39-18)",
+    "shortname_line": "5359",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ec6445",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ed1c2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00503",
@@ -5110,210 +4454,198 @@ export function idfMobiliteLineRef() {
     "operatorname": "RD Saclay",
     "networkname": "Paris Saclay",
     "colourweb_hexa": "ffd300",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C00504",
-    "name_line": "3927",
-    "shortname_line": "3927",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Transdev Sud Yvelines",
-    "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "d0d0d0",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C00505",
-    "name_line": "3928A",
-    "shortname_line": "3928A",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Transdev Sud Yvelines",
-    "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "d0a889",
     "textcolourweb_hexa": "000000"
   },
   {
-    "id_line": "C00506",
-    "name_line": "3928B",
-    "shortname_line": "3928B",
+    "id_line": "C00504",
+    "name_line": "5337 (ex 39-27)",
+    "shortname_line": "5337",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "d0a889",
+    "colourweb_hexa": "b80c4b",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C00505",
+    "name_line": "5282 (ex 39-28A)",
+    "shortname_line": "5282",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Sud Yvelines",
+    "networkname": "Centre et Sud Yvelines",
+    "colourweb_hexa": "ed1c2a",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C00506",
+    "name_line": "5283 (ex 3928B)",
+    "shortname_line": "5283",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Sud Yvelines",
+    "networkname": "Centre et Sud Yvelines",
+    "colourweb_hexa": "f78f4b",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00507",
-    "name_line": "3928C",
-    "shortname_line": "3928C",
+    "name_line": "5284 (ex 3928C)",
+    "shortname_line": "5284",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "d0a889",
+    "colourweb_hexa": "ffcd03",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00508",
-    "name_line": "3928D",
-    "shortname_line": "3928D",
+    "name_line": "5285 (ex 3928D)",
+    "shortname_line": "5285",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "d0a889",
+    "colourweb_hexa": "e0b03b",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00509",
-    "name_line": "3928E",
-    "shortname_line": "3928E",
+    "name_line": "5286 (ex 3928E)",
+    "shortname_line": "5286",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "d0a889",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "8e6539",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00510",
-    "name_line": "3928F",
-    "shortname_line": "3928F",
+    "name_line": "5287 (ex 3928F)",
+    "shortname_line": "5287",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "d0a889",
+    "colourweb_hexa": "cec92b",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00511",
-    "name_line": "3929 1",
-    "shortname_line": "3929 1",
+    "name_line": "5291 (ex 39-29-1)",
+    "shortname_line": "5291",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "2e676a",
+    "colourweb_hexa": "9b993b",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00512",
-    "name_line": "3929 2",
-    "shortname_line": "3929 2",
+    "name_line": "5292 (ex 39-29-2)",
+    "shortname_line": "5292",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "2e676a",
+    "colourweb_hexa": "008c5a",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00513",
-    "name_line": "3929 3",
-    "shortname_line": "3929 3",
+    "name_line": "5293 (ex 39-29-3)",
+    "shortname_line": "5293",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "2e676a",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "78c696",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00514",
-    "name_line": "3929 4",
-    "shortname_line": "3929 4",
+    "name_line": "5294 (ex 39-29-4)",
+    "shortname_line": "5294",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "2e676a",
+    "colourweb_hexa": "00b397",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00515",
-    "name_line": "3930B",
-    "shortname_line": "3930B",
+    "name_line": "5279 (ex 39-30B)",
+    "shortname_line": "5279",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "c26e56",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00516",
-    "name_line": "3930C",
-    "shortname_line": "3930C",
+    "name_line": "5242 (ex 39-30C)",
+    "shortname_line": "5242",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "c26e56",
+    "colourweb_hexa": "8e6539",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00517",
-    "name_line": "3930D",
-    "shortname_line": "3930D",
+    "name_line": "5281 (ex 39-30D)",
+    "shortname_line": "5281",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "c26e56",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "e0b03b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00518",
-    "name_line": "39-303",
-    "shortname_line": "39-303",
+    "name_line": "5330 (ex 39-303)",
+    "shortname_line": "5330",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "646363",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ed1c2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00519",
-    "name_line": "3931",
-    "shortname_line": "3931",
+    "name_line": "5290 (ex 39-31)",
+    "shortname_line": "5290",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "5598bf",
+    "colourweb_hexa": "006db8",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -5330,54 +4662,54 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00521",
-    "name_line": "39-34",
-    "shortname_line": "39-34",
+    "name_line": "5153",
+    "shortname_line": "5153",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "b0b9df",
-    "textcolourweb_hexa": "000000",
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "87ae1ed2ae2efc0e2d300a9059b8b7f0",
+      "filename": "20250103T095600Z-626eaa19-802f-4444-a4cb-ef2dc316a579.png"
     }
   },
   {
     "id_line": "C00522",
-    "name_line": "3935A",
-    "shortname_line": "3935A",
+    "name_line": "5227 (ex 39-35A)",
+    "shortname_line": "5227",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "73a995",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "008c5a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00523",
-    "name_line": "3935B",
-    "shortname_line": "3935B",
+    "name_line": "5228 (ex 3935B)",
+    "shortname_line": "5228",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "73a995",
+    "colourweb_hexa": "78c696",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00524",
-    "name_line": "3936",
-    "shortname_line": "3936",
+    "name_line": "5236 (ex 39-36)",
+    "shortname_line": "5236",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "a181ba",
+    "colourweb_hexa": "bb4b9b",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -5406,35 +4738,27 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00528",
-    "name_line": "39-103",
-    "shortname_line": "39-103",
+    "name_line": "5331 (ex 39-103)",
+    "shortname_line": "5331",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ddca00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "e0b03b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00529",
-    "name_line": "39-203",
-    "shortname_line": "39-203",
+    "name_line": "5352 (ex 39-203)",
+    "shortname_line": "5352",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "93c465",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "78c696",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00530",
@@ -5446,219 +4770,171 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Vélizy Vallée de la Bièvre",
     "networkname": "Vélizy Vallées",
     "colourweb_hexa": "d282be",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00531",
-    "name_line": "3930A",
-    "shortname_line": "3930A",
+    "name_line": "5278 (ex 39-30A)",
+    "shortname_line": "5278",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "c26e56",
+    "colourweb_hexa": "ed1c2a",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00532",
-    "name_line": "Express 307",
-    "shortname_line": "EX307",
+    "name_line": "7807",
+    "shortname_line": "7807",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "96d29a8074cb12ab234e606257bfe4fd",
+      "filename": "20250103T095714Z-6cccbb91-3629-4b9b-b1fa-fa8cb78d5666.png"
     }
   },
   {
     "id_line": "C00533",
-    "name_line": "39-403",
-    "shortname_line": "39-403",
+    "name_line": "5340 (ex 39-403)",
+    "shortname_line": "5340",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "936faf",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00535",
-    "name_line": "5188  (Ex 448)",
+    "name_line": "5188",
     "shortname_line": "5188",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "83d0f5",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00536",
-    "name_line": "5189 (Ex 449)",
+    "name_line": "5189",
     "shortname_line": "5189",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "d96ba6",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00537",
-    "name_line": "5190 (Ex 450)",
+    "name_line": "5190",
     "shortname_line": "5190",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "fdc300",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00538",
-    "name_line": "5191 (Ex 451)",
+    "name_line": "5191",
     "shortname_line": "5191",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "e18409",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00539",
-    "name_line": "5192 (Ex 452)",
+    "name_line": "5192",
     "shortname_line": "5192",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "7ccef4",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00540",
-    "name_line": "5193 (Ex 453)",
+    "name_line": "5193",
     "shortname_line": "5193",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "d96ba6",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00541",
-    "name_line": "5194 (Ex 454)",
+    "name_line": "5194",
     "shortname_line": "5194",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "951b81",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00542",
-    "name_line": "5195 (Ex 455)",
+    "name_line": "5195",
     "shortname_line": "5195",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "0090d7",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00543",
-    "name_line": "5196 (Ex 456)",
+    "name_line": "5196",
     "shortname_line": "5196",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "9185be",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00544",
-    "name_line": "5141 (Ex 439)",
+    "name_line": "5141",
     "shortname_line": "5141",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00b297",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00545",
-    "name_line": "5140 (Ex 440)",
+    "name_line": "5140",
     "shortname_line": "5140",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -5666,59 +4942,47 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
     "colourweb_hexa": "d282be",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00546",
-    "name_line": "1",
-    "shortname_line": "1",
+    "name_line": "3101",
+    "shortname_line": "3101",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "38761d",
+    "colourweb_hexa": "78c696",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "a6ed91cdd0d5f24ca584db04c9635a7a",
+      "filename": "20241209T114410Z-0fa14368-536f-41ab-a64e-2f7babefde6b.png"
     }
   },
   {
     "id_line": "C00547",
-    "name_line": "440 (ex 10)",
+    "name_line": "440",
     "shortname_line": "440",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "5b3800",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00548",
-    "name_line": "451 (ex 12)",
+    "name_line": "451",
     "shortname_line": "451",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "5a79b6",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00549",
@@ -5727,157 +4991,113 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "SETRA",
+    "operatorname": "Keolis Portes et Val de Brie",
     "networkname": null,
     "colourweb_hexa": "b2ff00",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00550",
-    "name_line": "21",
-    "shortname_line": "21",
+    "name_line": "3121",
+    "shortname_line": "3121",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "09a78e",
+    "colourweb_hexa": "008c5a",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "4ff8592979d16cf106650d48cea44688",
+      "filename": "20241209T130744Z-75a5f130-6065-472f-9724-c47023fbd443.png"
     }
   },
   {
     "id_line": "C00551",
-    "name_line": "23",
-    "shortname_line": "23",
+    "name_line": "423",
+    "shortname_line": "423",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "f28f42",
+    "colourweb_hexa": "f78f4b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "15b57d2622d54a0f2fa3bebb2c94325a",
+      "filename": "20241209T102211Z-cdf73018-1588-4ed1-954b-42ccb25b202f.png"
     }
   },
   {
     "id_line": "C00552",
-    "name_line": "431 (ex 1)",
+    "name_line": "431",
     "shortname_line": "431",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "6e1f64",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00553",
-    "name_line": "432 (ex 2)",
+    "name_line": "432",
     "shortname_line": "432",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "db2f36",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00554",
-    "name_line": "433 (ex 3)",
+    "name_line": "433",
     "shortname_line": "433",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "0097d5",
+    "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00555",
-    "name_line": "434 (ex 4)",
+    "name_line": "434",
     "shortname_line": "434",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "ffdf00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00556",
-    "name_line": "435 (ex 5)",
+    "name_line": "435",
     "shortname_line": "435",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "f29503",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00557",
-    "name_line": "436 (ex 6)",
+    "name_line": "436",
     "shortname_line": "436",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "0064a4",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C00560",
-    "name_line": "102",
-    "shortname_line": "102",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev CEAT",
-    "networkname": "SITUS",
-    "colourweb_hexa": "045ba3",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C00561",
-    "name_line": "103",
-    "shortname_line": "103",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev CEAT",
-    "networkname": "SITUS",
-    "colourweb_hexa": "045ba3",
+    "colourweb_hexa": "0055c8",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -5902,188 +5122,189 @@ export function idfMobiliteLineRef() {
     "operatorname": "ADP",
     "networkname": null,
     "colourweb_hexa": "5cc5ed",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "CDG VAL.svg"
   },
   {
     "id_line": "C00571",
-    "name_line": "5199 (Ex 42)",
+    "name_line": "5199",
     "shortname_line": "5199",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "314c9a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00573",
-    "name_line": "428 (ex K)",
+    "name_line": "428",
     "shortname_line": "428",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "e2001c",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00574",
-    "name_line": "427 (ex J1J2)",
+    "name_line": "427",
     "shortname_line": "427",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "ffdc00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00576",
-    "name_line": "H",
-    "shortname_line": "H",
+    "name_line": "4115 (fusion ex A et H)",
+    "shortname_line": "4115",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "b65190",
+    "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "d69266b1430088f3be3d71ada128cebc",
+      "filename": "20250225T163546Z-7aad26bc-75ab-4e23-b521-dacc77c0f756.png"
     }
   },
   {
     "id_line": "C00577",
-    "name_line": "F",
-    "shortname_line": "F",
+    "name_line": "4119 (ex F)",
+    "shortname_line": "4119",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "df3182",
+    "colourweb_hexa": "a50034",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "eda31cc151d90c7e25f5abec3c68432e",
+      "filename": "20250225T163003Z-dc4d6e3b-d5f7-4d88-8a15-5d5a90c8da3f.png"
     }
   },
   {
     "id_line": "C00579",
-    "name_line": "D",
-    "shortname_line": "D",
+    "name_line": "4158 (ex D)",
+    "shortname_line": "4158",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
     "colourweb_hexa": "e2ba00",
-    "textcolourweb_hexa": "ffffff",
+    "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "13150e9aafdcdad8ce675519dd01ef84",
+      "filename": "20250225T141706Z-774674a6-15ee-4813-9286-9be1f189ced0.png"
     }
   },
   {
     "id_line": "C00580",
-    "name_line": "A",
-    "shortname_line": "A",
+    "name_line": "4134 (ex A)",
+    "shortname_line": "4134",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "3b96c9",
+    "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "97450aafc9b0740e85ed3876688bdae3",
+      "filename": "20250225T190816Z-fe41a581-ad0f-4631-bed5-fa962e28a2b2.png"
     }
   },
   {
     "id_line": "C00581",
-    "name_line": "450 (ex B)",
+    "name_line": "450",
     "shortname_line": "450",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "00b7e3",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00582",
-    "name_line": "C",
-    "shortname_line": "C",
+    "name_line": "4111 (ex C)",
+    "shortname_line": "4111",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "95bc1b",
+    "colourweb_hexa": "0055c8",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "a371850e17478d1118f523447c208915",
+      "filename": "20250225T140330Z-f758d844-663d-497d-8cff-798d0685b02a.png"
     }
   },
   {
     "id_line": "C00586",
-    "name_line": "F4",
-    "shortname_line": "F4",
+    "name_line": "4131 (ex F4)",
+    "shortname_line": "4131",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "fbbf28",
+    "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "25706f9b6c4553f6e01b5b27678d683f",
+      "filename": "20250225T135428Z-800a65f4-2af4-4b09-b261-d8146d14edce.png"
+    }
+  },
+  {
+    "id_line": "C00589",
+    "name_line": "4154 (ex R1)",
+    "shortname_line": "4154",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": "Val d'Yerres Val de Seine",
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "a22d63c44feda4b48de5deb2d46976bc",
+      "filename": "20250227T172352Z-2b1ab517-2cda-40b3-bd42-55584e33f946.png"
     }
   },
   {
     "id_line": "C00590",
-    "name_line": "S",
-    "shortname_line": "S",
+    "name_line": "4133 (ex S)",
+    "shortname_line": "4133",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "a5a4cd",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "4986d38e4084e7990f2721ba8c9c1575",
+      "filename": "20250225T141406Z-d2981f57-5822-441c-99ec-f7bc0d6aea53.png"
     }
   },
   {
     "id_line": "C00591",
-    "name_line": "M",
-    "shortname_line": "M",
+    "name_line": "4132 (ex M)",
+    "shortname_line": "4132",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -6092,78 +5313,70 @@ export function idfMobiliteLineRef() {
     "colourweb_hexa": "ffdc00",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "fb340155832b4c654ce6eace620e48f6",
+      "filename": "20250225T135455Z-98568434-e3bd-41ff-a9c3-3cd75ad3b543.png"
     }
   },
   {
     "id_line": "C00592",
-    "name_line": "I",
-    "shortname_line": "I",
+    "name_line": "4110 (ex I)",
+    "shortname_line": "4110",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "c09051",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "bbe8c2d88a22353adef281fd83ebf486",
+      "filename": "20250225T140701Z-f946e108-b7e1-41bc-a602-90a5b4efd165.png"
     }
   },
   {
     "id_line": "C00594",
-    "name_line": "429 (ex O1)",
+    "name_line": "429",
     "shortname_line": "429",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "ec7fa9",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00597",
-    "name_line": "449 (ex U)",
+    "name_line": "449",
     "shortname_line": "449",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "004a98",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00598",
-    "name_line": "Quincy Bus",
-    "shortname_line": "QBUS",
+    "name_line": "4130 (ex Quincy Bus)",
+    "shortname_line": "4130",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "b3d1e8",
+    "colourweb_hexa": "82c8e6",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "8497718c726ce63d6284460df752bf3c",
+      "filename": "20250225T140458Z-1dba9ebc-ef26-453e-ba5a-c0569b4acb31.png"
     }
   },
   {
     "id_line": "C00599",
-    "name_line": "E",
-    "shortname_line": "E",
+    "name_line": "4135 (ex E)",
+    "shortname_line": "4135",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -6172,61 +5385,61 @@ export function idfMobiliteLineRef() {
     "colourweb_hexa": "dd0026",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "49825576f06c6bb3ccbe4dc4d9d51b67",
+      "filename": "20250225T190626Z-9d6e978e-26fa-4fdf-b3a3-432df6c47fd7.png"
     }
   },
   {
     "id_line": "C00600",
-    "name_line": "E1",
-    "shortname_line": "E1",
+    "name_line": "4152 (ex E1)",
+    "shortname_line": "4152",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "da620c",
-    "textcolourweb_hexa": "ffffff",
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "5c247868f877cefbb2d14c783f44e16d",
+      "filename": "20250225T191605Z-5eb39ed2-603f-4abe-87f0-bfe557678ead.png"
     }
   },
   {
     "id_line": "C00601",
-    "name_line": "E2",
-    "shortname_line": "E2",
+    "name_line": "4153 (ex E2)",
+    "shortname_line": "4153",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "fbc322",
-    "textcolourweb_hexa": "ffffff",
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "e906f103d2a78ebcaddacc629bb75e21",
+      "filename": "20250225T191347Z-5a67fad3-231b-431d-bee5-79b647d05018.png"
     }
   },
   {
     "id_line": "C00602",
-    "name_line": "X",
-    "shortname_line": "X",
+    "name_line": "4120 (ex X)",
+    "shortname_line": "4120",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "ffe400",
+    "colourweb_hexa": "6e6e00",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "8da48862b02f1db2c76ad0e8700f3805",
+      "filename": "20250225T140913Z-44a21cc5-347b-4a8a-9b98-38f750c29a92.png"
     }
   },
   {
     "id_line": "C00603",
-    "name_line": "1304 (ex 2)",
+    "name_line": "1304",
     "shortname_line": "1304",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6234,15 +5447,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "e3051b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00606",
-    "name_line": "1303 (ex C)",
+    "name_line": "1303",
     "shortname_line": "1303",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -6250,15 +5459,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "a09923",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00607",
-    "name_line": "1309 (ex 9509)",
+    "name_line": "1309",
     "shortname_line": "1309",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -6266,11 +5471,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "fece00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00609",
@@ -6282,11 +5483,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "fece00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00610",
@@ -6298,11 +5495,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "e3051b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00611",
@@ -6314,11 +5507,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "b90745",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00612",
@@ -6330,11 +5519,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "0064b0",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00613",
@@ -6346,11 +5531,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "5191cd",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00615",
@@ -6362,11 +5543,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "97d4e2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00616",
@@ -6378,11 +5555,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "c04191",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00617",
@@ -6394,15 +5567,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "09a88e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00619",
-    "name_line": "2252 (ex 07)",
+    "name_line": "2252",
     "shortname_line": "2252",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6414,7 +5583,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00620",
-    "name_line": "2251 (ex 12)",
+    "name_line": "2251",
     "shortname_line": "2251",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6426,7 +5595,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00621",
-    "name_line": "2290 (ex 13)",
+    "name_line": "2290",
     "shortname_line": "2290",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6438,7 +5607,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00622",
-    "name_line": "2250 (ex 04)",
+    "name_line": "2250",
     "shortname_line": "2250",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6450,7 +5619,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00623",
-    "name_line": "2291 (ex 15)",
+    "name_line": "2291",
     "shortname_line": "2291",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6462,23 +5631,23 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00624",
-    "name_line": "17",
-    "shortname_line": "17",
+    "name_line": "3117",
+    "shortname_line": "3117",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "c04192",
+    "colourweb_hexa": "c5a3cd",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "04edd5abd958bad2dc0ed3f4074110f0",
+      "filename": "20241209T115840Z-d6e2599a-528a-4a95-8d85-e41f64610811.png"
     }
   },
   {
     "id_line": "C00625",
-    "name_line": "2221 (ex 21)",
+    "name_line": "2221",
     "shortname_line": "2221",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6490,19 +5659,19 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00626",
-    "name_line": "2222 (ex 22)",
+    "name_line": "2222",
     "shortname_line": "2222",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
-    "colourweb_hexa": "00a092",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00627",
-    "name_line": "2223 (ex 23)",
+    "name_line": "2223",
     "shortname_line": "2223",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6514,7 +5683,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00628",
-    "name_line": "2225 (ex 25)",
+    "name_line": "2225",
     "shortname_line": "2225",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6526,7 +5695,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00629",
-    "name_line": "2226 (ex 26)",
+    "name_line": "2226",
     "shortname_line": "2226",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6538,7 +5707,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00630",
-    "name_line": "2229 (ex 29)",
+    "name_line": "2229",
     "shortname_line": "2229",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6550,7 +5719,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00631",
-    "name_line": "2292 (ex 32)",
+    "name_line": "2292",
     "shortname_line": "2292",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6562,7 +5731,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00632",
-    "name_line": "2234 (ex 34)",
+    "name_line": "2234",
     "shortname_line": "2234",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6574,7 +5743,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00633",
-    "name_line": "2253 (ex 37a)",
+    "name_line": "2253",
     "shortname_line": "2253",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6586,7 +5755,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00634",
-    "name_line": "2220 (ex 42)",
+    "name_line": "2220",
     "shortname_line": "2220",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6598,7 +5767,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00635",
-    "name_line": "2233 (ex 43)",
+    "name_line": "2233",
     "shortname_line": "2233",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6610,14 +5779,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00636",
-    "name_line": "2244 (ex 44)",
+    "name_line": "2244",
     "shortname_line": "2244",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
-    "colourweb_hexa": "d2d200",
+    "colourweb_hexa": "6e6e00",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -6630,11 +5799,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00638",
-    "name_line": "2263 (ex 24)",
+    "name_line": "2263",
     "shortname_line": "2263",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6654,11 +5823,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "STBC",
     "networkname": "Seine et Marne Express",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00640",
@@ -6669,28 +5834,20 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "87d3df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00641",
     "name_line": "27",
     "shortname_line": "27",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "c5a3cd",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00642",
@@ -6701,12 +5858,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "f78f4b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00643",
@@ -6717,12 +5870,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "ed1c2a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00644",
@@ -6733,12 +5882,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "ffcd03",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00649",
@@ -6749,12 +5894,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "006db8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00651",
@@ -6765,23 +5906,19 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "bb4b9b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00652",
-    "name_line": "Express 80",
-    "shortname_line": "EX80",
+    "name_line": "7808",
+    "shortname_line": "7808",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -6793,32 +5930,24 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "ed1c2a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00655",
     "name_line": "Express 100",
-    "shortname_line": "100",
+    "shortname_line": "EX 100",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00656",
-    "name_line": "2128 (ex 8)",
+    "name_line": "2128",
     "shortname_line": "2128",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -6830,7 +5959,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00658",
-    "name_line": "2130 (ex 17)",
+    "name_line": "2130",
     "shortname_line": "2130",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -6842,7 +5971,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00659",
-    "name_line": "2120 (ex 18)",
+    "name_line": "2120",
     "shortname_line": "2120",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -6854,7 +5983,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00660",
-    "name_line": "2169 (ex 19)",
+    "name_line": "2169",
     "shortname_line": "2169",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -6878,8 +6007,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00662",
-    "name_line": "DM2A",
-    "shortname_line": "DM2A",
+    "name_line": "4540",
+    "shortname_line": "4540",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -6890,8 +6019,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00663",
-    "name_line": "DM2B",
-    "shortname_line": "DM2B",
+    "name_line": "4541",
+    "shortname_line": "4541",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -6902,32 +6031,36 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00664",
-    "name_line": "DM3A",
-    "shortname_line": "DM3A",
+    "name_line": "4523",
+    "shortname_line": "4523",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "f2a5b7",
+    "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00665",
-    "name_line": "DM04",
-    "shortname_line": "DM04",
+    "name_line": "4205",
+    "shortname_line": "4205",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "99d4df",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "411498316e2bad6499e1e1352e4a7418",
+      "filename": "20250103T081817Z-d4d87193-3792-4628-ba14-736200b6f2e8.png"
+    }
   },
   {
     "id_line": "C00666",
-    "name_line": "DM5",
-    "shortname_line": "DM5",
+    "name_line": "4505",
+    "shortname_line": "4505",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -6938,8 +6071,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00667",
-    "name_line": "DM6A",
-    "shortname_line": "DM6A",
+    "name_line": "4516",
+    "shortname_line": "4516",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -6950,8 +6083,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00668",
-    "name_line": "DM6B",
-    "shortname_line": "DM6B",
+    "name_line": "4517",
+    "shortname_line": "4517",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -6962,20 +6095,24 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00669",
-    "name_line": "DM7S",
-    "shortname_line": "DM7S",
+    "name_line": "4280",
+    "shortname_line": "4280",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
     "colourweb_hexa": "a0981a",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "3c0a188e0dc407d9e5b606ac3b82faa0",
+      "filename": "20250103T081842Z-69fe3a28-8b40-4bc9-b6c2-f0d3f9f8092f.png"
+    }
   },
   {
     "id_line": "C00670",
-    "name_line": "DM8",
-    "shortname_line": "DM8",
+    "name_line": "4518",
+    "shortname_line": "4518",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -6986,8 +6123,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00671",
-    "name_line": "DM9",
-    "shortname_line": "DM9",
+    "name_line": "4539",
+    "shortname_line": "4539",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -7058,8 +6195,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00677",
-    "name_line": "DM13",
-    "shortname_line": "DM13",
+    "name_line": "4543",
+    "shortname_line": "4543",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -7070,8 +6207,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00678",
-    "name_line": "DM17",
-    "shortname_line": "DM17",
+    "name_line": "4537",
+    "shortname_line": "4537",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -7082,8 +6219,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00679",
-    "name_line": "DM16",
-    "shortname_line": "DM16",
+    "name_line": "4542",
+    "shortname_line": "4542",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -7106,32 +6243,32 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00681",
-    "name_line": "DM19",
-    "shortname_line": "DM19",
+    "name_line": "4538",
+    "shortname_line": "4538",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "3c91dc",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00682",
-    "name_line": "DM20",
-    "shortname_line": "DM20",
+    "name_line": "4550",
+    "shortname_line": "4550",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "1455c8",
+    "colourweb_hexa": "0055c8",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00683",
-    "name_line": "M21A",
-    "shortname_line": "M21A",
+    "name_line": "4521",
+    "shortname_line": "4521",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -7142,8 +6279,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00684",
-    "name_line": "M21B",
-    "shortname_line": "M21B",
+    "name_line": "4522",
+    "shortname_line": "4522",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -7154,15 +6291,19 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00685",
-    "name_line": "DM22",
-    "shortname_line": "DM22",
+    "name_line": "4223",
+    "shortname_line": "4223",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "e20022",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "27d530ba11ff1294f36303a6c9618bf5",
+      "filename": "20250103T082212Z-d63b794b-f332-4ee4-a5d9-4f973407a4dd.png"
+    }
   },
   {
     "id_line": "C00687",
@@ -7178,8 +6319,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00688",
-    "name_line": "DM26",
-    "shortname_line": "DM26",
+    "name_line": "4556",
+    "shortname_line": "4556",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -7190,20 +6331,20 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00689",
-    "name_line": "M151",
-    "shortname_line": "M151",
+    "name_line": "EXPRESS 9115",
+    "shortname_line": "9115",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "ff5a00",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00691",
-    "name_line": "M153",
-    "shortname_line": "M153",
+    "name_line": "4503",
+    "shortname_line": "4503",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -7318,11 +6459,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Versailles",
     "networkname": "Grand Versailles",
     "colourweb_hexa": "ff82b4",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00701",
@@ -7334,11 +6471,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Versailles",
     "networkname": "Grand Versailles",
     "colourweb_hexa": "ffbe00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00702",
@@ -7638,7 +6771,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "RD Mantois",
     "networkname": "Mantois",
     "colourweb_hexa": "dfaf47",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00748",
@@ -7697,12 +6830,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00754",
@@ -7713,12 +6842,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00755",
@@ -7794,8 +6919,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00762",
-    "name_line": "30",
-    "shortname_line": "30",
+    "name_line": "1230",
+    "shortname_line": "1230",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -7806,20 +6931,20 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00763",
-    "name_line": "34",
-    "shortname_line": "34",
+    "name_line": "1203",
+    "shortname_line": "1203",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "ffbe00",
+    "colourweb_hexa": "dc9650",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00764",
-    "name_line": "35",
-    "shortname_line": "35",
+    "name_line": "1206",
+    "shortname_line": "1206",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
@@ -7830,8 +6955,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00765",
-    "name_line": "36",
-    "shortname_line": "36",
+    "name_line": "1236",
+    "shortname_line": "1236",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -7842,8 +6967,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00766",
-    "name_line": "38",
-    "shortname_line": "38",
+    "name_line": "1238",
+    "shortname_line": "1238",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -7854,8 +6979,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00767",
-    "name_line": "39",
-    "shortname_line": "39",
+    "name_line": "1239",
+    "shortname_line": "1239",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -7866,8 +6991,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00768",
-    "name_line": "40",
-    "shortname_line": "40",
+    "name_line": "1240",
+    "shortname_line": "1240",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -7878,8 +7003,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00769",
-    "name_line": "42",
-    "shortname_line": "42",
+    "name_line": "1202",
+    "shortname_line": "1202",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
@@ -7890,8 +7015,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00770",
-    "name_line": "43",
-    "shortname_line": "43",
+    "name_line": "1223",
+    "shortname_line": "1223",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -7902,8 +7027,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00771",
-    "name_line": "44",
-    "shortname_line": "44",
+    "name_line": "1224",
+    "shortname_line": "1224",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -7914,32 +7039,32 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00772",
-    "name_line": "45",
-    "shortname_line": "45",
+    "name_line": "1201",
+    "shortname_line": "1201",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "640082",
+    "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00773",
-    "name_line": "47",
-    "shortname_line": "47",
+    "name_line": "1237",
+    "shortname_line": "1237",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "5a230a",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00774",
-    "name_line": "48",
-    "shortname_line": "48",
+    "name_line": "1207",
+    "shortname_line": "1207",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
@@ -7950,8 +7075,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00778",
-    "name_line": "49",
-    "shortname_line": "49",
+    "name_line": "1208",
+    "shortname_line": "1208",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
@@ -7962,20 +7087,20 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00781",
-    "name_line": "56",
-    "shortname_line": "56",
+    "name_line": "1226",
+    "shortname_line": "1226",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "5a230a",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00782",
-    "name_line": "57",
-    "shortname_line": "57",
+    "name_line": "1232",
+    "shortname_line": "1232",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -7986,8 +7111,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00783",
-    "name_line": "58",
-    "shortname_line": "58",
+    "name_line": "1228",
+    "shortname_line": "1228",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -7998,8 +7123,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00784",
-    "name_line": "59",
-    "shortname_line": "59",
+    "name_line": "1241",
+    "shortname_line": "1241",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -8010,8 +7135,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00785",
-    "name_line": "60",
-    "shortname_line": "60",
+    "name_line": "1242",
+    "shortname_line": "1242",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -8022,135 +7147,135 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00786",
-    "name_line": "9",
-    "shortname_line": "9",
+    "name_line": "3409",
+    "shortname_line": "3409",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "00ff00",
+    "colourweb_hexa": "d2d200",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00787",
-    "name_line": "5",
-    "shortname_line": "5",
+    "name_line": "3405",
+    "shortname_line": "3405",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
     "colourweb_hexa": "77b5fe",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00788",
-    "name_line": "6",
-    "shortname_line": "6",
+    "name_line": "3406",
+    "shortname_line": "3406",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "791cf8",
+    "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00789",
-    "name_line": "41",
-    "shortname_line": "41",
+    "name_line": "3441",
+    "shortname_line": "3441",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "25fde9",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00790",
-    "name_line": "42",
-    "shortname_line": "42",
+    "name_line": "3442",
+    "shortname_line": "3442",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "811453",
+    "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00791",
-    "name_line": "44",
-    "shortname_line": "44",
+    "name_line": "3444",
+    "shortname_line": "3444",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "568203",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00792",
-    "name_line": "45",
-    "shortname_line": "45",
+    "name_line": "3445",
+    "shortname_line": "3445",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "fd3f92",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00793",
-    "name_line": "1",
-    "shortname_line": "1",
+    "name_line": "3401",
+    "shortname_line": "3401",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "ff0000",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00794",
-    "name_line": "4",
-    "shortname_line": "4",
+    "name_line": "3404",
+    "shortname_line": "3404",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "00ff00",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00796",
-    "name_line": "3",
-    "shortname_line": "3",
+    "name_line": "3403",
+    "shortname_line": "3403",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "ed7f10",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00797",
-    "name_line": "112",
-    "shortname_line": "112",
+    "name_line": "3412",
+    "shortname_line": "3412",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "e73e01",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00798",
@@ -8162,22 +7287,18 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "4d90cd",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00799",
-    "name_line": "209",
-    "shortname_line": "209",
+    "name_line": "3439",
+    "shortname_line": "3439",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "3a8923",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -8190,38 +7311,34 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "799c13",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00803",
-    "name_line": "6",
-    "shortname_line": "6",
+    "name_line": "3106",
+    "shortname_line": "3106",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "e3b229",
+    "colourweb_hexa": "e0b03b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "acc7789a317a461fcae92b924f62fa79",
+      "filename": "20241209T114803Z-89eddf14-57a7-4c90-a403-b18753d8856f.png"
     }
   },
   {
     "id_line": "C00813",
-    "name_line": "43",
-    "shortname_line": "43",
+    "name_line": "3443",
+    "shortname_line": "3443",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "9fe855",
+    "colourweb_hexa": "d2d200",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -8234,11 +7351,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "bd1220",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00815",
@@ -8249,440 +7362,428 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00817",
-    "name_line": "202",
-    "shortname_line": "202",
+    "name_line": "3432",
+    "shortname_line": "3432",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "f04c50",
+    "colourweb_hexa": "a50034",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00818",
-    "name_line": "211",
-    "shortname_line": "211",
+    "name_line": "3431",
+    "shortname_line": "3431",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "b33a00",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00819",
-    "name_line": "3",
-    "shortname_line": "3",
+    "name_line": "3503",
+    "shortname_line": "3503",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "cc99ff",
+    "colourweb_hexa": "d282be",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00820",
-    "name_line": "7A",
-    "shortname_line": "7A",
+    "name_line": "3530",
+    "shortname_line": "3530",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "e62e2b",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00821",
-    "name_line": "8A",
-    "shortname_line": "8A",
+    "name_line": "3534",
+    "shortname_line": "3534",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "b4dbf6",
+    "colourweb_hexa": "82c8e6",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00822",
-    "name_line": "9A",
-    "shortname_line": "9A",
+    "name_line": "3540",
+    "shortname_line": "3540",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "a69514",
+    "colourweb_hexa": "6e6e00",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00823",
-    "name_line": "10",
-    "shortname_line": "10",
+    "name_line": "3543",
+    "shortname_line": "3543",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "77ad1c",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00824",
-    "name_line": "11A",
-    "shortname_line": "11A",
+    "name_line": "3510",
+    "shortname_line": "3510",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "c27ba0",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00826",
-    "name_line": "13A",
-    "shortname_line": "13A",
+    "name_line": "3515",
+    "shortname_line": "3515",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "009fe3",
+    "colourweb_hexa": "82c8e6",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00827",
-    "name_line": "14A",
-    "shortname_line": "14A",
+    "name_line": "3518",
+    "shortname_line": "3518",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "e72d81",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00828",
-    "name_line": "207",
-    "shortname_line": "207",
+    "name_line": "3437",
+    "shortname_line": "3437",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "ff6600",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00830",
-    "name_line": "17A",
-    "shortname_line": "17A",
+    "name_line": "3536",
+    "shortname_line": "3536",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "006b2d",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00831",
-    "name_line": "18A",
-    "shortname_line": "18A",
+    "name_line": "3544",
+    "shortname_line": "3544",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "813318",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00832",
-    "name_line": "1",
-    "shortname_line": "1",
+    "name_line": "3501",
+    "shortname_line": "3501",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "f6ab59",
+    "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00833",
-    "name_line": "2",
-    "shortname_line": "2",
+    "name_line": "3502",
+    "shortname_line": "3502",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "72bb81",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00834",
-    "name_line": "4",
-    "shortname_line": "4",
+    "name_line": "3504",
+    "shortname_line": "3504",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "ee8260",
+    "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00835",
-    "name_line": "5",
-    "shortname_line": "5",
+    "name_line": "3505",
+    "shortname_line": "3505",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "004c93",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00836",
-    "name_line": "50",
-    "shortname_line": "50",
+    "name_line": "7715",
+    "shortname_line": "7715",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00837",
-    "name_line": "51",
-    "shortname_line": "51",
+    "name_line": "3751",
+    "shortname_line": "3751",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "9b9bcd",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00838",
-    "name_line": "55",
-    "shortname_line": "55",
+    "name_line": "3755",
+    "shortname_line": "3755",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00839",
-    "name_line": "54",
-    "shortname_line": "54",
+    "name_line": "3754",
+    "shortname_line": "3754",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00840",
-    "name_line": "01",
-    "shortname_line": "01",
+    "name_line": "3779",
+    "shortname_line": "3779",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "005c63",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C00841",
-    "name_line": "02",
-    "shortname_line": "02",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Senart",
-    "networkname": "Sénart",
-    "colourweb_hexa": "fcbb73",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00842",
-    "name_line": "05",
-    "shortname_line": "05",
+    "name_line": "3775",
+    "shortname_line": "3775",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "bc8431",
+    "colourweb_hexa": "5a230a",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00843",
-    "name_line": "03",
-    "shortname_line": "03",
+    "name_line": "3703",
+    "shortname_line": "3703",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "00afad",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00844",
-    "name_line": "04",
-    "shortname_line": "04",
+    "name_line": "3753",
+    "shortname_line": "3753",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ff7f00",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00845",
-    "name_line": "11",
-    "shortname_line": "11",
+    "name_line": "3711",
+    "shortname_line": "3711",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "40147f",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00846",
-    "name_line": "12",
-    "shortname_line": "12",
+    "name_line": "3712",
+    "shortname_line": "3712",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ee1d23",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00847",
-    "name_line": "13",
-    "shortname_line": "13",
+    "name_line": "3713",
+    "shortname_line": "3713",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "0a560b",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00850",
-    "name_line": "34",
-    "shortname_line": "34",
+    "name_line": "3734",
+    "shortname_line": "3734",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "8e4900",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00851",
-    "name_line": "36",
-    "shortname_line": "36",
+    "name_line": "3736",
+    "shortname_line": "3736",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ebdb01",
+    "colourweb_hexa": "ffbe01",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00852",
-    "name_line": "37",
-    "shortname_line": "37",
+    "name_line": "3737",
+    "shortname_line": "3737",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "93d5f6",
+    "colourweb_hexa": "82c8e6",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00853",
-    "name_line": "41",
-    "shortname_line": "41",
+    "name_line": "3741",
+    "shortname_line": "3741",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "8e4900",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00854",
-    "name_line": "42",
-    "shortname_line": "42",
+    "name_line": "3742",
+    "shortname_line": "3742",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ee1d23",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00855",
-    "name_line": "43",
-    "shortname_line": "43",
+    "name_line": "3743",
+    "shortname_line": "3743",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "0a560b",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00856",
-    "name_line": "35",
-    "shortname_line": "35",
+    "name_line": "3744",
+    "shortname_line": "3744",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ff7f00",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00859",
@@ -8693,139 +7794,139 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "c5ce00",
+    "colourweb_hexa": "d2d200",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00860",
-    "name_line": "64",
-    "shortname_line": "64",
+    "name_line": "3774",
+    "shortname_line": "3774",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "b5539a",
+    "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00861",
-    "name_line": "53",
-    "shortname_line": "53",
+    "name_line": "3714",
+    "shortname_line": "3714",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ff7f00",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00862",
-    "name_line": "21",
-    "shortname_line": "21",
+    "name_line": "3704",
+    "shortname_line": "3704",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "40147f",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00863",
-    "name_line": "22",
-    "shortname_line": "22",
+    "name_line": "3722",
+    "shortname_line": "3722",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ee1d23",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00864",
-    "name_line": "25",
-    "shortname_line": "25",
+    "name_line": "3725",
+    "shortname_line": "3725",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "0a560b",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00865",
-    "name_line": "24",
-    "shortname_line": "24",
+    "name_line": "3724",
+    "shortname_line": "3724",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ee1d23",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00866",
-    "name_line": "26",
-    "shortname_line": "26",
+    "name_line": "3726",
+    "shortname_line": "3726",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "b6de92",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00867",
-    "name_line": "23",
-    "shortname_line": "23",
+    "name_line": "3723",
+    "shortname_line": "3723",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "0a560b",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00868",
-    "name_line": "32",
-    "shortname_line": "32",
+    "name_line": "3732",
+    "shortname_line": "3732",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ee1d23",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00869",
-    "name_line": "CPSF",
-    "shortname_line": "CPSF",
+    "name_line": "3735",
+    "shortname_line": "3735",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "b5539a",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00871",
-    "name_line": "33",
-    "shortname_line": "33",
+    "name_line": "3733",
+    "shortname_line": "3733",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "0a560b",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -8838,11 +7939,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "e20019",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00876",
@@ -8854,11 +7951,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "ffec00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00877",
@@ -8870,11 +7963,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "b45f06",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00878",
@@ -8886,11 +7975,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "d39d00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00879",
@@ -8902,11 +7987,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "0069b2",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00880",
@@ -8918,11 +7999,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "ed87b1",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00881",
@@ -8934,11 +8011,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "ea690a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00882",
@@ -8950,11 +8023,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "38761d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00883",
@@ -8966,11 +8035,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "38761d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00885",
@@ -8982,11 +8047,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "b1c800",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00886",
@@ -8998,11 +8059,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "f5b1cb",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00887",
@@ -9014,11 +8071,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "7f408e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00890",
@@ -9030,11 +8083,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "fae212",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00891",
@@ -9046,11 +8095,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "92d1d1",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00892",
@@ -9062,11 +8107,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "f29f14",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00893",
@@ -9078,11 +8119,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "e2087a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00894",
@@ -9094,11 +8131,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "1fbbe7",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00895",
@@ -9110,11 +8143,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "162883",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00897",
@@ -9126,11 +8155,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "e20079",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00898",
@@ -9142,11 +8167,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
     "colourweb_hexa": "6fa8dc",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00899",
@@ -9170,11 +8191,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
     "colourweb_hexa": "722671",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00901",
@@ -9186,11 +8203,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
     "colourweb_hexa": "bc85bb",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00902",
@@ -9206,7 +8219,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00903",
-    "name_line": "2262 (ex 06)",
+    "name_line": "2262",
     "shortname_line": "2262",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -9290,7 +8303,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00911",
-    "name_line": "2264 (ex 14)",
+    "name_line": "2264",
     "shortname_line": "2264",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -9369,7 +8382,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
-    "colourweb_hexa": "b6d7a8",
+    "colourweb_hexa": "d2d200",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -9441,7 +8454,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "cc7f3c",
+    "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -9453,7 +8466,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "cc7f3c",
+    "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -9465,7 +8478,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "f8b63a",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -9573,7 +8586,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
-    "colourweb_hexa": "990000",
+    "colourweb_hexa": "a38c57",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -9585,7 +8598,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
-    "colourweb_hexa": "990000",
+    "colourweb_hexa": "a38c57",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -9614,7 +8627,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00943",
-    "name_line": "2261 (ex 57)",
+    "name_line": "2261",
     "shortname_line": "2261",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -9638,7 +8651,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00945",
-    "name_line": "2260 (ex 60)",
+    "name_line": "2260",
     "shortname_line": "2260",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -9670,7 +8683,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00948",
@@ -9717,7 +8730,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "d8b43c",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -9777,7 +8790,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
-    "colourweb_hexa": "e06666",
+    "colourweb_hexa": "a50034",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -9814,12 +8827,12 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00962",
-    "name_line": "6801",
-    "shortname_line": "6801",
+    "name_line": "4551",
+    "shortname_line": "4551",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -9830,8 +8843,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00963",
-    "name_line": "6802",
-    "shortname_line": "6802",
+    "name_line": "4552",
+    "shortname_line": "4552",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -9842,8 +8855,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00964",
-    "name_line": "685A",
-    "shortname_line": "685A",
+    "name_line": "4582",
+    "shortname_line": "4582",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -9854,8 +8867,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00965",
-    "name_line": "6806",
-    "shortname_line": "6806",
+    "name_line": "4576",
+    "shortname_line": "4576",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -9866,8 +8879,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00966",
-    "name_line": "6808",
-    "shortname_line": "6808",
+    "name_line": "4578",
+    "shortname_line": "4578",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -9878,56 +8891,44 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00967",
-    "name_line": "68-09",
-    "shortname_line": "68-09",
+    "name_line": "4439",
+    "shortname_line": "4439",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "f3a4ba",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00969",
-    "name_line": "68.14",
-    "shortname_line": "68.14",
+    "name_line": "4438",
+    "shortname_line": "4438",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "be418e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00970",
-    "name_line": "68-16",
-    "shortname_line": "68-16",
+    "name_line": "4440",
+    "shortname_line": "4440",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "5291ce",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00971",
-    "name_line": "6810",
-    "shortname_line": "6810",
+    "name_line": "4570",
+    "shortname_line": "4570",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -9938,8 +8939,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00972",
-    "name_line": "685B",
-    "shortname_line": "685B",
+    "name_line": "4555",
+    "shortname_line": "4555",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -9950,318 +8951,298 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C00973",
-    "name_line": "306.04",
-    "shortname_line": "306.04",
+    "name_line": "4459",
+    "shortname_line": "4459",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "5291ce",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00974",
-    "name_line": "306.12",
-    "shortname_line": "306.12",
+    "name_line": "4412",
+    "shortname_line": "4412",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "ff0000",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00975",
-    "name_line": "1",
-    "shortname_line": "1",
+    "name_line": "4401",
+    "shortname_line": "4401",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "e3b32a",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00976",
-    "name_line": "2",
-    "shortname_line": "2",
+    "name_line": "4402",
+    "shortname_line": "4402",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "be418e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00977",
-    "name_line": "913.07",
-    "shortname_line": "913.07",
+    "name_line": "4407",
+    "shortname_line": "4407",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "83c491",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "9b993b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00978",
-    "name_line": "913.08",
-    "shortname_line": "913.08",
+    "name_line": "4408",
+    "shortname_line": "4408",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "d5c900",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00979",
-    "name_line": "913.10",
-    "shortname_line": "913.10",
+    "name_line": "4410",
+    "shortname_line": "4410",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "8d5e2a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "008c5a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00982",
-    "name_line": "3",
-    "shortname_line": "3",
+    "name_line": "4403",
+    "shortname_line": "4403",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "5291ce",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00983",
-    "name_line": "5",
-    "shortname_line": "5",
+    "name_line": "4405",
+    "shortname_line": "4405",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "f3a4ba",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00984",
-    "name_line": "913.50",
-    "shortname_line": "913.50",
+    "name_line": "4409",
+    "shortname_line": "4409",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "98d4e2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00985",
-    "name_line": "7001",
-    "shortname_line": "7001",
+    "name_line": "4231",
+    "shortname_line": "4231",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "8066ff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "5ab0df24c1e1090c82f3cf2ffb437aa6",
+      "filename": "20250103T082553Z-50748a9d-e91f-42b3-8333-c6748c638638.png"
+    }
   },
   {
     "id_line": "C00986",
-    "name_line": "7001 Scolaire",
-    "shortname_line": "7001 SCO",
+    "name_line": "4271",
+    "shortname_line": "4271",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "73ff00",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "502898d0549e13868bd5752bab72c5ab",
+      "filename": "20250103T082617Z-37b99dd6-ee94-473d-9a36-3f7933219008.png"
+    }
   },
   {
     "id_line": "C00987",
-    "name_line": "7002",
-    "shortname_line": "7002",
+    "name_line": "4232",
+    "shortname_line": "4232",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "ffbf00",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "643941ad12580a4bdb246599d9c3a0e3",
+      "filename": "20250103T082640Z-c75fcbec-cc4e-48b4-8e0e-948a0cbcbc43.png"
+    }
   },
   {
     "id_line": "C00989",
-    "name_line": "7005",
-    "shortname_line": "7005",
+    "name_line": "4275",
+    "shortname_line": "4275",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "ff0000",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "a368dc5861d73446027490261fdbb3dc",
+      "filename": "20250103T082721Z-c152e3d9-6e69-49e4-879f-4153124526e8.png"
+    }
   },
   {
     "id_line": "C00990",
-    "name_line": "7006",
-    "shortname_line": "7006",
+    "name_line": "4276",
+    "shortname_line": "4276",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "2680ff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "cd0ff5362d2d2ae140fda6aac6eae1af",
+      "filename": "20250103T082742Z-0f49e148-451b-415a-b92a-d0e37696f020.png"
+    }
   },
   {
     "id_line": "C01002",
-    "name_line": "4001",
-    "shortname_line": "4001",
+    "name_line": "3451",
+    "shortname_line": "3451",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "89c379",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01003",
-    "name_line": "4003",
-    "shortname_line": "4003",
+    "name_line": "3453",
+    "shortname_line": "3453",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "cdcb14",
+    "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01004",
-    "name_line": "4004",
-    "shortname_line": "4004",
+    "name_line": "3550",
+    "shortname_line": "3550",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "1ba196",
+    "colourweb_hexa": "00a092",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01005",
-    "name_line": "4005",
-    "shortname_line": "4005",
+    "name_line": "3556",
+    "shortname_line": "3556",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "1f398e",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01006",
-    "name_line": "4006",
-    "shortname_line": "4006",
+    "name_line": "3557",
+    "shortname_line": "3557",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "0f8747",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01008",
-    "name_line": "4008",
-    "shortname_line": "4008",
+    "name_line": "3458",
+    "shortname_line": "3458",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "13a5e0",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01011",
-    "name_line": "4013",
-    "shortname_line": "4013",
+    "name_line": "3455",
+    "shortname_line": "3455",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "0177a5",
+    "colourweb_hexa": "a50034",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01012",
-    "name_line": "4014",
-    "shortname_line": "4014",
+    "name_line": "3454",
+    "shortname_line": "3454",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "006eb9",
+    "colourweb_hexa": "0a0082",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -10394,42 +9375,38 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Grand Provinois",
     "networkname": "Provinois - Brie et Seine",
     "colourweb_hexa": "f49fb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01044",
-    "name_line": "20",
-    "shortname_line": "20",
+    "name_line": "3120",
+    "shortname_line": "3120",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "96d4e1",
+    "colourweb_hexa": "87d3df",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "140b67bb8b5e8c4e7c4118b642f1b18d",
+      "filename": "20241209T120710Z-4f8c8888-77d0-4da0-a520-fd590f02b8ed.png"
     }
   },
   {
     "id_line": "C01045",
-    "name_line": "24",
-    "shortname_line": "24",
+    "name_line": "3124",
+    "shortname_line": "3124",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "f28f42",
+    "colourweb_hexa": "f78f4b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "35803b9aaa50bd0f70ff6a1678281fa1",
+      "filename": "20241209T131515Z-79ebe468-1353-49b3-9bc6-2713b5ee74c9.png"
     }
   },
   {
@@ -10482,34 +9459,34 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01052",
-    "name_line": "32",
-    "shortname_line": "32",
+    "name_line": "3132",
+    "shortname_line": "3132",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "018150",
+    "colourweb_hexa": "008c5a",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "997d58b71c116d153c97b3800b2fbf97",
+      "filename": "20241210T082927Z-4e537022-0659-4b5b-ad66-6c879c20f208.png"
     }
   },
   {
     "id_line": "C01053",
-    "name_line": "33",
-    "shortname_line": "33",
+    "name_line": "3133",
+    "shortname_line": "3133",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "f3a4ba",
+    "colourweb_hexa": "f59eb3",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "36c606018712b0f39e2a12e45d3be3f0",
+      "filename": "20241210T083018Z-09612f03-b337-4260-b327-9f85865c4f5a.png"
     }
   },
   {
@@ -10526,18 +9503,18 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01058",
-    "name_line": "39",
-    "shortname_line": "39",
+    "name_line": "3139",
+    "shortname_line": "3139",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "0064b0",
+    "colourweb_hexa": "87d3df",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "90cd53166c82c6b732956098da95bff5",
+      "filename": "20241210T083710Z-ce1c87b5-6cb3-446d-a14d-4d2fa0a5b418.png"
     }
   },
   {
@@ -12648,7 +11625,7 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
-    "operatorname": "RATP",
+    "operatorname": "Keolis Argenteuil Boucles de Seine",
     "networkname": null,
     "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff"
@@ -12760,23 +11737,6 @@ export function idfMobiliteLineRef() {
     "networkname": null,
     "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C01261",
-    "name_line": "ORLYBUS",
-    "shortname_line": "ORLYBUS",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "RATP",
-    "networkname": null,
-    "colourweb_hexa": "ff0000",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "d13750bd0e7eb4e726c426da76d161db",
-      "filename": "656765b6b00db_Logo_Ligne_Bus_RATP_OrlyBus.png"
-    },
-    "icon": "ORLYBUS.svg"
   },
   {
     "id_line": "C01262",
@@ -13540,18 +12500,6 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "ffffff"
   },
   {
-    "id_line": "C01335",
-    "name_line": "LA NAVETTE",
-    "shortname_line": "NAVETTE",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "RATP",
-    "networkname": null,
-    "colourweb_hexa": "67328e",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
     "id_line": "C01336",
     "name_line": "MONTBUS",
     "shortname_line": "MONTBUS",
@@ -13598,18 +12546,6 @@ export function idfMobiliteLineRef() {
     "networkname": null,
     "colourweb_hexa": "216eb4",
     "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C01341",
-    "name_line": "545",
-    "shortname_line": "545",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "RATP",
-    "networkname": null,
-    "colourweb_hexa": "ffbe00",
-    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01342",
@@ -13670,18 +12606,6 @@ export function idfMobiliteLineRef() {
     "networkname": null,
     "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C01351",
-    "name_line": "566",
-    "shortname_line": "566",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "RATP",
-    "networkname": null,
-    "colourweb_hexa": "de8b53",
-    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01352",
@@ -14232,7 +13156,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "ffffff",
     "icon": "N24.svg"
@@ -14245,7 +13169,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "d2d200",
     "textcolourweb_hexa": "000000",
     "icon": "N52.svg"
@@ -14258,7 +13182,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000",
     "icon": "N51.svg"
@@ -14271,7 +13195,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000",
     "icon": "N44.svg"
@@ -14284,7 +13208,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000",
     "icon": "N42.svg"
@@ -14297,7 +13221,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000",
     "icon": "N23.svg"
@@ -14310,7 +13234,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "d2d200",
     "textcolourweb_hexa": "000000",
     "icon": "N34.svg"
@@ -14323,7 +13247,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "ffffff",
     "icon": "N33.svg"
@@ -14336,7 +13260,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "000000",
     "icon": "N31.svg"
@@ -14349,7 +13273,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000",
     "icon": "N21.svg"
@@ -14362,7 +13286,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000",
     "icon": "N61.svg"
@@ -14375,7 +13299,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "000000",
     "icon": "N62.svg"
@@ -14388,7 +13312,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000",
     "icon": "N32.svg"
@@ -14401,7 +13325,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000",
     "icon": "N45.svg"
@@ -14414,7 +13338,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "ffffff",
     "icon": "N43.svg"
@@ -14427,7 +13351,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000",
     "icon": "N22.svg"
@@ -14440,7 +13364,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "d2d200",
     "textcolourweb_hexa": "000000",
     "icon": "N63.svg"
@@ -14453,7 +13377,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000",
     "icon": "N53.svg"
@@ -14466,7 +13390,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff",
     "icon": "N71.svg"
@@ -14479,7 +13403,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "000000",
     "icon": "N41.svg"
@@ -14492,7 +13416,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000",
     "icon": "N35.svg"
@@ -14505,7 +13429,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff",
     "icon": "N01.svg"
@@ -14518,7 +13442,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff",
     "icon": "N02.svg"
@@ -14531,7 +13455,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "ffffff",
     "icon": "N11.svg"
@@ -14544,7 +13468,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "d2d200",
     "textcolourweb_hexa": "000000",
     "icon": "N16.svg"
@@ -14557,7 +13481,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000",
     "icon": "N15.svg"
@@ -14570,7 +13494,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000",
     "icon": "N14.svg"
@@ -14583,7 +13507,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "000000",
     "icon": "N13.svg"
@@ -14596,7 +13520,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000",
     "icon": "N12.svg"
@@ -14608,8 +13532,8 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "nightBus",
     "type": null,
-    "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "operatorname": "Transdev Sud Yvelines",
+    "networkname": "Centre et Sud Yvelines",
     "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "ffffff",
     "icon": "N122.svg"
@@ -14621,9 +13545,9 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "nightBus",
     "type": null,
-    "operatorname": "RATP",
-    "networkname": "Noctilien",
-    "colourweb_hexa": "ff1400",
+    "operatorname": "Transdev Boucle des Lys",
+    "networkname": "Saint Germain Boucles de Seine",
+    "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "ffffff",
     "icon": "N153.svg"
   },
@@ -14685,11 +13609,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "b80b4b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01430",
@@ -14713,11 +13633,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "006db8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01432",
@@ -14729,11 +13645,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "cec92b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01433",
@@ -14745,15 +13657,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f69fb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01435",
-    "name_line": "3301 (ex A)",
+    "name_line": "3301",
     "shortname_line": "3301",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -14761,15 +13669,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "b80c4b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01436",
-    "name_line": "3303 (ex B)",
+    "name_line": "3303",
     "shortname_line": "3303",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -14777,15 +13681,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "c5a3cd",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01437",
-    "name_line": "3304 (ex C)",
+    "name_line": "3304",
     "shortname_line": "3304",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -14793,15 +13693,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "f59eb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01438",
-    "name_line": "3310 (ex Ea)",
+    "name_line": "3310",
     "shortname_line": "3310",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -14809,15 +13705,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "006db8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01439",
-    "name_line": "3305 (ex G)",
+    "name_line": "3305",
     "shortname_line": "3305",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -14825,15 +13717,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "bb4b9b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01440",
-    "name_line": "3311 (ex Eb)",
+    "name_line": "3311",
     "shortname_line": "3311",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -14841,15 +13729,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "87d3df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01441",
-    "name_line": "3306 (ex I)",
+    "name_line": "3306",
     "shortname_line": "3306",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -14857,15 +13741,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "f78f4b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01442",
-    "name_line": "3307 (ex F)",
+    "name_line": "3307",
     "shortname_line": "3307",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -14873,15 +13753,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "008c5a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01443",
-    "name_line": "3302 (ex Emplet)",
+    "name_line": "3302",
     "shortname_line": "3302",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -14889,87 +13765,83 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "cec92b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01444",
-    "name_line": "208",
-    "shortname_line": "208",
+    "name_line": "3438",
+    "shortname_line": "3438",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "0069b8",
+    "colourweb_hexa": "0055c8",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01445",
-    "name_line": "204",
-    "shortname_line": "204",
+    "name_line": "3434",
+    "shortname_line": "3434",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "ed808d",
+    "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01446",
-    "name_line": "205",
-    "shortname_line": "205",
+    "name_line": "3435",
+    "shortname_line": "3435",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "db0073",
+    "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01447",
-    "name_line": "206",
-    "shortname_line": "206",
+    "name_line": "3436",
+    "shortname_line": "3436",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": "SEASONAL_LINE_TYPE",
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "6862ab",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01448",
-    "name_line": "210",
-    "shortname_line": "210",
+    "name_line": "3430",
+    "shortname_line": "3430",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "00a9c2",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01450",
-    "name_line": "203",
-    "shortname_line": "203",
+    "name_line": "3433",
+    "shortname_line": "3433",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "f9aa0d",
+    "colourweb_hexa": "ffbe50",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01451",
-    "name_line": "3319 (ex 19)",
+    "name_line": "3319",
     "shortname_line": "3319",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -14977,11 +13849,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "9b9931",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01452",
@@ -14993,11 +13861,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Grand Provinois",
     "networkname": "Provinois - Brie et Seine",
     "colourweb_hexa": "f49fb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01453",
@@ -15045,11 +13909,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Grand Provinois",
     "networkname": "Provinois - Brie et Seine",
     "colourweb_hexa": "00b297",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01457",
@@ -15061,11 +13921,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Grand Provinois",
     "networkname": "Provinois - Brie et Seine",
     "colourweb_hexa": "f49fb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01459",
@@ -15077,11 +13933,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Grand Provinois",
     "networkname": "Provinois - Brie et Seine",
     "colourweb_hexa": "c4a4cc",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01461",
@@ -15170,18 +14022,14 @@ export function idfMobiliteLineRef() {
   {
     "id_line": "C01472",
     "name_line": "Express 9518",
-    "shortname_line": "9518",
+    "shortname_line": "EX 9518",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01473",
@@ -15197,14 +14045,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01475",
-    "name_line": "5",
-    "shortname_line": "5",
+    "name_line": "1205",
+    "shortname_line": "1205",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "e30613",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -15221,15 +14069,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01477",
-    "name_line": "11",
-    "shortname_line": "11",
+    "name_line": "1231",
+    "shortname_line": "1231",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "009db2",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01478",
@@ -15245,27 +14093,27 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01479",
-    "name_line": "14",
-    "shortname_line": "14",
+    "name_line": "1234",
+    "shortname_line": "1234",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "fbba00",
+    "colourweb_hexa": "dc9650",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01480",
-    "name_line": "17A",
-    "shortname_line": "17A",
+    "name_line": "1227",
+    "shortname_line": "1227",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
     "colourweb_hexa": "9c91c5",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01481",
@@ -15341,15 +14189,19 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01490",
-    "name_line": "503",
-    "shortname_line": "503",
+    "name_line": "7803",
+    "shortname_line": "7803",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "046fb6",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "703a03b129791f5d1458d8be604d0224",
+      "filename": "20250103T095917Z-1aae384b-190f-493a-84af-457bd2b2f880.png"
+    }
   },
   {
     "id_line": "C01491",
@@ -15389,20 +14241,20 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01494",
-    "name_line": "7 (ex SAMOIS)",
-    "shortname_line": "7",
+    "name_line": "3407",
+    "shortname_line": "3407",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "010101",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ffbe50",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01495",
-    "name_line": "2271",
-    "shortname_line": "2271",
+    "name_line": "4531",
+    "shortname_line": "4531",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
@@ -15413,32 +14265,32 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01497",
-    "name_line": "2274",
-    "shortname_line": "2274",
+    "name_line": "4534",
+    "shortname_line": "4534",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "f0c797",
+    "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01498",
-    "name_line": "2273",
-    "shortname_line": "2273",
+    "name_line": "4533",
+    "shortname_line": "4533",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "4cff00",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01499",
-    "name_line": "Express 47",
-    "shortname_line": "47",
+    "name_line": "7704 (ex ligne Express 47)",
+    "shortname_line": "7704",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
@@ -15449,8 +14301,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01500",
-    "name_line": "Express 50",
-    "shortname_line": "50",
+    "name_line": "7705 (ex ligne Express 50)",
+    "shortname_line": "7705",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
@@ -15509,8 +14361,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01505",
-    "name_line": "Express 07",
-    "shortname_line": "Express07",
+    "name_line": "7707 (ex ligne 07)",
+    "shortname_line": "7707",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
@@ -15581,7 +14433,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01511",
-    "name_line": "3315 (ex 15)",
+    "name_line": "3315",
     "shortname_line": "3315",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -15589,11 +14441,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "e0b03b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01512",
@@ -15660,7 +14508,7 @@ export function idfMobiliteLineRef() {
     "name_line": "TàD 3209",
     "shortname_line": "TàD 3209",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Francilité Grand Provinois",
     "networkname": "Provinois - Brie et Seine",
@@ -15669,306 +14517,234 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01521",
-    "name_line": "5134 (Ex 401)",
+    "name_line": "5134",
     "shortname_line": "5134",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01522",
-    "name_line": "5121 (Ex 441)",
+    "name_line": "5121",
     "shortname_line": "5121",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "b1b9df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01523",
-    "name_line": "5132 (Ex 402)",
+    "name_line": "5132",
     "shortname_line": "5132",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "b1b9df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01524",
-    "name_line": "5120 (Ex 420)",
+    "name_line": "5120",
     "shortname_line": "5120",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01526",
-    "name_line": "5122 (Ex 422)",
+    "name_line": "5122",
     "shortname_line": "5122",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01527",
-    "name_line": "5104 (Ex 414)",
+    "name_line": "5104",
     "shortname_line": "5104",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "e74215",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01528",
-    "name_line": "5105 (Ex 415)",
+    "name_line": "5105",
     "shortname_line": "5105",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "e74215",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01530",
-    "name_line": "5107 (Ex 417)",
+    "name_line": "5107",
     "shortname_line": "5107",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "e74215",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01531",
-    "name_line": "5106 (Ex 418)",
+    "name_line": "5106",
     "shortname_line": "5106",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "e74215",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01532",
-    "name_line": "5143 (Ex 419)",
+    "name_line": "5143",
     "shortname_line": "5143",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01533",
-    "name_line": "5144 (Ex 444)",
+    "name_line": "5144",
     "shortname_line": "5144",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "b1b9df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01535",
-    "name_line": "5142 (Ex 461)",
+    "name_line": "5142",
     "shortname_line": "5142",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01537",
-    "name_line": "5133 (Ex 463)",
+    "name_line": "5133",
     "shortname_line": "5133",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01538",
-    "name_line": "5145 (Ex 464)",
+    "name_line": "5145",
     "shortname_line": "5145",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01539",
-    "name_line": "5103 (Ex 465)",
+    "name_line": "5103",
     "shortname_line": "5103",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "e74215",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01540",
-    "name_line": "5152 (Ex 466)",
+    "name_line": "5152",
     "shortname_line": "5152",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "b1b9df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01541",
-    "name_line": "5150 (Ex 467)",
+    "name_line": "5150",
     "shortname_line": "5150",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01542",
-    "name_line": "5151 (Ex 468)",
+    "name_line": "5151",
     "shortname_line": "5151",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01543",
-    "name_line": "475",
-    "shortname_line": "475",
+    "name_line": "7805",
+    "shortname_line": "7805",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "200bbe5f691204638b86ac718e010b13",
+      "filename": "20250103T100123Z-c5e4b012-fdfa-4cd0-a35c-8d48c8880852.png"
     }
   },
   {
@@ -16029,11 +14805,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "327cfd6d61f007f1fc6964d0d73748b7",
-      "filename": "20240223T141827Z-d8d040ea-fb27-4a3f-82f2-b9a97fd91c45.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01550",
@@ -16045,11 +14817,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "6841df15cd1d4f38223673f4a768b014",
-      "filename": "20240223T141838Z-df7aa562-1f5d-481d-b042-c88574c72e66.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01552",
@@ -16173,62 +14941,54 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01562",
-    "name_line": "EXPRESS 91-01",
-    "shortname_line": "91-01",
+    "name_line": "9101 (ex Express 91-01)",
+    "shortname_line": "9101",
     "transportmode": "bus",
-    "transportsubmode": "expressBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
+    "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "7d1f7f0d43948b5a4455f525eb564418",
+      "filename": "20250225T185210Z-62d4a6d7-3f87-41ae-9882-bdda3dc9187d.png"
     }
   },
   {
     "id_line": "C01563",
-    "name_line": "91-02",
-    "shortname_line": "91-02",
+    "name_line": "9102",
+    "shortname_line": "9102",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01564",
-    "name_line": "91-03",
-    "shortname_line": "91-03",
+    "name_line": "9103",
+    "shortname_line": "9103",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01565",
-    "name_line": "EXPRESS 9104",
-    "shortname_line": "9104",
+    "name_line": "4504",
+    "shortname_line": "4504",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -16241,11 +15001,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "RD Saclay",
     "networkname": "Paris Saclay",
     "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01567",
-    "name_line": "EXPRESS 91-06",
+    "name_line": "91-06",
     "shortname_line": "91-06",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
@@ -16257,19 +15017,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01568",
-    "name_line": "91-07",
-    "shortname_line": "91-07",
+    "name_line": "4457",
+    "shortname_line": "4457",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "5291ce",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01569",
@@ -16285,30 +15041,30 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01570",
-    "name_line": "EXPRESS 91-09",
-    "shortname_line": "91-09",
+    "name_line": "4122 (ex EXPRESS 91-09)",
+    "shortname_line": "4122",
     "transportmode": "bus",
-    "transportsubmode": "expressBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "8cb39b0111fbcc057a6974069e2e4528",
+      "filename": "20250225T190313Z-35e57460-27a9-4bd9-b918-a1a205c69b74.png"
     }
   },
   {
     "id_line": "C01571",
-    "name_line": "Express 91-10",
-    "shortname_line": "EX91-10",
+    "name_line": "5154",
+    "shortname_line": "5154",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "ffbe50",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -16369,11 +15125,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "f28e43",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "912f84c8484461f0d80269644d0ccbdf",
-      "filename": "20240223T141850Z-573deec8-c42f-4536-9bd9-28cba089ee90.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01579",
@@ -16385,11 +15137,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "c04191",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "6372806b9179929ae94bb77ed6690cd3",
-      "filename": "20240223T141716Z-11712589-0e9d-45fe-b240-474a37217409.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01580",
@@ -16401,11 +15149,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "ceadd2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "36315f50b678b34d692ab021ab98efed",
-      "filename": "20240223T141907Z-a729056d-d980-4697-acb1-54f4bd7efeba.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01581",
@@ -16429,11 +15173,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "83c491",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "f97d9acf15a5071f6dcfe731de02efb1",
-      "filename": "20240223T141918Z-cbd8178c-b8a1-4a39-af32-6a3828564cc1.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01584",
@@ -16445,11 +15185,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "0064b0",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "9d0bbd865113223b31114db28c85cad2",
-      "filename": "20240223T141928Z-fba154d3-b350-4758-9d35-82c60696ffdb.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01585",
@@ -16461,11 +15197,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "f3a4ba",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "de31c5f2c6841fb7c81a5e24f044d7c1",
-      "filename": "20240223T141944Z-a46803f3-be8c-4abb-803a-410b92befb6e.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01586",
@@ -16477,11 +15209,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "e3b32a",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "86d05a32ffbb598b5b3f88e0b803e10a",
-      "filename": "20240223T141954Z-e65e0d56-6758-4d66-a2cb-a43ed35a1f28.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01587",
@@ -16493,11 +15221,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "83c491",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "9a710a9b276e97c39f150551547e9e5b",
-      "filename": "20240223T142004Z-211b7b8a-ab55-4523-96fd-4ff61407ce5c.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01588",
@@ -16509,11 +15233,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "00814f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "cea7951349efdc5e143dd6963a0724ac",
-      "filename": "20240223T142014Z-9fdfb0fe-6c54-4043-8fff-0795e31c0c58.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01589",
@@ -16537,11 +15257,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "f3a4ba",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "259382799d639b81b47174ad52ce4bd0",
-      "filename": "20240223T142034Z-74913674-ebf2-45ea-95b8-2d29f9c09709.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01594",
@@ -16553,11 +15269,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "0064b0",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "221d5c2c065f2f64428f20a7d3de9582",
-      "filename": "20240223T142044Z-23d4cde8-08d3-4732-9be6-2d2be81919eb.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01595",
@@ -16653,7 +15365,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "RD Mantois",
     "networkname": "Mantois",
     "colourweb_hexa": "e0af47",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01607",
@@ -16705,207 +15417,243 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01615",
-    "name_line": "510",
-    "shortname_line": "510",
+    "name_line": "4221",
+    "shortname_line": "4221",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "777677",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "a0981a",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "5f079f93da9ea29e78e05634e60e5952",
+      "filename": "20250103T082242Z-7ddd252f-c006-4003-835c-aee07a485bdc.png"
+    }
   },
   {
     "id_line": "C01616",
-    "name_line": "401",
-    "shortname_line": "401",
+    "name_line": "4201",
+    "shortname_line": "4201",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "bab1d7",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "3b166d85bf2e041e5d5aad7504e2ab56",
+      "filename": "20250103T082807Z-9d8e8182-2cf0-407c-8943-e74a1db080a8.png"
+    }
   },
   {
     "id_line": "C01617",
-    "name_line": "402",
-    "shortname_line": "402",
+    "name_line": "4206",
+    "shortname_line": "4206",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "e6001b",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "5f4a0abcce55d592583ffa593b8d76c8",
+      "filename": "20250103T082825Z-abbb1652-53bb-4cb6-84ae-ef94790d82e8.png"
+    }
   },
   {
     "id_line": "C01618",
-    "name_line": "403",
-    "shortname_line": "403",
+    "name_line": "4212",
+    "shortname_line": "4212",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "efa602",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "b250dab684a70f6a3e3ad8ea99bd1c84",
+      "filename": "20250103T082847Z-326ab777-a33b-4ad9-a647-6c760316f15c.png"
+    }
   },
   {
     "id_line": "C01619",
-    "name_line": "404",
-    "shortname_line": "404",
+    "name_line": "4204",
+    "shortname_line": "4204",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "99c400",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "ecf8e6c83f4b3f758e6860ca58d14424",
+      "filename": "20250103T082909Z-610a8afe-63c7-4226-99f7-90d9dcd1f1d9.png"
+    }
   },
   {
     "id_line": "C01620",
-    "name_line": "405",
-    "shortname_line": "405",
+    "name_line": "4241",
+    "shortname_line": "4241",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "0088c6",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C01621",
-    "name_line": "406",
-    "shortname_line": "406",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "TISSE",
-    "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "834d48",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "e3bda43363f542a2495d8c24338bd7d2",
+      "filename": "20250103T082929Z-9b4c7c55-7b43-43ce-a4da-b74d70f973d8.png"
+    }
   },
   {
     "id_line": "C01622",
-    "name_line": "407",
-    "shortname_line": "407",
+    "name_line": "4202",
+    "shortname_line": "4202",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "81d4f1",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "d7608c97b1d323a0630162e985fbd14f",
+      "filename": "20250103T082952Z-ccd65f01-e3c2-4d90-9313-dfbe72322986.png"
+    }
   },
   {
     "id_line": "C01623",
-    "name_line": "408",
-    "shortname_line": "408",
+    "name_line": "4217",
+    "shortname_line": "4217",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "00b59f",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "345d0b1b42fd4ddd6453c4f1f40579a9",
+      "filename": "20250103T083200Z-ec135205-243a-428a-8b0c-a0a8feb213a6.png"
+    }
   },
   {
     "id_line": "C01624",
-    "name_line": "409",
-    "shortname_line": "409",
+    "name_line": "4244",
+    "shortname_line": "4244",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "00812c",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "4bea5eef248a1698591c86788fbdc981",
+      "filename": "20250103T083240Z-31248aa9-a46d-4074-8d5b-f656c9e765ce.png"
+    }
   },
   {
     "id_line": "C01625",
-    "name_line": "412",
-    "shortname_line": "412",
+    "name_line": "4246",
+    "shortname_line": "4246",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "676464",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "a0981a",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "d629242746593796fba5f2b3ea2af408",
+      "filename": "20250103T083548Z-bf8a69a1-0e1c-4683-a7d6-0050744714fa.png"
+    }
   },
   {
     "id_line": "C01626",
-    "name_line": "413",
-    "shortname_line": "413",
+    "name_line": "4213",
+    "shortname_line": "4213",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "ffdd00",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "cc93563744492b79f4c3b805d9257655",
+      "filename": "20250103T083628Z-c4158a7e-3868-4510-840d-d48f6c6c4a65.png"
+    }
   },
   {
     "id_line": "C01627",
-    "name_line": "414",
-    "shortname_line": "414",
+    "name_line": "4214",
+    "shortname_line": "4214",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "f28cbd",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "9b6196fb3961dcf5ef56844bdfdfadd3",
+      "filename": "20250103T083838Z-997e1f54-12c6-4355-b93a-3d6178885188.png"
+    }
   },
   {
     "id_line": "C01628",
-    "name_line": "415",
-    "shortname_line": "415",
+    "name_line": "4245",
+    "shortname_line": "4245",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "71351d",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "eca417b824942e023e211e073be459a3",
+      "filename": "20250103T084755Z-3fae0d61-06c1-4741-9609-a72f18cc45e6.png"
+    }
   },
   {
     "id_line": "C01629",
-    "name_line": "418",
-    "shortname_line": "418",
+    "name_line": "4218",
+    "shortname_line": "4218",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "b3dba6",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "93f539d08298182e45c2edc9c31ca1bc",
+      "filename": "20250103T085011Z-14a93a4b-4a36-42a2-94fc-d81b6f17ab65.png"
+    }
   },
   {
     "id_line": "C01630",
-    "name_line": "419",
-    "shortname_line": "419",
+    "name_line": "4219",
+    "shortname_line": "4219",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "fac8a9",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C01631",
-    "name_line": "453",
-    "shortname_line": "453",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "TISSE",
-    "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "a80983",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "d48d167c025546004ec58ad84c5ebb2a",
+      "filename": "20250103T085031Z-fa67faea-dfd5-4706-b967-79cae4724ce8.png"
+    }
   },
   {
     "id_line": "C01633",
@@ -16915,7 +15663,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
-    "networkname": "Noctilien",
+    "networkname": "Fontainebleau - Moret",
     "colourweb_hexa": "008b5a",
     "textcolourweb_hexa": "ffffff",
     "icon": "N132.svg"
@@ -16928,7 +15676,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
-    "networkname": "Noctilien",
+    "networkname": "Brie et 2 Morin",
     "colourweb_hexa": "ff582a",
     "textcolourweb_hexa": "ffffff",
     "icon": "N130.svg"
@@ -16941,7 +15689,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RD Mantois",
-    "networkname": "Noctilien",
+    "networkname": "Mantois",
     "colourweb_hexa": "cec92a",
     "textcolourweb_hexa": "000000",
     "icon": "N151.svg"
@@ -16954,8 +15702,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
-    "networkname": "Noctilien",
-    "colourweb_hexa": "fedf53",
+    "networkname": "Cœur d’Essonne",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000",
     "icon": "N131.svg"
   },
@@ -16967,7 +15715,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Vexin",
-    "networkname": "Noctilien",
+    "networkname": "Vexin",
     "colourweb_hexa": "ed1b2a",
     "textcolourweb_hexa": "ffffff",
     "icon": "N150.svg"
@@ -16980,13 +15728,9 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
-    "networkname": "Noctilien",
+    "networkname": "Roissy Ouest",
     "colourweb_hexa": "5191cd",
     "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    },
     "icon": "N140.svg"
   },
   {
@@ -16997,9 +15741,9 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
-    "networkname": "Noctilien",
+    "networkname": "Meaux et Ourcq",
     "colourweb_hexa": "1765ae",
-    "textcolourweb_hexa": "000000",
+    "textcolourweb_hexa": "ffffff",
     "icon": "N141.svg"
   },
   {
@@ -17010,13 +15754,9 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
-    "networkname": "Noctilien",
-    "colourweb_hexa": "c04191",
+    "networkname": "Pays Briard",
+    "colourweb_hexa": "0a0082",
     "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    },
     "icon": "N142.svg"
   },
   {
@@ -17027,7 +15767,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Vexin",
-    "networkname": "Noctilien",
+    "networkname": "Vexin",
     "colourweb_hexa": "ed1b2a",
     "textcolourweb_hexa": "ffffff",
     "icon": "N152.svg"
@@ -17040,9 +15780,13 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Noctilien",
+    "networkname": "Val d'Yerres Val de Seine",
     "colourweb_hexa": "00814f",
     "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "de1aa833094786556b6021714a1fe939",
+      "filename": "20250226T103717Z-077a2521-1e56-4ffc-9c76-b0689e5698b9.png"
+    },
     "icon": "N134.svg"
   },
   {
@@ -17053,9 +15797,13 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Noctilien",
+    "networkname": "Val d'Yerres Val de Seine",
     "colourweb_hexa": "00814f",
     "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "ca0971dd587e91158f1e0ad31a7033ef",
+      "filename": "20250226T103135Z-7175573d-35ae-4442-adc0-7214983f7594.png"
+    },
     "icon": "N135.svg"
   },
   {
@@ -17066,13 +15814,9 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
-    "networkname": "Noctilien",
+    "networkname": "Roissy Ouest",
     "colourweb_hexa": "5191cd",
     "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    },
     "icon": "N143.svg"
   },
   {
@@ -17083,23 +15827,27 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "TISSE",
-    "networkname": "Noctilien",
-    "colourweb_hexa": "008b5a",
+    "networkname": "Evry Centre Essonne",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "25dac80e2bc74c47f28e77d5fec258da",
+      "filename": "20250103T085108Z-3665a770-29d0-4a2c-a380-0337344aa3f3.png"
+    },
     "icon": "N139.svg"
   },
   {
     "id_line": "C01646",
-    "name_line": "N145",
-    "shortname_line": "N145",
+    "name_line": "N161",
+    "shortname_line": "N161",
     "transportmode": "bus",
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
-    "networkname": "Noctilien",
-    "colourweb_hexa": "0aa896",
+    "networkname": "Centre et Sud Yvelines",
+    "colourweb_hexa": "0a0082",
     "textcolourweb_hexa": "ffffff",
-    "icon": "N145.svg"
+    "icon": "N161.svg"
   },
   {
     "id_line": "C01647",
@@ -17109,7 +15857,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Vexin",
-    "networkname": "Noctilien",
+    "networkname": "Vexin",
     "colourweb_hexa": "fedf53",
     "textcolourweb_hexa": "000000",
     "icon": "N154.svg"
@@ -17122,9 +15870,13 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
-    "networkname": "Noctilien",
+    "networkname": "Val d'Yerres Val de Seine",
     "colourweb_hexa": "fece00",
     "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "25e32b6eabd8cac55c63fa4eb762bbc6",
+      "filename": "20250225T190130Z-72b6138d-6e84-4e15-bb09-4b57d83b5871.png"
+    },
     "icon": "N133.svg"
   },
   {
@@ -17189,7 +15941,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01659",
-    "name_line": "1301 (ex A)",
+    "name_line": "1301",
     "shortname_line": "1301",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -17197,15 +15949,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "f3a4ba",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01660",
-    "name_line": "1302 (ex B, ex E, ex G)",
+    "name_line": "1302",
     "shortname_line": "1302",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -17213,15 +15961,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "b90745",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01662",
-    "name_line": "1356 (ex F)",
+    "name_line": "1356",
     "shortname_line": "1356",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -17229,22 +15973,18 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "09a88e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01663",
-    "name_line": "109",
-    "shortname_line": "109",
+    "name_line": "4502",
+    "shortname_line": "4502",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "db006a",
+    "colourweb_hexa": "a50034",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -17261,127 +16001,103 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01668",
-    "name_line": "5197 (Ex 457)",
+    "name_line": "5197",
     "shortname_line": "5197",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "009640",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01669",
-    "name_line": "31",
-    "shortname_line": "31",
+    "name_line": "3705",
+    "shortname_line": "3705",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "40147f",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01672",
-    "name_line": "416",
-    "shortname_line": "416",
+    "name_line": "4216",
+    "shortname_line": "4216",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "ead1dc",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "fe09fc84823a806e8a52edc746aec0e0",
+      "filename": "20250103T085131Z-ed449455-312a-43cf-8f28-84b81ec9c021.png"
+    }
   },
   {
     "id_line": "C01673",
-    "name_line": "M21S",
-    "shortname_line": "M21S",
+    "name_line": "4583",
+    "shortname_line": "4583",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "d2d200",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01674",
-    "name_line": "A2",
-    "shortname_line": "A2",
+    "name_line": "1222",
+    "shortname_line": "1222",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "009fe3",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01675",
-    "name_line": "EX100 Persan",
-    "shortname_line": "EX100",
+    "name_line": "EX 100",
+    "shortname_line": "EX 100",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01676",
-    "name_line": "5131 (Ex 431)",
+    "name_line": "5131",
     "shortname_line": "5131",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "b1badf",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01677",
-    "name_line": "5130 (Ex 430)",
+    "name_line": "5130",
     "shortname_line": "5130",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "b1badf",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C01678",
-    "name_line": "C",
-    "shortname_line": "C",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Sud Yvelines",
-    "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ec81c2",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01679",
@@ -17431,14 +16147,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
-    "operatorname": "SNCF",
-    "networkname": "Transilien",
+    "operatorname": "STRETTO",
+    "networkname": null,
     "colourweb_hexa": "dfaf47",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "c370af8b5511d975ebb6d62b5dc1b10f",
-      "filename": "5fb4dc5faa732_tram_T4_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01684",
@@ -17459,8 +16171,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01685",
-    "name_line": "A1",
-    "shortname_line": "A1",
+    "name_line": "1221",
+    "shortname_line": "1221",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
@@ -17471,7 +16183,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01686",
-    "name_line": "3308 (ex L)",
+    "name_line": "3308",
     "shortname_line": "3308",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -17479,11 +16191,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
     "colourweb_hexa": "78c696",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01687",
@@ -17639,11 +16347,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Vélizy Vallée de la Bièvre",
     "networkname": "Vélizy Vallées",
     "colourweb_hexa": "3c91dc",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01701",
@@ -17655,11 +16359,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Vélizy Vallée de la Bièvre",
     "networkname": "Vélizy Vallées",
     "colourweb_hexa": "ff5a00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01702",
@@ -17671,28 +16371,60 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Vélizy Vallée de la Bièvre",
     "networkname": "Vélizy Vallées",
     "colourweb_hexa": "ff1400",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01703",
-    "name_line": "S1",
-    "shortname_line": "S1",
+    "name_line": "4571",
+    "shortname_line": "4571",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "e5122e",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01704",
-    "name_line": "S2",
-    "shortname_line": "S2",
+    "name_line": "4572",
+    "shortname_line": "4572",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Transdev Cœur Essonne",
+    "networkname": "Cœur d’Essonne",
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C01705",
+    "name_line": "4573",
+    "shortname_line": "4573",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Transdev Cœur Essonne",
+    "networkname": "Cœur d’Essonne",
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C01706",
+    "name_line": "4574",
+    "shortname_line": "4574",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Transdev Cœur Essonne",
+    "networkname": "Cœur d’Essonne",
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C01707",
+    "name_line": "4575",
+    "shortname_line": "4575",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -17702,56 +16434,16 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "ffffff"
   },
   {
-    "id_line": "C01705",
-    "name_line": "S3",
-    "shortname_line": "S3",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Cœur Essonne",
-    "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "ff5a00",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C01706",
-    "name_line": "S4",
-    "shortname_line": "S4",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Cœur Essonne",
-    "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "e1468a",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C01707",
-    "name_line": "S5",
-    "shortname_line": "S5",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Cœur Essonne",
-    "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "42ad4c",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
     "id_line": "C01708",
-    "name_line": "104",
-    "shortname_line": "104",
+    "name_line": "4436",
+    "shortname_line": "4436",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "d5c900",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01709",
@@ -17760,14 +16452,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "e20025",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "e40520",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01710",
@@ -17803,35 +16491,35 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "fece00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01713",
-    "name_line": "2228 (ex 46)",
+    "name_line": "2228",
     "shortname_line": "2228",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
-    "colourweb_hexa": "d282be",
+    "colourweb_hexa": "a0006e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01714",
-    "name_line": "300",
-    "shortname_line": "300",
+    "name_line": "4240",
+    "shortname_line": "4240",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "e69138",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "f85be16d71c7db7fb3429d94b7cf1c5c",
+      "filename": "20250103T081604Z-30a48d79-dc8d-4d13-a4e5-d68587df49ed.png"
+    }
   },
   {
     "id_line": "C01715",
@@ -17871,55 +16559,51 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01718",
-    "name_line": "3907B",
-    "shortname_line": "3907B",
+    "name_line": "5253 (ex 3907B)",
+    "shortname_line": "5253",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "97b0af",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01719",
-    "name_line": "3907C",
-    "shortname_line": "3907C",
+    "name_line": "5267 (ex 3907C)",
+    "shortname_line": "5267",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "97b0af",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "9b993b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01720",
-    "name_line": "3907D",
-    "shortname_line": "3907D",
+    "name_line": "5277 (ex 3907D)",
+    "shortname_line": "5277",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "97b0af",
+    "colourweb_hexa": "cec92b",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01721",
-    "name_line": "3907",
-    "shortname_line": "3907",
+    "name_line": "5307 (ex 39-07)",
+    "shortname_line": "5307",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "97b0af",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01724",
@@ -18044,7 +16728,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01735",
-    "name_line": "1305 (ex DIM)",
+    "name_line": "1305",
     "shortname_line": "1305",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -18052,11 +16736,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "97d4e2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01736",
@@ -18256,19 +16936,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01751",
-    "name_line": "430 (ex O2)",
+    "name_line": "430",
     "shortname_line": "430",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "bd3f7c",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01752",
@@ -18292,11 +16968,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "009a3e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01755",
@@ -18335,31 +17007,15 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "ffffff"
   },
   {
-    "id_line": "C01759",
-    "name_line": "719",
-    "shortname_line": "719",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Roissy Pays de France Est",
-    "networkname": "Roissy Est",
-    "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
     "id_line": "C01763",
-    "name_line": "102",
-    "shortname_line": "102",
+    "name_line": "4554",
+    "shortname_line": "4554",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "29bcff",
+    "colourweb_hexa": "0055c8",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -18419,12 +17075,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "c5a3cd",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01774",
@@ -18457,7 +17109,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01776",
-    "name_line": "2129 (ex 9)",
+    "name_line": "2129",
     "shortname_line": "2129",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -18469,7 +17121,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01777",
-    "name_line": "2168 (ex 12)",
+    "name_line": "2168",
     "shortname_line": "2168",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -18481,7 +17133,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01779",
-    "name_line": "2171 (ex 171)",
+    "name_line": "2171",
     "shortname_line": "2171",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -18512,12 +17164,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "b80c4b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01785",
@@ -18617,19 +17265,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01793",
-    "name_line": "5198 (Ex 458)",
+    "name_line": "5198",
     "shortname_line": "5198",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "009fe3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01794",
@@ -18711,15 +17355,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Vélizy Vallée de la Bièvre",
     "networkname": "Vélizy Vallées",
     "colourweb_hexa": "a50034",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01801",
-    "name_line": "2113 (ex 3)",
+    "name_line": "2113",
     "shortname_line": "2113",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -18739,11 +17379,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "eb2132",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01804",
@@ -18755,11 +17391,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "00b297",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01805",
@@ -18775,14 +17407,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01806",
-    "name_line": "CITALIEN",
-    "shortname_line": "CITALIEN",
+    "name_line": "3702",
+    "shortname_line": "3702",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "d282be",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -18793,7 +17425,7 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "RATP",
-    "networkname": "Noctilien",
+    "networkname": null,
     "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff",
     "icon": "N66.svg"
@@ -18824,15 +17456,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01810",
-    "name_line": "108",
-    "shortname_line": "108",
+    "name_line": "EXPRESS 9118",
+    "shortname_line": "9118",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "d2d200",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01811",
@@ -18843,7 +17475,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Val d'Essonne Deux Vallées",
     "networkname": "Essonne Sud Est",
-    "colourweb_hexa": "7f78ed",
+    "colourweb_hexa": "c5a3cd",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -18859,22 +17491,6 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "ffffff"
   },
   {
-    "id_line": "C01813",
-    "name_line": "713",
-    "shortname_line": "713",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Roissy Pays de France Est",
-    "networkname": "Roissy Est",
-    "colourweb_hexa": "96d4e1",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
     "id_line": "C01815",
     "name_line": "32 ZA",
     "shortname_line": "32 ZA",
@@ -18884,11 +17500,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "e3b229",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01816",
@@ -18900,11 +17512,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "fece00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01818",
@@ -18932,7 +17540,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01820",
-    "name_line": "02E",
+    "name_line": "Express 2",
     "shortname_line": "02E",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
@@ -18976,22 +17584,6 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "e01921",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C01824",
-    "name_line": "D",
-    "shortname_line": "D",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Sud Yvelines",
-    "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "009a4d",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -19019,30 +17611,6 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "000000"
   },
   {
-    "id_line": "C01828",
-    "name_line": "3",
-    "shortname_line": "3",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Mobicité",
-    "networkname": "Titus",
-    "colourweb_hexa": "33ff33",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C01829",
-    "name_line": "4",
-    "shortname_line": "4",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Mobicité",
-    "networkname": "Titus",
-    "colourweb_hexa": "0033ff",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
     "id_line": "C01830",
     "name_line": "A",
     "shortname_line": "A",
@@ -19052,11 +17620,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "ee7d00",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01831",
@@ -19068,11 +17632,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "e50051",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01832",
@@ -19084,11 +17644,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "951b81",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01833",
@@ -19124,27 +17680,19 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "f4c000",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01838",
-    "name_line": "3938",
-    "shortname_line": "3938",
+    "name_line": "5383 (ex 39-38)",
+    "shortname_line": "5383",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "4f74a8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "87d3df",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01839",
@@ -19213,8 +17761,8 @@ export function idfMobiliteLineRef() {
     "transportmode": "tram",
     "transportsubmode": null,
     "type": null,
-    "operatorname": "SNCF",
-    "networkname": "Transilien",
+    "operatorname": "STRETTO",
+    "networkname": null,
     "colourweb_hexa": "dfaf47",
     "textcolourweb_hexa": "000000",
     "picto": {
@@ -19265,11 +17813,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "SNCF",
     "networkname": "Transilien",
     "colourweb_hexa": "cec73d",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "62e9b7ac99c792f4b7ec85b226ad008e",
-      "filename": "5fb4dcc93cc49_train_J_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01847",
@@ -19329,11 +17873,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "SNCF",
     "networkname": "RER",
     "colourweb_hexa": "5091cb",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "09417158011567b7a8165357e51e565d",
-      "filename": "5fb4dbfde56df_RER_B_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01851",
@@ -19345,11 +17885,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "SNCF",
     "networkname": "RER",
     "colourweb_hexa": "ffcc30",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "099e5a6dd7b15cfbd61d1e11c3d18fb6",
-      "filename": "5fb4dc052ff54_RER_C_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01852",
@@ -19493,7 +18029,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01866",
-    "name_line": "2124 (ex 24)",
+    "name_line": "2124",
     "shortname_line": "2124",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
@@ -19513,11 +18049,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f28e42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01868",
@@ -19533,51 +18065,39 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01869",
-    "name_line": "5102 (Ex 44)",
+    "name_line": "5102",
     "shortname_line": "5102",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01870",
-    "name_line": "5115 (Ex 45)",
+    "name_line": "5115",
     "shortname_line": "5115",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01871",
-    "name_line": "5111 (Ex 50)",
+    "name_line": "5111",
     "shortname_line": "5111",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "b1b9df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01872",
@@ -19605,14 +18125,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01874",
-    "name_line": "FA",
-    "shortname_line": "FA",
+    "name_line": "5288 (ex FA)",
+    "shortname_line": "5288",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "991835",
+    "colourweb_hexa": "8e6539",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -19622,14 +18142,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "46b293",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "3fb498",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01876",
@@ -19638,14 +18154,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "0065ae",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "0064b0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01878",
@@ -19654,18 +18166,14 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "a6483a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "a84839",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01879",
-    "name_line": "2224 (ex 02)",
+    "name_line": "2224",
     "shortname_line": "2224",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -19677,18 +18185,18 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01886",
-    "name_line": "P",
-    "shortname_line": "P",
+    "name_line": "4112 (ex P)",
+    "shortname_line": "4112",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "95bc1b",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "f97771ab18e35554f0468c13790f4d03",
+      "filename": "20250225T135953Z-d888610d-d298-45bc-aefa-70ebfd7b9a3e.png"
     }
   },
   {
@@ -19701,11 +18209,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "fecb00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01896",
@@ -19753,11 +18257,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "253b82",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01904",
@@ -19792,23 +18292,19 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "00b397",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01947",
-    "name_line": "8",
-    "shortname_line": "8",
+    "name_line": "3408",
+    "shortname_line": "3408",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "0000ff",
+    "colourweb_hexa": "0055c8",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -19825,8 +18321,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01950",
-    "name_line": "2272",
-    "shortname_line": "2272",
+    "name_line": "4532",
+    "shortname_line": "4532",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -19837,331 +18333,319 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01951",
-    "name_line": "12",
-    "shortname_line": "12",
+    "name_line": "7812 (ex Express 12)",
+    "shortname_line": "7812",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "3bb2ff",
+    "colourweb_hexa": "4d90cd",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01952",
-    "name_line": "39",
-    "shortname_line": "39",
+    "name_line": "5349 (ex 39)",
+    "shortname_line": "5349",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "fea347",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01953",
-    "name_line": "49",
-    "shortname_line": "49",
+    "name_line": "5249 (ex 49)",
+    "shortname_line": "5249",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "eace9b",
+    "colourweb_hexa": "f78f4b",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01954",
-    "name_line": "59",
-    "shortname_line": "59",
+    "name_line": "5259 (ex 59)",
+    "shortname_line": "5259",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "e79ce7",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01955",
-    "name_line": "79",
-    "shortname_line": "79",
+    "name_line": "5379 (ex 79)",
+    "shortname_line": "5379",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "9cffe1",
+    "colourweb_hexa": "87d3df",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01956",
-    "name_line": "420",
-    "shortname_line": "420",
+    "name_line": "4220",
+    "shortname_line": "4220",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "046376",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "7f3fc6d9bff9161334a86ffb8dc5abe5",
+      "filename": "20250103T085205Z-3c715129-2cb8-42b3-9e4d-f3cd1e5e392b.png"
+    }
   },
   {
     "id_line": "C01957",
-    "name_line": "16",
-    "shortname_line": "16",
+    "name_line": "5216 (ex 16)",
+    "shortname_line": "5216",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "bfbfbf",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C01958",
-    "name_line": "7B",
-    "shortname_line": "7B",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Vallée du Loing",
-    "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "e62e2b",
+    "colourweb_hexa": "00b397",
     "textcolourweb_hexa": "ffffff"
   },
   {
-    "id_line": "C01959",
-    "name_line": "7C",
-    "shortname_line": "7C",
+    "id_line": "C01958",
+    "name_line": "3531",
+    "shortname_line": "3531",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "e62e2b",
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C01959",
+    "name_line": "3532",
+    "shortname_line": "3532",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Vallée du Loing",
+    "networkname": "Vallée du Loing - Nemours",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01960",
-    "name_line": "7D",
-    "shortname_line": "7D",
+    "name_line": "3533",
+    "shortname_line": "3533",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "e62e2b",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
-    "id_line": "C01961",
-    "name_line": "8B",
-    "shortname_line": "8B",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Vallée du Loing",
-    "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "b4dbf6",
+    "colourweb_hexa": "d282be",
     "textcolourweb_hexa": "000000"
   },
   {
-    "id_line": "C01962",
-    "name_line": "9B",
-    "shortname_line": "9B",
+    "id_line": "C01961",
+    "name_line": "3535",
+    "shortname_line": "3535",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "a69514",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C01962",
+    "name_line": "3541",
+    "shortname_line": "3541",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Vallée du Loing",
+    "networkname": "Vallée du Loing - Nemours",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01963",
-    "name_line": "9C",
-    "shortname_line": "9C",
+    "name_line": "3506",
+    "shortname_line": "3506",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "a69514",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01964",
-    "name_line": "9D",
-    "shortname_line": "9D",
+    "name_line": "3542",
+    "shortname_line": "3542",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "a69514",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01965",
-    "name_line": "11B",
-    "shortname_line": "11B",
+    "name_line": "3511",
+    "shortname_line": "3511",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "a862a5",
+    "colourweb_hexa": "d282be",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01966",
-    "name_line": "11C",
-    "shortname_line": "11C",
+    "name_line": "3512",
+    "shortname_line": "3512",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "cf95c2",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01967",
-    "name_line": "11D",
-    "shortname_line": "11D",
+    "name_line": "3513",
+    "shortname_line": "3513",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "e4c2dd",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01969",
-    "name_line": "13B",
-    "shortname_line": "13B",
+    "name_line": "3516",
+    "shortname_line": "3516",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "009fe3",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01970",
-    "name_line": "13C",
-    "shortname_line": "13C",
+    "name_line": "3517",
+    "shortname_line": "3517",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "009fe3",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01971",
-    "name_line": "14B",
-    "shortname_line": "14B",
+    "name_line": "3519",
+    "shortname_line": "3519",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "e72d81",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01973",
-    "name_line": "17B",
-    "shortname_line": "17B",
+    "name_line": "3537",
+    "shortname_line": "3537",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "3b9860",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01974",
-    "name_line": "18B",
-    "shortname_line": "18B",
+    "name_line": "3546",
+    "shortname_line": "3546",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "813318",
+    "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01975",
-    "name_line": "320",
-    "shortname_line": "320",
+    "name_line": "4430",
+    "shortname_line": "4430",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "98d4e2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01976",
-    "name_line": "321",
-    "shortname_line": "321",
+    "name_line": "4431",
+    "shortname_line": "4431",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "e3b32a",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01977",
-    "name_line": "322",
-    "shortname_line": "322",
+    "name_line": "4432",
+    "shortname_line": "4432",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "00a88f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01978",
-    "name_line": "323",
-    "shortname_line": "323",
+    "name_line": "4433",
+    "shortname_line": "4433",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "d5c900",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01979",
@@ -20177,158 +18661,158 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C01980",
-    "name_line": "21",
-    "shortname_line": "21",
+    "name_line": "5221 (ex 21)",
+    "shortname_line": "5221",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ff8c8c",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01981",
-    "name_line": "22",
-    "shortname_line": "22",
+    "name_line": "5342 (ex 22)",
+    "shortname_line": "5342",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "b28cff",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01982",
-    "name_line": "31",
-    "shortname_line": "31",
+    "name_line": "5231 (ex 31)",
+    "shortname_line": "5231",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "fff18c",
+    "colourweb_hexa": "ffcd03",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01983",
-    "name_line": "35",
-    "shortname_line": "35",
+    "name_line": "5235 (ex 35)",
+    "shortname_line": "5235",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "bc9616",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "e0b03b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01984",
-    "name_line": "38",
-    "shortname_line": "38",
+    "name_line": "5338 (ex 38)",
+    "shortname_line": "5338",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "8c5511",
+    "colourweb_hexa": "8e6539",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01985",
-    "name_line": "40",
-    "shortname_line": "40",
+    "name_line": "5240 (ex 40)",
+    "shortname_line": "5240",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "6a70c0",
+    "colourweb_hexa": "662d91",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01986",
-    "name_line": "41",
-    "shortname_line": "41",
+    "name_line": "5241 (ex 41)",
+    "shortname_line": "5241",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ff8cd1",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01987",
-    "name_line": "45",
-    "shortname_line": "45",
+    "name_line": "5245 (ex 45)",
+    "shortname_line": "5245",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "6e6ec8",
+    "colourweb_hexa": "662d91",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01988",
-    "name_line": "48",
-    "shortname_line": "48",
+    "name_line": "5348 (ex 48)",
+    "shortname_line": "5348",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ffff00",
+    "colourweb_hexa": "ffcd03",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01989",
-    "name_line": "51",
-    "shortname_line": "51",
+    "name_line": "5251 (ex 51)",
+    "shortname_line": "5251",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "fdd59b",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01990",
-    "name_line": "55",
-    "shortname_line": "55",
+    "name_line": "5355 (ex55)",
+    "shortname_line": "5355",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ffcc00",
+    "colourweb_hexa": "e0b03b",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01991",
-    "name_line": "61",
-    "shortname_line": "61",
+    "name_line": "5298 (ex 61)",
+    "shortname_line": "5298",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "4d4d8c",
+    "colourweb_hexa": "662d91",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01992",
-    "name_line": "17",
-    "shortname_line": "17",
+    "name_line": "5317 (ex 17)",
+    "shortname_line": "5317",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "8cff64",
+    "colourweb_hexa": "cec92b",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -20364,7 +18848,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
-    "colourweb_hexa": "b95a76",
+    "colourweb_hexa": "bc85bb",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -20386,8 +18870,8 @@ export function idfMobiliteLineRef() {
     "transportmode": "tram",
     "transportsubmode": null,
     "type": null,
-    "operatorname": "SNCF",
-    "networkname": "Transilien",
+    "operatorname": "STRETTO",
+    "networkname": null,
     "colourweb_hexa": "f58f53",
     "textcolourweb_hexa": "000000",
     "picto": {
@@ -20415,14 +18899,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "ValBus",
-    "colourweb_hexa": "e3004f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "e50051",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02006",
@@ -20431,14 +18911,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "2a368a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "3a338a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02007",
@@ -20466,7 +18942,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02015",
-    "name_line": "2235 (ex 35)",
+    "name_line": "2235",
     "shortname_line": "2235",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -20478,14 +18954,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02016",
-    "name_line": "2231 (ex 47)",
+    "name_line": "2231",
     "shortname_line": "2231",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
-    "colourweb_hexa": "00643c",
+    "colourweb_hexa": "006400",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -20495,14 +18971,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
-    "operatorname": "SNCF",
-    "networkname": "Transilien",
+    "operatorname": "STRETTO",
+    "networkname": null,
     "colourweb_hexa": "f58f53",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "b8957b0e036e5aa94716ecb7285bea30",
-      "filename": "5fb4dc97de211_tram_T11_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02020",
@@ -20526,11 +18998,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Val d'Essonne Deux Vallées",
     "networkname": "Essonne Sud Est",
     "colourweb_hexa": "009ee0",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02022",
@@ -20609,48 +19077,40 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Louvres",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02031",
-    "name_line": "12",
-    "shortname_line": "12",
+    "name_line": "3514",
+    "shortname_line": "3514",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "ffeb00",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02032",
-    "name_line": "18C",
-    "shortname_line": "18C",
+    "name_line": "3547",
+    "shortname_line": "3547",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "813318",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02033",
-    "name_line": "1349 (ex 38,49)",
+    "name_line": "1349",
     "shortname_line": "1349",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -20658,11 +19118,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "f28f42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02035",
@@ -20690,8 +19146,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02039",
-    "name_line": "M20S",
-    "shortname_line": "M20S",
+    "name_line": "4580",
+    "shortname_line": "4580",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -20707,14 +19163,10 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
+    "operatorname": "Francilité Val Parisis",
     "networkname": null,
     "colourweb_hexa": "e5377d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02041",
@@ -20723,30 +19175,22 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
+    "operatorname": "Francilité Val Parisis",
     "networkname": null,
     "colourweb_hexa": "9fc005",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02049",
     "name_line": "30-21 Ouest",
     "shortname_line": "30-21Oues",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": null,
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
     "colourweb_hexa": "ef844e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02056",
@@ -20762,19 +19206,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02057",
-    "name_line": "6",
-    "shortname_line": "6",
+    "name_line": "4406",
+    "shortname_line": "4406",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "ceadd2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02059",
@@ -20786,11 +19226,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "f69fb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02060",
@@ -20802,11 +19238,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "4890cd",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02061",
@@ -20818,11 +19250,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "00814f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02062",
@@ -20833,17 +19261,13 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Mobilité Roissy",
     "networkname": null,
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02065",
-    "name_line": "681S",
-    "shortname_line": "681S",
+    "name_line": "4581",
+    "shortname_line": "4581",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -20854,51 +19278,39 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02066",
-    "name_line": "316",
-    "shortname_line": "316",
+    "name_line": "4416",
+    "shortname_line": "4416",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "8d5e2a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02067",
-    "name_line": "317",
-    "shortname_line": "317",
+    "name_line": "4417",
+    "shortname_line": "4417",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "83c491",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02068",
-    "name_line": "318",
-    "shortname_line": "318",
+    "name_line": "4418",
+    "shortname_line": "4418",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "ffce00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "e0b03b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02069",
@@ -20909,7 +19321,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "cc9900",
+    "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -20921,7 +19333,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "cc9900",
+    "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -20933,7 +19345,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "cc9900",
+    "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -20993,7 +19405,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "ffcc00",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -21005,7 +19417,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "f1c232",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -21017,7 +19429,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "ffcc00",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -21058,8 +19470,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02085",
-    "name_line": "33",
-    "shortname_line": "33",
+    "name_line": "1233",
+    "shortname_line": "1233",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -21070,8 +19482,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02086",
-    "name_line": "55",
-    "shortname_line": "55",
+    "name_line": "1225",
+    "shortname_line": "1225",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -21082,82 +19494,82 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02087",
-    "name_line": "34A",
-    "shortname_line": "34A",
+    "name_line": "3134",
+    "shortname_line": "3134",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "e3b229",
+    "colourweb_hexa": "f78f4b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "0efaea24db7a186d799f6c90f9812072",
+      "filename": "20241210T083125Z-79bfdf6e-eebc-4c17-bd67-6593f6795234.png"
     }
   },
   {
     "id_line": "C02088",
-    "name_line": "34B",
-    "shortname_line": "34B",
+    "name_line": "3129",
+    "shortname_line": "3129",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "8d5e2a",
+    "colourweb_hexa": "e0b03b",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "d1081d0b148dbc04bb3d8721eea3c72a",
+      "filename": "20241209T150206Z-499cf9c4-1635-49d7-8251-81d47a5234b3.png"
     }
   },
   {
     "id_line": "C02089",
-    "name_line": "28A",
-    "shortname_line": "28A",
+    "name_line": "3128",
+    "shortname_line": "3128",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "662583",
+    "colourweb_hexa": "662d91",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "3ae3d2af0070e6c41a958c05c64a02d2",
+      "filename": "20241209T150009Z-3169b2a3-60fe-4008-8310-988e38fff09e.png"
     }
   },
   {
     "id_line": "C02090",
-    "name_line": "28B",
-    "shortname_line": "28B",
+    "name_line": "3122",
+    "shortname_line": "3122",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "cfadd2",
+    "colourweb_hexa": "c5a3cd",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "a6a95473bdd3a122d39b1e8705734916",
+      "filename": "20241209T131014Z-872f6063-961c-4d52-a8a8-68d5a1f4fbcb.png"
     }
   },
   {
     "id_line": "C02091",
-    "name_line": "28C",
+    "name_line": "3125",
     "shortname_line": "28C",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "c04192",
+    "colourweb_hexa": "bb4b9b",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "280342131d27e58988db4e682c0c910d",
+      "filename": "20241209T131709Z-91f94646-b0e0-4c87-8c9e-4248ea547c16.png"
     }
   },
   {
@@ -21245,116 +19657,108 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "000000"
   },
   {
-    "id_line": "C02100",
-    "name_line": "R1-R2-R3",
-    "shortname_line": "R1-R2-R3",
+    "id_line": "C02103",
+    "name_line": "4155 (ex R2)",
+    "shortname_line": "4155",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
-    "colourweb_hexa": "74b655",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "550fd025e404993193beb81a884e6b9a",
+      "filename": "20250227T171952Z-ce85bac2-1457-4780-a0d2-9c6de67585ea.png"
+    }
+  },
+  {
+    "id_line": "C02104",
+    "name_line": "4156 (ex R3)",
+    "shortname_line": "4156",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": "Val d'Yerres Val de Seine",
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "12ae0190ee02c998d68ac0015de436a6",
+      "filename": "20250227T171742Z-ad3c7c01-4ea7-40d2-a4da-d5ca9ff3f734.png"
     }
   },
   {
     "id_line": "C02107",
-    "name_line": "37A",
-    "shortname_line": "37A",
+    "name_line": "3137",
+    "shortname_line": "3137",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "f3a4ba",
+    "colourweb_hexa": "f59eb3",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "d1642112c3cb57748e633489ba10faa1",
+      "filename": "20241210T083513Z-fa1909f5-6a63-49a4-a04d-f44aebeae7a2.png"
     }
   },
   {
     "id_line": "C02108",
-    "name_line": "37B",
-    "shortname_line": "37B",
+    "name_line": "3140",
+    "shortname_line": "3140",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "ceacd2",
+    "colourweb_hexa": "c5a3cd",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "c3b42aca23e666ecdbb40529646e9f4f",
+      "filename": "20241210T083827Z-c8f49ab4-f1de-4f6a-a060-160f4ef890c5.png"
     }
   },
   {
     "id_line": "C02109",
-    "name_line": "37C",
-    "shortname_line": "37C",
+    "name_line": "3143",
+    "shortname_line": "3143",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "f28e42",
+    "colourweb_hexa": "f78f4b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C02110",
-    "name_line": "37R",
-    "shortname_line": "37R",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Keolis Portes et Val de Brie",
-    "networkname": "Pays Briard",
-    "colourweb_hexa": "fece00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "9b38e02f71125e9655504faf8bea3e0f",
+      "filename": "20241210T084948Z-d38899fb-8d70-4927-b595-5c692b529f9a.png"
     }
   },
   {
     "id_line": "C02111",
-    "name_line": "443 (ex 41)",
+    "name_line": "443",
     "shortname_line": "443",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "b19c0f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02112",
-    "name_line": "444 (ex 42)",
+    "name_line": "444",
     "shortname_line": "444",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "c9d201",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02116",
@@ -21394,50 +19798,50 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02120",
-    "name_line": "30B",
-    "shortname_line": "30B",
+    "name_line": "3126",
+    "shortname_line": "3126",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "e3051c",
+    "colourweb_hexa": "ed1c2a",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "5e2b954a23a5efff49d23164653f7b38",
+      "filename": "20241209T131907Z-f6167fca-7b96-4b76-9e9c-a9361d5d10a3.png"
     }
   },
   {
     "id_line": "C02121",
-    "name_line": "30A",
-    "shortname_line": "30A",
+    "name_line": "3130",
+    "shortname_line": "3130",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "b90745",
+    "colourweb_hexa": "b80c4b",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "3f58fcb70fe869a1917be7791c758c88",
+      "filename": "20241210T082616Z-a4ba829a-81e0-45b8-b278-86b1df566b50.png"
     }
   },
   {
     "id_line": "C02122",
-    "name_line": "30C",
-    "shortname_line": "30C",
+    "name_line": "3127",
+    "shortname_line": "3127",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "f3a4ba",
+    "colourweb_hexa": "f59eb3",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "4979a4bf65fdd22b9e2920cc42823ca4",
+      "filename": "20241209T134914Z-66ea7eaa-0198-457e-895e-288f97db7181.png"
     }
   },
   {
@@ -21454,82 +19858,82 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02124",
-    "name_line": "10",
-    "shortname_line": "10",
+    "name_line": "3148",
+    "shortname_line": "3148",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "e3051c",
+    "colourweb_hexa": "ed1c2a",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "893819300bab1801538ef2306603e9e9",
+      "filename": "20241210T090034Z-04d69826-5e39-47d5-b1b1-9622563c88dc.png"
     }
   },
   {
     "id_line": "C02125",
-    "name_line": "35B",
-    "shortname_line": "35B",
+    "name_line": "3131",
+    "shortname_line": "3131",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "81c391",
+    "colourweb_hexa": "9b993b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "0d667b8abed5887476f008db0a7cf387",
+      "filename": "20241210T082758Z-ac1eea31-4328-4e65-b48b-748c142b85f7.png"
     }
   },
   {
     "id_line": "C02126",
-    "name_line": "35A",
-    "shortname_line": "35A",
+    "name_line": "3135",
+    "shortname_line": "3135",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "00814f",
+    "colourweb_hexa": "008c5a",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "9f9d8d8b457ba28839128175e47b8fe7",
+      "filename": "20241210T083242Z-7313ffed-49bf-4819-b52e-3d58886c6c99.png"
     }
   },
   {
     "id_line": "C02127",
-    "name_line": "35C",
-    "shortname_line": "35C",
+    "name_line": "3136",
+    "shortname_line": "3136",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "09a88e",
+    "colourweb_hexa": "78c696",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "0c99106737e7c89bdb2cf48508a00d61",
+      "filename": "20241210T083347Z-00ed5e80-6a9c-472c-a0bd-6eab9628603b.png"
     }
   },
   {
     "id_line": "C02128",
-    "name_line": "35D",
-    "shortname_line": "35D",
+    "name_line": "3138",
+    "shortname_line": "3138",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "d4ca00",
+    "colourweb_hexa": "cec92b",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "e701e2cf1a0ebbff87ecc055ea03bd30",
+      "filename": "20241210T083614Z-b8908da8-4399-46b7-9710-7b6d248b73e4.png"
     }
   },
   {
@@ -21654,15 +20058,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02141",
-    "name_line": "29",
-    "shortname_line": "29",
+    "name_line": "1229",
+    "shortname_line": "1229",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": "SEASONAL_LINE_TYPE",
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "3c91dc",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02142",
@@ -21793,7 +20197,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Argenteuil Boucles de Seine",
     "networkname": "Argenteuil - Boucles de Seine",
-    "colourweb_hexa": "c99eff",
+    "colourweb_hexa": "d282be",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -21822,26 +20226,26 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02156",
-    "name_line": "19",
-    "shortname_line": "19",
+    "name_line": "3429",
+    "shortname_line": "3429",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "7f1518",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02159",
-    "name_line": "21",
-    "shortname_line": "21",
+    "name_line": "3421",
+    "shortname_line": "3421",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "004a99",
+    "colourweb_hexa": "0a0082",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -21890,11 +20294,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "9bcda4",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02165",
@@ -21906,11 +20306,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "ceacd2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02166",
@@ -21922,15 +20318,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "5191cd",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02167",
-    "name_line": "1352 (ex 12.1)",
+    "name_line": "1352",
     "shortname_line": "1352",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -21938,15 +20330,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "c04191",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02168",
-    "name_line": "1354 (ex14.1)",
+    "name_line": "1354",
     "shortname_line": "1354",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -21954,15 +20342,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "ceacd2",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02169",
-    "name_line": "5114 (Ex 6)",
+    "name_line": "5114",
     "shortname_line": "5114",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -21970,102 +20354,78 @@ export function idfMobiliteLineRef() {
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
     "colourweb_hexa": "d282be",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02170",
-    "name_line": "5113 (Ex 9)",
+    "name_line": "5113",
     "shortname_line": "5113",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "79ac2b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02171",
-    "name_line": "5183 (Ex AQ)",
+    "name_line": "5183",
     "shortname_line": "5183",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "ea505a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02172",
-    "name_line": "5184 (Ex BL)",
+    "name_line": "5184",
     "shortname_line": "5184",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "61a237",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02173",
-    "name_line": "5185 (Ex CSP)",
+    "name_line": "5185",
     "shortname_line": "5185",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "fdc300",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02174",
-    "name_line": "5186 (Ex JV)",
+    "name_line": "5186",
     "shortname_line": "5186",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "d16418",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02175",
-    "name_line": "5187 (Ex TG)",
+    "name_line": "5187",
     "shortname_line": "5187",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "7ac597",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -22078,6 +20438,18 @@ export function idfMobiliteLineRef() {
     "operatorname": "Aéroport Paris-Beauvais / SAGEB",
     "networkname": "Aérobus",
     "colourweb_hexa": "0000cc",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02180",
+    "name_line": "T1B",
+    "shortname_line": "T1B",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "operatorname": "RATP",
+    "networkname": null,
+    "colourweb_hexa": "0055c8",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -22106,106 +20478,62 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02185",
-    "name_line": "62",
-    "shortname_line": "62",
+    "name_line": "4462",
+    "shortname_line": "4462",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "ffce00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02186",
-    "name_line": "63",
-    "shortname_line": "63",
+    "name_line": "4463",
+    "shortname_line": "4463",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "f28e42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C02187",
-    "name_line": "61B",
-    "shortname_line": "61B",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Senart",
-    "networkname": "Sénart",
-    "colourweb_hexa": "fcbb73",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02188",
-    "name_line": "62C",
-    "shortname_line": "62C",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Senart",
-    "networkname": "Sénart",
-    "colourweb_hexa": "93d5f6",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02191",
-    "name_line": "62A",
-    "shortname_line": "62A",
+    "name_line": "3778",
+    "shortname_line": "3778",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "00afad",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02192",
-    "name_line": "62B",
-    "shortname_line": "62B",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Transdev Senart",
-    "networkname": "Sénart",
-    "colourweb_hexa": "005c63",
+    "colourweb_hexa": "00a092",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02193",
-    "name_line": "63",
-    "shortname_line": "63",
+    "name_line": "3773",
+    "shortname_line": "3773",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "ec619f",
+    "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02194",
-    "name_line": "61A",
-    "shortname_line": "61A",
+    "name_line": "3776",
+    "shortname_line": "3776",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "f3bd04",
+    "colourweb_hexa": "ffbe04",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -22233,52 +20561,48 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "ffffff"
   },
   {
-    "id_line": "C02197",
-    "name_line": "17B",
-    "shortname_line": "17B",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Francilité Seine et Oise",
-    "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "9c91c5",
-    "textcolourweb_hexa": "ffffff"
-  },
-  {
     "id_line": "C02201",
-    "name_line": "Express 91-11",
-    "shortname_line": "EX91-11",
+    "name_line": "9111",
+    "shortname_line": "9111",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "868b5c1774387c42088b4cbd35e44e09",
+      "filename": "20250103T112656Z-a3032b38-a7a4-44b3-a829-c8eed3fb4b62.png"
+    }
   },
   {
     "id_line": "C02202",
-    "name_line": "111",
-    "shortname_line": "111",
+    "name_line": "3411",
+    "shortname_line": "3411",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "aa3296",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02204",
-    "name_line": "Express 27",
-    "shortname_line": "EX27",
+    "name_line": "7802",
+    "shortname_line": "7802",
     "transportmode": "bus",
     "transportsubmode": "expressBus",
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "3bb2ff",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "fb6ed99c62758b57dd507c0379739c1d",
+      "filename": "20250105T112228Z-b5215be7-9c62-4ea2-877e-193d53cf1be6.png"
+    }
   },
   {
     "id_line": "C02205",
@@ -22326,59 +20650,43 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "ff69ff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02216",
-    "name_line": "5123 (Ex 423)",
+    "name_line": "5123",
     "shortname_line": "5123",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "9b9842",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "c894cecc7d230a8e000f1f0c9f335727",
-      "filename": "20240423T081031Z-1b2dc3c8-8862-4c45-a5b3-245e62d318bd.png"
-    }
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02217",
-    "name_line": "5124 (Ex 424)",
+    "name_line": "5124",
     "shortname_line": "5124",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "cec73d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "4538d04a44fbf3e44c08e3c3ceaf721c",
-      "filename": "20240423T080954Z-437c9ec1-ae0b-4700-b4e7-37602eda2f7b.png"
-    }
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02218",
-    "name_line": "5125 (Ex 459)",
+    "name_line": "5125",
     "shortname_line": "5125",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
-    "colourweb_hexa": "8ad3de",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "a9203b78253daac25c2cfd895ab3ddfd",
-      "filename": "20240423T080241Z-dbfbbe5f-7d05-47e4-b5c4-5e01576ed9f0.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02219",
@@ -22397,7 +20705,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Mennecy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Essonne Deux Vallées",
     "networkname": "Essonne Sud Est",
@@ -22425,12 +20733,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "f78f4b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02224",
@@ -22446,26 +20750,26 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02225",
-    "name_line": "5 S",
-    "shortname_line": "5 S",
+    "name_line": "1255",
+    "shortname_line": "1255",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "f69f83",
+    "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02226",
-    "name_line": "4",
-    "shortname_line": "4",
+    "name_line": "1204",
+    "shortname_line": "1204",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Seine et Oise",
     "networkname": "Cergy-Pontoise Confluence",
-    "colourweb_hexa": "1fa22e",
+    "colourweb_hexa": "00643c",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -22489,7 +20793,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
-    "colourweb_hexa": "c27ba0",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -22525,7 +20829,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
-    "colourweb_hexa": "d5a6bd",
+    "colourweb_hexa": "d3c90d",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -22713,16 +21017,12 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Survilliers - Fosses",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02257",
@@ -22731,25 +21031,21 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": null,
-    "colourweb_hexa": "f29200",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "f39000",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02258",
-    "name_line": "40",
-    "shortname_line": "40",
+    "name_line": "3440",
+    "shortname_line": "3440",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "f08262",
+    "colourweb_hexa": "a50034",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -22757,15 +21053,15 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Draveil",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
     "colourweb_hexa": "662583",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "f1007f246db35ad1515cfc9d357f8b5b",
+      "filename": "20250226T102253Z-9addfe0f-62eb-4638-8b62-a7c3c06ec273.png"
     }
   },
   {
@@ -22773,7 +21069,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Vigneux",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
@@ -22785,12 +21081,16 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Montgeron",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
     "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "902b1e0034e86fc67ae276430cfb155d",
+      "filename": "20250225T185653Z-c46c3174-899e-4a15-ac80-ce148acc65e8.png"
+    }
   },
   {
     "id_line": "C02264",
@@ -22814,11 +21114,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "e3051b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02266",
@@ -22830,11 +21126,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "fece00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02267",
@@ -22846,11 +21138,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "0064b0",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02268",
@@ -22882,35 +21170,27 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02270",
-    "name_line": "324",
-    "shortname_line": "324",
+    "name_line": "4434",
+    "shortname_line": "4434",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "ceadd2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02271",
-    "name_line": "325",
-    "shortname_line": "325",
+    "name_line": "4435",
+    "shortname_line": "4435",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "83c491",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02272",
@@ -22922,11 +21202,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "fdc300",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02273",
@@ -22938,11 +21214,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "351c75",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02274",
@@ -22954,11 +21226,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "008fd0",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02275",
@@ -22970,11 +21238,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "ff0000",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02276",
@@ -22986,47 +21250,43 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "93107e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02277",
-    "name_line": "14",
-    "shortname_line": "14",
+    "name_line": "3424",
+    "shortname_line": "3424",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "ffff00",
+    "colourweb_hexa": "ffbe50",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02278",
-    "name_line": "20",
-    "shortname_line": "20",
+    "name_line": "3420",
+    "shortname_line": "3420",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "bd1220",
+    "colourweb_hexa": "ff1400",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02279",
-    "name_line": "23",
-    "shortname_line": "23",
+    "name_line": "3423",
+    "shortname_line": "3423",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "008a2f",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02280",
@@ -23038,11 +21298,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "6aa84f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02281",
@@ -23054,11 +21310,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "ea9999",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02282",
@@ -23070,11 +21322,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "009a54",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02283",
@@ -23086,11 +21334,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "f4cccc",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02284",
@@ -23102,11 +21346,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "006ab3",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02286",
@@ -23122,14 +21362,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02287",
-    "name_line": "115",
-    "shortname_line": "115",
+    "name_line": "3425",
+    "shortname_line": "3425",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "008a2f",
+    "colourweb_hexa": "82dc73",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -23146,26 +21386,26 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02289",
-    "name_line": "113",
-    "shortname_line": "113",
+    "name_line": "3427",
+    "shortname_line": "3427",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "bd1220",
+    "colourweb_hexa": "a50034",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02290",
-    "name_line": "114",
-    "shortname_line": "114",
+    "name_line": "3426",
+    "shortname_line": "3426",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "fae91a",
+    "colourweb_hexa": "ffbe50",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -23190,11 +21430,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Melun",
     "networkname": "Grand Melun",
     "colourweb_hexa": "20a12e",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02294",
@@ -23222,39 +21458,31 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02296",
-    "name_line": "68-13A",
-    "shortname_line": "68-13A",
+    "name_line": "4456",
+    "shortname_line": "4456",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "ffce00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02297",
-    "name_line": "68-13B",
-    "shortname_line": "68-13B",
+    "name_line": "4458",
+    "shortname_line": "4458",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "ffce00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "9b993b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02298",
-    "name_line": "2245 (ex 27)",
+    "name_line": "2245",
     "shortname_line": "2245",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -23274,11 +21502,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Mobicité",
     "networkname": null,
     "colourweb_hexa": "f9bd1b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02301",
@@ -23290,11 +21514,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "SAVAC",
     "networkname": null,
     "colourweb_hexa": "ff9900",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02304",
@@ -23306,11 +21526,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "SAVAC",
     "networkname": "Chavilbus",
     "colourweb_hexa": "c99eff",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02307",
@@ -23322,11 +21538,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "fabf5f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02310",
@@ -23346,31 +21558,31 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02311",
-    "name_line": "200",
-    "shortname_line": "200",
+    "name_line": "3144",
+    "shortname_line": "3144",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "f3a4ba",
+    "colourweb_hexa": "f59eb3",
     "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "9dc74683acc16838d607a88c8a5528c2",
+      "filename": "20241210T085134Z-34d54622-26c4-478e-8a4f-43ad9738ac39.png"
     }
   },
   {
     "id_line": "C02313",
-    "name_line": "01",
-    "shortname_line": "01",
+    "name_line": "5310 (ex 1)",
+    "shortname_line": "5310",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "cfe2f3",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "87d3df",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02314",
@@ -23444,19 +21656,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02351",
-    "name_line": "445 (ex 51)",
+    "name_line": "445",
     "shortname_line": "445",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "ff9900",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "e15a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02355",
@@ -23468,11 +21676,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "RD Saclay",
     "networkname": "Paris Saclay",
     "colourweb_hexa": "cfc83b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "618fd744903b3f1649012b26b92e103c",
-      "filename": "5fb4dbea6f4d9_metro_18_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02360",
@@ -23656,19 +21860,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02383",
-    "name_line": "TàD Coeur Essonne 6",
-    "shortname_line": "TàD 6",
+    "name_line": "TàD 4596 Cœur d'Essonne",
+    "shortname_line": "TàD 4596",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "906caf",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02385",
@@ -23680,11 +21880,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "SNCF",
     "networkname": "RER",
     "colourweb_hexa": "5091cb",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "09417158011567b7a8165357e51e565d",
-      "filename": "5fb4dbfde56df_RER_B_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02387",
@@ -23696,11 +21892,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Val d'Essonne Deux Vallées",
     "networkname": "Essonne Sud Est",
     "colourweb_hexa": "ff5c00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02389",
@@ -23709,29 +21901,25 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Cars Lacroix",
-    "networkname": "Parisis",
-    "colourweb_hexa": "ef844e",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "f0824f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02390",
-    "name_line": "7002 Scolaire",
-    "shortname_line": "7002 SCO",
+    "name_line": "4272",
+    "shortname_line": "4272",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "fcb818",
-    "textcolourweb_hexa": "ffffff",
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "0a286e8f55179c4987556be5ee0e277d",
+      "filename": "20250103T082700Z-b0a8600c-3a61-4e34-bb37-a27c399beaab.png"
     }
   },
   {
@@ -23744,38 +21932,18 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Val d'Essonne Deux Vallées",
     "networkname": "Essonne Sud Est",
     "colourweb_hexa": "b4a7d6",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C02394",
-    "name_line": "Navette Bel Air - La Forêt",
-    "shortname_line": "Bel Air",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Transdev Sud Yvelines",
-    "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "351c75",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02395",
-    "name_line": "M154",
-    "shortname_line": "M154",
+    "name_line": "EXPRESS 9114",
+    "shortname_line": "9114",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "a0006e",
+    "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -23792,8 +21960,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02397",
-    "name_line": "DM50",
-    "shortname_line": "DM50",
+    "name_line": "4520",
+    "shortname_line": "4520",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -23804,20 +21972,20 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02398",
-    "name_line": "DM5S",
-    "shortname_line": "DM5S",
+    "name_line": "4577",
+    "shortname_line": "4577",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "99d4df",
+    "colourweb_hexa": "82c8e6",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02399",
-    "name_line": "DM9S",
-    "shortname_line": "DM9S",
+    "name_line": "4579",
+    "shortname_line": "4579",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -23835,7 +22003,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "e69138",
+    "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -23847,7 +22015,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Transdev Brie et 2 Morin",
     "networkname": "Brie et 2 Morin",
-    "colourweb_hexa": "e69138",
+    "colourweb_hexa": "dc9600",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -24004,16 +22172,12 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Vexin",
     "networkname": "Vexin",
     "colourweb_hexa": "dc9600",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02418",
-    "name_line": "105",
-    "shortname_line": "105",
+    "name_line": "4535",
+    "shortname_line": "4535",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -24032,11 +22196,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "fecb00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02423",
@@ -24048,11 +22208,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "80ff00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02424",
@@ -24064,11 +22220,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "00a1e6",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02425",
@@ -24080,31 +22232,23 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "ff6600",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02426",
-    "name_line": "441 (ex 21)",
+    "name_line": "441",
     "shortname_line": "441",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "ff0000",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02427",
-    "name_line": "442 (ex 22)",
+    "name_line": "442",
     "shortname_line": "442",
     "transportmode": "bus",
     "transportsubmode": "localBus",
@@ -24112,75 +22256,55 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
     "colourweb_hexa": "ff82b4",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02428",
-    "name_line": "446 (ex 71)",
+    "name_line": "446",
     "shortname_line": "446",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "6aa84f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02429",
-    "name_line": "447 (ex 81)",
+    "name_line": "447",
     "shortname_line": "447",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "93c47d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02430",
-    "name_line": "448 (ex 82)",
+    "name_line": "448",
     "shortname_line": "448",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "38761d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02431",
-    "name_line": "332",
-    "shortname_line": "332",
+    "name_line": "4404",
+    "shortname_line": "4404",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "b90845",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02432",
@@ -24240,11 +22364,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "RATP",
     "networkname": null,
     "colourweb_hexa": "00a092",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02439",
@@ -24268,11 +22388,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "2da445",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02441",
@@ -24283,12 +22399,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "f59eb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02442",
@@ -24304,139 +22416,115 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02443",
-    "name_line": "38",
-    "shortname_line": "38",
+    "name_line": "5237 (ex 38)",
+    "shortname_line": "5237",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "fccf99",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "008c5a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02444",
-    "name_line": "28",
-    "shortname_line": "28",
+    "name_line": "5328 (ex 28)",
+    "shortname_line": "5328",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "f5a374",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02446",
-    "name_line": "17s",
-    "shortname_line": "17s",
+    "name_line": "5371 (ex 17s)",
+    "shortname_line": "5371",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "f3a489",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02448",
-    "name_line": "403",
-    "shortname_line": "403",
+    "name_line": "5343 (ex 403)",
+    "shortname_line": "5343",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "b1b9df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02449",
-    "name_line": "41",
-    "shortname_line": "41",
+    "name_line": "4451",
+    "shortname_line": "4451",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": "SEASONAL_LINE_TYPE",
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "98d4e2",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02450",
-    "name_line": "42",
-    "shortname_line": "42",
+    "name_line": "4452",
+    "shortname_line": "4452",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": "SEASONAL_LINE_TYPE",
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "5291ce",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02451",
-    "name_line": "43S",
-    "shortname_line": "43S",
+    "name_line": "4453",
+    "shortname_line": "4453",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "ffce00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02452",
-    "name_line": "44S",
-    "shortname_line": "44S",
+    "name_line": "4454",
+    "shortname_line": "4454",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "662483",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "8e6539",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02453",
-    "name_line": "45S",
-    "shortname_line": "45S",
+    "name_line": "4455",
+    "shortname_line": "4455",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": "SEASONAL_LINE_TYPE",
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "5291ce",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02455",
-    "name_line": "2280 (ex 20a)",
+    "name_line": "2280",
     "shortname_line": "2280",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -24444,23 +22532,19 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
     "colourweb_hexa": "d2d200",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02456",
-    "name_line": "439 (ex 9)",
+    "name_line": "439",
     "shortname_line": "439",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Côteaux de la Marne",
     "networkname": "Marne et Seine",
-    "colourweb_hexa": "f4cccc",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02457",
@@ -24476,14 +22560,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02458",
-    "name_line": "27",
-    "shortname_line": "27",
+    "name_line": "3727",
+    "shortname_line": "3727",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Transdev Senart",
     "networkname": "Sénart",
-    "colourweb_hexa": "f49fb3",
+    "colourweb_hexa": "82c8e6",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -24500,20 +22584,20 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02460",
-    "name_line": "TàD Coeur Essonne 7",
-    "shortname_line": "TàD 7",
+    "name_line": "TàD 4597 Cœur d'Essonne",
+    "shortname_line": "TàD 4597",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
     "colourweb_hexa": "ff5a00",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02461",
-    "name_line": "DM3B",
-    "shortname_line": "DM3B",
+    "name_line": "4524",
+    "shortname_line": "4524",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -24532,11 +22616,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "8d653d",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02463",
@@ -24548,48 +22628,36 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "9b9842",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02464",
-    "name_line": "Soirée Domont",
+    "name_line": "Soir Domont",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "652c8f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02465",
-    "name_line": "Soirée Écouen Ézanville",
+    "name_line": "Soir Écouen Ézanville",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Valmy",
     "networkname": "Vallée de Montmorency",
     "colourweb_hexa": "652c8f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02466",
-    "name_line": "TàD Coeur Essonne 1",
-    "shortname_line": "TàD",
+    "name_line": "TàD 4591 Cœur d'Essonne",
+    "shortname_line": "TàD 4591",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
     "type": null,
@@ -24600,26 +22668,26 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02467",
-    "name_line": "TàD Coeur Essonne 2",
-    "shortname_line": "TàD 2",
+    "name_line": "TàD 4592 Cœur d'Essonne",
+    "shortname_line": "TàD 4592",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "7f9c0c",
+    "colourweb_hexa": "6e6e00",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02468",
-    "name_line": "TàD Coeur Essonne 5",
-    "shortname_line": "TàD 5",
+    "name_line": "TàD 4595 Cœur d'Essonne",
+    "shortname_line": "TàD 4595",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
-    "colourweb_hexa": "1c96b7",
+    "colourweb_hexa": "0055c8",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -24640,19 +22708,15 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02470",
-    "name_line": "913.17A",
-    "shortname_line": "913.17A",
+    "name_line": "4411",
+    "shortname_line": "4411",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "f28e42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02471",
@@ -24672,51 +22736,39 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02472",
-    "name_line": "913.17B",
-    "shortname_line": "913.17B",
+    "name_line": "4414",
+    "shortname_line": "4414",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
-    "colourweb_hexa": "f28e42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02473",
-    "name_line": "913.17C",
-    "shortname_line": "913.17C",
+    "name_line": "4415",
+    "shortname_line": "4415",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "f28e42",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02474",
     "name_line": "Soirée Etampes",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Francilité Ouest Essonne",
     "networkname": "Essonne Sud Ouest",
     "colourweb_hexa": "662483",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02475",
@@ -24739,16 +22791,12 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Villeparisis",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Est",
     "networkname": "Roissy Est",
     "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02478",
@@ -24764,8 +22812,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02479",
-    "name_line": "Extrême Soirée",
-    "shortname_line": "EXTS",
+    "name_line": "J",
+    "shortname_line": "J",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -24788,14 +22836,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02481",
-    "name_line": "02",
-    "shortname_line": "02",
+    "name_line": "5322 (ex 2)",
+    "shortname_line": "5322",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "ffff00",
+    "colourweb_hexa": "ffcd03",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -24855,7 +22903,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Bouray",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Essonne Deux Vallées",
     "networkname": "Essonne Sud Est",
@@ -24879,7 +22927,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Meaux Nord",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
@@ -24891,7 +22939,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Meaux Sud",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Marne-et-Ourcq",
     "networkname": "Meaux et Ourcq",
@@ -24903,7 +22951,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soir Saint-Germain-en-Laye",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
@@ -24988,11 +23036,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "8bc63f",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02498",
@@ -25004,11 +23048,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "ed165a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02499",
@@ -25020,11 +23060,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "f3be27",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02500",
@@ -25036,11 +23072,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "ed2553",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02501",
@@ -25052,11 +23084,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "0e8344",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02502",
@@ -25068,11 +23096,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Autocars Dominique",
     "networkname": "Paris-Saclay Mobilités",
     "colourweb_hexa": "646ab1",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02503",
@@ -25084,18 +23108,14 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "fecb00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02504",
     "name_line": "Soirée Crosne",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
@@ -25107,7 +23127,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Yerres Nord",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
@@ -25119,7 +23139,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Yerres Sud",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
@@ -25131,7 +23151,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Brunoy Sud",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
@@ -25143,19 +23163,23 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Boussy Saint Antoine",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
     "colourweb_hexa": "652c8f",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "77388aeafa2547652b60c0e0f732fd3b",
+      "filename": "20250225T192221Z-ceedda89-1707-40ed-8f48-c3afb973e9f5.png"
+    }
   },
   {
     "id_line": "C02509",
     "name_line": "Soirée Quincy sous Sénart",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Val d'Yerres Val de Seine",
     "networkname": "Val d'Yerres Val de Seine",
@@ -25195,16 +23219,12 @@ export function idfMobiliteLineRef() {
     "name_line": "Soir Versailles-Chantiers",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Vélizy Vallée de la Bièvre",
     "networkname": "Vélizy Vallées",
     "colourweb_hexa": "640082",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02514",
@@ -25232,11 +23252,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Argenteuil Boucles de Seine",
     "networkname": "Argenteuil - Boucles de Seine",
     "colourweb_hexa": "3c91dc",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02517",
@@ -25245,102 +23261,114 @@ export function idfMobiliteLineRef() {
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
-    "operatorname": "Cars Lacroix",
+    "operatorname": "Francilité Val Parisis",
     "networkname": null,
     "colourweb_hexa": "a03187",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02518",
-    "name_line": "11B",
-    "shortname_line": "11B",
+    "name_line": "3112",
+    "shortname_line": "3112",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "78c696",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "2e581513980c2b6607887d75833463c1",
+      "filename": "20241209T112312Z-d7e51f36-9997-4ee6-956f-bcabe0a07d5a.png"
+    }
   },
   {
     "id_line": "C02519",
-    "name_line": "11C",
-    "shortname_line": "11C",
+    "name_line": "3113",
+    "shortname_line": "3113",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "7da577a29065df0b244fd9fd82c17008",
+      "filename": "20241209T112935Z-596db641-ea07-4e9c-a3fe-3a5a1721c510.png"
+    }
   },
   {
     "id_line": "C02520",
-    "name_line": "11s",
-    "shortname_line": "11s",
+    "name_line": "3116",
+    "shortname_line": "3116",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "4d90cd",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "ed12551e76d66b8f7dbbf0b742432da5",
+      "filename": "20241209T113124Z-f8473bae-32d3-4969-8ea8-d565e2cda169.png"
+    }
   },
   {
     "id_line": "C02521",
-    "name_line": "TàD Tournan-Gretz",
+    "name_line": "TàD Gretz-Tournan",
     "shortname_line": "TàD",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "fecb00",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "ffcd03",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "9a886c22f0d406f52f05a6a382927b47",
+      "filename": "20241210T090905Z-52a18b83-d7e7-45d6-a55b-9570bcecce50.png"
+    }
   },
   {
     "id_line": "C02522",
-    "name_line": "Soirée Tournan-Gretz",
+    "name_line": "Soir - Gretz-Armainvilliers",
     "shortname_line": "Soir",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Keolis Portes et Val de Brie",
-    "networkname": "Pays Briard",
-    "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C02523",
-    "name_line": "Soirée Ozoir-la-Ferrière",
-    "shortname_line": "Soir",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Keolis Portes et Val de Brie",
-    "networkname": "Pays Briard",
-    "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C02524",
-    "name_line": "TàD Ozoir-la-Ferrière",
-    "shortname_line": "TàD",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "fecb00",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "662583",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02523",
+    "name_line": "Soir - Ozoir-la-Ferrière",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Keolis Portes et Val de Brie",
+    "networkname": "Pays Briard",
+    "colourweb_hexa": "662583",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02524",
+    "name_line": "TàD 3144",
+    "shortname_line": "TàD 3144",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Keolis Portes et Val de Brie",
+    "networkname": "Pays Briard",
+    "colourweb_hexa": "ffcd03",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "70f62e75cb44c1509cfbc43322857079",
+      "filename": "20241210T090928Z-9050c663-7831-4750-b30a-6ba69229d877.png"
+    }
   },
   {
     "id_line": "C02525",
@@ -25362,13 +23390,10 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
-    "networkname": "Noctilien",
-    "colourweb_hexa": "662483",
+    "networkname": "Poissy - Les Mureaux",
+    "colourweb_hexa": "640082",
     "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "icon": "N155.svg"
   },
   {
     "id_line": "C02527",
@@ -25380,11 +23405,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "RATP",
     "networkname": null,
     "colourweb_hexa": "0055c8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02528",
@@ -25462,11 +23483,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "RATP",
     "networkname": null,
     "colourweb_hexa": "e19bdf",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "6dc2bda2dcd7cffbde8cf5a6c194ba59",
-      "filename": "5fb4dba951359_metro_8_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02534",
@@ -25478,11 +23495,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "RATP",
     "networkname": null,
     "colourweb_hexa": "6ec4e8",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "0b8a36241880cd49a78f24dbaca0433b",
-      "filename": "5fb4dbc8dc744_metro_13_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02536",
@@ -25493,12 +23506,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "87d3df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02537",
@@ -25509,12 +23518,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "78c696",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02538",
@@ -25526,11 +23531,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "RATP",
     "networkname": null,
     "colourweb_hexa": "f58f53",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02539",
@@ -25541,12 +23542,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "4d90cd",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02540",
@@ -25557,12 +23554,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "f78f4b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02541",
@@ -25573,12 +23566,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "00b397",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02542",
@@ -25589,12 +23578,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "008c5a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02543",
@@ -25605,12 +23590,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "ed1c2a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02544",
@@ -25621,12 +23602,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "9b993b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02545",
@@ -25637,28 +23614,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "8e6539",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C02546",
-    "name_line": "50",
-    "shortname_line": "50",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Seine et Oise Est",
-    "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "9b993b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02547",
@@ -25669,12 +23626,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "78c696",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02548",
@@ -25685,12 +23638,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "87d3df",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02549",
@@ -25701,12 +23650,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "006db8",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02550",
@@ -25717,12 +23662,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "b80c4b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02551",
@@ -25733,12 +23674,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "f59eb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02552",
@@ -25749,12 +23686,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "ed1c2a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02553",
@@ -25765,12 +23698,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "f78f4b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02554",
@@ -25781,12 +23710,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "8e6539",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02555",
@@ -25797,12 +23722,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "cec92b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02556",
@@ -25813,12 +23734,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "cec92b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02557",
@@ -25829,12 +23746,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "f59eb3",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02558",
@@ -25845,12 +23758,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "00b397",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02559",
@@ -25861,12 +23770,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "008c5a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02560",
@@ -25877,12 +23782,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "4d90cd",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02561",
@@ -25893,12 +23794,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "e0b03b",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02562",
@@ -25909,12 +23806,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "008c5a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02563",
@@ -25925,12 +23818,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "00b397",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02564",
@@ -25941,12 +23830,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "4d90cd",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02565",
@@ -25957,12 +23842,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "ed1c2a",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02566",
@@ -25973,7 +23854,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "f78f4b",
+    "colourweb_hexa": "ff5a00",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -25985,12 +23866,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "9b993b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02568",
@@ -26001,12 +23878,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "c5a3cd",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02569",
@@ -26017,12 +23890,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "662d91",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02570",
@@ -26033,12 +23902,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "9b993b",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02571",
@@ -26049,12 +23914,8 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "78c696",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02572",
@@ -26082,7 +23943,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02574",
-    "name_line": "TàD Montereau Ouest (ex TàD Zone 1)",
+    "name_line": "TàD Montereau Ouest",
     "shortname_line": "TàD",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
@@ -26094,7 +23955,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02575",
-    "name_line": "TàD Montereau Nord (ex TàD Zone 2)",
+    "name_line": "TàD Montereau Nord",
     "shortname_line": "TàD",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
@@ -26106,7 +23967,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02576",
-    "name_line": "TàD Montereau Centre (ex TàD Zone 3)",
+    "name_line": "TàD Montereau Centre",
     "shortname_line": "TàD",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
@@ -26118,7 +23979,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02577",
-    "name_line": "TàD Montereau Sud (ex TàD zone 4)",
+    "name_line": "TàD Montereau Sud",
     "shortname_line": "TàD",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
@@ -26130,7 +23991,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02578",
-    "name_line": "TàD Montereau Est (ex 991 - TàD ZI Clomarts)",
+    "name_line": "TàD Montereau Est",
     "shortname_line": "TàD",
     "transportmode": "bus",
     "transportsubmode": "demandAndResponseBus",
@@ -26145,7 +24006,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Montereau Nord",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
@@ -26157,7 +24018,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Montereau Sud",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Francilité Pays de Montereau",
     "networkname": "Pays de Montereau",
@@ -26205,7 +24066,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soir Provins",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Francilité Grand Provinois",
     "networkname": "Provinois - Brie et Seine",
@@ -26217,7 +24078,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soir Nangis",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Francilité Grand Provinois",
     "networkname": "Provinois - Brie et Seine",
@@ -26233,7 +24094,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "fecb00",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -26245,7 +24106,7 @@ export function idfMobiliteLineRef() {
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "fecb00",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -26253,16 +24114,12 @@ export function idfMobiliteLineRef() {
     "name_line": "Soir Poissy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02590",
@@ -26285,48 +24142,12 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Mitry-le-Neuf",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Est",
     "networkname": "Roissy Est",
     "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C02592",
-    "name_line": "Soirée Mitry-Claye",
-    "shortname_line": "Soir",
-    "transportmode": "bus",
-    "transportsubmode": "localBus",
-    "type": null,
-    "operatorname": "Keolis Roissy Pays de France Est",
-    "networkname": "Roissy Est",
-    "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
-  },
-  {
-    "id_line": "C02593",
-    "name_line": "712",
-    "shortname_line": "712",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Roissy Pays de France Est",
-    "networkname": "Roissy Est",
-    "colourweb_hexa": "c04192",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02594",
@@ -26336,16 +24157,17 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
-    "networkname": "Noctilien",
+    "networkname": "Fontainebleau - Moret",
     "colourweb_hexa": "3c91dc",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N137.svg"
   },
   {
     "id_line": "C02595",
     "name_line": "Soirée Fontainebleau",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
@@ -26357,7 +24179,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Morêt-sur-Loing",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
@@ -26412,13 +24234,10 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
-    "networkname": "Noctilien",
+    "networkname": "Roissy Ouest",
     "colourweb_hexa": "00814f",
     "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "icon": "N146.svg"
   },
   {
     "id_line": "C02601",
@@ -26430,43 +24249,31 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "81c491",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02602",
     "name_line": "Soirée Garges",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02603",
     "name_line": "Soirée Goussainville",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02604",
@@ -26478,27 +24285,19 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "662483",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02605",
     "name_line": "Soirée Gonesse",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Roissy Pays de France Ouest",
     "networkname": "Roissy Ouest",
     "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02607",
@@ -26538,14 +24337,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02610",
-    "name_line": "4007",
-    "shortname_line": "4007",
+    "name_line": "3559",
+    "shortname_line": "3559",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Vallée du Loing",
     "networkname": "Vallée du Loing - Nemours",
-    "colourweb_hexa": "1ba196",
+    "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -26562,14 +24361,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02612",
-    "name_line": "4002",
-    "shortname_line": "4002",
+    "name_line": "3452",
+    "shortname_line": "3452",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Pays de Fontainebleau",
     "networkname": "Fontainebleau - Moret",
-    "colourweb_hexa": "aaaaaa",
+    "colourweb_hexa": "d282be",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -26594,11 +24393,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "ff5a00",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02616",
@@ -26610,26 +24405,22 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Boucle des Lys",
     "networkname": "Saint Germain Boucles de Seine",
     "colourweb_hexa": "82c8e6",
-    "textcolourweb_hexa": "000000",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02617",
-    "name_line": "2",
-    "shortname_line": "2",
+    "name_line": "3102",
+    "shortname_line": "3102",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "ff00ff",
+    "colourweb_hexa": "bb4b9b",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "856a606a9f4546d979ab4c27c963d189",
+      "filename": "20241209T114605Z-e3770908-7f44-4e07-8537-484d9c918ddd.png"
     }
   },
   {
@@ -26646,50 +24437,50 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02619",
-    "name_line": "3s",
-    "shortname_line": "3s",
+    "name_line": "3108",
+    "shortname_line": "3108",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "3d85c6",
+    "colourweb_hexa": "87d3df",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "e63467a8b8dcf75eae7f1d17eb1d984f",
+      "filename": "20241209T115652Z-16d49804-b3e3-4c74-a1bc-b50430452d50.png"
     }
   },
   {
     "id_line": "C02620",
-    "name_line": "4s",
-    "shortname_line": "4s",
+    "name_line": "3141",
+    "shortname_line": "3141",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "3d85c6",
+    "colourweb_hexa": "87d3df",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "3ebd1a854fa6a33d618c1de714b8ed9d",
+      "filename": "20241210T083932Z-2555f533-6c65-407d-a956-8d3a617d43d0.png"
     }
   },
   {
     "id_line": "C02621",
-    "name_line": "5S",
-    "shortname_line": "5S",
+    "name_line": "3142",
+    "shortname_line": "3142",
     "transportmode": "bus",
     "transportsubmode": "regionalBus",
     "type": null,
     "operatorname": "Keolis Portes et Val de Brie",
     "networkname": "Pays Briard",
-    "colourweb_hexa": "3d85c6",
+    "colourweb_hexa": "006db8",
     "textcolourweb_hexa": "ffffff",
     "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
+      "id": "8f2d21b16e7b63cac6a5c15b613c165d",
+      "filename": "20241210T084101Z-ca64b3b8-9a40-4387-9962-3721e4fd266e.png"
     }
   },
   {
@@ -26712,18 +24503,15 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": "Noctilien",
+    "networkname": "Haut Val d'Oise",
     "colourweb_hexa": "8d5e2a",
     "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "icon": "N147.svg"
   },
   {
     "id_line": "C02625",
-    "name_line": "46",
-    "shortname_line": "46",
+    "name_line": "1235",
+    "shortname_line": "1235",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
@@ -26737,48 +24525,36 @@ export function idfMobiliteLineRef() {
     "name_line": "Soir Vernouillet-Verneuil",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02627",
     "name_line": "Soir Les Mureaux",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "662583",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02628",
     "name_line": "Soir Carrières-sous-Poissy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": null,
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Seine et Oise Est",
     "networkname": "Poissy - Les Mureaux",
-    "colourweb_hexa": "662d91",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02629",
@@ -26790,11 +24566,7 @@ export function idfMobiliteLineRef() {
     "operatorname": "Keolis Argenteuil Boucles de Seine",
     "networkname": "Argenteuil - Boucles de Seine",
     "colourweb_hexa": "9f9822",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02630",
@@ -26806,70 +24578,102 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Nord Seine-Saint-Denis",
     "networkname": "Terres d'Envol",
     "colourweb_hexa": "640082",
-    "textcolourweb_hexa": "ffffff",
-    "picto": {
-      "id": "37b0b83646222f1e3a45084a6eb6a7f7",
-      "filename": "5fb4d9c76c4cc_bus_fc.png"
-    }
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02631",
-    "name_line": "500",
-    "shortname_line": "500",
+    "name_line": "4250",
+    "shortname_line": "4250",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "2e2ec3",
-    "textcolourweb_hexa": "ffffff"
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "f67421eff76f2ff8090affe8345147ea",
+      "filename": "20250103T085245Z-0f210c5e-6db2-49e6-8816-1d5ba4d9a962.png"
+    }
   },
   {
     "id_line": "C02632",
-    "name_line": "501",
-    "shortname_line": "501",
+    "name_line": "4251",
+    "shortname_line": "4251",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "2b2bd2",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "8249c90df11c9ce61c04a13bb24c0088",
+      "filename": "20250103T085311Z-ce0f5253-c4a1-4191-868e-0ff0c2df492b.png"
+    }
+  },
+  {
+    "id_line": "C02634",
+    "name_line": "N162",
+    "shortname_line": "N162",
+    "transportmode": "bus",
+    "transportsubmode": "nightBus",
+    "type": null,
+    "operatorname": "Transdev Sud Yvelines",
+    "networkname": "Centre et Sud Yvelines",
+    "colourweb_hexa": "3c91dc",
     "textcolourweb_hexa": "ffffff"
   },
   {
-    "id_line": "C02633",
-    "name_line": "502",
-    "shortname_line": "502",
+    "id_line": "C02635",
+    "name_line": "N160",
+    "shortname_line": "N160",
     "transportmode": "bus",
-    "transportsubmode": null,
+    "transportsubmode": "nightBus",
     "type": null,
-    "operatorname": "TISSE",
-    "networkname": "Evry Centre Essonne",
-    "colourweb_hexa": "3232cd",
+    "operatorname": "Transdev Sud Yvelines",
+    "networkname": "Centre et Sud Yvelines",
+    "colourweb_hexa": "6e491e",
     "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02636",
-    "name_line": "TZEN 4",
-    "shortname_line": "TZEN 4",
+    "name_line": "Tzen 4",
+    "shortname_line": "Tzen 4",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "TISSE",
     "networkname": null,
-    "colourweb_hexa": "aaaaaa",
+    "colourweb_hexa": "d3ca00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02637",
-    "name_line": "78S",
-    "shortname_line": "78S",
+    "name_line": "5234",
+    "shortname_line": "5234",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Francilité Express Ouest",
     "networkname": "Lignes Île-de-France Ouest",
-    "colourweb_hexa": "5091cb",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "43d66ab1cd164f3d00a08bd548c004f6",
+      "filename": "20250103T112730Z-270c345c-7bea-4b0a-aff4-dd9e0e8dc01e.png"
+    }
+  },
+  {
+    "id_line": "C02638",
+    "name_line": "5304 (ex C et D)",
+    "shortname_line": "5304",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Transdev Sud Yvelines",
+    "networkname": "Centre et Sud Yvelines",
+    "colourweb_hexa": "c5a3cd",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -26877,7 +24681,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soir Saint-Rémy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": null,
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
@@ -26889,23 +24693,23 @@ export function idfMobiliteLineRef() {
     "name_line": "Soir Rambouillet",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": null,
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02642",
-    "name_line": "67D",
-    "shortname_line": "67D",
+    "name_line": "7817 (ex Express 67D)",
+    "shortname_line": "7817",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
     "operatorname": "Transdev Sud Yvelines",
     "networkname": "Centre et Sud Yvelines",
-    "colourweb_hexa": "0091d4",
+    "colourweb_hexa": "4d90cd",
     "textcolourweb_hexa": "ffffff"
   },
   {
@@ -26925,12 +24729,12 @@ export function idfMobiliteLineRef() {
     "name_line": "Bus soirée Plaisir-Grignon",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": null,
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Francilité Saint-Quentin-en-Yvelines",
     "networkname": "Saint-Quentin-en-Yvelines",
     "colourweb_hexa": "652c8f",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02645",
@@ -26969,138 +24773,6 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "000000"
   },
   {
-    "id_line": "C02648",
-    "name_line": "Paris 2024 -1",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "Transdev Marne-la-Vallée",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02649",
-    "name_line": "Paris 2024 -2",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "Transdev Marne-la-Vallée",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02650",
-    "name_line": "Paris 2024 -3",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "Transdev Marne-la-Vallée",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02651",
-    "name_line": "Paris 2024 -4",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "Francilité Saint-Quentin-en-Yvelines",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02652",
-    "name_line": "Paris 2024 -5",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "Francilité Saint-Quentin-en-Yvelines",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02653",
-    "name_line": "Paris 2024 -6",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "Francilité Saint-Quentin-en-Yvelines",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02654",
-    "name_line": "Paris 2024 -7",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "Transdev Versailles",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02655",
-    "name_line": "Paris 2024 -8",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "Transdev Versailles",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02656",
-    "name_line": "Paris 2024 -9",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "Transdev Versailles",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02657",
-    "name_line": "Paris 2024 -10",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "RATP",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
-    "id_line": "C02658",
-    "name_line": "Paris 2024 -11",
-    "shortname_line": "Paris2024",
-    "transportmode": "bus",
-    "transportsubmode": null,
-    "type": "SEASONAL_LINE_TYPE",
-    "operatorname": "RATP",
-    "networkname": "Navettes Spectateurs Paris 2024",
-    "colourweb_hexa": "fba9cb",
-    "textcolourweb_hexa": "000000"
-  },
-  {
     "id_line": "C02659",
     "name_line": "N123",
     "shortname_line": "N123",
@@ -27108,16 +24780,17 @@ export function idfMobiliteLineRef() {
     "transportsubmode": "nightBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
-    "networkname": "Noctilien",
+    "networkname": "Cœur d’Essonne",
     "colourweb_hexa": "a50034",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N123.svg"
   },
   {
     "id_line": "C02661",
     "name_line": "Soir Brétigny",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Cœur Essonne",
     "networkname": "Cœur d’Essonne",
@@ -27126,8 +24799,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02662",
-    "name_line": "5",
-    "shortname_line": "5",
+    "name_line": "4513",
+    "shortname_line": "4513",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -27138,8 +24811,8 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02663",
-    "name_line": "106",
-    "shortname_line": "106",
+    "name_line": "4536",
+    "shortname_line": "4536",
     "transportmode": "bus",
     "transportsubmode": "localBus",
     "type": null,
@@ -27165,19 +24838,19 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Mantes-la-Ville",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "RD Mantois",
     "networkname": null,
     "colourweb_hexa": "652c8f",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02667",
     "name_line": "Soirée Aubergenville",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "RD Mantois",
     "networkname": null,
@@ -27185,20 +24858,8 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "000000"
   },
   {
-    "id_line": "C02668",
-    "name_line": "N72",
-    "shortname_line": "N72",
-    "transportmode": "bus",
-    "transportsubmode": "nightBus",
-    "type": null,
-    "operatorname": "Transdev Côteaux de la Marne",
-    "networkname": "Noctilien",
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
-  },
-  {
     "id_line": "C02669",
-    "name_line": "2281 (ex 20b)",
+    "name_line": "2281",
     "shortname_line": "2281",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27210,7 +24871,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02670",
-    "name_line": "2282 (ex 20c)",
+    "name_line": "2282",
     "shortname_line": "2282",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27218,11 +24879,11 @@ export function idfMobiliteLineRef() {
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
     "colourweb_hexa": "6e491e",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02671",
-    "name_line": "2283 (ex 20d)",
+    "name_line": "2283",
     "shortname_line": "2283",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27234,7 +24895,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02672",
-    "name_line": "2284 (ex20e)",
+    "name_line": "2284",
     "shortname_line": "2284",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27246,7 +24907,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02673",
-    "name_line": "2254 (ex 37b)",
+    "name_line": "2254",
     "shortname_line": "2254",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27261,7 +24922,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soir Parc Haut Val d'Oise",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
@@ -27273,7 +24934,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Persan-Beaumont",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Keolis Nord Val d’Oise",
     "networkname": "Haut Val d'Oise",
@@ -27282,14 +24943,14 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02676",
-    "name_line": "SC45",
-    "shortname_line": "SC45",
+    "name_line": "4C",
+    "shortname_line": "4C",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
-    "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": null,
-    "colourweb_hexa": "aaaaaa",
+    "operatorname": "Transdev Marne-et-Ourcq",
+    "networkname": "Meaux et Ourcq",
+    "colourweb_hexa": "bc85bb",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -27330,98 +24991,98 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02680",
-    "name_line": "SC46",
-    "shortname_line": "SC46",
+    "name_line": "23S",
+    "shortname_line": "23S",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
-    "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": null,
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "operatorname": "Transdev Marne-et-Ourcq",
+    "networkname": "Meaux et Ourcq",
+    "colourweb_hexa": "177fc2",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02681",
-    "name_line": "SC47",
-    "shortname_line": "SC47",
+    "name_line": "3752",
+    "shortname_line": "3752",
     "transportmode": "bus",
-    "transportsubmode": null,
+    "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": null,
-    "colourweb_hexa": "aaaaaa",
+    "operatorname": "Transdev Senart",
+    "networkname": "Sénart",
+    "colourweb_hexa": "ffbe00",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02682",
-    "name_line": "SC48",
-    "shortname_line": "SC48",
+    "name_line": "4584",
+    "shortname_line": "4584",
     "transportmode": "bus",
-    "transportsubmode": null,
+    "transportsubmode": "localBus",
     "type": null,
-    "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": null,
-    "colourweb_hexa": "aaaaaa",
+    "operatorname": "Transdev Cœur Essonne",
+    "networkname": "Cœur d’Essonne",
+    "colourweb_hexa": "ff82b4",
     "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02683",
-    "name_line": "SC49",
-    "shortname_line": "SC49",
+    "name_line": "60",
+    "shortname_line": "60",
     "transportmode": "bus",
     "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": null,
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "type": "SEASONAL_LINE_TYPE",
+    "operatorname": "Keolis Argenteuil Boucles de Seine",
+    "networkname": "Argenteuil - Boucles de Seine",
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02684",
-    "name_line": "SC53",
-    "shortname_line": "SC53",
+    "name_line": "61",
+    "shortname_line": "61",
     "transportmode": "bus",
     "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": null,
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "type": "SEASONAL_LINE_TYPE",
+    "operatorname": "Keolis Argenteuil Boucles de Seine",
+    "networkname": "Argenteuil - Boucles de Seine",
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02685",
-    "name_line": "SC50",
-    "shortname_line": "SC50",
+    "name_line": "62",
+    "shortname_line": "62",
     "transportmode": "bus",
     "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": null,
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "type": "SEASONAL_LINE_TYPE",
+    "operatorname": "Keolis Argenteuil Boucles de Seine",
+    "networkname": "Argenteuil - Boucles de Seine",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02686",
-    "name_line": "SC51",
-    "shortname_line": "SC51",
+    "name_line": "63",
+    "shortname_line": "63",
     "transportmode": "bus",
     "transportsubmode": null,
-    "type": null,
-    "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": null,
-    "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "type": "SEASONAL_LINE_TYPE",
+    "operatorname": "Keolis Argenteuil Boucles de Seine",
+    "networkname": "Argenteuil - Boucles de Seine",
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02687",
-    "name_line": "SC52",
-    "shortname_line": "SC52",
+    "name_line": "3417",
+    "shortname_line": "3417",
     "transportmode": "bus",
     "transportsubmode": null,
     "type": null,
-    "operatorname": "Keolis Nord Val d’Oise",
-    "networkname": null,
-    "colourweb_hexa": "aaaaaa",
+    "operatorname": "Transdev Pays de Fontainebleau",
+    "networkname": "Fontainebleau - Moret",
+    "colourweb_hexa": "ffbe50",
     "textcolourweb_hexa": "000000"
   },
   {
@@ -27429,7 +25090,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Lagny - Thorigny",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
@@ -27441,7 +25102,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Bussy-st-Georges",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
@@ -27453,7 +25114,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Val d'Europe",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
@@ -27465,7 +25126,7 @@ export function idfMobiliteLineRef() {
     "name_line": "Soirée Chessy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "localBus",
+    "transportsubmode": "demandAndResponseBus",
     "type": null,
     "operatorname": "Transdev Marne-la-Vallée",
     "networkname": "Marne-la-Vallée",
@@ -27474,7 +25135,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02692",
-    "name_line": "2150 (ex 712A)",
+    "name_line": "2150",
     "shortname_line": "2150",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27486,7 +25147,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02693",
-    "name_line": "2151 (ex 712B)",
+    "name_line": "2151",
     "shortname_line": "2151",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27498,7 +25159,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02694",
-    "name_line": "2152 (ex 712C)",
+    "name_line": "2152",
     "shortname_line": "2152",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27510,7 +25171,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02695",
-    "name_line": "2153 (ex 712D)",
+    "name_line": "2153",
     "shortname_line": "2153",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27522,7 +25183,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02696",
-    "name_line": "2154 (ex 712E)",
+    "name_line": "2154",
     "shortname_line": "2154",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27534,7 +25195,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02697",
-    "name_line": "2155 (ex 713A)",
+    "name_line": "2155",
     "shortname_line": "2155",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27546,7 +25207,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02698",
-    "name_line": "2156 (ex 713B)",
+    "name_line": "2156",
     "shortname_line": "2156",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27558,7 +25219,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02699",
-    "name_line": "2158 (ex 714A)",
+    "name_line": "2158",
     "shortname_line": "2158",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27570,7 +25231,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02700",
-    "name_line": "2159 (ex 714B)",
+    "name_line": "2159",
     "shortname_line": "2159",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27582,7 +25243,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02701",
-    "name_line": "2160 (ex 714C)",
+    "name_line": "2160",
     "shortname_line": "2160",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27594,7 +25255,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02702",
-    "name_line": "2161 (ex 715A)",
+    "name_line": "2161",
     "shortname_line": "2161",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27606,7 +25267,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02703",
-    "name_line": "2162 (ex 715B)",
+    "name_line": "2162",
     "shortname_line": "2162",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27618,7 +25279,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02704",
-    "name_line": "2164 (ex 719A-B)",
+    "name_line": "2164",
     "shortname_line": "2164",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27629,8 +25290,20 @@ export function idfMobiliteLineRef() {
     "textcolourweb_hexa": "000000"
   },
   {
+    "id_line": "C02705",
+    "name_line": "1257",
+    "shortname_line": "1257",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Francilité Seine et Oise",
+    "networkname": "Cergy-Pontoise Confluence",
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
+  },
+  {
     "id_line": "C02706",
-    "name_line": "2165 (ex 719C)",
+    "name_line": "2165",
     "shortname_line": "2165",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27642,7 +25315,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02707",
-    "name_line": "2166 (ex 719D)",
+    "name_line": "2166",
     "shortname_line": "2166",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27654,7 +25327,7 @@ export function idfMobiliteLineRef() {
   },
   {
     "id_line": "C02708",
-    "name_line": "2157 (ex 713C)",
+    "name_line": "2157",
     "shortname_line": "2157",
     "transportmode": "bus",
     "transportsubmode": null,
@@ -27663,6 +25336,887 @@ export function idfMobiliteLineRef() {
     "networkname": "Roissy Est",
     "colourweb_hexa": "008c5a",
     "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02709",
+    "name_line": "N148",
+    "shortname_line": "N148",
+    "transportmode": "bus",
+    "transportsubmode": "nightBus",
+    "type": null,
+    "operatorname": "Francilité Val Parisis",
+    "networkname": "Val Parisis",
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02711",
+    "name_line": "V",
+    "shortname_line": "V",
+    "transportmode": "rail",
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "operatorname": "SNCF",
+    "networkname": "Transilien",
+    "colourweb_hexa": "9f9825",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "2f6517d91c45d6e415c7e624abaa8cc2",
+      "filename": "20240515T131540Z-9b2bc4b9-ad57-4e18-90ce-05c4919ce783.png"
+    },
+    "icon": "V.svg"
+  },
+  {
+    "id_line": "C02712",
+    "name_line": "V",
+    "shortname_line": "V",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "operatorname": "SNCF",
+    "networkname": "Transilien",
+    "colourweb_hexa": "9f9825",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "909691f67899fd430d871de1cee9af05",
+      "filename": "20240515T132005Z-7b75830f-ebf1-46cd-86db-5f65a6c4803b.png"
+    }
+  },
+  {
+    "id_line": "C02713",
+    "name_line": "245",
+    "shortname_line": "245",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "RATP",
+    "networkname": null,
+    "colourweb_hexa": "b6134c",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02714",
+    "name_line": "202",
+    "shortname_line": "202",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "RATP",
+    "networkname": null,
+    "colourweb_hexa": "65318f",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02715",
+    "name_line": "77",
+    "shortname_line": "77",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "RD Mantois",
+    "networkname": "Mantois",
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02716",
+    "name_line": "7825",
+    "shortname_line": "7825",
+    "transportmode": "bus",
+    "transportsubmode": "expressBus",
+    "type": null,
+    "operatorname": "RD Mantois",
+    "networkname": "Mantois",
+    "colourweb_hexa": "8ad3de",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02720",
+    "name_line": "3447",
+    "shortname_line": "3447",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Pays de Fontainebleau",
+    "networkname": "Fontainebleau - Moret",
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02721",
+    "name_line": "3418",
+    "shortname_line": "3418",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Pays de Fontainebleau",
+    "networkname": "Fontainebleau - Moret",
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02723",
+    "name_line": "A04 Paris La Villette",
+    "shortname_line": "A04 VIL",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Aéroport Paris-Beauvais / SAGEB",
+    "networkname": "Aérobus",
+    "colourweb_hexa": "003da5",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02724",
+    "name_line": "4242",
+    "shortname_line": "4242",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "TISSE",
+    "networkname": "Evry Centre Essonne",
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "a92fc5dd14cfaad691ddd640e789822e",
+      "filename": "20241223T080051Z-46cbd537-328b-49bd-92e1-de756f76555c.png"
+    }
+  },
+  {
+    "id_line": "C02725",
+    "name_line": "9112",
+    "shortname_line": "9112",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "TISSE",
+    "networkname": "Evry Centre Essonne",
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "233bf503fe689c1741cf709f92bc603f",
+      "filename": "20241226T073108Z-1e83d2bc-2edf-40f8-aa00-fdd9450fcd3c.png"
+    }
+  },
+  {
+    "id_line": "C02726",
+    "name_line": "3771",
+    "shortname_line": "3771",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Transdev Senart",
+    "networkname": "Sénart",
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02727",
+    "name_line": "3777",
+    "shortname_line": "3777",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Transdev Senart",
+    "networkname": "Sénart",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02728",
+    "name_line": "3772",
+    "shortname_line": "3772",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Transdev Senart",
+    "networkname": "Sénart",
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02730",
+    "name_line": "26",
+    "shortname_line": "26",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Keolis Argenteuil Boucles de Seine",
+    "networkname": "Argenteuil - Boucles de Seine",
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "0f08eaace650452e049385e500128108",
+      "filename": "20241209T152925Z-d9f8b6ff-c366-4af0-ad05-a07354182957.jpg"
+    }
+  },
+  {
+    "id_line": "C02731",
+    "name_line": "25",
+    "shortname_line": "25",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Keolis Argenteuil Boucles de Seine",
+    "networkname": "Argenteuil - Boucles de Seine",
+    "colourweb_hexa": "ffce00",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "3ae5a5d024fda8de37f1e7b9f7614b98",
+      "filename": "20241209T152832Z-e98b1da5-b677-4931-b6d8-41d02373f043.jpg"
+    }
+  },
+  {
+    "id_line": "C02734",
+    "name_line": "4136",
+    "shortname_line": "4136",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": "Val d'Yerres Val de Seine",
+    "colourweb_hexa": "2180fa",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "16b717228867e08643a4e4382f656152",
+      "filename": "20250225T192033Z-7b4c2010-0640-4917-8b22-bef7f490b3d6.png"
+    }
+  },
+  {
+    "id_line": "C02735",
+    "name_line": "TàD Poincy - Meaux",
+    "shortname_line": "TàD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Marne-et-Ourcq",
+    "networkname": "Meaux et Ourcq",
+    "colourweb_hexa": "ffbe50",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02736",
+    "name_line": "4215",
+    "shortname_line": "4215",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "TISSE",
+    "networkname": "Evry Centre Essonne",
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "8eb6a0dc77eb59e011b8c0d467d652e5",
+      "filename": "20250103T084633Z-8f9f1575-c8a1-4acd-8fc9-551c08001db3.png"
+    }
+  },
+  {
+    "id_line": "C02737",
+    "name_line": "4270",
+    "shortname_line": "4270",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "TISSE",
+    "networkname": "Evry Centre Essonne",
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "39e8cd6f9c5cd8c57675c6d88cab2f0b",
+      "filename": "20250103T083119Z-8545a3c4-e5d4-4d33-afef-f8362837653c.png"
+    }
+  },
+  {
+    "id_line": "C02738",
+    "name_line": "4278",
+    "shortname_line": "4278",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "TISSE",
+    "networkname": "Evry Centre Essonne",
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "5155d01810d9d93e5092954d5eaf4f35",
+      "filename": "20250103T083756Z-c24bf2f3-ddc1-4407-9328-bb9b21fff6ff.png"
+    }
+  },
+  {
+    "id_line": "C02739",
+    "name_line": "4279",
+    "shortname_line": "4279",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "TISSE",
+    "networkname": "Evry Centre Essonne",
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "82a366f82fb60e774b408a24491a1f56",
+      "filename": "20250103T083511Z-6dcbd064-a264-4e56-8ce9-58bd77481884.png"
+    }
+  },
+  {
+    "id_line": "C02740",
+    "name_line": "4222",
+    "shortname_line": "4222",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "TISSE",
+    "networkname": "Evry Centre Essonne",
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "a7418b65beeab2ba283cff892c76c6cf",
+      "filename": "20250103T082335Z-55874daf-9faa-446e-bb9a-a91b65ac8abf.png"
+    }
+  },
+  {
+    "id_line": "C02741",
+    "name_line": "5297 (ex 27)",
+    "shortname_line": "5297",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Transdev Sud Yvelines",
+    "networkname": "Centre et Sud Yvelines",
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02742",
+    "name_line": "5296 (ex 27)",
+    "shortname_line": "5296",
+    "transportmode": "bus",
+    "transportsubmode": "localBus",
+    "type": null,
+    "operatorname": "Transdev Sud Yvelines",
+    "networkname": "Centre et Sud Yvelines",
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02743",
+    "name_line": "TàD 3149",
+    "shortname_line": "TàD 3149",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Keolis Portes et Val de Brie",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000",
+    "picto": {
+      "id": "5c4841d704b167393a518c2c55bee049",
+      "filename": "20250210T134148Z-3754dc1d-dc54-4ffa-ad98-fbf3cb28a90c.png"
+    }
+  },
+  {
+    "id_line": "C02744",
+    "name_line": "277",
+    "shortname_line": "277",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "RATP",
+    "networkname": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02745",
+    "name_line": "363",
+    "shortname_line": "363",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "RATP",
+    "networkname": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02746",
+    "name_line": "TAD FLEXIGO VEXIN CENTRE",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Vexin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02747",
+    "name_line": "Vallée du Loing - Nemours",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Vallée du Loing",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02748",
+    "name_line": "TAD VEXIN OUEST",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Vexin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02749",
+    "name_line": "TAD FLEXIGO 31 et 35",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Vexin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02750",
+    "name_line": "Bus de Soirée Nemours",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Vallée du Loing",
+    "networkname": "Vallée du Loing - Nemours",
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
+  },
+  {
+    "id_line": "C02751",
+    "name_line": "TAD OURCQ OUEST",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Marne-et-Ourcq",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02752",
+    "name_line": "BRETIGNY-SUR-ORGE (Breche aux loups) - BRETIGNY-SUR-ORGE (Bois de Vetille)",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Cœur Essonne",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02753",
+    "name_line": "TAD Poincy - Meaux Av de la Victoire",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Marne-et-Ourcq",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02754",
+    "name_line": "TAD PAYS DE LIMOURS HEURES CREUSES",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Sud Yvelines",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02755",
+    "name_line": "TAD MEAUX ZONE SUD OUEST",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Marne-et-Ourcq",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02756",
+    "name_line": "TAD Ville de Coulommiers",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Brie et 2 Morin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02757",
+    "name_line": "TAD MEAUX ZONE SUD-EST",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Marne-et-Ourcq",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02758",
+    "name_line": "TAD Crécy la Chapelle sud (soir)",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Brie et 2 Morin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02759",
+    "name_line": "TAD Ville de Coulommiers",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Brie et 2 Morin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02760",
+    "name_line": "TAD Amillis - Coulommiers",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Brie et 2 Morin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02761",
+    "name_line": "TAD zonal Crécy la Chapelle (matin)",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Brie et 2 Morin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02762",
+    "name_line": "TAD Crécy la Chapelle Sud (matin)",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Brie et 2 Morin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02763",
+    "name_line": "TAD Zonal Crécy la Chapelle (soir)",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Brie et 2 Morin",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02764",
+    "name_line": "TAD BREUILLET - ARPAJON",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Cœur Essonne",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02765",
+    "name_line": "MAUCHAMPS (EGLISE) - ST-CHERON (COLLEGE DU PONT DE BOIS)",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Cœur Essonne",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02766",
+    "name_line": "BRETIGNY-SUR-ORGE (RER) - BONDOUFLE (GARE)",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Cœur Essonne",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02767",
+    "name_line": "Bus Soirée",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Transdev Marne-la-Vallée",
+    "networkname": "Marne-la-Vallée",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02768",
+    "name_line": "Soirée Montgeron",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "4562786ca5f45bd018bbf4c3ab28da6d",
+      "filename": "20250226T102044Z-610209e0-3995-40c2-923a-79bb4959e7a6.png"
+    }
+  },
+  {
+    "id_line": "C02769",
+    "name_line": "Soirée Vigneux-sur-Seine",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "9304ad39f92ee15d17eec1b13ebced22",
+      "filename": "20250226T102702Z-ccd8b151-6375-4f55-947d-7669e43f3f3e.png"
+    }
+  },
+  {
+    "id_line": "C02770",
+    "name_line": "Soirée Brunoy Sud",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "f2416da452257ecdb2a4888c749ef22a",
+      "filename": "20250226T093533Z-d2712338-4035-459c-bc9a-2dd32d006e11.png"
+    }
+  },
+  {
+    "id_line": "C02771",
+    "name_line": "Soirée Crosne",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "9be361f94a6fc68ba09626200e4f23b7",
+      "filename": "20250226T093823Z-ab1642f1-75f9-4939-9c7a-114824ffa85b.png"
+    }
+  },
+  {
+    "id_line": "C02772",
+    "name_line": "Soirée Quincy-sous-Sénart",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "0f2dccb64387dc5c67e3954753ddbe74",
+      "filename": "20250226T102457Z-df81b485-6eea-4b18-9492-c48260926d0e.png"
+    }
+  },
+  {
+    "id_line": "C02773",
+    "name_line": "Soirée Yerres Nord",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "5427871b3b7c36d912856012b6d1c8dd",
+      "filename": "20250226T102843Z-38d800a7-6d88-4cbc-9609-518538ec851a.png"
+    }
+  },
+  {
+    "id_line": "C02774",
+    "name_line": "Soirée Yerres Sud",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "7b3bf7a0a9efa2e307da1a62c35c1822",
+      "filename": "20250226T102913Z-fe237f80-3cc3-4ac6-9a11-57cbc906af58.png"
+    }
+  },
+  {
+    "id_line": "C02775",
+    "name_line": "Soirée Villecresnes",
+    "shortname_line": "Soir",
+    "transportmode": "bus",
+    "transportsubmode": null,
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "5c2d52c232693f23700c76f4433ba9fe",
+      "filename": "20250225T135516Z-22096b59-42f8-4a23-8cc9-71dd0fb92cde.png"
+    }
+  },
+  {
+    "id_line": "C02776",
+    "name_line": "TAD CHARTRETTES - BOIS LE ROI",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Pays de Fontainebleau",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02777",
+    "name_line": "TAD MORET-SUR-LOING",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Pays de Fontainebleau",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02778",
+    "name_line": "TAD PERTHES (Bière)",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Pays de Fontainebleau",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02779",
+    "name_line": "TAD Melun Nord",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Melun",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02780",
+    "name_line": "TAD SAINTE ASSISE",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Melun",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02781",
+    "name_line": "TAD Boissise le Roi - Pringy",
+    "shortname_line": "TAD",
+    "transportmode": "bus",
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "operatorname": "Transdev Melun",
+    "networkname": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
+  },
+  {
+    "id_line": "C02782",
+    "name_line": "4157 (ex 17S)",
+    "shortname_line": "4157",
+    "transportmode": "bus",
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "operatorname": "Keolis Val d'Yerres Val de Seine",
+    "networkname": "Val d'Yerres Val de Seine",
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff",
+    "picto": {
+      "id": "cd3433fd1a7af6ea7998848d4c811b38",
+      "filename": "20250227T170323Z-72fc3fce-2994-4fd9-94c7-a58dddbcbdd4.png"
+    }
   }
 ]
 }
