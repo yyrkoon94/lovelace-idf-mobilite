@@ -2,6 +2,7 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![release][release-badge]][release-url]
+![downloads][downloads-badge]
 
 <a href="https://www.buymeacoffee.com/yyrkoon94" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
@@ -164,6 +165,7 @@ The card is inspired by [Lesensei’s work][lesensei] on [idfm-card][idfm-card].
 <!-- Badges -->
 [release-badge]: https://img.shields.io/github/v/release/yyrkoon94/lovelace-idf-mobilite?style=flat-square
 [downloads-badge]: https://img.shields.io/github/downloads/yyrkoon94/lovelace-idf-mobilite/total?style=flat-square
+[build-badge]: https://img.shields.io/github/actions/workflow/status/yyrkoon94/lovelace-idf-mobilite/build.yml?branch=main&style=flat-square
 
 <!-- References -->
 [home-assistant]: https://www.home-assistant.io/
