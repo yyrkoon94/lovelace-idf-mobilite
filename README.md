@@ -99,12 +99,8 @@ Now you can create as many sensors as you want to monitor StopArea, StopPoint or
 
 ### The Lovelace Card
 
-The Lovelace Card come with a custom Card Editor to configure the card. For now, you must create first a custom card to have the editor in the **Add Card** list (don't know why !). So just create a **Custom Card** and add the folowing code :
-```
-type: custom:idf-mobilite-card
-```
+The Lovelace Card come with a custom Card Editor to configure the card :
 
-Then clic on the code editor, you will see this page :
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/cardeditor.png)
 
 In the "Ligne" box, choose a PRIM sensor that you have created and ***that's all*** !
