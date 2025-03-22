@@ -2,8 +2,11 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![release][release-badge]][release-url]
+![downloads][downloads-badge]
 
-** **IMPORTANT INFORMATION** : PRIM has changed its quota policy for accounts created since March 2024 with only 1000 calls per day by default (which is not enough if you refresh the REST sensor every 60 seconds and more over if you have several sensors). The easiest solution is probably to refresh more than every 60 seconds, but you can also request additional quota when your quota is exceeded on the PRIM website ** 
+<a href="https://www.buymeacoffee.com/yyrkoon94" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+** **IMPORTANT INFORMATION** : PRIM has changed its quota policy for accounts created since March 2024 with only 1000 calls per day by default (which is not enough if you refresh the REST sensor every 60 seconds and more over if you have several sensors). The easiest solution is probably to refresh less than every 60 seconds, but you can also request additional quota when your quota is exceeded on the PRIM website ** 
 
 A new [Home Assistant][home-assistant] Lovelace Card to show all types of upcoming vehicles on the Ile de France Mobilite network.
 
@@ -162,6 +165,7 @@ The card is inspired by [Lesensei’s work][lesensei] on [idfm-card][idfm-card].
 <!-- Badges -->
 [release-badge]: https://img.shields.io/github/v/release/yyrkoon94/lovelace-idf-mobilite?style=flat-square
 [downloads-badge]: https://img.shields.io/github/downloads/yyrkoon94/lovelace-idf-mobilite/total?style=flat-square
+[build-badge]: https://img.shields.io/github/actions/workflow/status/yyrkoon94/lovelace-idf-mobilite/build.yml?branch=main&style=flat-square
 
 <!-- References -->
 [home-assistant]: https://www.home-assistant.io/
