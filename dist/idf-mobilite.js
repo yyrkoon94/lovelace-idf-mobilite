@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.3.2", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.3.1", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -284,22 +284,19 @@ class IDFMobiliteCard extends LitElement {
                     if (!destinationRefLineStop[directionRef] && lineStop != "BusEstimeDans")
                         destinationRefLineStop[directionRef] = lineStop
                     if ((!exclude_lines || !exclude_lines.includes(lineRef)) && (!exclude_lines_ref || !exclude_lines_ref.includes(lineStop)) && (!exclude_lines_ref || !exclude_lines_ref.includes(destinationRefLineStop[directionRef]))) {
-                        const nextDepartureTime = Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
-                       // if (nextDepartureTime > -1 || (stop.MonitoredVehicleJourney.MonitoredCall.CallNote && stop.MonitoredVehicleJourney.MonitoredCall.CallNote[0].value)) {
-                            if (!destinationMap[directionRef] && destinationName != "Bus Estime Dans")
-                                destinationMap[directionRef] = destinationName
+                        if (!destinationMap[directionRef] && destinationName != "Bus Estime Dans")
+                            destinationMap[directionRef] = destinationName
 
-                            if (!buses[lineRef])
-                                buses[lineRef] = {}
-                            if (!buses[lineRef][directionRef])
-                                buses[lineRef][directionRef] = []
-                            buses[lineRef][directionRef].push({
-                                destinationRef: lineStop,
-                                nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
-                            })
-                            if (!busData[lineRef])
-                                busData[lineRef] = line;
-                       // }
+                        if (!buses[lineRef])
+                            buses[lineRef] = {}
+                        if (!buses[lineRef][directionRef])
+                            buses[lineRef][directionRef] = []
+                        buses[lineRef][directionRef].push({
+                            destinationRef: lineStop,
+                            nextDeparture: Math.floor((new Date(Date.parse(stop.MonitoredVehicleJourney.MonitoredCall.ExpectedDepartureTime)) - Date.now()) / 1000 / 60)
+                        })
+                        if (!busData[lineRef])
+                            busData[lineRef] = line;
                     }
                     return false
                 }
@@ -350,7 +347,7 @@ class IDFMobiliteCard extends LitElement {
                         return html`
                             <div class="bus-line${this.config.wall_panel === true ? "-nobg" : ""}">
                                 ${Object.keys(buses[bus]).map((destination, index) => {
-                                    return html`${destinationMap[destination] && (buses[bus][destination].length > 1 || (buses[bus][destination][0].destinationRef != "BusEstimeDans" || (!exclude_lines_ref || (destinationRefLineStop[destination] && !exclude_lines_ref.includes(destinationRefLineStop[destination]))))) ? html`
+                                    return html`${destinationMap[destination] && (buses[bus][destination][0].destinationRef != "BusEstimeDans" || (!exclude_lines_ref || (destinationRefLineStop[destination] && !exclude_lines_ref.includes(destinationRefLineStop[destination])))) ? html`
                                         <div class="bus-line-detail">
                                             <div class="bus-img">
                                                 ${index === 0 ?
@@ -365,7 +362,7 @@ class IDFMobiliteCard extends LitElement {
                                                         </div>` : ""}
                                             </div>
                                             <div class="bus-destination">
-                                                ${this.config.show_train_ref ?html`${buses[bus][destination][0].destinationRef}&nbsp;-&nbsp;`:""}
+                                                ${this.config.show_train_ref ?html`${buses[bus][destination][0].destinationRef!="BusEstimeDans" || !buses[bus][destination][1] ? buses[bus][destination][0].destinationRef: buses[bus][destination][1].destinationRef}&nbsp;-&nbsp;`:""}
 
                                                         ${destinationMap[destination].indexOf("<RER>") > 0 ?
                                                             html`<div class="bus-destination-name">${destinationMap[destination].substring(0, destinationMap[destination].indexOf("<RER>")).endsWith("-") ? destinationMap[destination].substring(0, destinationMap[destination].indexOf("-<RER>")) : destinationMap[destination].substring(0, destinationMap[destination].indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}general/rer${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
