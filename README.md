@@ -1,4 +1,4 @@
-** **ISSUE WITH HACS** : I don't know why but HACS only download the js file instead of all the project since I made a mistake in the package creation (for v0.3.0). To fix the problem, remove the ad-on, **REMOVE** the custom repository, add again the custom repository, then download the add-on (must be v0.3.1). This fix the issue with HACS
+** **ISSUE WITH HACS** : I don't know why but HACS only download the js file instead of all the project since I made a mistake in the package creation (for v0.3.0). To fix the problem, remove the add-on, **REMOVE** the custom repository, add again the custom repository, then download the add-on (must be v0.3.1). This fix the issue with HACS
 
 
 # Lovelace Card : Ile de France Mobilité [@yyrkoon94](https://www.github.com/yyrkoon94)
