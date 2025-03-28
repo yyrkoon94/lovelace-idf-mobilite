@@ -1,8 +1,7 @@
 # Lovelace Card : Ile de France Mobilité [@yyrkoon94](https://www.github.com/yyrkoon94)
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?logo=HomeAssistantCommunityStore&logoColor=white)](https://github.com/hacs/integration)
 [![release][release-badge]][release-url]
-![downloads][downloads-badge]
 
 <a href="https://www.buymeacoffee.com/yyrkoon94" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
@@ -18,8 +17,11 @@ This Card consume the [PRIM][prim-url] (**P**lateforme **R**égionale d'**I**nfo
 
 ## Installation
 
-The simplest way to install this card is to add this repository to HACS. If you wish to install it manually, you may follow the instructions below.
+The simplest way to install this card is to add this repository to HACS.
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Yyrkoon94&repository=lovelace-idf-mobilite)
+
+If you wish to install it manually, you may follow the instructions below.
 ### Upload to HA
 
 Download source code zip file file from the [latest-release][release-url].
@@ -98,12 +100,8 @@ Now you can create as many sensors as you want to monitor StopArea, StopPoint or
 
 ### The Lovelace Card
 
-The Lovelace Card come with a custom Card Editor to configure the card. For now, you must create first a custom card to have the editor in the **Add Card** list (don't know why !). So just create a **Custom Card** and add the folowing code :
-```
-type: custom:idf-mobilite-card
-```
+The Lovelace Card come with a custom Card Editor to configure the card :
 
-Then clic on the code editor, you will see this page :
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/cardeditor.png)
 
 In the "Ligne" box, choose a PRIM sensor that you have created and ***that's all*** !
@@ -165,6 +163,7 @@ The card is inspired by [Lesensei’s work][lesensei] on [idfm-card][idfm-card].
 <!-- Badges -->
 [release-badge]: https://img.shields.io/github/v/release/yyrkoon94/lovelace-idf-mobilite?style=flat-square
 [downloads-badge]: https://img.shields.io/github/downloads/yyrkoon94/lovelace-idf-mobilite/total?style=flat-square
+[downloads-latest-badge]: https://img.shields.io/github/downloads/yyrkoon94/lovelace-idf-mobilite/latest/total?style=flat-square
 [build-badge]: https://img.shields.io/github/actions/workflow/status/yyrkoon94/lovelace-idf-mobilite/build.yml?branch=main&style=flat-square
 
 <!-- References -->
