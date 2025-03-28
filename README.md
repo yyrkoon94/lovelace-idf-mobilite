@@ -17,8 +17,11 @@ This Card consume the [PRIM][prim-url] (**P**lateforme **R**égionale d'**I**nfo
 
 ## Installation
 
-The simplest way to install this card is to add this repository to HACS. If you wish to install it manually, you may follow the instructions below.
+The simplest way to install this card is to add this repository to HACS.
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Yyrkoon94&repository=lovelace-idf-mobilite)
+
+If you wish to install it manually, you may follow the instructions below.
 ### Upload to HA
 
 Download source code zip file file from the [latest-release][release-url].
