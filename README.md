@@ -1,3 +1,6 @@
+** **ISSUE WITH HACS** : I don't know why but HACS only donwload the js file instead of all the project since I made a mistake in the package cretaion (for v0.3.0). To fix the problem, remove the ad-on, REMOVE the custom repository, add again the custom repository, then download the add-on (must be v0.3.1). This fix the issue with HACS
+
+
 # Lovelace Card : Ile de France Mobilité [@yyrkoon94](https://www.github.com/yyrkoon94)
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?logo=HomeAssistantCommunityStore&logoColor=white)](https://github.com/hacs/integration)
