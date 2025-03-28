@@ -22,6 +22,7 @@ const entitiesCard = await cardHelpers.createCardElement({ type: "entities", ent
 // Then we make it load its editor through the static getConfigElement method
 entitiesCard.constructor.getConfigElement();
 
+// v0.3.1
 class IDFMobiliteCardEditor extends LitElement {
 
     constructor() {
