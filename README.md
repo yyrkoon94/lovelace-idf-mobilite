@@ -1,4 +1,4 @@
-** **ISSUE WITH HACS** : I don't know why but HACS only download the js file instead of all the project since I made a mistake in the package creation (for v0.3.0). To fix the problem, remove the add-on, **REMOVE** the custom repository, add again the custom repository, then download the add-on (must be v0.3.1). This fix the issue with HACS
+** **ISSUE WITH HACS** : I don't know why but HACS only download the js file instead of all the project since I made a mistake in the package creation (for v0.3.0). To fix the problem if you have an update issue, remove the add-on, **REMOVE** the custom repository, add again the custom repository, then download the add-on (must be > v0.3.0). This fix the issue with HACS
 
 
 # Lovelace Card : Ile de France Mobilité [@yyrkoon94](https://www.github.com/yyrkoon94)
@@ -8,7 +8,7 @@
 
 <a href="https://www.buymeacoffee.com/yyrkoon94" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/white_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
-** **IMPORTANT INFORMATION** : PRIM has changed its quota policy for accounts created since March 2024 with only 1000 calls per day by default (which is not enough if you refresh the REST sensor every 60 seconds and more over if you have several sensors). The easiest solution is probably to refresh less than every 60 seconds, but you can also request additional quota when your quota is exceeded on the PRIM website ** 
+** **IMPORTANT INFORMATION** : PRIM has changed its quota policy for accounts created since March 2024 with only 1000 calls per day by default (which is not enough if you refresh the REST sensor every 60 seconds and more over if you have several sensors). The easiest solution is probably to refresh less than every 60 seconds, but you can also request additional quota when your quota is exceeded on the PRIM website **
 
 A new [Home Assistant][home-assistant] Lovelace Card to show all types of upcoming vehicles on the Ile de France Mobilite network.
 
@@ -107,20 +107,30 @@ The Lovelace Card come with a custom Card Editor to configure the card :
 
 ![Screenshot](https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/cardeditor.png)
 
-In the "Ligne" box, choose a PRIM sensor that you have created and ***that's all*** !
+First of all, choose the Line Type to display Bus/Tram/Métro or RER/SNCF lines
 
-You can see *more options* :
-- Messages : another sensor to display Information message at the StopArea (line problems, ...)
-- Line Type : to display Bus/Tram/Métro or RER/SNCF lines
-- Screen Mode : To display the Card like a RATP TV :)
-- Display infomation messages : used for messages to display also Infomation message (and not only perturbations)
+### Line sensor
+Then you can choose your first line by selecting the REST sensor you want to display.
 
 #### Filtering Options
-There are two kinds of filtering :
+There are three kinds of filtering :
 - Exclude Lines : a list of line to exclude to the display (for exemple, to exclude the bus 207, just type bus-207;)
-- Exclude Destinations : this one is used for filtering specific destinations. For exemple if you want to display RER A but only on one way or only a specific destination, you can hide other lines. To know the line number to hide, just check the switch "Afficher les références des destinations" and you will see the destination number instead of train name. Just use these number for filtering.
+- Exclude Lines References : this one is used for filtering specific lines. For exemple if you want to display RER A but only on one way or only a specific line, you can hide other lines. To know the line number to hide, just check the switch "Afficher les références des destinations" and you will see the destination number instead of train name. Just use these number for filtering.
+**For Buses**
+- Include Destinations : only for buses; you can select the line to always display (even if there is only estmated times for these lines). For that, you have to select the "destination reference" of the line you want to keep always on.
+You can also choose to display only "Include destinations", in that case it's not necessary to fill the other filters, only destinations in the "Include Destinations" field will be displayed
+**For RER**
+- Number of departure to display : you can choose to limit the number of departure to display
+- Delay for departure : by default, only departure in the next 60 minutes are display, if you want more (or less) you can put another value
+- Display hour instead of delay : display the hour of departure instead of the delay
+- Number of line to keep with delay : if you choose to display the hour of departure instead of delay, you can choose to keep a number of departure with delay
+- Display departure platefrom : if available, the departure plateform will be displayed
+- Group destinations : group the destination of the same "line". The destination will be concatenated as the globl destination. With this option you have another field if you want to customized he global destination name
 
-### Messages sensor
+### Second line sensor (optional)
+You can add a second line in the same card to display two different lines. Each line has is own configuration
+
+### Messages sensor (optional)
 You can add a second sensor for your StopArea to monitor Information and Perturbation messages. For that simply add a sensor like this exemple :
 
 ```
@@ -131,8 +141,8 @@ sensor:
     resource: https://prim.iledefrance-mobilites.fr/marketplace/general-message
     method: GET
     params:
-      StopPointRef: "STIF:StopArea:SP:71517:"               <-- optional (ONLY ONE of these params) : the StopArea or StopPoint you want to follow 
-      LineRef: "STIF:Line::C01221:"                         <-- optional (ONLY ONE of these params) : the line if you want to follow only one line 
+      StopPointRef: "STIF:StopArea:SP:71517:"               <-- optional (ONLY ONE of these params) : the StopArea or StopPoint you want to follow
+      LineRef: "STIF:Line::C01221:"                         <-- optional (ONLY ONE of these params) : the line if you want to follow only one line
     headers:
       apiKey: "YourApiKey"                                  <-- the PRIM Api Key
     scan_interval: 60                                       <-- the time between update (in seconds)
@@ -143,21 +153,20 @@ sensor:
 ```
 
 And choose this new sensor for the "Messages" entity
+#### Message Options
+You can select the text to find in the message to filter only these messages. For exemple, if you want only messages for RER D, fill "RER D;" in this field
+By default, only perturbation messages are displayed, you can choose to add Information and Commercial messages.
+By default, the message scroll in the bottom of the card, you can choose a static message display.
 
-## Database update
-To update manually the database you need to have __Python3__ and install all __requirements__:
+### Global configuration
+You can choose different king of display for the card :
+- Screen Mode : To display the Card like a RATP TV :)
+- Station name : you can choose to hide the panel with the station name to display destinations
+- No border : this is a special display for wall panel (for now the background must be dark)
+- Display "à l'approche/à l'arrêt" instead of "0" : for buses only
 
-```bash
-python3 -m pip install -r scripts/requirements.txt
-```
-
-Then run the update script:
-
-```bash
-scripts/update_database.py -m dist/images -o dist/referentiel-des-lignes-filtered.js
-# or if you want to save the raw database json file from RATP
-# scripts/update_database.py -m dist/images -o dist/referentiel-des-lignes-filtered.js -r dist/referentiel-des-lignes.json
-```
+### Help for configuration
+You can use the two toggle button to display lines references and/or lines destinations to manage filters
 
 ## Credits
 

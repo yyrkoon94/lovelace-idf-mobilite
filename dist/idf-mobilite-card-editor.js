@@ -22,16 +22,22 @@ const entitiesCard = await cardHelpers.createCardElement({ type: "entities", ent
 // Then we make it load its editor through the static getConfigElement method
 entitiesCard.constructor.getConfigElement();
 
-// v0.3.1
+// v0.4.0
 class IDFMobiliteCardEditor extends LitElement {
 
     constructor() {
         super(...arguments);
-        this._configArray = [];
+      this._configArray = [];
+      this.currentPage = 'first';
     }
 
     setConfig(config) {
       this._config = { ...config };
+    }
+
+    showPage(pageName) {
+      this.currentPage = pageName;
+      this.requestUpdate();
     }
 
     static get properties() {
@@ -48,6 +54,10 @@ class IDFMobiliteCardEditor extends LitElement {
 
     get _messages() {
       return this._config.messages || "";
+    }
+
+    get _filter_messages() {
+      return this._config.filter_messages || "";
     }
 
     get _lineType() {
@@ -86,6 +96,14 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.exclude_lines_ref || "";
     }
 
+    get _included_destination() {
+      return this._config.included_destination || "";
+    }
+
+    get _show_only_included() {
+      return this._config.show_only_included || false;
+    }
+
     get _exclude_second_lines() {
       return this._config.exclude_second_lines || "";
     }
@@ -94,8 +112,20 @@ class IDFMobiliteCardEditor extends LitElement {
       return this._config.exclude_second_lines_ref || "";
     }
 
+    get _included_second_lines_destination() {
+      return this._config.included_second_lines_destination || "";
+    }
+
+    get _show_only_included_second_lines() {
+      return this._config.show_only_included_second_lines || false;
+    }
+
     get _show_train_ref() {
       return this._config.show_train_ref || false;
+    }
+
+    get _show_destination_ref() {
+      return this._config.show_destination_ref || false;
     }
 
     get _show_bus_stop_label() {
@@ -112,6 +142,14 @@ class IDFMobiliteCardEditor extends LitElement {
 
     get _nb_departure_second_line() {
       return this._config.nb_departure_second_line || "";
+    }
+
+    get _max_delay_first_line() {
+      return this._config.max_delay_first_line || "";
+    }
+
+    get _max_delay_second_line() {
+      return this._config.max_delay_second_line || "";
     }
 
     get _show_hour_departure_first_line() {
@@ -162,7 +200,7 @@ class IDFMobiliteCardEditor extends LitElement {
       return html`
             <div class="card-config">
                 <div class="side-by-side">
-                    <h2>Type d'Arrêt</h2>
+                    <h3>Type d'Arrêt</h3>
                     <ha-select
                         label="Type"
                         .hass="${this.hass}"
@@ -174,7 +212,7 @@ class IDFMobiliteCardEditor extends LitElement {
                         <ha-list-item value="RER">RER/SNCF</ha-list-item>
                         <ha-list-item value="BUS">Bus/Tram/Métro</ha-list-item>
                     </ha-select>
-                    ${this._config.lineType == 'RER' ?
+                     ${this._config.lineType == 'RER' ?
                       html`
                         <div>
                           <span>Afficher les bus de replacement</span>
@@ -184,179 +222,238 @@ class IDFMobiliteCardEditor extends LitElement {
                               @change="${this._valueChanged}"
                               ></ha-switch>
                         </div>` : ''}
-                    <h2>Premier Arrêt</h2>
-                    <ha-entity-picker
-                        label="Arrêt (RESTFul sensor)"
-                        .hass="${this.hass}"
-                        .value="${this._entity}"
-                        .configValue=${"entity"}
-                        @value-changed="${this._valueChanged}"
-                        ></ha-entity-picker>
-                    <h4>Filtrage des données :</h4>
-                    <ha-textfield
-                      label="Exclure les lignes (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
-                      .value="${this._exclude_lines}"
-                      .configValue=${"exclude_lines"}
-                      @input="${this._valueChanged}"
-                    ></ha-textfield>
-                    <ha-textfield
-                      label="Exclure les destinations (ex: 458755;5655442;)"
-                      .value="${this._exclude_lines_ref}"
-                      .configValue=${"exclude_lines_ref"}
-                      @input="${this._valueChanged}"
-                    ></ha-textfield>
-                    ${this._config.lineType == 'RER' ?
-                      html`
-                        <h4>Options d'affichage :</h4>
-                        <ha-textfield
-                            label="Nombre de départs à afficher (si vide = tous)"
-                            .value="${this._nb_departure_first_line}"
-                            .configValue=${"nb_departure_first_line"}
-                            @input="${this._valueChanged}"
-                          ></ha-textfield>
-                        <div>
-                          <span>Afficher l'heure de départ au lieu du delais</span>
-                            <ha-switch
-                                .checked=${this._show_hour_departure_first_line}
-                                .configValue="${"show_hour_departure_first_line"}"
-                                @change="${this._valueChanged}"
-                            ></ha -switch>
-                        </div>
-                        ${this._config.show_hour_departure_first_line ? html`
+                    <!-- Buttons to switch between pages -->
+                    <div class="buttons-container">
+                      <mwc-button @click="${() => this.showPage('first')}">Premier Arrêt</mwc-button>
+                      <mwc-button @click="${() => this.showPage('second')}">Second Arrêt (option)</mwc-button>
+                      <mwc-button @click="${() => this.showPage('message')}">Messages (option)</mwc-button>
+                    </div>
+                    <div class="page-container ${this.currentPage === 'first' ? 'active' : ''}">
+                      <ha-entity-picker
+                          label="Arrêt (RESTFul sensor)"
+                          .hass="${this.hass}"
+                          .value="${this._entity}"
+                          .configValue=${"entity"}
+                          @value-changed="${this._valueChanged}"
+                          ></ha-entity-picker>
+                      <h4>Filtrage des données :</h4>
+                      <ha-textfield
+                        label="Exclure les lignes (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
+                        .value="${this._exclude_lines}"
+                        .configValue=${"exclude_lines"}
+                        @input="${this._valueChanged}"
+                      ></ha-textfield>
+                      <ha-textfield
+                        label="Exclure les références de lignes (ex: 458755;5655442;)"
+                        .value="${this._exclude_lines_ref}"
+                        .configValue=${"exclude_lines_ref"}
+                        @input="${this._valueChanged}"
+                      ></ha-textfield>
+                      ${this._config.lineType == 'BUS' ?
+                        html`
                           <ha-textfield
-                            label="Nombre de lignes où conserver le delais (si vide = aucune)"
-                            .value="${this._show_hour_departure_index_first_line}"
-                            .configValue=${"show_hour_departure_index_first_line"}
+                            label="Inclure les destinations (ex: DIR:IDFM:C01221:R;DIR:IDFM:C01276:R;)"
+                            .value="${this._included_destination}"
+                            .configValue=${"included_destination"}
                             @input="${this._valueChanged}"
                           ></ha-textfield>
-                        <div>`: ``}
-                        <div>
-                          <span>Afficher le quai de départ</span>
-                          <ha-switch
-                              .checked=${this._show_departure_platform_first_line}
-                              .configValue="${"show_departure_platform_first_line"}"
+                          <div>
+                          <span>Afficher uniquement ces destinations</span>
+                           <ha-switch
+                              .checked=${this._show_only_included}
+                              .configValue="${"show_only_included"}"
                               @change="${this._valueChanged}"
-                          ></ha -switch>
-                        </div>
-                        <div>
-                          <span>Grouper les destinations</span>
-                          <ha-switch
-                              .checked=${this._group_destination_first_line}
-                              .configValue="${"group_destination_first_line"}"
-                              @change="${this._valueChanged}"
-                          ></ha -switch>
-                        </div>
-                        ${this._config.group_destination_first_line ? html`
+                              ></ha-switch>
+                          </div>`: ""}
+                      ${this._config.lineType == 'RER' ?
+                        html`
+                          <h4>Options d'affichage :</h4>
                           <ha-textfield
-                            label="Libellé de la destination (si vide = toutes)"
-                            .value="${this._group_destination_name_first_line}"
-                            .configValue=${"group_destination_name_first_line"}
-                            @input="${this._valueChanged}"
-                          ></ha-textfield>
-                        <div>`: ``}` : ''}
-                    <h2>Second Arrêt (optionel)</h2>
-                    <ha-entity-picker
-                      label="Arrêt (RESTFul sensor)"
-                      .hass="${this.hass}"
-                      .value="${this._second_entity}"
-                      .configValue=${"second_entity"}
-                      @value-changed="${this._valueChanged}"
-                      ></ha-entity-picker>
-                    <h4>Filtrage des données :</h4>
-                    <ha-textfield
-                      label="Exclure les lignes (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
-                      .value="${this._exclude_second_lines}"
-                      .configValue=${"exclude_second_lines"}
-                      @input="${this._valueChanged}"
-                    ></ha-textfield>
-                    <ha-textfield
-                      label="Exclure les destinations (ex: 458755;5655442;)"
-                      .value="${this._exclude_second_lines_ref}"
-                      .configValue=${"exclude_second_lines_ref"}
-                      @input="${this._valueChanged}"
-                    ></ha-textfield>
-                    ${this._config.lineType == 'RER' ?
-                      html`
-                        <h4>Options d'affichage :</h4>
-                        <ha-textfield
-                                label="Nombre de départs à afficher (si vide = tous)"
-                                .value="${this._nb_departure_second_line}"
-                                .configValue=${"nb_departure_second_line"}
-                                @input="${this._valueChanged}"
-                              ></ha-textfield>
-                        <div>
-                          <span>Afficher l'heure de départ au lieu du delais</span>
+                              label="Nombre de départs à afficher (si vide = tous)"
+                              .value="${this._nb_departure_first_line}"
+                              .configValue=${"nb_departure_first_line"}
+                              @input="${this._valueChanged}"
+                            ></ha-textfield>
+                          <div>
+                          <ha-textfield
+                              label="Délais maximun pour afficher des départ (ex: 90 - si vide = 60 minutes par défaut)"
+                              .value="${this._max_delay_first_line}"
+                              .configValue=${"max_delay_first_line"}
+                              @input="${this._valueChanged}"
+                            ></ha-textfield>
+                          <div>
+                            <span>Afficher l'heure de départ au lieu du delais</span>
                               <ha-switch
-                                  .checked=${this._show_hour_departure_second_line}
-                                  .configValue="${"show_hour_departure_second_line"}"
+                                  .checked=${this._show_hour_departure_first_line}
+                                  .configValue="${"show_hour_departure_first_line"}"
                                   @change="${this._valueChanged}"
                               ></ha -switch>
-                        </div>
-                        ${this._config.show_hour_departure_second_line ? html`
-                          <ha-textfield
-                            label="Nombre de lignes où conserver le delais (si vide = aucune)"
-                            .value="${this._show_hour_departure_index_second_line}"
-                            .configValue=${"show_hour_departure_index_second_line"}
-                            @input="${this._valueChanged}"
-                          ></ha-textfield>
-                        <div>`: ``}
-                        <div>
-                          <span>Afficher le quai de départ</span>
-                          <ha-switch
-                              .checked=${this._show_departure_platform_second_line}
-                              .configValue="${"show_departure_platform_second_line"}"
-                              @change="${this._valueChanged}"
-                          ></ha -switch>
-                        </div>
-                        <div>
-                          <span>Grouper les destinations</span>
-                          <ha-switch
-                              .checked=${this._group_destination_second_line}
-                              .configValue="${"group_destination_second_line"}"
-                              @change="${this._valueChanged}"
-                          ></ha -switch>
-                        </div>
-                        ${this._config.group_destination_second_line ? html`
-                          <ha-textfield
-                            label="Libellé de la destination (si vide = toutes)"
-                            .value="${this._group_destination_name_second_line}"
-                            .configValue=${"group_destination_name_second_line"}
-                            @input="${this._valueChanged}"
-                          ></ha-textfield>
-                        <div>`: ``}` : ''}
-                    <h2>Messages d'information / perturbations (optionel)</h2>
-                    <ha-entity-picker
-                        label="Messages (RESTFul sensor)"
+                          </div>
+                          ${this._config.show_hour_departure_first_line ? html`
+                            <ha-textfield
+                              label="Nombre de lignes où conserver le delais (si vide = aucune)"
+                              .value="${this._show_hour_departure_index_first_line}"
+                              .configValue=${"show_hour_departure_index_first_line"}
+                              @input="${this._valueChanged}"
+                            ></ha-textfield>
+                          <div>`: ``}
+                          <div>
+                            <span>Afficher le quai de départ</span>
+                            <ha-switch
+                                .checked=${this._show_departure_platform_first_line}
+                                .configValue="${"show_departure_platform_first_line"}"
+                                @change="${this._valueChanged}"
+                            ></ha -switch>
+                          </div>
+                          <div>
+                            <span>Grouper les destinations</span>
+                            <ha-switch
+                                .checked=${this._group_destination_first_line}
+                                .configValue="${"group_destination_first_line"}"
+                                @change="${this._valueChanged}"
+                            ></ha -switch>
+                          </div>
+                          ${this._config.group_destination_first_line ? html`
+                            <ha-textfield
+                              label="Libellé de la destination (si vide = toutes)"
+                              .value="${this._group_destination_name_first_line}"
+                              .configValue=${"group_destination_name_first_line"}
+                              @input="${this._valueChanged}"
+                            ></ha-textfield>
+                          <div>`: ``}` : ''}
+                    </div>
+                    <div class="page-container ${this.currentPage === 'second' ? 'active' : ''}">
+                      <ha-entity-picker
+                        label="Arrêt (RESTFul sensor)"
                         .hass="${this.hass}"
-                        .value="${this._messages}"
-                        .configValue=${"messages"}
+                        .value="${this._second_entity}"
+                        .configValue=${"second_entity"}
                         @value-changed="${this._valueChanged}"
                         ></ha-entity-picker>
-                    <div>
-                        <span>Afficher les messages d'information</span>
-                        <ha-switch
-                            .checked=${this._display_info_message}
-                            .configValue="${"display_info_message"}"
-                            @change="${this._valueChanged}"
-                            ></ha-switch>
+                      <h4>Filtrage des données :</h4>
+                      <ha-textfield
+                        label="Exclure les lignes (ex: bus-206;metro-1;tram-T2;rer-A;train-R;)"
+                        .value="${this._exclude_second_lines}"
+                        .configValue=${"exclude_second_lines"}
+                        @input="${this._valueChanged}"
+                      ></ha-textfield>
+                      <ha-textfield
+                        label="Exclure les références de lignes (ex: 458755;5655442;)"
+                        .value="${this._exclude_second_lines_ref}"
+                        .configValue=${"exclude_second_lines_ref"}
+                        @input="${this._valueChanged}"
+                      ></ha-textfield>
+                      ${this._config.lineType == 'BUS' ?
+                        html`
+                          <ha-textfield
+                            label="Inclure les destinations (ex: DIR:IDFM:C01221:R;DIR:IDFM:C01276:R;)"
+                            .value="${this._included_second_lines_destination}"
+                            .configValue=${"included_second_lines_destination"}
+                            @input="${this._valueChanged}"
+                          ></ha-textfield>
+                          <span>Afficher uniquement ces destinations</span>
+                           <ha-switch
+                              .checked=${this._show_only_included_second_lines}
+                              .configValue="${"show_only_included_second_lines"}"
+                              @change="${this._valueChanged}"
+                              ></ha-switch>
+                          </div>`: ""}
+                      ${this._config.lineType == 'RER' ?
+                        html`
+                          <h4>Options d'affichage :</h4>
+                          <ha-textfield
+                                  label="Nombre de départs à afficher (si vide = tous)"
+                                  .value="${this._nb_departure_second_line}"
+                                  .configValue=${"nb_departure_second_line"}
+                                  @input="${this._valueChanged}"
+                                ></ha-textfield>
+                          <ha-textfield
+                              label="Délais maximun pour afficher des départ (ex: 90 - si vide = 60 minutes par défaut)"
+                              .value="${this._max_delay_second_line}"
+                              .configValue=${"max_delay_second_line"}
+                              @input="${this._valueChanged}"
+                            ></ha-textfield>
+                          <div>
+                            <span>Afficher l'heure de départ au lieu du delais</span>
+                                <ha-switch
+                                    .checked=${this._show_hour_departure_second_line}
+                                    .configValue="${"show_hour_departure_second_line"}"
+                                    @change="${this._valueChanged}"
+                                ></ha -switch>
+                          </div>
+                          ${this._config.show_hour_departure_second_line ? html`
+                            <ha-textfield
+                              label="Nombre de lignes où conserver le delais (si vide = aucune)"
+                              .value="${this._show_hour_departure_index_second_line}"
+                              .configValue=${"show_hour_departure_index_second_line"}
+                              @input="${this._valueChanged}"
+                            ></ha-textfield>
+                          <div>`: ``}
+                          <div>
+                            <span>Afficher le quai de départ</span>
+                            <ha-switch
+                                .checked=${this._show_departure_platform_second_line}
+                                .configValue="${"show_departure_platform_second_line"}"
+                                @change="${this._valueChanged}"
+                            ></ha -switch>
+                          </div>
+                          <div>
+                            <span>Grouper les destinations</span>
+                            <ha-switch
+                                .checked=${this._group_destination_second_line}
+                                .configValue="${"group_destination_second_line"}"
+                                @change="${this._valueChanged}"
+                            ></ha -switch>
+                          </div>
+                          ${this._config.group_destination_second_line ? html`
+                            <ha-textfield
+                              label="Libellé de la destination (si vide = toutes)"
+                              .value="${this._group_destination_name_second_line}"
+                              .configValue=${"group_destination_name_second_line"}
+                              @input="${this._valueChanged}"
+                            ></ha-textfield>
+                          <div>`: ``}` : ''}
                     </div>
-                    <div>
-                        <span>Afficher les messages commerciaux</span>
-                        <ha-switch
-                            .checked=${this._display_commercial_message}
-                            .configValue="${"display_commercial_message"}"
-                            @change="${this._valueChanged}"
-                            ></ha-switch>
+                    <div class="page-container ${this.currentPage === 'message' ? 'active' : ''}">
+                      <ha-entity-picker
+                          label="Messages (RESTFul sensor)"
+                          .hass="${this.hass}"
+                          .value="${this._messages}"
+                          .configValue=${"messages"}
+                          @value-changed="${this._valueChanged}"
+                          ></ha-entity-picker>
+                      <ha-textfield
+                          label="N'afficher que les messages de lignes contenant le texte (ex: RER B;RER D;)"
+                          .value="${this._filter_messages}"
+                          .configValue=${"filter_messages"}
+                          @input="${this._valueChanged}"
+                        ></ha-textfield>
+                      <div>
+                          <span>Afficher les messages d'information</span>
+                          <ha-switch
+                              .checked=${this._display_info_message}
+                              .configValue="${"display_info_message"}"
+                              @change="${this._valueChanged}"
+                              ></ha-switch>
+                      </div>
+                      <div>
+                          <span>Afficher les messages commerciaux</span>
+                          <ha-switch
+                              .checked=${this._display_commercial_message}
+                              .configValue="${"display_commercial_message"}"
+                              @change="${this._valueChanged}"
+                              ></ha-switch>
+                      </div>
+                      <div>
+                          <span>Ne pas faire défiler les messages</span>
+                          <ha-switch
+                              .checked=${this._no_messages_scroll}
+                              .configValue="${"no_messages_scroll"}"
+                              @change="${this._valueChanged}"
+                              ></ha-switch>
+                      </div>
                     </div>
-                    <div>
-                        <span>Ne pas faire défiler les messages</span>
-                        <ha-switch
-                            .checked=${this._no_messages_scroll}
-                            .configValue="${"no_messages_scroll"}"
-                            @change="${this._valueChanged}"
-                            ></ha-switch>
-                    </div>
-                    <h2>Options générales d'affichage</h2>
+                    <h3>Options générales d'affichage</h3>
                     <div>
                       <span>Mode écran</span>
                       <ha-switch
@@ -392,13 +489,21 @@ class IDFMobiliteCardEditor extends LitElement {
                             ></ha-switch>
                       </div>` : ''}
                     </div>
-                    <h2>Aide à la configuration</h2>
+                    <h3>Aide à la configuration (pour les filtres)</h3>
                     <div>
                       <div>
-                        <span>Afficher les références des destinations pour les filtres</span>
+                        <span>Afficher les références des lignes</span>
                         <ha-switch
                             .checked=${this._show_train_ref}
                             .configValue="${"show_train_ref"}"
+                            @change="${this._valueChanged}"
+                            ></ha-switch>
+                      </div>
+                      <div>
+                        <span>Afficher les références des destinations</span>
+                        <ha-switch
+                            .checked=${this._show_destination_ref}
+                            .configValue="${"show_destination_ref"}"
                             @change="${this._valueChanged}"
                             ></ha-switch>
                       </div>
@@ -439,37 +544,36 @@ class IDFMobiliteCardEditor extends LitElement {
     }
 
     static get styles() {
-        return css`
-            ha-entity-picker {
-              display: block;
-              margin-bottom: 16px;
-            }
-            ha-select {
-              display: block;
-              margin-bottom: 16px;
-            }
-            ha-textfield {
-              display: block;
-              margin-bottom: 16px;
-            }
-            ha-switch {
-              margin-top: 10px;
-              margin-bottom: 10px;
-            }
-            .switch {
-              display: flex;
-              justify-content: space-around;
-            }
-        `;
+      return css`
+        .page-container {
+          display: none;
+        }
+        .page-container.active {
+          display: block;
+        }
+        ha-entity-picker {
+          display: block;
+          margin-bottom: 16px;
+        }
+        ha-select {
+          display: block;
+          margin-bottom: 16px;
+        }
+        ha-textfield {
+          display: block;
+          margin-bottom: 16px;
+        }
+        ha-switch {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .switch {
+          display: flex;
+          justify-content: space-around;
+        }
+      `;
     }
 }
 
 
 customElements.define("idf-mobilite-card-editor", IDFMobiliteCardEditor);
-window.customCards = window.customCards || [];
-window.customCards.push({
-    type: "idf-mobilite-card",
-    name: "IDF Mobilite Card",
-    preview: false, // Optional - defaults to false
-    description: "Card to display next train/bus for IDF Mobilité", // Optional
-});
