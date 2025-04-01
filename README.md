@@ -116,9 +116,11 @@ Then you can choose your first line by selecting the REST sensor you want to dis
 There are three kinds of filtering :
 - Exclude Lines : a list of line to exclude to the display (for exemple, to exclude the bus 207, just type bus-207;)
 - Exclude Lines References : this one is used for filtering specific lines. For exemple if you want to display RER A but only on one way or only a specific line, you can hide other lines. To know the line number to hide, just check the switch "Afficher les références des destinations" and you will see the destination number instead of train name. Just use these number for filtering.
+
 **For Buses**
 - Include Destinations : only for buses; you can select the line to always display (even if there is only estmated times for these lines). For that, you have to select the "destination reference" of the line you want to keep always on.
 You can also choose to display only "Include destinations", in that case it's not necessary to fill the other filters, only destinations in the "Include Destinations" field will be displayed
+
 **For RER**
 - Number of departure to display : you can choose to limit the number of departure to display
 - Delay for departure : by default, only departure in the next 60 minutes are display, if you want more (or less) you can put another value
