@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.4.1", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.4.2", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -635,7 +635,7 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 18px;
                 font-weight: bold;
                 margin-left: 12px;
-                padding: 4px 12px;
+                padding: 0px 12px;
             }
             .bus-station-name-nobg {
                 display: flex;
@@ -644,7 +644,7 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 18px;
                 font-weight: bold;
                 margin-left: 12px;
-                padding: 4px 12px;
+                padding: 0px 12px;
                 background-color: #050446
             }
             .bus-last-update {
@@ -659,14 +659,13 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 18px;
                 font-weight: bold;
                 color: #CAA94C;
-                padding: 2px 5px 5px 5px;
+                padding: 0px 5px;
                 border-radius: 0px 0px 5px 5px;
             }
             .bus-last-update-text {
                 display: flex;
                 font-size: 8px;
                 color: #000000;
-                margin-top: -2px;
                 text-wrap: nowrap;
                 overflow: hidden;
             }
@@ -674,7 +673,6 @@ class IDFMobiliteCard extends LitElement {
                 display: flex;
                 font-size: 8px;
                 color: #FFFFFF;
-                margin-top: -2px;
                 text-wrap: nowrap;
                 overflow: hidden;
             }
@@ -792,7 +790,7 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 18px;
                 font-weight: bold;
                 color: #CAA94C;
-                padding: 5px 5px 7px 5px;
+                padding: 5px 5px 3px;
                 border-radius: 5px;
                 text-align: center;
                 white-space: nowrap;
@@ -813,7 +811,7 @@ class IDFMobiliteCard extends LitElement {
                 border-radius: 5px;
                 padding-right: 5px;
                 color: #FFFFFF;
-                margin-top: 16px;
+                margin-top: 24px;
                 font-size: 9px;
             }
             .rer-header {
@@ -833,7 +831,7 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 18px;
                 font-weight: bold;
                 margin-left: 12px;
-                padding: 4px 12px;
+                padding: 0px 12px;
                 text-wrap: nowrap;
                 overflow: hidden;
             }
@@ -844,7 +842,7 @@ class IDFMobiliteCard extends LitElement {
                 font-size: 18px;
                 font-weight: bold;
                 margin-left: 12px;
-                padding: 4px 12px;
+                padding: 0px 12px;
                 background-color: #050446;
                 text-wrap: nowrap;
                 overflow: hidden;
@@ -958,7 +956,7 @@ class IDFMobiliteCard extends LitElement {
                 display: flex;
                 align-self: center;
                 font-size: 8px;
-                margin-top: -5px;
+                margin-top: -8px;
             }
             .rer-line-departure-message {
                 display: flex;
