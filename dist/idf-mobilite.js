@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.4.2", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.4.3", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -280,7 +280,7 @@ class IDFMobiliteCard extends LitElement {
                     let lineStop = stop.MonitoredVehicleJourney.DestinationRef.value.substring(0, stop.MonitoredVehicleJourney.DestinationRef.value.lastIndexOf(":"))
                     lineStop = lineStop.substring(lineStop.lastIndexOf(":") + 1, lineStop.length)
                     const destinationName = stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay.length > 0 ? IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.MonitoredCall.DestinationDisplay[0].value) : IDFMobiliteCard.reformatString(stop.MonitoredVehicleJourney.DestinationName[0].value)
-                    let directionRef = stop.MonitoredVehicleJourney.DestinationShortName ? stop.MonitoredVehicleJourney.DestinationShortName[0].value : stop.MonitoredVehicleJourney.DirectionRef ? stop.MonitoredVehicleJourney.DirectionRef.value : stop.MonitoredVehicleJourney.DestinationRef.value
+                    let directionRef = stop.MonitoredVehicleJourney.DestinationShortName ? stop.MonitoredVehicleJourney.DestinationShortName[0].value : stop.MonitoredVehicleJourney.DirectionRef && stop.MonitoredVehicleJourney.DirectionRef.value != "Aller" && stop.MonitoredVehicleJourney.DirectionRef.value != "Retour" ? stop.MonitoredVehicleJourney.DirectionRef.value : stop.MonitoredVehicleJourney.DestinationRef.value
                     directionRef = directionRef.indexOf("<")!=-1 ? directionRef.substring(0, directionRef.indexOf("<")).trim()  : directionRef.trim()
                     if (!destinationRefLineStop[directionRef] && lineStop != "BusEstimeDans")
                         destinationRefLineStop[directionRef] = lineStop
