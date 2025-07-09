@@ -8,7 +8,7 @@ import { idfMobiliteLineRef } from "./referentiel-des-lignes-filtered.js"
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.4.3", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 0.4.4", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
@@ -309,12 +309,12 @@ class IDFMobiliteCard extends LitElement {
             ${this.config.show_station_name === undefined || this.config.show_station_name === true ?
                 html `<div class="bus-header ${this.config.show_screen === true ? "with-screen" : this.config.wall_panel === true ? "header-nobg " : ""}" style="${second_entity ? 'border-radius: 0px !important' : ''}">
                     <div class="bus-station-name${this.config.wall_panel === true ? "-nobg" : ""}">
-                        ${stationName.indexOf("RER") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
+                        ${stationName.indexOf("RER") > 0 || stationName.indexOf("Rer") > 0 || stationName.indexOf("Métro") > 0 || stationName.indexOf("Tramway") > 0 ?
                             html`<div class="bus-destination-name">
-                                    ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
+                                    ${stationName.substring(0, stationName.indexOf("RER") > 0 ? stationName.indexOf("RER") : stationName.length).substring(0, stationName.lastIndexOf("Rer") > 0 ? stationName.lastIndexOf("Rer") : stationName.length).substring(0, stationName.indexOf("Métro") > 0 ? stationName.indexOf("Métro") : stationName.length).substring(0, stationName.indexOf("Tramway") > 0 ? stationName.indexOf("Tramway") : stationName.length).replace(/-$/, '')}
                                 </div>
                                 ${stationName.indexOf("Métro") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/metro_white.png" class="bus-destination-image"/></div>` : ""}
-                                ${stationName.indexOf("RER") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/rer_white.png" class="bus-destination-image"/></div>` : ""}
+                                ${stationName.indexOf("RER") > 0 || stationName.lastIndexOf("Rer") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/rer_white.png" class="bus-destination-image"/></div>` : ""}
                                 ${stationName.indexOf("Tramway") > 0 ? html`<div class="bus-destination-img"><img src="${imagesUrl}general/tram_white.png" class="bus-destination-image"/></div>` : ""}
                             `
                             : stationName
@@ -370,7 +370,9 @@ class IDFMobiliteCard extends LitElement {
 
                                                 ${destinationMap[destination].indexOf("<RER>") > 0 ?
                                                     html`<div class="bus-destination-name">${destinationMap[destination].substring(0, destinationMap[destination].indexOf("<RER>")).endsWith("-") ? destinationMap[destination].substring(0, destinationMap[destination].indexOf("-<RER>")) : destinationMap[destination].substring(0, destinationMap[destination].indexOf("<RER>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}general/rer${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
-                                                    : destination.indexOf("<METRO>") > 0 ?
+                                                    : destinationMap[destination].endsWith(" Rer") > 0 ?
+                                                    html`<div class="bus-destination-name">${destinationMap[destination].substring(0, destinationMap[destination].lastIndexOf("Rer")).endsWith("-") ? destinationMap[destination].substring(0, destinationMap[destination].lastIndexOf("Rer")) : destinationMap[destination].substring(0, destinationMap[destination].lastIndexOf("Rer"))}</div><div class="bus-destination-img"><img src="${imagesUrl}general/rer${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
+                                                    :destination.indexOf("<METRO>") > 0 ?
                                                         html`<div class="bus-destination-name">${destinationMap[destination].substring(0, destinationMap[destination].indexOf("<METRO>")).endsWith("-") ? destinationMap[destination].substring(0, destinationMap[destination].indexOf("-<METRO>")) : destinationMap[destination].substring(0, destinationMap[destination].indexOf("<METRO>"))}</div><div class="bus-destination-img"><img src="${imagesUrl}general/metro${this.config.wall_panel === true ? "_white" : ""}.png" class="bus-destination-image"/></div>`
                                                 : html`<div class="bus-destination-name">${destinationMap[destination]}</div>`}
 
