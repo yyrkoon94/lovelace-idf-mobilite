@@ -22,7 +22,7 @@ const entitiesCard = await cardHelpers.createCardElement({ type: "entities", ent
 // Then we make it load its editor through the static getConfigElement method
 entitiesCard.constructor.getConfigElement();
 
-// v0.4.1
+// v0.4.5
 class IDFMobiliteCardEditor extends LitElement {
 
     constructor() {
@@ -223,11 +223,12 @@ class IDFMobiliteCardEditor extends LitElement {
                               ></ha-switch>
                         </div>` : ''}
                     <!-- Buttons to switch between pages -->
-                    <div class="buttons-container">
-                      <mwc-button @click="${() => this.showPage('first')}">Premier Arrêt</mwc-button>
-                      <mwc-button @click="${() => this.showPage('second')}">Second Arrêt (option)</mwc-button>
-                      <mwc-button @click="${() => this.showPage('message')}">Messages (option)</mwc-button>
-                    </div>
+                    <sl-tab-group>
+                      <sl-tab slot="nav" panel="first" @click="${() => this.showPage('first')}" active>Premier Arrêt</sl-tab>
+                      <sl-tab slot="nav" panel="second"  @click="${() => this.showPage('second')}">Second Arrêt (option)</sl-tab>
+                      <sl-tab slot="nav" panel="message" @click="${() => this.showPage('message')}">Messages (option)</sl-tab>
+                    </sl-tab-group>
+                    <br/>
                     <div class="page-container ${this.currentPage === 'first' ? 'active' : ''}">
                       <ha-entity-picker
                           label="Arrêt (RESTFul sensor)"
