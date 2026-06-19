@@ -5,14721 +5,21138 @@ export function idfMobiliteLineRef() {
     "name_line": "482",
     "shortname_line": "482",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00003",
     "name_line": "Licorne",
     "shortname_line": "Licorne",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00004",
     "name_line": "483",
     "shortname_line": "483",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00006",
     "name_line": "480",
     "shortname_line": "480",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00007",
     "name_line": "282",
     "shortname_line": "282",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00009",
     "name_line": "3103",
     "shortname_line": "3103",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00010",
     "name_line": "3104",
     "shortname_line": "3104",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00011",
     "name_line": "3105",
     "shortname_line": "3105",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00012",
     "name_line": "3107",
     "shortname_line": "3107",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00014",
     "name_line": "3110",
     "shortname_line": "3110",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00015",
     "name_line": "3111",
     "shortname_line": "3111",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00016",
     "name_line": "3114",
     "shortname_line": "3114",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00017",
     "name_line": "3118",
     "shortname_line": "3118",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00018",
     "name_line": "3119",
     "shortname_line": "3119",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00019",
     "name_line": "3123",
     "shortname_line": "3123",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00020",
     "name_line": "3115",
     "shortname_line": "3115",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00021",
     "name_line": "3145",
     "shortname_line": "3145",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00024",
     "name_line": "3109",
     "shortname_line": "3109",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00025",
     "name_line": "3146",
     "shortname_line": "3146",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00026",
     "name_line": "3147",
     "shortname_line": "3147",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00027",
     "name_line": "7716",
     "shortname_line": "7716",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00028",
     "name_line": "501 (future 771)",
     "shortname_line": "501",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e2a34e",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00029",
     "name_line": "502 (future 761)",
     "shortname_line": "502",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "fbe324",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00030",
     "name_line": "E (future 770)",
     "shortname_line": "E",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d896c1",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00031",
     "name_line": "A (future 730)",
     "shortname_line": "A",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00032",
     "name_line": "D (future 760)",
     "shortname_line": "D",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "2c2e83",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00033",
     "name_line": "B (future 740)",
     "shortname_line": "B",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "06b8e1",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00034",
     "name_line": "C (future 750)",
     "shortname_line": "C",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "732275",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00038",
     "name_line": "6132",
     "shortname_line": "6132",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00039",
     "name_line": "6175",
     "shortname_line": "6175",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00040",
     "name_line": "6178",
     "shortname_line": "6178",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00042",
     "name_line": "6133",
     "shortname_line": "6133",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00043",
     "name_line": "6124",
     "shortname_line": "6124",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00046",
     "name_line": "9160",
     "shortname_line": "9160",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00048",
     "name_line": "6140",
     "shortname_line": "6140",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00049",
     "name_line": "6142",
     "shortname_line": "6142",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00050",
     "name_line": "6123",
     "shortname_line": "6123",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00051",
     "name_line": "6145",
     "shortname_line": "6145",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00052",
     "name_line": "6122",
     "shortname_line": "6122",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00054",
     "name_line": "5332",
     "shortname_line": "5332",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00057",
     "name_line": "5209",
     "shortname_line": "5209",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00060",
     "name_line": "5213",
     "shortname_line": "5213",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00061",
     "name_line": "5116",
     "shortname_line": "5116",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00062",
     "name_line": "7806",
     "shortname_line": "7806",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00064",
     "name_line": "5367",
     "shortname_line": "5367",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00066",
     "name_line": "4660",
     "shortname_line": "4660",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "9998be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00068",
     "name_line": "4603",
     "shortname_line": "4603",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "50b586",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00069",
     "name_line": "4604",
     "shortname_line": "4604",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "e78c29",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00070",
     "name_line": "4605",
     "shortname_line": "4605",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0087c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00072",
     "name_line": "4607",
     "shortname_line": "4607",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "facc00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00073",
     "name_line": "4608",
     "shortname_line": "4608",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "e7a3bf",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00074",
     "name_line": "4601",
     "shortname_line": "4601",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "cf2939",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00075",
     "name_line": "4614",
     "shortname_line": "4614",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "54aee3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00076",
     "name_line": "4655",
     "shortname_line": "4655",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "253b82",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00078",
     "name_line": "4616",
     "shortname_line": "4616",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "e78c2a",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00079",
     "name_line": "4619",
     "shortname_line": "4619",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "e78c2a",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00082",
     "name_line": "4437",
     "shortname_line": "4437",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "008c5a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00083",
     "name_line": "4553",
     "shortname_line": "4553",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00084",
     "name_line": "437",
     "shortname_line": "437",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00085",
     "name_line": "438",
     "shortname_line": "438",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00086",
     "name_line": "4511",
     "shortname_line": "4511",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00087",
     "name_line": "4512",
     "shortname_line": "4512",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00089",
     "name_line": "4514",
     "shortname_line": "4514",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00090",
     "name_line": "4501",
     "shortname_line": "4501",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00092",
     "name_line": "4305",
     "shortname_line": "4305",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00093",
     "name_line": "4634",
     "shortname_line": "4634",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "19ff99",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00094",
     "name_line": "4515",
     "shortname_line": "4515",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00097",
     "name_line": "4442",
     "shortname_line": "4442",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "ed1c2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00098",
     "name_line": "4441",
     "shortname_line": "4441",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8d5e2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00100",
     "name_line": "4323",
     "shortname_line": "4323",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00101",
     "name_line": "4324",
     "shortname_line": "4324",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00102",
     "name_line": "4325",
     "shortname_line": "4325",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00103",
     "name_line": "4510",
     "shortname_line": "4510",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00104",
     "name_line": "4326",
     "shortname_line": "4326",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00105",
     "name_line": "4413",
     "shortname_line": "4413",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "83c491",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00106",
     "name_line": "6521",
     "shortname_line": "6521",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00107",
     "name_line": "6522",
     "shortname_line": "6522",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00108",
     "name_line": "5444",
     "shortname_line": "5444",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dfaf47",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00109",
     "name_line": "5445",
     "shortname_line": "5445",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "65318f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00110",
     "name_line": "6573",
     "shortname_line": "6573",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00111",
     "name_line": "6511",
     "shortname_line": "6511",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00112",
     "name_line": "5314",
     "shortname_line": "5314",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00113",
     "name_line": "6217",
     "shortname_line": "6217",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00114",
     "name_line": "7819",
     "shortname_line": "7819",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00115",
     "name_line": "6593",
     "shortname_line": "6593",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00116",
     "name_line": "6533",
     "shortname_line": "6533",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00117",
     "name_line": "6526",
     "shortname_line": "6526",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00118",
     "name_line": "5484",
     "shortname_line": "5484",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "65318f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00119",
     "name_line": "5341",
     "shortname_line": "5341",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00120",
     "name_line": "5442",
     "shortname_line": "5442",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "9b9842",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00121",
     "name_line": "5443",
     "shortname_line": "5443",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "5091cb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00122",
     "name_line": "6283",
     "shortname_line": "6283",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00124",
     "name_line": "5270",
     "shortname_line": "5270",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00125",
     "name_line": "5271",
     "shortname_line": "5271",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00126",
     "name_line": "5299",
     "shortname_line": "5299",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00128",
     "name_line": "6560",
     "shortname_line": "6560",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00129",
     "name_line": "6561",
     "shortname_line": "6561",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00130",
     "name_line": "6562",
     "shortname_line": "6562",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00137",
     "name_line": "5211",
     "shortname_line": "5211",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00138",
     "name_line": "5212",
     "shortname_line": "5212",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00139",
     "name_line": "1114",
     "shortname_line": "1114",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00140",
     "name_line": "1115",
     "shortname_line": "1115",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00141",
     "name_line": "1130",
     "shortname_line": "1130",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00142",
     "name_line": "1131",
     "shortname_line": "1131",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00143",
     "name_line": "Express 1 (future 7826)",
     "shortname_line": "EX01",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00144",
     "name_line": "8 (future 6308)",
     "shortname_line": "8",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ea9999",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00145",
     "name_line": "9 (future 6309)",
     "shortname_line": "9",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00149",
     "name_line": "10 (future 6304)",
     "shortname_line": "10",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00150",
     "name_line": "15 (future 6315)",
     "shortname_line": "15",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b6d7a8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00151",
     "name_line": "7816",
     "shortname_line": "7816",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00153",
     "name_line": "18s (future 6350)",
     "shortname_line": "18s",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "fbe800",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00154",
     "name_line": "21 (future 6321)",
     "shortname_line": "21",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "783f04",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00156",
     "name_line": "R4 (future 6305)",
     "shortname_line": "R4",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "9e2784",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00157",
     "name_line": "R5 (future 6307)",
     "shortname_line": "R5",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "fecf00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00158",
     "name_line": "R2 Nord (future 6302)",
     "shortname_line": "R2N",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "9fc5e8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00159",
     "name_line": "R2 Sud (future 6302)",
     "shortname_line": "R2S",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00160",
     "name_line": "R1 (future 6301)",
     "shortname_line": "R1",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "e34611",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00161",
     "name_line": "R3 Nord (future 6306)",
     "shortname_line": "R3N",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a2c119",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00162",
     "name_line": "R3 Sud (future 6306)",
     "shortname_line": "R3S",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a2c119",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00163",
     "name_line": "5311",
     "shortname_line": "5311",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00164",
     "name_line": "5233",
     "shortname_line": "5233",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00165",
     "name_line": "5334",
     "shortname_line": "5334",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00166",
     "name_line": "5325",
     "shortname_line": "5325",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00167",
     "name_line": "4461",
     "shortname_line": "4461",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00168",
     "name_line": "5208",
     "shortname_line": "5208",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00170",
     "name_line": "7810",
     "shortname_line": "7810",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00171",
     "name_line": "7811",
     "shortname_line": "7811",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00172",
     "name_line": "5215",
     "shortname_line": "5215",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00173",
     "name_line": "5318",
     "shortname_line": "5318",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00175",
     "name_line": "5320",
     "shortname_line": "5320",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00176",
     "name_line": "4450",
     "shortname_line": "4450",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00814f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00177",
     "name_line": "5224",
     "shortname_line": "5224",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00178",
     "name_line": "5225",
     "shortname_line": "5225",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00179",
     "name_line": "5226",
     "shortname_line": "5226",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00180",
     "name_line": "5269",
     "shortname_line": "5269",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ed1c2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00181",
     "name_line": "5230",
     "shortname_line": "5230",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00182",
     "name_line": "5301",
     "shortname_line": "5301",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00183",
     "name_line": "5302",
     "shortname_line": "5302",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00184",
     "name_line": "5303",
     "shortname_line": "5303",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00187",
     "name_line": "5333",
     "shortname_line": "5333",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b80c4b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00189",
     "name_line": "1",
     "shortname_line": "1",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00814f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00191",
     "name_line": "11",
     "shortname_line": "11",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "c04191",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00194",
     "name_line": "1312",
     "shortname_line": "1312",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00196",
     "name_line": "1314",
     "shortname_line": "1314",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00197",
     "name_line": "15",
     "shortname_line": "15",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0064b0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00198",
     "name_line": "2116",
     "shortname_line": "2116",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00199",
     "name_line": "2117",
     "shortname_line": "2117",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00200",
     "name_line": "2118",
     "shortname_line": "2118",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00201",
     "name_line": "2119",
     "shortname_line": "2119",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00202",
     "name_line": "2121",
     "shortname_line": "2121",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00203",
     "name_line": "2122",
     "shortname_line": "2122",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00204",
     "name_line": "2123",
     "shortname_line": "2123",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00205",
     "name_line": "30 B",
     "shortname_line": "30 B",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "97d4e2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00206",
     "name_line": "30 D",
     "shortname_line": "30 D",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "9c9a3e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00207",
     "name_line": "R8",
     "shortname_line": "R8",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f4a8bc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00208",
     "name_line": "31",
     "shortname_line": "31",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "e3051b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00209",
     "name_line": "32",
     "shortname_line": "32",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00814f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00211",
     "name_line": "33",
     "shortname_line": "33",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "4f91cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00213",
     "name_line": "39",
     "shortname_line": "39",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f28f42",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00214",
     "name_line": "43",
     "shortname_line": "43",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "c04191",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00216",
     "name_line": "45",
     "shortname_line": "45",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f3a4ba",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00217",
     "name_line": "1346",
     "shortname_line": "1346",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00218",
     "name_line": "1347",
     "shortname_line": "1347",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00219",
     "name_line": "1348",
     "shortname_line": "1348",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00220",
     "name_line": "1350",
     "shortname_line": "1350",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00221",
     "name_line": "2127",
     "shortname_line": "2127",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00223",
     "name_line": "EX 93",
     "shortname_line": "EX 93",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00224",
     "name_line": "Gbus",
     "shortname_line": "Gbus",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f4a8bc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00225",
     "name_line": "2176",
     "shortname_line": "2176",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00226",
     "name_line": "R117",
     "shortname_line": "R117",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "f4a8bc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00228",
     "name_line": "R1",
     "shortname_line": "R1",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "81c391",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00229",
     "name_line": "R2",
     "shortname_line": "R2",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f28f42",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00230",
     "name_line": "R3",
     "shortname_line": "R3",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "f5a05f",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00231",
     "name_line": "R4",
     "shortname_line": "R4",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "98d0c1",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00232",
     "name_line": "R5",
     "shortname_line": "R5",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "fece00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00233",
     "name_line": "R6",
     "shortname_line": "R6",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "98d4e2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00234",
     "name_line": "R7",
     "shortname_line": "R7",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b397c7",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00235",
     "name_line": "R110",
     "shortname_line": "R110",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b28e64",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00236",
     "name_line": "R111",
     "shortname_line": "R111",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f5a05f",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00237",
     "name_line": "R112",
     "shortname_line": "R112",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b90745",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00238",
     "name_line": "R113",
     "shortname_line": "R113",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "e3051b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00239",
     "name_line": "R104",
     "shortname_line": "R104",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "97b6e0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00240",
     "name_line": "R105",
     "shortname_line": "R105",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "97d4e2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00241",
     "name_line": "R106",
     "shortname_line": "R106",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "662483",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00242",
     "name_line": "R107",
     "shortname_line": "R107",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b43d88",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00243",
     "name_line": "R108",
     "shortname_line": "R108",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f4a8bc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00244",
     "name_line": "R109",
     "shortname_line": "R109",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ceacd2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00245",
     "name_line": "2101",
     "shortname_line": "2101",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00246",
     "name_line": "2102",
     "shortname_line": "2102",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00247",
     "name_line": "2103",
     "shortname_line": "2103",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00248",
     "name_line": "2104",
     "shortname_line": "2104",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00250",
     "name_line": "2107",
     "shortname_line": "2107",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00251",
     "name_line": "2108",
     "shortname_line": "2108",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00252",
     "name_line": "2109",
     "shortname_line": "2109",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00253",
     "name_line": "2110",
     "shortname_line": "2110",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00254",
     "name_line": "2111",
     "shortname_line": "2111",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00260",
     "name_line": "2163",
     "shortname_line": "2163",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00261",
     "name_line": "Vitavil",
     "shortname_line": "VITAVIL",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f28f42",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00262",
     "name_line": "2377",
     "shortname_line": "2377",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00814f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00263",
     "name_line": "Express 100",
     "shortname_line": "100",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00264",
     "name_line": "9501",
     "shortname_line": "9501",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00265",
     "name_line": "9502",
     "shortname_line": "9502",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00267",
     "name_line": "6531",
     "shortname_line": "6531",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00270",
     "name_line": "6540",
     "shortname_line": "6540",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00271",
     "name_line": "6591",
     "shortname_line": "6591",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00272",
     "name_line": "6517",
     "shortname_line": "6517",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00273",
     "name_line": "7809",
     "shortname_line": "7809",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00274",
     "name_line": "6512",
     "shortname_line": "6512",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00275",
     "name_line": "6570",
     "shortname_line": "6570",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00276",
     "name_line": "5323",
     "shortname_line": "5323",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00279",
     "name_line": "5295",
     "shortname_line": "5295",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00280",
     "name_line": "6532",
     "shortname_line": "6532",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00281",
     "name_line": "6503",
     "shortname_line": "6503",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00285",
     "name_line": "6536",
     "shortname_line": "6536",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00286",
     "name_line": "6510",
     "shortname_line": "6510",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00287",
     "name_line": "7804",
     "shortname_line": "7804",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00288",
     "name_line": "5437",
     "shortname_line": "5437",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00292",
     "name_line": "1 (future 6411)",
     "shortname_line": "1",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "8cc7ff",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00294",
     "name_line": "2 (future 6422)",
     "shortname_line": "2",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00295",
     "name_line": "4 (future 6414)",
     "shortname_line": "4",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00297",
     "name_line": "8 (future 6403)",
     "shortname_line": "8",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00298",
     "name_line": "9 (future 6401)",
     "shortname_line": "9",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00299",
     "name_line": "1510",
     "shortname_line": "1510",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "cec73d",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00301",
     "name_line": "1512",
     "shortname_line": "1512",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00302",
     "name_line": "1513",
     "shortname_line": "1513",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f38f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00303",
     "name_line": "18 (future 6418)",
     "shortname_line": "18",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00304",
     "name_line": "1511",
     "shortname_line": "1511",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "006fb6",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00305",
     "name_line": "1533",
     "shortname_line": "1533",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f49fb3",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00306",
     "name_line": "34 (future 6424)",
     "shortname_line": "34",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00307",
     "name_line": "1537",
     "shortname_line": "1537",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "65318f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00308",
     "name_line": "6 (future 6416)",
     "shortname_line": "6",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00309",
     "name_line": "501 (future 6464)",
     "shortname_line": "501",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00310",
     "name_line": "502 (future 6465)",
     "shortname_line": "502",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "ff8c94",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00311",
     "name_line": "503 (future 6466)",
     "shortname_line": "503",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "ff8c57",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00312",
     "name_line": "7 (future 6402)",
     "shortname_line": "7",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00315",
     "name_line": "1514",
     "shortname_line": "1514",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b94e9a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00316",
     "name_line": "J (future 6433)",
     "shortname_line": "J",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a38c57",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00317",
     "name_line": "H (future 6423)",
     "shortname_line": "H",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00319",
     "name_line": "4301",
     "shortname_line": "4301",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00322",
     "name_line": "4303",
     "shortname_line": "4303",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00323",
     "name_line": "4530",
     "shortname_line": "4530",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00324",
     "name_line": "1 (future 6431)",
     "shortname_line": "1",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8ce39c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00325",
     "name_line": "12 (future 6450)",
     "shortname_line": "12",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00327",
     "name_line": "6281",
     "shortname_line": "6281",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00328",
     "name_line": "6282",
     "shortname_line": "6282",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00330",
     "name_line": "A (future 6404)",
     "shortname_line": "A",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00332",
     "name_line": "E (future 6430)",
     "shortname_line": "E",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "9b9bcd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00334",
     "name_line": "K (future 6436)",
     "shortname_line": "K",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff8c94",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00335",
     "name_line": "C (future 6405)",
     "shortname_line": "C",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00336",
     "name_line": "M (future 6439)",
     "shortname_line": "M",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8ce39c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00337",
     "name_line": "G (future 6429)",
     "shortname_line": "G",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "9b9bcd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00339",
     "name_line": "401",
     "shortname_line": "401",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00340",
     "name_line": "402",
     "shortname_line": "402",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00341",
     "name_line": "3",
     "shortname_line": "3",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b100bd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00342",
     "name_line": "412",
     "shortname_line": "412",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff0000",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00343",
     "name_line": "6",
     "shortname_line": "6",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00344",
     "name_line": "7",
     "shortname_line": "7",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00345",
     "name_line": "408",
     "shortname_line": "408",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00346",
     "name_line": "409",
     "shortname_line": "409",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00350",
     "name_line": "14",
     "shortname_line": "14",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055fa",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00355",
     "name_line": "4113",
     "shortname_line": "4113",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00356",
     "name_line": "4118",
     "shortname_line": "4118",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00358",
     "name_line": "4114",
     "shortname_line": "4114",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00363",
     "name_line": "4150",
     "shortname_line": "4150",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00364",
     "name_line": "4159",
     "shortname_line": "4159",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00365",
     "name_line": "4160",
     "shortname_line": "4160",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00366",
     "name_line": "4161",
     "shortname_line": "4161",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00367",
     "name_line": "4162",
     "shortname_line": "4162",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00374",
     "name_line": "4151",
     "shortname_line": "4151",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00376",
     "name_line": "4116",
     "shortname_line": "4116",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00378",
     "name_line": "4117",
     "shortname_line": "4117",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00379",
     "name_line": "4121",
     "shortname_line": "4121",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00380",
     "name_line": "4277",
     "shortname_line": "4277",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00382",
     "name_line": "4340",
     "shortname_line": "4340",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00385",
     "name_line": "4203",
     "shortname_line": "4203",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00386",
     "name_line": "4230",
     "shortname_line": "4230",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00387",
     "name_line": "4274",
     "shortname_line": "4274",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00388",
     "name_line": "4243",
     "shortname_line": "4243",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00389",
     "name_line": "4273",
     "shortname_line": "4273",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00391",
     "name_line": "4334",
     "shortname_line": "4334",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00392",
     "name_line": "4233",
     "shortname_line": "4233",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00393",
     "name_line": "1101",
     "shortname_line": "1101",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00394",
     "name_line": "1102",
     "shortname_line": "1102",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00395",
     "name_line": "1103",
     "shortname_line": "1103",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00399",
     "name_line": "1113",
     "shortname_line": "1113",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00400",
     "name_line": "1317",
     "shortname_line": "1317",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00401",
     "name_line": "5315",
     "shortname_line": "5315",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00402",
     "name_line": "5327",
     "shortname_line": "5327",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00403",
     "name_line": "5110",
     "shortname_line": "5110",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00408",
     "name_line": "6211",
     "shortname_line": "6211",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00409",
     "name_line": "5312",
     "shortname_line": "5312",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00410",
     "name_line": "5324",
     "shortname_line": "5324",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00411",
     "name_line": "7815",
     "shortname_line": "7815",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00413",
     "name_line": "5117",
     "shortname_line": "5117",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00414",
     "name_line": "5214",
     "shortname_line": "5214",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00416",
     "name_line": "5112",
     "shortname_line": "5112",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00418",
     "name_line": "5101",
     "shortname_line": "5101",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00420",
     "name_line": "6287",
     "shortname_line": "6287",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "bd0066",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00421",
     "name_line": "5201",
     "shortname_line": "5201",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00422",
     "name_line": "5219",
     "shortname_line": "5219",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00423",
     "name_line": "5206",
     "shortname_line": "5206",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00424",
     "name_line": "5289",
     "shortname_line": "5289",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00425",
     "name_line": "6241",
     "shortname_line": "6241",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00426",
     "name_line": "7818",
     "shortname_line": "7818",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00436",
     "name_line": "1353",
     "shortname_line": "1353",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00437",
     "name_line": "30-05",
     "shortname_line": "30-05",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "1d1d1b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00442",
     "name_line": "30-09",
     "shortname_line": "30-09",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00443",
     "name_line": "30-10",
     "shortname_line": "30-10",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00aad2",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00444",
     "name_line": "30-11",
     "shortname_line": "30-11",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "9dc327",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00445",
     "name_line": "30-12",
     "shortname_line": "30-12",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0075aa",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00446",
     "name_line": "1518",
     "shortname_line": "1518",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f49fb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00447",
     "name_line": "30-14",
     "shortname_line": "30-14",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3d99d4",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00448",
     "name_line": "30-18",
     "shortname_line": "30-18",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f18825",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00451",
     "name_line": "30-22",
     "shortname_line": "30-22",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8fc4eb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00452",
     "name_line": "30-23",
     "shortname_line": "30-23",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a2338a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00454",
     "name_line": "6576",
     "shortname_line": "6576",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00455",
     "name_line": "30-28 Scolaire",
     "shortname_line": "30-28",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "bfb007",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00456",
     "name_line": "1351",
     "shortname_line": "1351",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00458",
     "name_line": "30-31 Scolaire",
     "shortname_line": "30-31",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "cc3089",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00459",
     "name_line": "30-32 Scolaire",
     "shortname_line": "30-32",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "008866",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00460",
     "name_line": "30-33 Scolaire",
     "shortname_line": "30-33",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "009fe3",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00461",
     "name_line": "30-34 Scolaire",
     "shortname_line": "30-34",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e8bb00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00462",
     "name_line": "1316",
     "shortname_line": "1316",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00463",
     "name_line": "30-37",
     "shortname_line": "30-37",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "bd1d1d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00464",
     "name_line": "30-38",
     "shortname_line": "30-38",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8c072f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00465",
     "name_line": "1519",
     "shortname_line": "1519",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "5091cb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00466",
     "name_line": "30-42",
     "shortname_line": "30-42",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e0a0c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00467",
     "name_line": "30-43",
     "shortname_line": "30-43",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e6007e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00471",
     "name_line": "95-03A",
     "shortname_line": "95-03A",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "2291d0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00472",
     "name_line": "95-03B",
     "shortname_line": "95-03B",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "2291d0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00473",
     "name_line": "95-19",
     "shortname_line": "95-19",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00904a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00476",
     "name_line": "95-20",
     "shortname_line": "95-20",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "57aadf",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00477",
     "name_line": "95-21",
     "shortname_line": "95-21",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d4a677",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00478",
     "name_line": "95-26 Scolaire",
     "shortname_line": "95-26",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "007d9a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00479",
     "name_line": "Navette de Bouffemont",
     "shortname_line": "Navette",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "008fd3",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00480",
     "name_line": "CitéVal Nord Herblay",
     "shortname_line": "CitéVal N",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f08b27",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00481",
     "name_line": "CitéVal Sud Herblay",
     "shortname_line": "CitéVal S",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00538d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00484",
     "name_line": "3801",
     "shortname_line": "3801",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "feca2b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00485",
     "name_line": "1520",
     "shortname_line": "1520",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8ad3de",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00486",
     "name_line": "1521",
     "shortname_line": "1521",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f49fb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00487",
     "name_line": "3804",
     "shortname_line": "3804",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "02853a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00488",
     "name_line": "5232",
     "shortname_line": "5232",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00489",
     "name_line": "5313",
     "shortname_line": "5313",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00490",
     "name_line": "4610",
     "shortname_line": "4610",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "f0bcd4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00494",
     "name_line": "5252",
     "shortname_line": "5252",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00495",
     "name_line": "4611",
     "shortname_line": "4611",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "009a7a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00497",
     "name_line": "5146",
     "shortname_line": "5146",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00498",
     "name_line": "5363",
     "shortname_line": "5363",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "662d91",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00500",
     "name_line": "5347",
     "shortname_line": "5347",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00502",
     "name_line": "5359",
     "shortname_line": "5359",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00503",
     "name_line": "4612",
     "shortname_line": "4612",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffd300",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00504",
     "name_line": "5337",
     "shortname_line": "5337",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00505",
     "name_line": "5282",
     "shortname_line": "5282",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00506",
     "name_line": "5283",
     "shortname_line": "5283",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00507",
     "name_line": "5284",
     "shortname_line": "5284",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00508",
     "name_line": "5285",
     "shortname_line": "5285",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00509",
     "name_line": "5286",
     "shortname_line": "5286",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00510",
     "name_line": "5287",
     "shortname_line": "5287",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00511",
     "name_line": "5291",
     "shortname_line": "5291",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00512",
     "name_line": "5292",
     "shortname_line": "5292",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00513",
     "name_line": "5293",
     "shortname_line": "5293",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00514",
     "name_line": "5294",
     "shortname_line": "5294",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00515",
     "name_line": "5279",
     "shortname_line": "5279",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00516",
     "name_line": "5242",
     "shortname_line": "5242",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00517",
     "name_line": "5281",
     "shortname_line": "5281",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00518",
     "name_line": "5330",
     "shortname_line": "5330",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00519",
     "name_line": "5290",
     "shortname_line": "5290",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00520",
     "name_line": "4653",
     "shortname_line": "4653",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "78c4ee",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00521",
     "name_line": "5153",
     "shortname_line": "5153",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00522",
     "name_line": "5227",
     "shortname_line": "5227",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00523",
     "name_line": "5228",
     "shortname_line": "5228",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00524",
     "name_line": "5236",
     "shortname_line": "5236",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00525",
     "name_line": "6176",
     "shortname_line": "6176",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00527",
     "name_line": "6183",
     "shortname_line": "6183",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00530",
     "name_line": "6163",
     "shortname_line": "6163",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00531",
     "name_line": "5278",
     "shortname_line": "5278",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00532",
     "name_line": "7807",
     "shortname_line": "7807",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00533",
     "name_line": "5340",
     "shortname_line": "5340",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00535",
     "name_line": "5188",
     "shortname_line": "5188",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00536",
     "name_line": "5189",
     "shortname_line": "5189",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00537",
     "name_line": "5190",
     "shortname_line": "5190",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00538",
     "name_line": "5191",
     "shortname_line": "5191",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00539",
     "name_line": "5192",
     "shortname_line": "5192",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00540",
     "name_line": "5193",
     "shortname_line": "5193",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00541",
     "name_line": "5194",
     "shortname_line": "5194",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00542",
     "name_line": "5195",
     "shortname_line": "5195",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00543",
     "name_line": "5196",
     "shortname_line": "5196",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00544",
     "name_line": "5141",
     "shortname_line": "5141",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00b297",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00545",
     "name_line": "5140",
     "shortname_line": "5140",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00546",
     "name_line": "3101",
     "shortname_line": "3101",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00547",
     "name_line": "440",
     "shortname_line": "440",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00548",
     "name_line": "451",
     "shortname_line": "451",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00549",
     "name_line": "Brie Bus",
     "shortname_line": "BrieBus",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b2ff00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00550",
     "name_line": "3121",
     "shortname_line": "3121",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00551",
     "name_line": "423",
     "shortname_line": "423",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00552",
     "name_line": "431",
     "shortname_line": "431",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00553",
     "name_line": "432",
     "shortname_line": "432",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00554",
     "name_line": "433",
     "shortname_line": "433",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00555",
     "name_line": "434",
     "shortname_line": "434",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00556",
     "name_line": "435",
     "shortname_line": "435",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00557",
     "name_line": "436",
     "shortname_line": "436",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00562",
     "name_line": "N1",
     "shortname_line": "N1",
     "transportmode": "bus",
-    "transportsubmode": "airportLinkBus"
+    "transportsubmode": "airportLinkBus",
+    "type": null,
+    "colourweb_hexa": "df3a82",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00563",
     "name_line": "CDG VAL",
     "shortname_line": "CDG VAL",
     "transportmode": "rail",
-    "transportsubmode": "railShuttle"
+    "transportsubmode": "railShuttle",
+    "type": null,
+    "colourweb_hexa": "5cc5ed",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "CDG VAL.svg"
   },
   {
     "id_line": "C00571",
     "name_line": "5199",
     "shortname_line": "5199",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00573",
     "name_line": "428",
     "shortname_line": "428",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00574",
     "name_line": "427",
     "shortname_line": "427",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00576",
     "name_line": "4115",
     "shortname_line": "4115",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00577",
     "name_line": "4119",
     "shortname_line": "4119",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00579",
     "name_line": "4158",
     "shortname_line": "4158",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00580",
     "name_line": "4134",
     "shortname_line": "4134",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00581",
     "name_line": "450",
     "shortname_line": "450",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00582",
     "name_line": "4111",
     "shortname_line": "4111",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00586",
     "name_line": "4131",
     "shortname_line": "4131",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00589",
     "name_line": "4154",
     "shortname_line": "4154",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00590",
     "name_line": "4133",
     "shortname_line": "4133",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00591",
     "name_line": "4132",
     "shortname_line": "4132",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00592",
     "name_line": "4110",
     "shortname_line": "4110",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00594",
     "name_line": "429",
     "shortname_line": "429",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00597",
     "name_line": "449",
     "shortname_line": "449",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00598",
     "name_line": "4130",
     "shortname_line": "4130",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00599",
     "name_line": "4135",
     "shortname_line": "4135",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00600",
     "name_line": "4152",
     "shortname_line": "4152",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00601",
     "name_line": "4153",
     "shortname_line": "4153",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00602",
     "name_line": "4120",
     "shortname_line": "4120",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00603",
     "name_line": "1304",
     "shortname_line": "1304",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00606",
     "name_line": "1303",
     "shortname_line": "1303",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00607",
     "name_line": "1309",
     "shortname_line": "1309",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00609",
     "name_line": "22",
     "shortname_line": "22",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "fece00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00610",
     "name_line": "23",
     "shortname_line": "23",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "e3051b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00611",
     "name_line": "25",
     "shortname_line": "25",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b90745",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00612",
     "name_line": "24",
     "shortname_line": "24",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0064b0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00613",
     "name_line": "24 S",
     "shortname_line": "24 S",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00615",
     "name_line": "35",
     "shortname_line": "35",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "97d4e2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00616",
     "name_line": "36",
     "shortname_line": "36",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "c04191",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00617",
     "name_line": "37",
     "shortname_line": "37",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "09a88e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00619",
     "name_line": "2252",
     "shortname_line": "2252",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00620",
     "name_line": "2251",
     "shortname_line": "2251",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00621",
     "name_line": "2290",
     "shortname_line": "2290",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00622",
     "name_line": "2250",
     "shortname_line": "2250",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "71cc98",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00623",
     "name_line": "2291",
     "shortname_line": "2291",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00624",
     "name_line": "3117",
     "shortname_line": "3117",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00625",
     "name_line": "2221",
     "shortname_line": "2221",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00626",
     "name_line": "2222",
     "shortname_line": "2222",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00627",
     "name_line": "2223",
     "shortname_line": "2223",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00628",
     "name_line": "2225",
     "shortname_line": "2225",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00629",
     "name_line": "2226",
     "shortname_line": "2226",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00630",
     "name_line": "2229",
     "shortname_line": "2229",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00631",
     "name_line": "2292",
     "shortname_line": "2292",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00632",
     "name_line": "2234",
     "shortname_line": "2234",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00633",
     "name_line": "2253",
     "shortname_line": "2253",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00634",
     "name_line": "2220",
     "shortname_line": "2220",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00635",
     "name_line": "2233",
     "shortname_line": "2233",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00636",
     "name_line": "2244",
     "shortname_line": "2244",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00637",
     "name_line": "7718",
     "shortname_line": "7718",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00638",
     "name_line": "2263",
     "shortname_line": "2263",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00639",
     "name_line": "Express 19  (future 7719)",
     "shortname_line": "EX 19",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00640",
     "name_line": "6542",
     "shortname_line": "6542",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00641",
     "name_line": "6527",
     "shortname_line": "6527",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00642",
     "name_line": "6528",
     "shortname_line": "6528",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00643",
     "name_line": "6571",
     "shortname_line": "6571",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00644",
     "name_line": "6543",
     "shortname_line": "6543",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00649",
     "name_line": "6537",
     "shortname_line": "6537",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00651",
     "name_line": "6518",
     "shortname_line": "6518",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00652",
     "name_line": "7808",
     "shortname_line": "7808",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00654",
     "name_line": "6541",
     "shortname_line": "6541",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00655",
     "name_line": "7801",
     "shortname_line": "7801",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00656",
     "name_line": "2128",
     "shortname_line": "2128",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00658",
     "name_line": "2130",
     "shortname_line": "2130",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00659",
     "name_line": "2120",
     "shortname_line": "2120",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00660",
     "name_line": "2169",
     "shortname_line": "2169",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00661",
     "name_line": "7720",
     "shortname_line": "7720",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00662",
     "name_line": "4540",
     "shortname_line": "4540",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00663",
     "name_line": "4541",
     "shortname_line": "4541",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00664",
     "name_line": "4523",
     "shortname_line": "4523",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00665",
     "name_line": "4205",
     "shortname_line": "4205",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00666",
     "name_line": "4505",
     "shortname_line": "4505",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00667",
     "name_line": "4516",
     "shortname_line": "4516",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00668",
     "name_line": "4517",
     "shortname_line": "4517",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00669",
     "name_line": "4280",
     "shortname_line": "4280",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00670",
     "name_line": "4518",
     "shortname_line": "4518",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00671",
     "name_line": "4539",
     "shortname_line": "4539",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00673",
     "name_line": "4650",
     "shortname_line": "4650",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "007e49",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00674",
     "name_line": "4643",
     "shortname_line": "4643",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0065ae",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00675",
     "name_line": "4641",
     "shortname_line": "4641",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "f19043",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00676",
     "name_line": "4613",
     "shortname_line": "4613",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0065ae",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00677",
     "name_line": "4543",
     "shortname_line": "4543",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00678",
     "name_line": "4537",
     "shortname_line": "4537",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00679",
     "name_line": "4542",
     "shortname_line": "4542",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00680",
     "name_line": "4617",
     "shortname_line": "4617",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "5292c9",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00681",
     "name_line": "4538",
     "shortname_line": "4538",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00682",
     "name_line": "4550",
     "shortname_line": "4550",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00683",
     "name_line": "4521",
     "shortname_line": "4521",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00684",
     "name_line": "4522",
     "shortname_line": "4522",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00685",
     "name_line": "4223",
     "shortname_line": "4223",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00687",
     "name_line": "4644",
     "shortname_line": "4644",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffce00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00688",
     "name_line": "4556",
     "shortname_line": "4556",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00689",
     "name_line": "EXPRESS 9115",
     "shortname_line": "9115",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00691",
     "name_line": "4503",
     "shortname_line": "4503",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00692",
     "name_line": "6201",
     "shortname_line": "6201",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00693",
     "name_line": "6202",
     "shortname_line": "6202",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00694",
     "name_line": "6203",
     "shortname_line": "6203",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00695",
     "name_line": "6204",
     "shortname_line": "6204",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00696",
     "name_line": "6205",
     "shortname_line": "6205",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00697",
     "name_line": "6206",
     "shortname_line": "6206",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00698",
     "name_line": "6207",
     "shortname_line": "6207",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00699",
     "name_line": "6208",
     "shortname_line": "6208",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00700",
     "name_line": "6209",
     "shortname_line": "6209",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00701",
     "name_line": "6210",
     "shortname_line": "6210",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00702",
     "name_line": "6135",
     "shortname_line": "6135",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00703",
     "name_line": "6136",
     "shortname_line": "6136",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00704",
     "name_line": "6213",
     "shortname_line": "6213",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00705",
     "name_line": "6171",
     "shortname_line": "6171",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00706",
     "name_line": "6172",
     "shortname_line": "6172",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00707",
     "name_line": "6173",
     "shortname_line": "6173",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00708",
     "name_line": "6174",
     "shortname_line": "6174",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00709",
     "name_line": "6285",
     "shortname_line": "6285",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00710",
     "name_line": "6286",
     "shortname_line": "6286",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00725",
     "name_line": "5421",
     "shortname_line": "5421",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "008b5b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00727",
     "name_line": "5465",
     "shortname_line": "5465",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8ad3de",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00728",
     "name_line": "5424",
     "shortname_line": "5424",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b94e9a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00730",
     "name_line": "5467",
     "shortname_line": "5467",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00731",
     "name_line": "5409",
     "shortname_line": "5409",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "008b5b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00733",
     "name_line": "5455",
     "shortname_line": "5455",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b6134c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00734",
     "name_line": "5476",
     "shortname_line": "5476",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "006fb6",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00735",
     "name_line": "5447",
     "shortname_line": "5447",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "5091cb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00736",
     "name_line": "5478",
     "shortname_line": "5478",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "7ac597",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00737",
     "name_line": "5479",
     "shortname_line": "5479",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f49fb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00738",
     "name_line": "5480",
     "shortname_line": "5480",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "c4a4cc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00740",
     "name_line": "5422",
     "shortname_line": "5422",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8ad3de",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00741",
     "name_line": "5486",
     "shortname_line": "5486",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "65318f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00744",
     "name_line": "5482",
     "shortname_line": "5482",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00b297",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00747",
     "name_line": "5457",
     "shortname_line": "5457",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dfaf47",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00748",
     "name_line": "5451",
     "shortname_line": "5451",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00749",
     "name_line": "5452",
     "shortname_line": "5452",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dfaf47",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00751",
     "name_line": "5469",
     "shortname_line": "5469",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dfaf47",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00752",
     "name_line": "5470",
     "shortname_line": "5470",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00753",
     "name_line": "7821",
     "shortname_line": "7821",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00754",
     "name_line": "7822",
     "shortname_line": "7822",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00755",
     "name_line": "5438",
     "shortname_line": "5438",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00756",
     "name_line": "5490",
     "shortname_line": "5490",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "9b9842",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00757",
     "name_line": "5448",
     "shortname_line": "5448",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8d653d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00758",
     "name_line": "5489",
     "shortname_line": "5489",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "006fb6",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00760",
     "name_line": "5491",
     "shortname_line": "5491",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "eb2132",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00761",
     "name_line": "5458",
     "shortname_line": "5458",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "7ac597",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00762",
     "name_line": "1230",
     "shortname_line": "1230",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00763",
     "name_line": "1203",
     "shortname_line": "1203",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "e0b03b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00764",
     "name_line": "1206",
     "shortname_line": "1206",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "78c696",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00765",
     "name_line": "1236",
     "shortname_line": "1236",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00766",
     "name_line": "1238",
     "shortname_line": "1238",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ed1c2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00767",
     "name_line": "1239",
     "shortname_line": "1239",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00768",
     "name_line": "1240",
     "shortname_line": "1240",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00769",
     "name_line": "1202",
     "shortname_line": "1202",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00770",
     "name_line": "1223",
     "shortname_line": "1223",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "9b9931",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00771",
     "name_line": "1224",
     "shortname_line": "1224",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00772",
     "name_line": "1201",
     "shortname_line": "1201",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b80c4b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00773",
     "name_line": "1237",
     "shortname_line": "1237",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8e6539",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00774",
     "name_line": "1207",
     "shortname_line": "1207",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00778",
     "name_line": "1208",
     "shortname_line": "1208",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00781",
     "name_line": "1226",
     "shortname_line": "1226",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8e6539",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00782",
     "name_line": "1232",
     "shortname_line": "1232",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "008c5a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00783",
     "name_line": "1228",
     "shortname_line": "1228",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "87d3df",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00784",
     "name_line": "1241",
     "shortname_line": "1241",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00785",
     "name_line": "1242",
     "shortname_line": "1242",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b80c4b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00786",
     "name_line": "3409",
     "shortname_line": "3409",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00787",
     "name_line": "3405",
     "shortname_line": "3405",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "77b5fe",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00788",
     "name_line": "3406",
     "shortname_line": "3406",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00789",
     "name_line": "3441",
     "shortname_line": "3441",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00790",
     "name_line": "3442",
     "shortname_line": "3442",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00791",
     "name_line": "3444",
     "shortname_line": "3444",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00792",
     "name_line": "3445",
     "shortname_line": "3445",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00793",
     "name_line": "3401",
     "shortname_line": "3401",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00794",
     "name_line": "3404",
     "shortname_line": "3404",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00796",
     "name_line": "3403",
     "shortname_line": "3403",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00797",
     "name_line": "3412",
     "shortname_line": "3412",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00798",
     "name_line": "Express 46",
     "shortname_line": "Ex46",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "4d90cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00799",
     "name_line": "3439",
     "shortname_line": "3439",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00801",
     "name_line": "3633",
     "shortname_line": "3633",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00803",
     "name_line": "3106",
     "shortname_line": "3106",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00813",
     "name_line": "3443",
     "shortname_line": "3443",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00814",
     "name_line": "3665",
     "shortname_line": "3665",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "5a230a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00815",
     "name_line": "34",
     "shortname_line": "34",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00817",
     "name_line": "3432",
     "shortname_line": "3432",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00818",
     "name_line": "3431",
     "shortname_line": "3431",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00819",
     "name_line": "3503",
     "shortname_line": "3503",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00820",
     "name_line": "3530",
     "shortname_line": "3530",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00821",
     "name_line": "3534",
     "shortname_line": "3534",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00822",
     "name_line": "3540",
     "shortname_line": "3540",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00823",
     "name_line": "3543",
     "shortname_line": "3543",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00824",
     "name_line": "3510",
     "shortname_line": "3510",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00826",
     "name_line": "3515",
     "shortname_line": "3515",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00827",
     "name_line": "3518",
     "shortname_line": "3518",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00828",
     "name_line": "3437",
     "shortname_line": "3437",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00830",
     "name_line": "3536",
     "shortname_line": "3536",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00831",
     "name_line": "3544",
     "shortname_line": "3544",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00832",
     "name_line": "3501",
     "shortname_line": "3501",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00833",
     "name_line": "3502",
     "shortname_line": "3502",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00834",
     "name_line": "3504",
     "shortname_line": "3504",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00835",
     "name_line": "3505",
     "shortname_line": "3505",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00836",
     "name_line": "7715",
     "shortname_line": "7715",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00837",
     "name_line": "3751",
     "shortname_line": "3751",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00838",
     "name_line": "3755",
     "shortname_line": "3755",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00839",
     "name_line": "3754",
     "shortname_line": "3754",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00840",
     "name_line": "3779",
     "shortname_line": "3779",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00842",
     "name_line": "3775",
     "shortname_line": "3775",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00843",
     "name_line": "3703",
     "shortname_line": "3703",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00844",
     "name_line": "3753",
     "shortname_line": "3753",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00845",
     "name_line": "3711",
     "shortname_line": "3711",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00846",
     "name_line": "3712",
     "shortname_line": "3712",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00847",
     "name_line": "3713",
     "shortname_line": "3713",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00850",
     "name_line": "3734",
     "shortname_line": "3734",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00851",
     "name_line": "3736",
     "shortname_line": "3736",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00852",
     "name_line": "3737",
     "shortname_line": "3737",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00853",
     "name_line": "3741",
     "shortname_line": "3741",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00854",
     "name_line": "3742",
     "shortname_line": "3742",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00855",
     "name_line": "3743",
     "shortname_line": "3743",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00859",
     "name_line": "Tzen1",
     "shortname_line": "Tzen1",
     "transportmode": "bus",
-    "transportsubmode": "highFrequencyBus"
+    "transportsubmode": "highFrequencyBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00860",
     "name_line": "3774",
     "shortname_line": "3774",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00861",
     "name_line": "3714",
     "shortname_line": "3714",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00862",
     "name_line": "3704",
     "shortname_line": "3704",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00863",
     "name_line": "3722",
     "shortname_line": "3722",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00864",
     "name_line": "3725",
     "shortname_line": "3725",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00865",
     "name_line": "3724",
     "shortname_line": "3724",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00866",
     "name_line": "3726",
     "shortname_line": "3726",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00867",
     "name_line": "3723",
     "shortname_line": "3723",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00868",
     "name_line": "3732",
     "shortname_line": "3732",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00869",
     "name_line": "3735",
     "shortname_line": "3735",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00871",
     "name_line": "3733",
     "shortname_line": "3733",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00875",
     "name_line": "3604",
     "shortname_line": "3604",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00876",
     "name_line": "3609",
     "shortname_line": "3609",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00877",
     "name_line": "3607",
     "shortname_line": "3607",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "5a230a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00878",
     "name_line": "3608",
     "shortname_line": "3608",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00879",
     "name_line": "3602",
     "shortname_line": "3602",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00880",
     "name_line": "3603",
     "shortname_line": "3603",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00881",
     "name_line": "3601",
     "shortname_line": "3601",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00882",
     "name_line": "3605",
     "shortname_line": "3605",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00883",
     "name_line": "3606",
     "shortname_line": "3606",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00885",
     "name_line": "3610",
     "shortname_line": "3610",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00886",
     "name_line": "3656",
     "shortname_line": "3656",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00887",
     "name_line": "3612",
     "shortname_line": "3612",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00890",
     "name_line": "3654",
     "shortname_line": "3654",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00891",
     "name_line": "3611",
     "shortname_line": "3611",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00892",
     "name_line": "3651",
     "shortname_line": "3651",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00893",
     "name_line": "3652",
     "shortname_line": "3652",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00894",
     "name_line": "3653",
     "shortname_line": "3653",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00895",
     "name_line": "3634",
     "shortname_line": "3634",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00897",
     "name_line": "3630",
     "shortname_line": "3630",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00898",
     "name_line": "2315",
     "shortname_line": "2315",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6fa8dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00899",
     "name_line": "2335",
     "shortname_line": "2335",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "5eb1e3",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00900",
     "name_line": "2306",
     "shortname_line": "2306",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "722671",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00901",
     "name_line": "2374",
     "shortname_line": "2374",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "fbd804",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00902",
     "name_line": "2303",
     "shortname_line": "2303",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "de7fb2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00903",
     "name_line": "2262",
     "shortname_line": "2262",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00905",
     "name_line": "2412",
     "shortname_line": "2412",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00906",
     "name_line": "2413",
     "shortname_line": "2413",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00907",
     "name_line": "2414",
     "shortname_line": "2414",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00908",
     "name_line": "2310",
     "shortname_line": "2310",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f1c232",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00909",
     "name_line": "2318",
     "shortname_line": "2318",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "8ad3de",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00910",
     "name_line": "2490",
     "shortname_line": "2490",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00911",
     "name_line": "2264",
     "shortname_line": "2264",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00912",
     "name_line": "2312",
     "shortname_line": "2312",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b1d0b7",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00913",
     "name_line": "2491",
     "shortname_line": "2491",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00914",
     "name_line": "2319",
     "shortname_line": "2319",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f79036",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00915",
     "name_line": "2313",
     "shortname_line": "2313",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "097d3b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00916",
     "name_line": "2321",
     "shortname_line": "2321",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "be4999",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00917",
     "name_line": "2322",
     "shortname_line": "2322",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00919",
     "name_line": "2323",
     "shortname_line": "2323",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "177fc2",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00920",
     "name_line": "2418",
     "shortname_line": "2418",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00921",
     "name_line": "2481",
     "shortname_line": "2481",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00922",
     "name_line": "2420",
     "shortname_line": "2420",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00923",
     "name_line": "2421",
     "shortname_line": "2421",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00924",
     "name_line": "2404",
     "shortname_line": "2404",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00925",
     "name_line": "2483",
     "shortname_line": "2483",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00926",
     "name_line": "2422",
     "shortname_line": "2422",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00927",
     "name_line": "2340",
     "shortname_line": "2340",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "cc0000",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00928",
     "name_line": "2341",
     "shortname_line": "2341",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f37941",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00929",
     "name_line": "2342",
     "shortname_line": "2342",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffff00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00930",
     "name_line": "2346",
     "shortname_line": "2346",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "914499",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00934",
     "name_line": "2428",
     "shortname_line": "2428",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00935",
     "name_line": "2350",
     "shortname_line": "2350",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "38761d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00937",
     "name_line": "2352",
     "shortname_line": "2352",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "2394d2",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00938",
     "name_line": "2353",
     "shortname_line": "2353",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6fa8dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00939",
     "name_line": "2354",
     "shortname_line": "2354",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a38c57",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00940",
     "name_line": "2364",
     "shortname_line": "2364",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a38c57",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00941",
     "name_line": "2406",
     "shortname_line": "2406",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00942",
     "name_line": "2492",
     "shortname_line": "2492",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00943",
     "name_line": "2261",
     "shortname_line": "2261",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00944",
     "name_line": "2407",
     "shortname_line": "2407",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00945",
     "name_line": "2260",
     "shortname_line": "2260",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00946",
     "name_line": "2361",
     "shortname_line": "2361",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "cbdc4f",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00947",
     "name_line": "7712",
     "shortname_line": "7712",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00948",
     "name_line": "2317",
     "shortname_line": "2317",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "7ac597",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00949",
     "name_line": "2311",
     "shortname_line": "2311",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6fa8dc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00951",
     "name_line": "2474",
     "shortname_line": "2474",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00952",
     "name_line": "2476",
     "shortname_line": "2476",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00953",
     "name_line": "2302",
     "shortname_line": "2302",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "fbd804",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00954",
     "name_line": "2301",
     "shortname_line": "2301",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ef4038",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00955",
     "name_line": "2308",
     "shortname_line": "2308",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d81466",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00957",
     "name_line": "2307",
     "shortname_line": "2307",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ceacd2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00958",
     "name_line": "2304",
     "shortname_line": "2304",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00959",
     "name_line": "2309",
     "shortname_line": "2309",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0b5394",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00960",
     "name_line": "7708",
     "shortname_line": "7708",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00961",
     "name_line": "7709",
     "shortname_line": "7709",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00962",
     "name_line": "4551",
     "shortname_line": "4551",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00963",
     "name_line": "4552",
     "shortname_line": "4552",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00964",
     "name_line": "4582",
     "shortname_line": "4582",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00965",
     "name_line": "4576",
     "shortname_line": "4576",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00966",
     "name_line": "4578",
     "shortname_line": "4578",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00967",
     "name_line": "4439",
     "shortname_line": "4439",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f3a4ba",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00969",
     "name_line": "4438",
     "shortname_line": "4438",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "be418e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00970",
     "name_line": "4440",
     "shortname_line": "4440",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "5291ce",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00971",
     "name_line": "4570",
     "shortname_line": "4570",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00972",
     "name_line": "4555",
     "shortname_line": "4555",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00973",
     "name_line": "4459",
     "shortname_line": "4459",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00974",
     "name_line": "4412",
     "shortname_line": "4412",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "ff0000",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00975",
     "name_line": "4401",
     "shortname_line": "4401",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "e3b32a",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00976",
     "name_line": "4402",
     "shortname_line": "4402",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "be418e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00977",
     "name_line": "4407",
     "shortname_line": "4407",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "9b993b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00978",
     "name_line": "4408",
     "shortname_line": "4408",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d5c900",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00979",
     "name_line": "4410",
     "shortname_line": "4410",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "008c5a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00982",
     "name_line": "4403",
     "shortname_line": "4403",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "5291ce",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00983",
     "name_line": "4405",
     "shortname_line": "4405",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f3a4ba",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00984",
     "name_line": "4409",
     "shortname_line": "4409",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "98d4e2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00985",
     "name_line": "4231",
     "shortname_line": "4231",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00986",
     "name_line": "4271",
     "shortname_line": "4271",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00987",
     "name_line": "4232",
     "shortname_line": "4232",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C00989",
     "name_line": "4275",
     "shortname_line": "4275",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C00990",
     "name_line": "4276",
     "shortname_line": "4276",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01002",
     "name_line": "3451",
     "shortname_line": "3451",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01003",
     "name_line": "3453",
     "shortname_line": "3453",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01004",
     "name_line": "3550",
     "shortname_line": "3550",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01005",
     "name_line": "3556",
     "shortname_line": "3556",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01006",
     "name_line": "3557",
     "shortname_line": "3557",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01008",
     "name_line": "3458",
     "shortname_line": "3458",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01011",
     "name_line": "3455",
     "shortname_line": "3455",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01012",
     "name_line": "3454",
     "shortname_line": "3454",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0a0082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01013",
     "name_line": "4341",
     "shortname_line": "4341",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01014",
     "name_line": "4342",
     "shortname_line": "4342",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01015",
     "name_line": "4343",
     "shortname_line": "4343",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01016",
     "name_line": "4344",
     "shortname_line": "4344",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01017",
     "name_line": "4346",
     "shortname_line": "4346",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01033",
     "name_line": "5435",
     "shortname_line": "5435",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "cec73d",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01034",
     "name_line": "5433",
     "shortname_line": "5433",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01035",
     "name_line": "5474",
     "shortname_line": "5474",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01036",
     "name_line": "5432",
     "shortname_line": "5432",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "65318f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01040",
     "name_line": "2460",
     "shortname_line": "2460",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01043",
     "name_line": "3204",
     "shortname_line": "3204",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01044",
     "name_line": "3120",
     "shortname_line": "3120",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01045",
     "name_line": "3124",
     "shortname_line": "3124",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01046",
     "name_line": "2463",
     "shortname_line": "2463",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01047",
     "name_line": "2464",
     "shortname_line": "2464",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01048",
     "name_line": "2465",
     "shortname_line": "2465",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01049",
     "name_line": "2466",
     "shortname_line": "2466",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01052",
     "name_line": "3132",
     "shortname_line": "3132",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01053",
     "name_line": "3133",
     "shortname_line": "3133",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01057",
     "name_line": "2423",
     "shortname_line": "2423",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01058",
     "name_line": "3139",
     "shortname_line": "3139",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01059",
     "name_line": "2424",
     "shortname_line": "2424",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01060",
     "name_line": "2425",
     "shortname_line": "2425",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01062",
     "name_line": "7701",
     "shortname_line": "7701",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01063",
     "name_line": "7717",
     "shortname_line": "7717",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01071",
     "name_line": "TVM",
     "shortname_line": "TVM",
     "transportmode": "bus",
-    "transportsubmode": "highFrequencyBus"
+    "transportsubmode": "highFrequencyBus",
+    "type": null,
+    "colourweb_hexa": "216eb4",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "TVM.svg"
   },
   {
     "id_line": "C01072",
     "name_line": "20",
     "shortname_line": "20",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01073",
     "name_line": "21",
     "shortname_line": "21",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01074",
     "name_line": "22",
     "shortname_line": "22",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01075",
     "name_line": "24",
     "shortname_line": "24",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01076",
     "name_line": "26",
     "shortname_line": "26",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01077",
     "name_line": "27",
     "shortname_line": "27",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01078",
     "name_line": "28",
     "shortname_line": "28",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01079",
     "name_line": "29",
     "shortname_line": "29",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01080",
     "name_line": "30",
     "shortname_line": "30",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01081",
     "name_line": "31",
     "shortname_line": "31",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01082",
     "name_line": "32",
     "shortname_line": "32",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01083",
     "name_line": "38",
     "shortname_line": "38",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01084",
     "name_line": "39",
     "shortname_line": "39",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01085",
     "name_line": "42",
     "shortname_line": "42",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01086",
     "name_line": "43",
     "shortname_line": "43",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01087",
     "name_line": "46",
     "shortname_line": "46",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01088",
     "name_line": "47",
     "shortname_line": "47",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01089",
     "name_line": "48",
     "shortname_line": "48",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01090",
     "name_line": "52",
     "shortname_line": "52",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01092",
     "name_line": "54",
     "shortname_line": "54",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01093",
     "name_line": "56",
     "shortname_line": "56",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01094",
     "name_line": "57",
     "shortname_line": "57",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01095",
     "name_line": "58",
     "shortname_line": "58",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01096",
     "name_line": "60",
     "shortname_line": "60",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01097",
     "name_line": "61",
     "shortname_line": "61",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01098",
     "name_line": "62",
     "shortname_line": "62",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01099",
     "name_line": "63",
     "shortname_line": "63",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01100",
     "name_line": "64",
     "shortname_line": "64",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01102",
     "name_line": "66",
     "shortname_line": "66",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01103",
     "name_line": "67",
     "shortname_line": "67",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01104",
     "name_line": "68",
     "shortname_line": "68",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01105",
     "name_line": "69",
     "shortname_line": "69",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01106",
     "name_line": "70",
     "shortname_line": "70",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01107",
     "name_line": "72",
     "shortname_line": "72",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01108",
     "name_line": "73",
     "shortname_line": "73",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01109",
     "name_line": "74",
     "shortname_line": "74",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01110",
     "name_line": "75",
     "shortname_line": "75",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01111",
     "name_line": "76",
     "shortname_line": "76",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01112",
     "name_line": "80",
     "shortname_line": "80",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01114",
     "name_line": "82",
     "shortname_line": "82",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01115",
     "name_line": "83",
     "shortname_line": "83",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01116",
     "name_line": "84",
     "shortname_line": "84",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01117",
     "name_line": "85",
     "shortname_line": "85",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01118",
     "name_line": "86",
     "shortname_line": "86",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01119",
     "name_line": "87",
     "shortname_line": "87",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01120",
     "name_line": "88",
     "shortname_line": "88",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01121",
     "name_line": "89",
     "shortname_line": "89",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01122",
     "name_line": "91",
     "shortname_line": "91",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01123",
     "name_line": "92",
     "shortname_line": "92",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01124",
     "name_line": "93",
     "shortname_line": "93",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01125",
     "name_line": "94",
     "shortname_line": "94",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01126",
     "name_line": "95",
     "shortname_line": "95",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01127",
     "name_line": "96",
     "shortname_line": "96",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01130",
     "name_line": "101",
     "shortname_line": "101",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01131",
     "name_line": "102",
     "shortname_line": "102",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01132",
     "name_line": "103",
     "shortname_line": "103",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01133",
     "name_line": "104",
     "shortname_line": "104",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01134",
     "name_line": "105",
     "shortname_line": "105",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01135",
     "name_line": "106",
     "shortname_line": "106",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01136",
     "name_line": "107",
     "shortname_line": "107",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01137",
     "name_line": "108",
     "shortname_line": "108",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01138",
     "name_line": "109",
     "shortname_line": "109",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01139",
     "name_line": "110",
     "shortname_line": "110",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01140",
     "name_line": "111",
     "shortname_line": "111",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01141",
     "name_line": "112",
     "shortname_line": "112",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01142",
     "name_line": "113",
     "shortname_line": "113",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01143",
     "name_line": "114",
     "shortname_line": "114",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01144",
     "name_line": "115",
     "shortname_line": "115",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01145",
     "name_line": "116",
     "shortname_line": "116",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01146",
     "name_line": "117",
     "shortname_line": "117",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01147",
     "name_line": "118",
     "shortname_line": "118",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01148",
     "name_line": "119",
     "shortname_line": "119",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01149",
     "name_line": "120",
     "shortname_line": "120",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01150",
     "name_line": "121",
     "shortname_line": "121",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01151",
     "name_line": "122",
     "shortname_line": "122",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01152",
     "name_line": "123",
     "shortname_line": "123",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01153",
     "name_line": "124",
     "shortname_line": "124",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01154",
     "name_line": "125",
     "shortname_line": "125",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01155",
     "name_line": "126",
     "shortname_line": "126",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01156",
     "name_line": "127",
     "shortname_line": "127",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01157",
     "name_line": "128",
     "shortname_line": "128",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01158",
     "name_line": "129",
     "shortname_line": "129",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01159",
     "name_line": "131",
     "shortname_line": "131",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01160",
     "name_line": "132",
     "shortname_line": "132",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01161",
     "name_line": "133",
     "shortname_line": "133",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01163",
     "name_line": "137",
     "shortname_line": "137",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01164",
     "name_line": "138",
     "shortname_line": "138",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01165",
     "name_line": "139",
     "shortname_line": "139",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01166",
     "name_line": "140",
     "shortname_line": "140",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01167",
     "name_line": "141",
     "shortname_line": "141",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01168",
     "name_line": "143",
     "shortname_line": "143",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01169",
     "name_line": "144",
     "shortname_line": "144",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01170",
     "name_line": "145",
     "shortname_line": "145",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01171",
     "name_line": "146",
     "shortname_line": "146",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01172",
     "name_line": "147",
     "shortname_line": "147",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01173",
     "name_line": "148",
     "shortname_line": "148",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01174",
     "name_line": "150",
     "shortname_line": "150",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01175",
     "name_line": "151",
     "shortname_line": "151",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01176",
     "name_line": "152",
     "shortname_line": "152",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01177",
     "name_line": "153",
     "shortname_line": "153",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01180",
     "name_line": "157",
     "shortname_line": "157",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01181",
     "name_line": "158",
     "shortname_line": "158",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01182",
     "name_line": "159",
     "shortname_line": "159",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01183",
     "name_line": "160",
     "shortname_line": "160",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01184",
     "name_line": "162",
     "shortname_line": "162",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01185",
     "name_line": "163",
     "shortname_line": "163",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01186",
     "name_line": "164",
     "shortname_line": "164",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01187",
     "name_line": "165",
     "shortname_line": "165",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01188",
     "name_line": "166",
     "shortname_line": "166",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01189",
     "name_line": "167",
     "shortname_line": "167",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01190",
     "name_line": "169",
     "shortname_line": "169",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01191",
     "name_line": "170",
     "shortname_line": "170",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01192",
     "name_line": "171",
     "shortname_line": "171",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01193",
     "name_line": "172",
     "shortname_line": "172",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01194",
     "name_line": "173",
     "shortname_line": "173",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01195",
     "name_line": "174",
     "shortname_line": "174",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01196",
     "name_line": "175",
     "shortname_line": "175",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01197",
     "name_line": "176",
     "shortname_line": "176",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01198",
     "name_line": "177",
     "shortname_line": "177",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01199",
     "name_line": "178",
     "shortname_line": "178",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01200",
     "name_line": "179",
     "shortname_line": "179",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01201",
     "name_line": "180",
     "shortname_line": "180",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01202",
     "name_line": "181",
     "shortname_line": "181",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01203",
     "name_line": "182",
     "shortname_line": "182",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01204",
     "name_line": "183",
     "shortname_line": "183",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01205",
     "name_line": "184",
     "shortname_line": "184",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01206",
     "name_line": "185",
     "shortname_line": "185",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01207",
     "name_line": "186",
     "shortname_line": "186",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01208",
     "name_line": "187",
     "shortname_line": "187",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01209",
     "name_line": "188",
     "shortname_line": "188",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01210",
     "name_line": "189",
     "shortname_line": "189",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01211",
     "name_line": "190",
     "shortname_line": "190",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01212",
     "name_line": "191",
     "shortname_line": "191",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01213",
     "name_line": "192",
     "shortname_line": "192",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01214",
     "name_line": "194",
     "shortname_line": "194",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01215",
     "name_line": "195",
     "shortname_line": "195",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01216",
     "name_line": "196",
     "shortname_line": "196",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01217",
     "name_line": "197",
     "shortname_line": "197",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01218",
     "name_line": "199",
     "shortname_line": "199",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01219",
     "name_line": "201",
     "shortname_line": "201",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01220",
     "name_line": "203",
     "shortname_line": "203",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01221",
     "name_line": "206",
     "shortname_line": "206",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01222",
     "name_line": "207",
     "shortname_line": "207",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01223",
     "name_line": "208",
     "shortname_line": "208",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01224",
     "name_line": "210",
     "shortname_line": "210",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01225",
     "name_line": "211",
     "shortname_line": "211",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01226",
     "name_line": "212",
     "shortname_line": "212",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01227",
     "name_line": "213",
     "shortname_line": "213",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01228",
     "name_line": "214",
     "shortname_line": "214",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01229",
     "name_line": "215",
     "shortname_line": "215",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01230",
     "name_line": "216",
     "shortname_line": "216",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01231",
     "name_line": "217",
     "shortname_line": "217",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01232",
     "name_line": "220",
     "shortname_line": "220",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01233",
     "name_line": "221",
     "shortname_line": "221",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01234",
     "name_line": "234",
     "shortname_line": "234",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01235",
     "name_line": "235",
     "shortname_line": "235",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01236",
     "name_line": "237",
     "shortname_line": "237",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01237",
     "name_line": "238",
     "shortname_line": "238",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01238",
     "name_line": "239",
     "shortname_line": "239",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01239",
     "name_line": "241",
     "shortname_line": "241",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01240",
     "name_line": "244",
     "shortname_line": "244",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01241",
     "name_line": "249",
     "shortname_line": "249",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01242",
     "name_line": "250",
     "shortname_line": "250",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01243",
     "name_line": "251",
     "shortname_line": "251",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01244",
     "name_line": "252",
     "shortname_line": "252",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff0000",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01245",
     "name_line": "253",
     "shortname_line": "253",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01246",
     "name_line": "255",
     "shortname_line": "255",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01247",
     "name_line": "256",
     "shortname_line": "256",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e5b1e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01248",
     "name_line": "258",
     "shortname_line": "258",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01249",
     "name_line": "261",
     "shortname_line": "261",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01250",
     "name_line": "262 (future 6419)",
     "shortname_line": "262",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01251",
     "name_line": "268",
     "shortname_line": "268",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01252",
     "name_line": "269",
     "shortname_line": "269",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01253",
     "name_line": "270",
     "shortname_line": "270",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01254",
     "name_line": "272",
     "shortname_line": "272",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01255",
     "name_line": "274",
     "shortname_line": "274",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01256",
     "name_line": "275",
     "shortname_line": "275",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01257",
     "name_line": "276",
     "shortname_line": "276",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01258",
     "name_line": "278",
     "shortname_line": "278",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01260",
     "name_line": "281",
     "shortname_line": "281",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01262",
     "name_line": "285",
     "shortname_line": "285",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01263",
     "name_line": "286",
     "shortname_line": "286",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01264",
     "name_line": "289",
     "shortname_line": "289",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01265",
     "name_line": "290",
     "shortname_line": "290",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01267",
     "name_line": "292",
     "shortname_line": "292",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01268",
     "name_line": "294",
     "shortname_line": "294",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01270",
     "name_line": "297",
     "shortname_line": "297",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01271",
     "name_line": "299",
     "shortname_line": "299",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01272",
     "name_line": "301",
     "shortname_line": "301",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01273",
     "name_line": "302",
     "shortname_line": "302",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01274",
     "name_line": "303",
     "shortname_line": "303",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01275",
     "name_line": "304",
     "shortname_line": "304",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01276",
     "name_line": "306",
     "shortname_line": "306",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01277",
     "name_line": "308",
     "shortname_line": "308",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01278",
     "name_line": "310",
     "shortname_line": "310",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01279",
     "name_line": "312",
     "shortname_line": "312",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01280",
     "name_line": "317",
     "shortname_line": "317",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01281",
     "name_line": "318",
     "shortname_line": "318",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01282",
     "name_line": "319",
     "shortname_line": "319",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01283",
     "name_line": "320",
     "shortname_line": "320",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01285",
     "name_line": "321",
     "shortname_line": "321",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01286",
     "name_line": "322",
     "shortname_line": "322",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01287",
     "name_line": "323",
     "shortname_line": "323",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01288",
     "name_line": "325",
     "shortname_line": "325",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01289",
     "name_line": "330",
     "shortname_line": "330",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01292",
     "name_line": "340",
     "shortname_line": "340",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01294",
     "name_line": "341",
     "shortname_line": "341",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01295",
     "name_line": "346",
     "shortname_line": "346",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01298",
     "name_line": "350",
     "shortname_line": "350",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "662d91",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01299",
     "name_line": "351",
     "shortname_line": "351",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f1c232",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01302",
     "name_line": "355",
     "shortname_line": "355",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01303",
     "name_line": "356",
     "shortname_line": "356",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01304",
     "name_line": "360",
     "shortname_line": "360",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01305",
     "name_line": "361",
     "shortname_line": "361",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01306",
     "name_line": "366",
     "shortname_line": "366",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01307",
     "name_line": "367",
     "shortname_line": "367",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01308",
     "name_line": "368",
     "shortname_line": "368",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01309",
     "name_line": "370",
     "shortname_line": "370",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01310",
     "name_line": "372",
     "shortname_line": "372",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01311",
     "name_line": "378",
     "shortname_line": "378",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01313",
     "name_line": "385",
     "shortname_line": "385",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01314",
     "name_line": "388",
     "shortname_line": "388",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01315",
     "name_line": "389",
     "shortname_line": "389",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01316",
     "name_line": "390",
     "shortname_line": "390",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01317",
     "name_line": "391",
     "shortname_line": "391",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01318",
     "name_line": "393",
     "shortname_line": "393",
     "transportmode": "bus",
-    "transportsubmode": "highFrequencyBus"
+    "transportsubmode": "highFrequencyBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01319",
     "name_line": "394",
     "shortname_line": "394",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01320",
     "name_line": "395",
     "shortname_line": "395",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01321",
     "name_line": "396",
     "shortname_line": "396",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01322",
     "name_line": "399",
     "shortname_line": "399",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01323",
     "name_line": "421",
     "shortname_line": "421",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01324",
     "name_line": "467",
     "shortname_line": "467",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01326",
     "name_line": "485",
     "shortname_line": "485",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01327",
     "name_line": "488",
     "shortname_line": "488",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01328",
     "name_line": "492",
     "shortname_line": "492",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01329",
     "name_line": "La Traverse de Charonne",
     "shortname_line": "CHARONNE",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "216eb4",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01330",
     "name_line": "La Traverse Bièvre Montsouris",
     "shortname_line": "BIEVRES",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "bb4d98",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01331",
     "name_line": "TILLBUS",
     "shortname_line": "TILLBUS",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "c5a3ca",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01332",
     "name_line": "La Traverse Batignolles-Bichat",
     "shortname_line": "BATIGNO",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01333",
     "name_line": "La Traverse Ney - Flandre",
     "shortname_line": "NEY-FLA",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "c5a3ca",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01334",
     "name_line": "520",
     "shortname_line": "520",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01336",
     "name_line": "MONTBUS",
     "shortname_line": "MONTBUS",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01337",
     "name_line": "L'AUDONIENNE",
     "shortname_line": "AUDONIE",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "df9ab1",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01338",
     "name_line": "EOLIEN",
     "shortname_line": "EOLIEN",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01340",
     "name_line": "AS AUTOBUS SURESNOIS",
     "shortname_line": "AS",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "216eb4",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01342",
     "name_line": "TRANSPORT URBAIN BONDYNOIS",
     "shortname_line": "TUB",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "8e6538",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01345",
     "name_line": "559",
     "shortname_line": "559",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01347",
     "name_line": "V4",
     "shortname_line": "V4",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01350",
     "name_line": "565",
     "shortname_line": "565",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01352",
     "name_line": "TIM",
     "shortname_line": "TIM",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "89c7d6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01353",
     "name_line": "SUBB Boucle Nord",
     "shortname_line": "SUBB N",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8e6538",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01354",
     "name_line": "TUC",
     "shortname_line": "TUC",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "f4c931",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01356",
     "name_line": "RIVER PLAZA",
     "shortname_line": "RIVER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "de8b53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01357",
     "name_line": "ClamiBus",
     "shortname_line": "CLAM",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f4c931",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01359",
     "name_line": "V3",
     "shortname_line": "V3",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01360",
     "name_line": "CHOISYBUS",
     "shortname_line": "CHOISYBUS",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dfb039",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01361",
     "name_line": "V2",
     "shortname_line": "V2",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01362",
     "name_line": "V5",
     "shortname_line": "V5",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "328e5b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01363",
     "name_line": "V7",
     "shortname_line": "V7",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01365",
     "name_line": "TUVIM Centre-Ville",
     "shortname_line": "TUVIM CV",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01366",
     "name_line": "AMIBUS",
     "shortname_line": "AMIBUS",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01367",
     "name_line": "V6",
     "shortname_line": "V6",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01368",
     "name_line": "Le Petit Fontenaisien",
     "shortname_line": "FONT",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01369",
     "name_line": "595",
     "shortname_line": "595",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01370",
     "name_line": "L'Hirondelle",
     "shortname_line": "HIRO",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01371",
     "name_line": "1",
     "shortname_line": "1",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "icon": "1.svg"
   },
   {
     "id_line": "C01372",
     "name_line": "2",
     "shortname_line": "2",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "2.svg"
   },
   {
     "id_line": "C01373",
     "name_line": "3",
     "shortname_line": "3",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "3.svg"
   },
   {
     "id_line": "C01374",
     "name_line": "4",
     "shortname_line": "4",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "4.svg"
   },
   {
     "id_line": "C01375",
     "name_line": "5",
     "shortname_line": "5",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000",
+    "icon": "5.svg"
   },
   {
     "id_line": "C01376",
     "name_line": "6",
     "shortname_line": "6",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "icon": "6.svg"
   },
   {
     "id_line": "C01377",
     "name_line": "7",
     "shortname_line": "7",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "icon": "7.svg"
   },
   {
     "id_line": "C01378",
     "name_line": "8",
     "shortname_line": "8",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000",
+    "icon": "8.svg"
   },
   {
     "id_line": "C01379",
     "name_line": "9",
     "shortname_line": "9",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000",
+    "icon": "9.svg"
   },
   {
     "id_line": "C01380",
     "name_line": "10",
     "shortname_line": "10",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000",
+    "icon": "10.svg"
   },
   {
     "id_line": "C01381",
     "name_line": "11",
     "shortname_line": "11",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "11.svg"
   },
   {
     "id_line": "C01382",
     "name_line": "12",
     "shortname_line": "12",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "12.svg"
   },
   {
     "id_line": "C01383",
     "name_line": "13",
     "shortname_line": "13",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000",
+    "icon": "13.svg"
   },
   {
     "id_line": "C01384",
     "name_line": "14",
     "shortname_line": "14",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "14.svg"
   },
   {
     "id_line": "C01385",
     "name_line": "FUNICULAIRE",
     "shortname_line": "FUN",
     "transportmode": "funicular",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "afafaf",
+    "textcolourweb_hexa": "000000",
+    "icon": "FUN.svg"
   },
   {
     "id_line": "C01386",
     "name_line": "3B",
     "shortname_line": "3B",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000",
+    "icon": "3B.svg"
   },
   {
     "id_line": "C01387",
     "name_line": "7B",
     "shortname_line": "7B",
     "transportmode": "metro",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "icon": "7B.svg"
   },
   {
     "id_line": "C01388",
     "name_line": "ORLYVAL",
     "shortname_line": "ORLYVAL",
     "transportmode": "rail",
-    "transportsubmode": "railShuttle"
+    "transportsubmode": "railShuttle",
+    "type": null,
+    "colourweb_hexa": "5ec5ed",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "ORLYVAL.svg"
   },
   {
     "id_line": "C01389",
     "name_line": "T1",
     "shortname_line": "T1",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T1.svg"
   },
   {
     "id_line": "C01390",
     "name_line": "T2",
     "shortname_line": "T2",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T2.svg"
   },
   {
     "id_line": "C01391",
     "name_line": "T3a",
     "shortname_line": "T3a",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000",
+    "icon": "T3a.svg"
   },
   {
     "id_line": "C01392",
     "name_line": "N24",
     "shortname_line": "N24",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N24.svg"
   },
   {
     "id_line": "C01393",
     "name_line": "N52",
     "shortname_line": "N52",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000",
+    "icon": "N52.svg"
   },
   {
     "id_line": "C01394",
     "name_line": "N51",
     "shortname_line": "N51",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "icon": "N51.svg"
   },
   {
     "id_line": "C01395",
     "name_line": "N44",
     "shortname_line": "N44",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "icon": "N44.svg"
   },
   {
     "id_line": "C01396",
     "name_line": "N42",
     "shortname_line": "N42",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000",
+    "icon": "N42.svg"
   },
   {
     "id_line": "C01397",
     "name_line": "N23",
     "shortname_line": "N23",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000",
+    "icon": "N23.svg"
   },
   {
     "id_line": "C01398",
     "name_line": "N34",
     "shortname_line": "N34",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000",
+    "icon": "N34.svg"
   },
   {
     "id_line": "C01399",
     "name_line": "N33",
     "shortname_line": "N33",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N33.svg"
   },
   {
     "id_line": "C01400",
     "name_line": "N31",
     "shortname_line": "N31",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "icon": "N31.svg"
   },
   {
     "id_line": "C01401",
     "name_line": "N21",
     "shortname_line": "N21",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "icon": "N21.svg"
   },
   {
     "id_line": "C01402",
     "name_line": "N61",
     "shortname_line": "N61",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000",
+    "icon": "N61.svg"
   },
   {
     "id_line": "C01403",
     "name_line": "N62",
     "shortname_line": "N62",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "icon": "N62.svg"
   },
   {
     "id_line": "C01404",
     "name_line": "N32",
     "shortname_line": "N32",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000",
+    "icon": "N32.svg"
   },
   {
     "id_line": "C01405",
     "name_line": "N45",
     "shortname_line": "N45",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "icon": "N45.svg"
   },
   {
     "id_line": "C01406",
     "name_line": "N43",
     "shortname_line": "N43",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N43.svg"
   },
   {
     "id_line": "C01407",
     "name_line": "N22",
     "shortname_line": "N22",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "icon": "N22.svg"
   },
   {
     "id_line": "C01408",
     "name_line": "N63",
     "shortname_line": "N63",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000",
+    "icon": "N63.svg"
   },
   {
     "id_line": "C01409",
     "name_line": "N53",
     "shortname_line": "N53",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "icon": "N53.svg"
   },
   {
     "id_line": "C01410",
     "name_line": "N71",
     "shortname_line": "N71",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N71.svg"
   },
   {
     "id_line": "C01411",
     "name_line": "N41",
     "shortname_line": "N41",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "icon": "N41.svg"
   },
   {
     "id_line": "C01412",
     "name_line": "N35",
     "shortname_line": "N35",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "icon": "N35.svg"
   },
   {
     "id_line": "C01413",
     "name_line": "N01",
     "shortname_line": "N01",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N01.svg"
   },
   {
     "id_line": "C01414",
     "name_line": "N02",
     "shortname_line": "N02",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N02.svg"
   },
   {
     "id_line": "C01415",
     "name_line": "N11",
     "shortname_line": "N11",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N11.svg"
   },
   {
     "id_line": "C01416",
     "name_line": "N16",
     "shortname_line": "N16",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000",
+    "icon": "N16.svg"
   },
   {
     "id_line": "C01417",
     "name_line": "N15",
     "shortname_line": "N15",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "icon": "N15.svg"
   },
   {
     "id_line": "C01418",
     "name_line": "N14",
     "shortname_line": "N14",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000",
+    "icon": "N14.svg"
   },
   {
     "id_line": "C01419",
     "name_line": "N13",
     "shortname_line": "N13",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000",
+    "icon": "N13.svg"
   },
   {
     "id_line": "C01420",
     "name_line": "N12",
     "shortname_line": "N12",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000",
+    "icon": "N12.svg"
   },
   {
     "id_line": "C01421",
     "name_line": "N122",
     "shortname_line": "N122",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N122.svg"
   },
   {
     "id_line": "C01422",
     "name_line": "N153",
     "shortname_line": "N153",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ed262a",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N153.svg"
   },
   {
     "id_line": "C01423",
     "name_line": "1 (future 701)",
     "shortname_line": "1",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f9dc00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01426",
     "name_line": "2 (future 702)",
     "shortname_line": "2",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0074ba",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01427",
     "name_line": "5 (future 705)",
     "shortname_line": "5",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00b8e0",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01428",
     "name_line": "5410",
     "shortname_line": "5410",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "eb2132",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01429",
     "name_line": "Filéo Othis (sur réservation)",
     "shortname_line": "Filéo OTH",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "b80b4b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01431",
     "name_line": "Filéo Sarcelles (sur réservation)",
     "shortname_line": "Filéo SAR",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01432",
     "name_line": "Filéo Goussainville (sur réservation)",
     "shortname_line": "Filéo GSV",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01433",
     "name_line": "Filéo Villiers-le-Bel (sur réservation)",
     "shortname_line": "Filéo VLB",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "f69fb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01435",
     "name_line": "3301",
     "shortname_line": "3301",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b80c4b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01436",
     "name_line": "3303",
     "shortname_line": "3303",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01437",
     "name_line": "3304",
     "shortname_line": "3304",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01438",
     "name_line": "3310",
     "shortname_line": "3310",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01439",
     "name_line": "3305",
     "shortname_line": "3305",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "bb4b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01440",
     "name_line": "3311",
     "shortname_line": "3311",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "87d3df",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01441",
     "name_line": "3306",
     "shortname_line": "3306",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01442",
     "name_line": "3307",
     "shortname_line": "3307",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "008c5a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01443",
     "name_line": "3302",
     "shortname_line": "3302",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01444",
     "name_line": "3438",
     "shortname_line": "3438",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01445",
     "name_line": "3434",
     "shortname_line": "3434",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01446",
     "name_line": "3435",
     "shortname_line": "3435",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01447",
     "name_line": "3436",
     "shortname_line": "3436",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01448",
     "name_line": "3430",
     "shortname_line": "3430",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01450",
     "name_line": "3433",
     "shortname_line": "3433",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01451",
     "name_line": "3319",
     "shortname_line": "3319",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "9b9931",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01452",
     "name_line": "3240",
     "shortname_line": "3240",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01453",
     "name_line": "3241",
     "shortname_line": "3241",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01454",
     "name_line": "3243",
     "shortname_line": "3243",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01455",
     "name_line": "3244",
     "shortname_line": "3244",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01456",
     "name_line": "3201",
     "shortname_line": "3201",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01457",
     "name_line": "3242",
     "shortname_line": "3242",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01459",
     "name_line": "3256",
     "shortname_line": "3256",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01461",
     "name_line": "3250",
     "shortname_line": "3250",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01462",
     "name_line": "3257",
     "shortname_line": "3257",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01463",
     "name_line": "3258",
     "shortname_line": "3258",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01464",
     "name_line": "3202",
     "shortname_line": "3202",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01467",
     "name_line": "3252",
     "shortname_line": "3252",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01468",
     "name_line": "3253",
     "shortname_line": "3253",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01469",
     "name_line": "3260",
     "shortname_line": "3260",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01472",
     "name_line": "9518",
     "shortname_line": "9518",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01473",
     "name_line": "2 (future 6412)",
     "shortname_line": "2",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8ce39c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01475",
     "name_line": "1205",
     "shortname_line": "1205",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ed1c2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01476",
     "name_line": "6 (future 6428)",
     "shortname_line": "6",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01477",
     "name_line": "1231",
     "shortname_line": "1231",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01478",
     "name_line": "12 (future 6432)",
     "shortname_line": "12",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff8c57",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01479",
     "name_line": "1234",
     "shortname_line": "1234",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e0b03b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01480",
     "name_line": "1227",
     "shortname_line": "1227",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01481",
     "name_line": "426",
     "shortname_line": "426",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01482",
     "name_line": "6227",
     "shortname_line": "6227",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01484",
     "name_line": "6231",
     "shortname_line": "6231",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01485",
     "name_line": "459",
     "shortname_line": "459",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01488",
     "name_line": "471",
     "shortname_line": "471",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01489",
     "name_line": "6216",
     "shortname_line": "6216",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01490",
     "name_line": "7803",
     "shortname_line": "7803",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01491",
     "name_line": "37 (future 6451)",
     "shortname_line": "37",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff8c57",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01492",
     "name_line": "40 (future 6452)",
     "shortname_line": "40",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01493",
     "name_line": "6280",
     "shortname_line": "6280",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01494",
     "name_line": "3407",
     "shortname_line": "3407",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01495",
     "name_line": "4531",
     "shortname_line": "4531",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01497",
     "name_line": "4534",
     "shortname_line": "4534",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01498",
     "name_line": "4533",
     "shortname_line": "4533",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01499",
     "name_line": "7704",
     "shortname_line": "7704",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01500",
     "name_line": "7705",
     "shortname_line": "7705",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01501",
     "name_line": "3251",
     "shortname_line": "3251",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01502",
     "name_line": "3262",
     "shortname_line": "3262",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01503",
     "name_line": "3215",
     "shortname_line": "3215",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01504",
     "name_line": "3261",
     "shortname_line": "3261",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01505",
     "name_line": "7707",
     "shortname_line": "7707",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01506",
     "name_line": "3218",
     "shortname_line": "3218",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01507",
     "name_line": "3211",
     "shortname_line": "3211",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01508",
     "name_line": "3212",
     "shortname_line": "3212",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01509",
     "name_line": "3213",
     "shortname_line": "3213",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01510",
     "name_line": "3214",
     "shortname_line": "3214",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01511",
     "name_line": "3315",
     "shortname_line": "3315",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e0b03b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01512",
     "name_line": "3249",
     "shortname_line": "3249",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01513",
     "name_line": "3246",
     "shortname_line": "3246",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01517",
     "name_line": "3208",
     "shortname_line": "3208",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01518",
     "name_line": "3207",
     "shortname_line": "3207",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01519",
     "name_line": "3209",
     "shortname_line": "3209",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01520",
     "name_line": "TàD 3209",
     "shortname_line": "TàD 3209",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01521",
     "name_line": "5134",
     "shortname_line": "5134",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01522",
     "name_line": "5121",
     "shortname_line": "5121",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01523",
     "name_line": "5132",
     "shortname_line": "5132",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01524",
     "name_line": "5120",
     "shortname_line": "5120",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01526",
     "name_line": "5122",
     "shortname_line": "5122",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01527",
     "name_line": "5104",
     "shortname_line": "5104",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01528",
     "name_line": "5105",
     "shortname_line": "5105",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01530",
     "name_line": "5107",
     "shortname_line": "5107",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01531",
     "name_line": "5106",
     "shortname_line": "5106",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01532",
     "name_line": "5143",
     "shortname_line": "5143",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01533",
     "name_line": "5144",
     "shortname_line": "5144",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01535",
     "name_line": "5142",
     "shortname_line": "5142",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01537",
     "name_line": "5133",
     "shortname_line": "5133",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01538",
     "name_line": "5145",
     "shortname_line": "5145",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01539",
     "name_line": "5103",
     "shortname_line": "5103",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01540",
     "name_line": "5152",
     "shortname_line": "5152",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01541",
     "name_line": "5150",
     "shortname_line": "5150",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01542",
     "name_line": "5151",
     "shortname_line": "5151",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01543",
     "name_line": "7805",
     "shortname_line": "7805",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01544",
     "name_line": "Magical Shuttle Selected",
     "shortname_line": "Selected",
     "transportmode": "bus",
-    "transportsubmode": "airportLinkBus"
+    "transportsubmode": "airportLinkBus",
+    "type": null,
+    "colourweb_hexa": "1ac7ff",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01545",
     "name_line": "Magical Shuttle CDG",
     "shortname_line": "CDG",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01546",
     "name_line": "Magical Shuttle Orly",
     "shortname_line": "Orly",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01548",
     "name_line": "701 (future 710)",
     "shortname_line": "701",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0a0082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01549",
     "name_line": "702",
     "shortname_line": "702",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01550",
     "name_line": "703",
     "shortname_line": "703",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01552",
     "name_line": "9504",
     "shortname_line": "9504",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01553",
     "name_line": "1111",
     "shortname_line": "1111",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a04b9b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01554",
     "name_line": "1116",
     "shortname_line": "1116",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01555",
     "name_line": "1137",
     "shortname_line": "1137",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01556",
     "name_line": "1138",
     "shortname_line": "1138",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01557",
     "name_line": "1139",
     "shortname_line": "1139",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01558",
     "name_line": "1140",
     "shortname_line": "1140",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01559",
     "name_line": "1141",
     "shortname_line": "1141",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01560",
     "name_line": "1142",
     "shortname_line": "1142",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01561",
     "name_line": "4609",
     "shortname_line": "4609",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d7437e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01562",
     "name_line": "9101",
     "shortname_line": "9101",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01563",
     "name_line": "9102",
     "shortname_line": "9102",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01564",
     "name_line": "9103",
     "shortname_line": "9103",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01565",
     "name_line": "4504",
     "shortname_line": "4504",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01566",
     "name_line": "9105",
     "shortname_line": "9105",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01567",
     "name_line": "4606",
     "shortname_line": "4606",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01568",
     "name_line": "4457",
     "shortname_line": "4457",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "5291ce",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01569",
     "name_line": "9108",
     "shortname_line": "9108",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3bb2ff",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01570",
     "name_line": "4122",
     "shortname_line": "4122",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01571",
     "name_line": "5154",
     "shortname_line": "5154",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01574",
     "name_line": "602",
     "shortname_line": "602",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01575",
     "name_line": "603",
     "shortname_line": "603",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01576",
     "name_line": "604",
     "shortname_line": "604",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01577",
     "name_line": "605",
     "shortname_line": "605",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01578",
     "name_line": "607",
     "shortname_line": "607",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f28e43",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01579",
     "name_line": "609",
     "shortname_line": "609",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "c04191",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01580",
     "name_line": "610",
     "shortname_line": "610",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ceadd2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01581",
     "name_line": "613",
     "shortname_line": "613",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01583",
     "name_line": "615",
     "shortname_line": "615",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "83c491",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01584",
     "name_line": "616",
     "shortname_line": "616",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0064b0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01585",
     "name_line": "617",
     "shortname_line": "617",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f3a4ba",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01586",
     "name_line": "618",
     "shortname_line": "618",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "e3b32a",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01587",
     "name_line": "619",
     "shortname_line": "619",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "83c491",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01588",
     "name_line": "620",
     "shortname_line": "620",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00814f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01589",
     "name_line": "623",
     "shortname_line": "623",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01591",
     "name_line": "637",
     "shortname_line": "637",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f3a4ba",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01594",
     "name_line": "642",
     "shortname_line": "642",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0064b0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01595",
     "name_line": "644",
     "shortname_line": "644",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01600",
     "name_line": "5402",
     "shortname_line": "5402",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "006fb6",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01601",
     "name_line": "5403",
     "shortname_line": "5403",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "8ad3de",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01602",
     "name_line": "5420",
     "shortname_line": "5420",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01603",
     "name_line": "5405",
     "shortname_line": "5405",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "006fb6",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01604",
     "name_line": "5414",
     "shortname_line": "5414",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "cec73d",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01605",
     "name_line": "5406",
     "shortname_line": "5406",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f49fb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01606",
     "name_line": "5407",
     "shortname_line": "5407",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dfaf47",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01607",
     "name_line": "5425",
     "shortname_line": "5425",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "7ac597",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01612",
     "name_line": "5408",
     "shortname_line": "5408",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "8d653d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01613",
     "name_line": "5427",
     "shortname_line": "5427",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "008b5b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01615",
     "name_line": "4221",
     "shortname_line": "4221",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01616",
     "name_line": "4201",
     "shortname_line": "4201",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01618",
     "name_line": "4212",
     "shortname_line": "4212",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01619",
     "name_line": "4204",
     "shortname_line": "4204",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01620",
     "name_line": "4241",
     "shortname_line": "4241",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01622",
     "name_line": "4202",
     "shortname_line": "4202",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01623",
     "name_line": "4217",
     "shortname_line": "4217",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01624",
     "name_line": "4244",
     "shortname_line": "4244",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01625",
     "name_line": "4246",
     "shortname_line": "4246",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01626",
     "name_line": "4213",
     "shortname_line": "4213",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01627",
     "name_line": "4214",
     "shortname_line": "4214",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01628",
     "name_line": "4245",
     "shortname_line": "4245",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01629",
     "name_line": "4218",
     "shortname_line": "4218",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01630",
     "name_line": "4219",
     "shortname_line": "4219",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01633",
     "name_line": "N132",
     "shortname_line": "N132",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "008b5a",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N132.svg"
   },
   {
     "id_line": "C01634",
     "name_line": "N130",
     "shortname_line": "N130",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N130.svg"
   },
   {
     "id_line": "C01635",
     "name_line": "N151",
     "shortname_line": "N151",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "cec92a",
+    "textcolourweb_hexa": "000000",
+    "icon": "N151.svg"
   },
   {
     "id_line": "C01636",
     "name_line": "N131",
     "shortname_line": "N131",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "icon": "N131.svg"
   },
   {
     "id_line": "C01637",
     "name_line": "N150",
     "shortname_line": "N150",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ed1b2a",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N150.svg"
   },
   {
     "id_line": "C01638",
     "name_line": "N140",
     "shortname_line": "N140",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N140.svg"
   },
   {
     "id_line": "C01639",
     "name_line": "N141",
     "shortname_line": "N141",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "1765ae",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N141.svg"
   },
   {
     "id_line": "C01640",
     "name_line": "N142",
     "shortname_line": "N142",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N142.svg"
   },
   {
     "id_line": "C01641",
     "name_line": "N152",
     "shortname_line": "N152",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ed1b2a",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N152.svg"
   },
   {
     "id_line": "C01642",
     "name_line": "N134",
     "shortname_line": "N134",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N134.svg"
   },
   {
     "id_line": "C01643",
     "name_line": "N135",
     "shortname_line": "N135",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N135.svg"
   },
   {
     "id_line": "C01644",
     "name_line": "N143",
     "shortname_line": "N143",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N143.svg"
   },
   {
     "id_line": "C01645",
     "name_line": "N139",
     "shortname_line": "N139",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N139.svg"
   },
   {
     "id_line": "C01646",
     "name_line": "N161",
     "shortname_line": "N161",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N161.svg"
   },
   {
     "id_line": "C01647",
     "name_line": "N154",
     "shortname_line": "N154",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "8e6539",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N154.svg"
   },
   {
     "id_line": "C01648",
     "name_line": "N133",
     "shortname_line": "N133",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000",
+    "icon": "N133.svg"
   },
   {
     "id_line": "C01651",
     "name_line": "4661",
     "shortname_line": "4661",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffed00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01653",
     "name_line": "4663",
     "shortname_line": "4663",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "b6d061",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01654",
     "name_line": "4664",
     "shortname_line": "4664",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d073a1",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01657",
     "name_line": "418",
     "shortname_line": "418",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01658",
     "name_line": "415",
     "shortname_line": "415",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01659",
     "name_line": "1301",
     "shortname_line": "1301",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01660",
     "name_line": "1302",
     "shortname_line": "1302",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01662",
     "name_line": "1356",
     "shortname_line": "1356",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01663",
     "name_line": "4502",
     "shortname_line": "4502",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01664",
     "name_line": "3203",
     "shortname_line": "3203",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01668",
     "name_line": "5197",
     "shortname_line": "5197",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01669",
     "name_line": "3705",
     "shortname_line": "3705",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01672",
     "name_line": "4216",
     "shortname_line": "4216",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01673",
     "name_line": "4583",
     "shortname_line": "4583",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01674",
     "name_line": "1222",
     "shortname_line": "1222",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01675",
     "name_line": "100",
     "shortname_line": "100",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01676",
     "name_line": "5131",
     "shortname_line": "5131",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01677",
     "name_line": "5130",
     "shortname_line": "5130",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01679",
     "name_line": "T3b",
     "shortname_line": "T3b",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T3b.svg"
   },
   {
     "id_line": "C01680",
     "name_line": "35",
     "shortname_line": "35",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01681",
     "name_line": "3 (future 6413)",
     "shortname_line": "3",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01683",
     "name_line": "Remplacement Tram T4",
     "shortname_line": "T4",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01684",
     "name_line": "T5",
     "shortname_line": "T5",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T5.svg"
   },
   {
     "id_line": "C01685",
     "name_line": "1221",
     "shortname_line": "1221",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01686",
     "name_line": "3308",
     "shortname_line": "3308",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "78c696",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01687",
     "name_line": "6131",
     "shortname_line": "6131",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01688",
     "name_line": "6177",
     "shortname_line": "6177",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01689",
     "name_line": "6184",
     "shortname_line": "6184",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01690",
     "name_line": "6179",
     "shortname_line": "6179",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01691",
     "name_line": "6180",
     "shortname_line": "6180",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01692",
     "name_line": "6181",
     "shortname_line": "6181",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01693",
     "name_line": "6182",
     "shortname_line": "6182",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01695",
     "name_line": "247",
     "shortname_line": "247",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01696",
     "name_line": "248",
     "shortname_line": "248",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01697",
     "name_line": "4602",
     "shortname_line": "4602",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01698",
     "name_line": "4621",
     "shortname_line": "4621",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01699",
     "name_line": "4622",
     "shortname_line": "4622",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "cec73d",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01700",
     "name_line": "6164",
     "shortname_line": "6164",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01701",
     "name_line": "6161",
     "shortname_line": "6161",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01702",
     "name_line": "6162",
     "shortname_line": "6162",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01703",
     "name_line": "4571",
     "shortname_line": "4571",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01704",
     "name_line": "4572",
     "shortname_line": "4572",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01705",
     "name_line": "4573",
     "shortname_line": "4573",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01706",
     "name_line": "4574",
     "shortname_line": "4574",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01707",
     "name_line": "4575",
     "shortname_line": "4575",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01708",
     "name_line": "4436",
     "shortname_line": "4436",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01709",
     "name_line": "30-47",
     "shortname_line": "30-47",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e40520",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01710",
     "name_line": "487",
     "shortname_line": "487",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01711",
     "name_line": "4642",
     "shortname_line": "4642",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d6c900",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01712",
     "name_line": "Filéo Survilliers (sur réservation)",
     "shortname_line": "Filéo SF",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "fece00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01713",
     "name_line": "2228",
     "shortname_line": "2228",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01714",
     "name_line": "4240",
     "shortname_line": "4240",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01715",
     "name_line": "2416",
     "shortname_line": "2416",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01716",
     "name_line": "2471",
     "shortname_line": "2471",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01717",
     "name_line": "8 (future 708)",
     "shortname_line": "8",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "8c5e23",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01718",
     "name_line": "5253",
     "shortname_line": "5253",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01719",
     "name_line": "5267",
     "shortname_line": "5267",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "9b993b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01720",
     "name_line": "5277",
     "shortname_line": "5277",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "cec92b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01721",
     "name_line": "5307",
     "shortname_line": "5307",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01724",
     "name_line": "3210",
     "shortname_line": "3210",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01725",
     "name_line": "3217",
     "shortname_line": "3217",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01726",
     "name_line": "3259",
     "shortname_line": "3259",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01727",
     "name_line": "C",
     "shortname_line": "C",
     "transportmode": "rail",
-    "transportsubmode": "local"
+    "transportsubmode": "local",
+    "type": null,
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000",
+    "icon": "C.svg"
   },
   {
     "id_line": "C01728",
     "name_line": "D",
     "shortname_line": "D",
     "transportmode": "rail",
-    "transportsubmode": "local"
+    "transportsubmode": "local",
+    "type": null,
+    "colourweb_hexa": "008b5b",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "D.svg"
   },
   {
     "id_line": "C01729",
     "name_line": "E",
     "shortname_line": "E",
     "transportmode": "rail",
-    "transportsubmode": "local"
+    "transportsubmode": "local",
+    "type": null,
+    "colourweb_hexa": "b94e9a",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "E.svg"
   },
   {
     "id_line": "C01730",
     "name_line": "P",
     "shortname_line": "P",
     "transportmode": "rail",
-    "transportsubmode": "suburbanRailway"
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000",
+    "icon": "P.svg"
   },
   {
     "id_line": "C01731",
     "name_line": "R",
     "shortname_line": "R",
     "transportmode": "rail",
-    "transportsubmode": "suburbanRailway"
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "colourweb_hexa": "f49fb3",
+    "textcolourweb_hexa": "000000",
+    "icon": "R.svg"
   },
   {
     "id_line": "C01735",
     "name_line": "1305",
     "shortname_line": "1305",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01736",
     "name_line": "N",
     "shortname_line": "N",
     "transportmode": "rail",
-    "transportsubmode": "suburbanRailway"
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "colourweb_hexa": "00b297",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N.svg"
   },
   {
     "id_line": "C01737",
     "name_line": "H",
     "shortname_line": "H",
     "transportmode": "rail",
-    "transportsubmode": "suburbanRailway"
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "colourweb_hexa": "84653d",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "H.svg"
   },
   {
     "id_line": "C01738",
     "name_line": "K",
     "shortname_line": "K",
     "transportmode": "rail",
-    "transportsubmode": "suburbanRailway"
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "colourweb_hexa": "9b9842",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "K.svg"
   },
   {
     "id_line": "C01739",
     "name_line": "J",
     "shortname_line": "J",
     "transportmode": "rail",
-    "transportsubmode": "suburbanRailway"
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "colourweb_hexa": "cec73d",
+    "textcolourweb_hexa": "000000",
+    "icon": "J.svg"
   },
   {
     "id_line": "C01740",
     "name_line": "L",
     "shortname_line": "L",
     "transportmode": "rail",
-    "transportsubmode": "suburbanRailway"
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "colourweb_hexa": "c4a4cc",
+    "textcolourweb_hexa": "000000",
+    "icon": "L.svg"
   },
   {
     "id_line": "C01741",
     "name_line": "U",
     "shortname_line": "U",
     "transportmode": "rail",
-    "transportsubmode": "suburbanRailway"
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "colourweb_hexa": "b6134c",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "U.svg"
   },
   {
     "id_line": "C01742",
     "name_line": "A",
     "shortname_line": "A",
     "transportmode": "rail",
-    "transportsubmode": "local"
+    "transportsubmode": "local",
+    "type": null,
+    "colourweb_hexa": "eb2132",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "A.svg"
   },
   {
     "id_line": "C01743",
     "name_line": "B",
     "shortname_line": "B",
     "transportmode": "rail",
-    "transportsubmode": "local"
+    "transportsubmode": "local",
+    "type": null,
+    "colourweb_hexa": "5091cb",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "B.svg"
   },
   {
     "id_line": "C01744",
     "name_line": "TER Centre - Val de Loire",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01745",
     "name_line": "TER Bourgogne - Franche-Comté",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01746",
     "name_line": "TER Hauts-de-France",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01747",
     "name_line": "TER Grand-Est",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01748",
     "name_line": "TER Normandie",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01751",
     "name_line": "430",
     "shortname_line": "430",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01752",
     "name_line": "4657",
     "shortname_line": "4657",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d6c900",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01753",
     "name_line": "3655",
     "shortname_line": "3655",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01755",
     "name_line": "D (future 6421)",
     "shortname_line": "D",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01756",
     "name_line": "337",
     "shortname_line": "337",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01757",
     "name_line": "La Traverse Brancion-Commerce",
     "shortname_line": "Traverse",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "cbe859",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01763",
     "name_line": "4554",
     "shortname_line": "4554",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01764",
     "name_line": "4321",
     "shortname_line": "4321",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01765",
     "name_line": "4322",
     "shortname_line": "4322",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01766",
     "name_line": "4636",
     "shortname_line": "4636",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff6600",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01772",
     "name_line": "6230",
     "shortname_line": "6230",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01773",
     "name_line": "6534",
     "shortname_line": "6534",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01774",
     "name_line": "T7",
     "shortname_line": "T7",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T7.svg"
   },
   {
     "id_line": "C01775",
     "name_line": "S6 (future 6472)",
     "shortname_line": "S6",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a38c57",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01776",
     "name_line": "2129",
     "shortname_line": "2129",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01777",
     "name_line": "2168",
     "shortname_line": "2168",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01779",
     "name_line": "2171",
     "shortname_line": "2171",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01780",
     "name_line": "La Navette de Thiais",
     "shortname_line": "THIAIS",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01784",
     "name_line": "6504",
     "shortname_line": "6504",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01785",
     "name_line": "1110",
     "shortname_line": "1110",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01786",
     "name_line": "1112",
     "shortname_line": "1112",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f28e4e",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01787",
     "name_line": "1132",
     "shortname_line": "1132",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d978ff",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01788",
     "name_line": "1133",
     "shortname_line": "1133",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff3399",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01789",
     "name_line": "1134",
     "shortname_line": "1134",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00ffb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01790",
     "name_line": "1135",
     "shortname_line": "1135",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00e84f",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01791",
     "name_line": "1136",
     "shortname_line": "1136",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffa61a",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01792",
     "name_line": "N2",
     "shortname_line": "N2",
     "transportmode": "bus",
-    "transportsubmode": "airportLinkBus"
+    "transportsubmode": "airportLinkBus",
+    "type": null,
+    "colourweb_hexa": "6ca513",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01793",
     "name_line": "5198",
     "shortname_line": "5198",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01794",
     "name_line": "T6",
     "shortname_line": "T6",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff0000",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T6.svg"
   },
   {
     "id_line": "C01795",
     "name_line": "T8",
     "shortname_line": "T8",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T8.svg"
   },
   {
     "id_line": "C01796",
     "name_line": "5413",
     "shortname_line": "5413",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00b297",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01797",
     "name_line": "5412",
     "shortname_line": "5412",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "5091cb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01798",
     "name_line": "5462",
     "shortname_line": "5462",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "c4a4cc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01799",
     "name_line": "6160",
     "shortname_line": "6160",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01801",
     "name_line": "2113",
     "shortname_line": "2113",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01802",
     "name_line": "1516",
     "shortname_line": "1516",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "eb2132",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01804",
     "name_line": "1515",
     "shortname_line": "1515",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00b297",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01805",
     "name_line": "6134",
     "shortname_line": "6134",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01806",
     "name_line": "3702",
     "shortname_line": "3702",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01807",
     "name_line": "N66",
     "shortname_line": "N66",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N66.svg"
   },
   {
     "id_line": "C01808",
     "name_line": "254",
     "shortname_line": "254",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01809",
     "name_line": "380",
     "shortname_line": "380",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01810",
     "name_line": "EXPRESS 9118",
     "shortname_line": "9118",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01811",
     "name_line": "4306",
     "shortname_line": "4306",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01812",
     "name_line": "4316",
     "shortname_line": "4316",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01815",
     "name_line": "32 ZA",
     "shortname_line": "32 ZA",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "e3b229",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01816",
     "name_line": "R114",
     "shortname_line": "R114",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "fece00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01820",
     "name_line": "7702",
     "shortname_line": "7702",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01821",
     "name_line": "486",
     "shortname_line": "486",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01822",
     "name_line": "17 (future 6437)",
     "shortname_line": "17",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01823",
     "name_line": "Filéo Saint-Pathus (sur réservation)",
     "shortname_line": "Filéo SP",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "e01921",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01826",
     "name_line": "1",
     "shortname_line": "1",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff0000",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01827",
     "name_line": "2",
     "shortname_line": "2",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbf00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01830",
     "name_line": "A",
     "shortname_line": "A",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ee7d00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01831",
     "name_line": "B",
     "shortname_line": "B",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e50051",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01832",
     "name_line": "C",
     "shortname_line": "C",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "951b81",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01833",
     "name_line": "D",
     "shortname_line": "D",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0077ba",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01836",
     "name_line": "G",
     "shortname_line": "G",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b51f1f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01837",
     "name_line": "J",
     "shortname_line": "J",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f4c000",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01839",
     "name_line": "Le Bus du port",
     "shortname_line": "PORT",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "9a9940",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01840",
     "name_line": "Remplacement Transilien U",
     "shortname_line": "U",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "b6134c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01841",
     "name_line": "Remplacement Transilien P",
     "shortname_line": "P",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01842",
     "name_line": "Remplacement Transilien H",
     "shortname_line": "H",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "8d653d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01843",
     "name_line": "T4",
     "shortname_line": "T4",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000",
+    "icon": "T4.svg"
   },
   {
     "id_line": "C01844",
     "name_line": "Remplacement Transilien K",
     "shortname_line": "K",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "9b9842",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01845",
     "name_line": "Remplacement Transilien N",
     "shortname_line": "N",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "00b297",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01846",
     "name_line": "Remplacement Transilien J",
     "shortname_line": "J",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "cec73d",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01847",
     "name_line": "Remplacement Transilien L",
     "shortname_line": "L",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "c4a4cc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01848",
     "name_line": "Remplacement Transilien R",
     "shortname_line": "R",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "f49fb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01849",
     "name_line": "Remplacement RER A",
     "shortname_line": "A",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "eb2132",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01850",
     "name_line": "Remplacement RER B",
     "shortname_line": "B",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "5091cb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01851",
     "name_line": "Remplacement RER C",
     "shortname_line": "C",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01852",
     "name_line": "Remplacement RER D",
     "shortname_line": "D",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "008b5b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01853",
     "name_line": "Remplacement RER E",
     "shortname_line": "E",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "b94e9a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01854",
     "name_line": "Remplacement TER Grand-Est",
     "shortname_line": "TER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01855",
     "name_line": "Remplacement TER Bourgogne - Franche-Comté",
     "shortname_line": "TER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01856",
     "name_line": "Remplacement TER Centre - Val de Loire",
     "shortname_line": "TER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01857",
     "name_line": "TER Centre - Val-de-Loire",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01858",
     "name_line": "Remplacement TER Centre - Val-de-Loire",
     "shortname_line": "TER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01859",
     "name_line": "Remplacement TER Normandie",
     "shortname_line": "TER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01862",
     "name_line": "Remplacement TER Hauts-de-France",
     "shortname_line": "TER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01863",
     "name_line": "TER Hauts-de-France",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01864",
     "name_line": "Remplacement TER Hauts-de-France",
     "shortname_line": "TER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01866",
     "name_line": "2124",
     "shortname_line": "2124",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01867",
     "name_line": "20",
     "shortname_line": "20",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f28e42",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01868",
     "name_line": "6240",
     "shortname_line": "6240",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01869",
     "name_line": "5102",
     "shortname_line": "5102",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01870",
     "name_line": "5115",
     "shortname_line": "5115",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01871",
     "name_line": "5111",
     "shortname_line": "5111",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01872",
     "name_line": "6243",
     "shortname_line": "6243",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01873",
     "name_line": "6251",
     "shortname_line": "6251",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91e6",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01874",
     "name_line": "5288",
     "shortname_line": "5288",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01875",
     "name_line": "30-48",
     "shortname_line": "30-48",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3fb498",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01876",
     "name_line": "30-46",
     "shortname_line": "30-46",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0064b0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01878",
     "name_line": "30-07",
     "shortname_line": "30-07",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a84839",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01879",
     "name_line": "2224",
     "shortname_line": "2224",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01886",
     "name_line": "4112",
     "shortname_line": "4112",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01890",
     "name_line": "TàD Bassin Chellois",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01895",
     "name_line": "TàD Saint-Fargeau",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01896",
     "name_line": "TàD Bassée",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01900",
     "name_line": "Le P'tit Bus du Pré",
     "shortname_line": "P'TIT BUS",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d20d44",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01902",
     "name_line": "F",
     "shortname_line": "F",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "77623a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01903",
     "name_line": "H",
     "shortname_line": "H",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "253b82",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01904",
     "name_line": "L",
     "shortname_line": "L",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a74fff",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01934",
     "name_line": "6284",
     "shortname_line": "6284",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01937",
     "name_line": "6516",
     "shortname_line": "6516",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01947",
     "name_line": "3408",
     "shortname_line": "3408",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01949",
     "name_line": "5401",
     "shortname_line": "5401",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "eb2132",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01950",
     "name_line": "4532",
     "shortname_line": "4532",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01951",
     "name_line": "7812",
     "shortname_line": "7812",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01952",
     "name_line": "5349",
     "shortname_line": "5349",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01953",
     "name_line": "5249",
     "shortname_line": "5249",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01954",
     "name_line": "5259",
     "shortname_line": "5259",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01955",
     "name_line": "5379",
     "shortname_line": "5379",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01956",
     "name_line": "4220",
     "shortname_line": "4220",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01957",
     "name_line": "5216",
     "shortname_line": "5216",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01958",
     "name_line": "3531",
     "shortname_line": "3531",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01959",
     "name_line": "3532",
     "shortname_line": "3532",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01960",
     "name_line": "3533",
     "shortname_line": "3533",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01961",
     "name_line": "3535",
     "shortname_line": "3535",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01962",
     "name_line": "3541",
     "shortname_line": "3541",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01963",
     "name_line": "3506",
     "shortname_line": "3506",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01964",
     "name_line": "3542",
     "shortname_line": "3542",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01965",
     "name_line": "3511",
     "shortname_line": "3511",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01966",
     "name_line": "3512",
     "shortname_line": "3512",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01967",
     "name_line": "3513",
     "shortname_line": "3513",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01969",
     "name_line": "3516",
     "shortname_line": "3516",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01970",
     "name_line": "3517",
     "shortname_line": "3517",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01971",
     "name_line": "3519",
     "shortname_line": "3519",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01973",
     "name_line": "3537",
     "shortname_line": "3537",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01974",
     "name_line": "3546",
     "shortname_line": "3546",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01975",
     "name_line": "4430",
     "shortname_line": "4430",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "98d4e2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01976",
     "name_line": "4431",
     "shortname_line": "4431",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "e3b32a",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01977",
     "name_line": "4432",
     "shortname_line": "4432",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00a88f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01978",
     "name_line": "4433",
     "shortname_line": "4433",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d5c900",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01979",
     "name_line": "5426",
     "shortname_line": "5426",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b94e9a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01980",
     "name_line": "5221",
     "shortname_line": "5221",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01981",
     "name_line": "5342",
     "shortname_line": "5342",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01982",
     "name_line": "5231",
     "shortname_line": "5231",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01983",
     "name_line": "5235",
     "shortname_line": "5235",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01984",
     "name_line": "5338",
     "shortname_line": "5338",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01985",
     "name_line": "5240",
     "shortname_line": "5240",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01986",
     "name_line": "5241",
     "shortname_line": "5241",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01987",
     "name_line": "5245",
     "shortname_line": "5245",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01988",
     "name_line": "5348",
     "shortname_line": "5348",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01989",
     "name_line": "5251",
     "shortname_line": "5251",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01990",
     "name_line": "5355",
     "shortname_line": "5355",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01991",
     "name_line": "5298",
     "shortname_line": "5298",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01992",
     "name_line": "5317",
     "shortname_line": "5317",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01993",
     "name_line": "2427",
     "shortname_line": "2427",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01994",
     "name_line": "2351",
     "shortname_line": "2351",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "be4999",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C01995",
     "name_line": "2375",
     "shortname_line": "2375",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "bc85bb",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C01999",
     "name_line": "T11",
     "shortname_line": "T11",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000",
+    "icon": "T11.svg"
   },
   {
     "id_line": "C02000",
     "name_line": "259",
     "shortname_line": "259",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02005",
     "name_line": "30-03",
     "shortname_line": "30-03",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e50051",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02006",
     "name_line": "30-49",
     "shortname_line": "30-49",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3a338a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02007",
     "name_line": "168",
     "shortname_line": "168",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02008",
     "name_line": "353",
     "shortname_line": "353",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02015",
     "name_line": "2235",
     "shortname_line": "2235",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02016",
     "name_line": "2231",
     "shortname_line": "2231",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "006400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02019",
     "name_line": "Remplacement Tram T11",
     "shortname_line": "T11",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02020",
     "name_line": "4307",
     "shortname_line": "4307",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02021",
     "name_line": "4308",
     "shortname_line": "4308",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02022",
     "name_line": "4327",
     "shortname_line": "4327",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02023",
     "name_line": "4328",
     "shortname_line": "4328",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02024",
     "name_line": "4329",
     "shortname_line": "4329",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02025",
     "name_line": "4330",
     "shortname_line": "4330",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02026",
     "name_line": "4331",
     "shortname_line": "4331",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02027",
     "name_line": "260",
     "shortname_line": "260",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02030",
     "name_line": "Soir Louvres",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "662583",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02031",
     "name_line": "3514",
     "shortname_line": "3514",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02032",
     "name_line": "3547",
     "shortname_line": "3547",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02033",
     "name_line": "1349",
     "shortname_line": "1349",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02035",
     "name_line": "2401",
     "shortname_line": "2401",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02036",
     "name_line": "2402",
     "shortname_line": "2402",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02039",
     "name_line": "4580",
     "shortname_line": "4580",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02040",
     "name_line": "CitéVal Cormeilles-en-Parisis",
     "shortname_line": "CitéVal C",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e5377d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02041",
     "name_line": "CitéVal Franconville",
     "shortname_line": "CitéVal F",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "9fc005",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02049",
     "name_line": "30-21 Ouest",
     "shortname_line": "3021Ouest",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ef844e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02056",
     "name_line": "3245",
     "shortname_line": "3245",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02057",
     "name_line": "4406",
     "shortname_line": "4406",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ceadd2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02059",
     "name_line": "27",
     "shortname_line": "27",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f69fb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02060",
     "name_line": "Filéo Roissy Sud - Villeparisis et Mitry (sur réservation)",
     "shortname_line": "Filéo RS",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "4890cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02061",
     "name_line": "32",
     "shortname_line": "32",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "00814f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02062",
     "name_line": "EX 100 (future 700)",
     "shortname_line": "EX 100",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02065",
     "name_line": "4581",
     "shortname_line": "4581",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02066",
     "name_line": "4416",
     "shortname_line": "4416",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "8d5e2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02067",
     "name_line": "4417",
     "shortname_line": "4417",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "83c491",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02068",
     "name_line": "4418",
     "shortname_line": "4418",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "e0b03b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02069",
     "name_line": "2403",
     "shortname_line": "2403",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02070",
     "name_line": "2411",
     "shortname_line": "2411",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02071",
     "name_line": "2456",
     "shortname_line": "2456",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02072",
     "name_line": "2415",
     "shortname_line": "2415",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02073",
     "name_line": "2461",
     "shortname_line": "2461",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02074",
     "name_line": "2462",
     "shortname_line": "2462",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02076",
     "name_line": "6276",
     "shortname_line": "6276",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "deb41b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02077",
     "name_line": "2419",
     "shortname_line": "2419",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02078",
     "name_line": "2472",
     "shortname_line": "2472",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02079",
     "name_line": "2473",
     "shortname_line": "2473",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02085",
     "name_line": "1233",
     "shortname_line": "1233",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "78c696",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02086",
     "name_line": "1225",
     "shortname_line": "1225",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02087",
     "name_line": "3134",
     "shortname_line": "3134",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02088",
     "name_line": "3129",
     "shortname_line": "3129",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02089",
     "name_line": "3128",
     "shortname_line": "3128",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02090",
     "name_line": "3122",
     "shortname_line": "3122",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02091",
     "name_line": "3125",
     "shortname_line": "3125",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02092",
     "name_line": "643",
     "shortname_line": "643",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02093",
     "name_line": "2450",
     "shortname_line": "2450",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02094",
     "name_line": "2451",
     "shortname_line": "2451",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02095",
     "name_line": "2452",
     "shortname_line": "2452",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02096",
     "name_line": "2453",
     "shortname_line": "2453",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02097",
     "name_line": "2454",
     "shortname_line": "2454",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02098",
     "name_line": "2455",
     "shortname_line": "2455",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02103",
     "name_line": "4155",
     "shortname_line": "4155",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02104",
     "name_line": "4156",
     "shortname_line": "4156",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02107",
     "name_line": "3137",
     "shortname_line": "3137",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02108",
     "name_line": "3140",
     "shortname_line": "3140",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02109",
     "name_line": "3143",
     "shortname_line": "3143",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02111",
     "name_line": "443",
     "shortname_line": "443",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02112",
     "name_line": "444",
     "shortname_line": "444",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02116",
     "name_line": "2457",
     "shortname_line": "2457",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02117",
     "name_line": "2458",
     "shortname_line": "2458",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02118",
     "name_line": "2459",
     "shortname_line": "2459",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02120",
     "name_line": "3126",
     "shortname_line": "3126",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02121",
     "name_line": "3130",
     "shortname_line": "3130",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02122",
     "name_line": "3127",
     "shortname_line": "3127",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02123",
     "name_line": "BALADOBUS",
     "shortname_line": "BALADOBUS",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "a4be28",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02124",
     "name_line": "3148",
     "shortname_line": "3148",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02125",
     "name_line": "3131",
     "shortname_line": "3131",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02126",
     "name_line": "3135",
     "shortname_line": "3135",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02127",
     "name_line": "3136",
     "shortname_line": "3136",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02128",
     "name_line": "3138",
     "shortname_line": "3138",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02129",
     "name_line": "3 (future 703)",
     "shortname_line": "3",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b44a9c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02130",
     "name_line": "3s (future 713)",
     "shortname_line": "3s",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b44a9c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02131",
     "name_line": "6 (future 706)",
     "shortname_line": "6",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "af171a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02132",
     "name_line": "9s (future 719)",
     "shortname_line": "9s",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "19b200",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02133",
     "name_line": "9 (future 709)",
     "shortname_line": "9",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "19b200",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02135",
     "name_line": "7s (future 717)",
     "shortname_line": "7s",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "97bf35",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02136",
     "name_line": "7 (future 707)",
     "shortname_line": "7",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "97bf35",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02137",
     "name_line": "4 (future 704)",
     "shortname_line": "4",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9015",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02138",
     "name_line": "4s (future 714)",
     "shortname_line": "4s",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9015",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02139",
     "name_line": "8s (future 718)",
     "shortname_line": "8s",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "8c5e23",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02141",
     "name_line": "1229",
     "shortname_line": "1229",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "87d3df",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02142",
     "name_line": "L (future 6434)",
     "shortname_line": "L",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8cc7ff",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02144",
     "name_line": "T (future 6427)",
     "shortname_line": "T",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff8c57",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02145",
     "name_line": "S3 (future 6470)",
     "shortname_line": "S3",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a38c57",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02146",
     "name_line": "S4 (future 6454)",
     "shortname_line": "S4",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02147",
     "name_line": "S7 (future 6468)",
     "shortname_line": "S7",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8cad08",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02148",
     "name_line": "S1 (future 6471)",
     "shortname_line": "S1",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a38c57",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02149",
     "name_line": "B (future 6417)",
     "shortname_line": "B",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02150",
     "name_line": "F (future 6415)",
     "shortname_line": "F",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02151",
     "name_line": "S5 (future 6455)",
     "shortname_line": "S5",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8ce39c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02152",
     "name_line": "P (future 6435)",
     "shortname_line": "P",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff8c94",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02153",
     "name_line": "S2 (future 6467)",
     "shortname_line": "S2",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02154",
     "name_line": "2426",
     "shortname_line": "2426",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02155",
     "name_line": "4615",
     "shortname_line": "4615",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "253b82",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02156",
     "name_line": "3429",
     "shortname_line": "3429",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02159",
     "name_line": "3421",
     "shortname_line": "3421",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0a0082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02160",
     "name_line": "2482",
     "shortname_line": "2482",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02161",
     "name_line": "5431",
     "shortname_line": "5431",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b6134c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02162",
     "name_line": "5436",
     "shortname_line": "5436",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f49fb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02164",
     "name_line": "34",
     "shortname_line": "34",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "9bcda4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02165",
     "name_line": "11.5",
     "shortname_line": "11.5",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ceacd2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02166",
     "name_line": "12 ZI",
     "shortname_line": "12 ZI",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "5191cd",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02167",
     "name_line": "1352",
     "shortname_line": "1352",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02168",
     "name_line": "1354",
     "shortname_line": "1354",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02169",
     "name_line": "5114",
     "shortname_line": "5114",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02170",
     "name_line": "5113",
     "shortname_line": "5113",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02171",
     "name_line": "5183",
     "shortname_line": "5183",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02172",
     "name_line": "5184",
     "shortname_line": "5184",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02173",
     "name_line": "5185",
     "shortname_line": "5185",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02174",
     "name_line": "5186",
     "shortname_line": "5186",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02175",
     "name_line": "5187",
     "shortname_line": "5187",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02179",
     "name_line": "A01 Paris Porte Maillot",
     "shortname_line": "A01 PPM",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0000cc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02183",
     "name_line": "6253",
     "shortname_line": "6253",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "8fffe0",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02184",
     "name_line": "6254",
     "shortname_line": "6254",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02185",
     "name_line": "4462",
     "shortname_line": "4462",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02186",
     "name_line": "4463",
     "shortname_line": "4463",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "f28e42",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02191",
     "name_line": "3778",
     "shortname_line": "3778",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02193",
     "name_line": "3773",
     "shortname_line": "3773",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02194",
     "name_line": "3776",
     "shortname_line": "3776",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02195",
     "name_line": "2480",
     "shortname_line": "2480",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02196",
     "name_line": "2417",
     "shortname_line": "2417",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02201",
     "name_line": "9111",
     "shortname_line": "9111",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02202",
     "name_line": "3411",
     "shortname_line": "3411",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02204",
     "name_line": "7802",
     "shortname_line": "7802",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02205",
     "name_line": "PC",
     "shortname_line": "PC",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02206",
     "name_line": "1117",
     "shortname_line": "1117",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02207",
     "name_line": "2475",
     "shortname_line": "2475",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02209",
     "name_line": "3659",
     "shortname_line": "3659",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02216",
     "name_line": "5123",
     "shortname_line": "5123",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02217",
     "name_line": "5124",
     "shortname_line": "5124",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02218",
     "name_line": "5125",
     "shortname_line": "5125",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02219",
     "name_line": "6252",
     "shortname_line": "6252",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02220",
     "name_line": "Soir Mennecy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02221",
     "name_line": "4309",
     "shortname_line": "4309",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02222",
     "name_line": "6563",
     "shortname_line": "6563",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02224",
     "name_line": "4659",
     "shortname_line": "4659",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "c20069",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02225",
     "name_line": "1255",
     "shortname_line": "1255",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f78f4b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02226",
     "name_line": "1204",
     "shortname_line": "1204",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "008c5a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02229",
     "name_line": "2349",
     "shortname_line": "2349",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b6d7a8",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02230",
     "name_line": "2326",
     "shortname_line": "2326",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02231",
     "name_line": "2332",
     "shortname_line": "2332",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b6d7a8",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02232",
     "name_line": "2333",
     "shortname_line": "2333",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "38761d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02233",
     "name_line": "2348",
     "shortname_line": "2348",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d3c90d",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02234",
     "name_line": "2314",
     "shortname_line": "2314",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "17a79c",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02235",
     "name_line": "2324",
     "shortname_line": "2324",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "38761d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02236",
     "name_line": "2305",
     "shortname_line": "2305",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f37d2e",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02237",
     "name_line": "2325",
     "shortname_line": "2325",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff9900",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02239",
     "name_line": "6246",
     "shortname_line": "6246",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02240",
     "name_line": "500 (future 731)",
     "shortname_line": "500",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "007a45",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02243",
     "name_line": "25",
     "shortname_line": "25",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02244",
     "name_line": "45",
     "shortname_line": "45",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02245",
     "name_line": "59",
     "shortname_line": "59",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02246",
     "name_line": "71",
     "shortname_line": "71",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02248",
     "name_line": "7823",
     "shortname_line": "7823",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "5091cb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02249",
     "name_line": "7820",
     "shortname_line": "7820",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02251",
     "name_line": "77",
     "shortname_line": "77",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02252",
     "name_line": "2331",
     "shortname_line": "2331",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a3c2e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02254",
     "name_line": "40",
     "shortname_line": "40",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02255",
     "name_line": "Soir Survilliers - Fosses",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "662583",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02257",
     "name_line": "95-29",
     "shortname_line": "95-29",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f39000",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02258",
     "name_line": "3440",
     "shortname_line": "3440",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02260",
     "name_line": "Soir Draveil",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02264",
     "name_line": "20 (future 6420)",
     "shortname_line": "20",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8cad08",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02265",
     "name_line": "T'bus 1",
     "shortname_line": "T'bus 1",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "e3051b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02266",
     "name_line": "T'bus 2",
     "shortname_line": "T'bus 2",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "fece00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02267",
     "name_line": "T'bus 3",
     "shortname_line": "T'bus 3",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0064b0",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02268",
     "name_line": "Remplacement Métro 6",
     "shortname_line": "6",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "6eca97",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02269",
     "name_line": "Express A14 (future 7824)",
     "shortname_line": "A14",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02270",
     "name_line": "4434",
     "shortname_line": "4434",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "ceadd2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02271",
     "name_line": "4435",
     "shortname_line": "4435",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "83c491",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02272",
     "name_line": "3661",
     "shortname_line": "3661",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02273",
     "name_line": "3662",
     "shortname_line": "3662",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02274",
     "name_line": "3663",
     "shortname_line": "3663",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02275",
     "name_line": "3664",
     "shortname_line": "3664",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02276",
     "name_line": "3631",
     "shortname_line": "3631",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02277",
     "name_line": "3424",
     "shortname_line": "3424",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02278",
     "name_line": "3420",
     "shortname_line": "3420",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02279",
     "name_line": "3423",
     "shortname_line": "3423",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02280",
     "name_line": "3666",
     "shortname_line": "3666",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02281",
     "name_line": "3632",
     "shortname_line": "3632",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02282",
     "name_line": "3613",
     "shortname_line": "3613",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02283",
     "name_line": "3657",
     "shortname_line": "3657",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02284",
     "name_line": "3658",
     "shortname_line": "3658",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02286",
     "name_line": "6214",
     "shortname_line": "6214",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02287",
     "name_line": "3425",
     "shortname_line": "3425",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02288",
     "name_line": "193",
     "shortname_line": "193",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02289",
     "name_line": "3427",
     "shortname_line": "3427",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02290",
     "name_line": "3426",
     "shortname_line": "3426",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02291",
     "name_line": "TàD 2429",
     "shortname_line": "TàD 2429",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02293",
     "name_line": "3660",
     "shortname_line": "3660",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02294",
     "name_line": "3216",
     "shortname_line": "3216",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02295",
     "name_line": "TàD Nangis / Saint-Just",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02296",
     "name_line": "4456",
     "shortname_line": "4456",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02297",
     "name_line": "4458",
     "shortname_line": "4458",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "9b993b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02298",
     "name_line": "2245",
     "shortname_line": "2245",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02300",
     "name_line": "469",
     "shortname_line": "469",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f9bd1b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02301",
     "name_line": "GPSO Bus",
     "shortname_line": "GPSO Bus",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff9900",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02304",
     "name_line": "Chavilbus",
     "shortname_line": "ChavilBus",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "652d91",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02307",
     "name_line": "21s (future 6351)",
     "shortname_line": "21s",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02310",
     "name_line": "Remplacement Métro 1",
     "shortname_line": "1",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02311",
     "name_line": "3144",
     "shortname_line": "3144",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02313",
     "name_line": "5310",
     "shortname_line": "5310",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02314",
     "name_line": "263",
     "shortname_line": "263",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02316",
     "name_line": "4626",
     "shortname_line": "4626",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "8a5d99",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02317",
     "name_line": "T9",
     "shortname_line": "T9",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T9.svg"
   },
   {
     "id_line": "C02318",
     "name_line": "2470",
     "shortname_line": "2470",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02344",
     "name_line": "T13",
     "shortname_line": "T13",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "8d653d",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T13.svg"
   },
   {
     "id_line": "C02351",
     "name_line": "445",
     "shortname_line": "445",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e15a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02355",
     "name_line": "4618",
     "shortname_line": "4618",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "cfc83b",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02360",
     "name_line": "56 (future 6456)",
     "shortname_line": "56",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02361",
     "name_line": "57 (future 6457)",
     "shortname_line": "57",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "fa8cc7",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02363",
     "name_line": "Corbeil - La Ferté Alais",
     "shortname_line": "BUS SNCF",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02364",
     "name_line": "Corbeil - Melun",
     "shortname_line": "BUS SNCF",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02365",
     "name_line": "2405",
     "shortname_line": "2405",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02366",
     "name_line": "3219",
     "shortname_line": "3219",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02368",
     "name_line": "TER Centre - Val de Loire",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02369",
     "name_line": "Remplacement TER Centre - Val de Loire",
     "shortname_line": "TER Bus",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02370",
     "name_line": "TER Normandie",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02371",
     "name_line": "Remplacement TER Normandie",
     "shortname_line": "TER Bus",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02372",
     "name_line": "TER Hauts-de-France",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02373",
     "name_line": "Remplacement TER Hauts-de-France",
     "shortname_line": "TER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02375",
     "name_line": "TER Normandie",
     "shortname_line": "TER",
     "transportmode": "rail",
-    "transportsubmode": "regionalRail"
+    "transportsubmode": "regionalRail",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02376",
     "name_line": "Remplacement TER Normandie",
     "shortname_line": "TER",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02382",
     "name_line": "4662",
     "shortname_line": "4662",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "54aee3",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02383",
     "name_line": "TàD 4596",
     "shortname_line": "TàD 4596",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02385",
     "name_line": "Remplacement RER B",
     "shortname_line": "B",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "5091cb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02387",
     "name_line": "4332",
     "shortname_line": "4332",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02389",
     "name_line": "30-21 Est",
     "shortname_line": "30-21Est",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f0824f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02390",
     "name_line": "4272",
     "shortname_line": "4272",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02393",
     "name_line": "4345",
     "shortname_line": "4345",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02395",
     "name_line": "EXPRESS 9114",
     "shortname_line": "9114",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02396",
     "name_line": "4651",
     "shortname_line": "4651",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "e4b428",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02397",
     "name_line": "4520",
     "shortname_line": "4520",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02398",
     "name_line": "4577",
     "shortname_line": "4577",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02399",
     "name_line": "4579",
     "shortname_line": "4579",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02400",
     "name_line": "2484",
     "shortname_line": "2484",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02401",
     "name_line": "2485",
     "shortname_line": "2485",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02403",
     "name_line": "DM152S",
     "shortname_line": "DM152S",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "85c28e",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02404",
     "name_line": "Remplacement Tram T1",
     "shortname_line": "T1",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02405",
     "name_line": "Remplacement Tram T2",
     "shortname_line": "T2",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02406",
     "name_line": "Remplacement Tram T3a",
     "shortname_line": "T3a",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "f58f53",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02407",
     "name_line": "Remplacement Tram T3b",
     "shortname_line": "T3b",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02408",
     "name_line": "Remplacement Tram T5",
     "shortname_line": "T5",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02409",
     "name_line": "Remplacement Tram T6",
     "shortname_line": "T6",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02410",
     "name_line": "Remplacement Tram T7",
     "shortname_line": "T7",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02411",
     "name_line": "Remplacement Tram T8",
     "shortname_line": "T8",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02413",
     "name_line": "1143",
     "shortname_line": "1143",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02414",
     "name_line": "1118",
     "shortname_line": "1118",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02418",
     "name_line": "4535",
     "shortname_line": "4535",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02422",
     "name_line": "TàD Eaubonne Domont",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "fecb00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02423",
     "name_line": "M",
     "shortname_line": "M",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "80ff00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02425",
     "name_line": "O",
     "shortname_line": "O",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff6600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02426",
     "name_line": "441",
     "shortname_line": "441",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02427",
     "name_line": "442",
     "shortname_line": "442",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02428",
     "name_line": "446",
     "shortname_line": "446",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02429",
     "name_line": "447",
     "shortname_line": "447",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02430",
     "name_line": "448",
     "shortname_line": "448",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02431",
     "name_line": "4404",
     "shortname_line": "4404",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "b90845",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02432",
     "name_line": "3254",
     "shortname_line": "3254",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02433",
     "name_line": "3255",
     "shortname_line": "3255",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02435",
     "name_line": "3247",
     "shortname_line": "3247",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02436",
     "name_line": "3248",
     "shortname_line": "3248",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02437",
     "name_line": "209",
     "shortname_line": "209",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02439",
     "name_line": "K",
     "shortname_line": "K",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "41a776",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02440",
     "name_line": "P",
     "shortname_line": "P",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "2da445",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02441",
     "name_line": "6523",
     "shortname_line": "6523",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02442",
     "name_line": "Remplacement RER A",
     "shortname_line": "A",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "f7403a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02443",
     "name_line": "5237",
     "shortname_line": "5237",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02444",
     "name_line": "5328",
     "shortname_line": "5328",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02446",
     "name_line": "5371",
     "shortname_line": "5371",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02448",
     "name_line": "5343",
     "shortname_line": "5343",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02449",
     "name_line": "4451",
     "shortname_line": "4451",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "98d4e2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02450",
     "name_line": "4452",
     "shortname_line": "4452",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02451",
     "name_line": "4453",
     "shortname_line": "4453",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "f59eb3",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02452",
     "name_line": "4454",
     "shortname_line": "4454",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "8e6539",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02453",
     "name_line": "4455",
     "shortname_line": "4455",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02455",
     "name_line": "2280",
     "shortname_line": "2280",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02456",
     "name_line": "439",
     "shortname_line": "439",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02458",
     "name_line": "3727",
     "shortname_line": "3727",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02459",
     "name_line": "382",
     "shortname_line": "382",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "8d653d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02460",
     "name_line": "TàD 4597",
     "shortname_line": "TàD 4597",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02461",
     "name_line": "4524",
     "shortname_line": "4524",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02462",
     "name_line": "1517",
     "shortname_line": "1517",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8d653d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02463",
     "name_line": "1527",
     "shortname_line": "1527",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "9b9842",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02464",
     "name_line": "Soir Domont",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02465",
     "name_line": "Soir Écouen Ézanville",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02466",
     "name_line": "TàD 4591",
     "shortname_line": "TàD 4591",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02467",
     "name_line": "TàD 4592",
     "shortname_line": "TàD 4592",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02468",
     "name_line": "TàD 4595",
     "shortname_line": "TàD 4595",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02469",
     "name_line": "Remplacement Tram T13",
     "shortname_line": "T13",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "8d653d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02470",
     "name_line": "4411",
     "shortname_line": "4411",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "006db8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02471",
     "name_line": "Remplacement Métro 12",
     "shortname_line": "12",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "007852",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02472",
     "name_line": "4414",
     "shortname_line": "4414",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02473",
     "name_line": "4415",
     "shortname_line": "4415",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "f28e42",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02474",
     "name_line": "Soir Etampes",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "662483",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02475",
     "name_line": "Remplacement Métro 7",
     "shortname_line": "7",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "fa9aba",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02476",
     "name_line": "Soir Villeparisis",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02478",
     "name_line": "6185",
     "shortname_line": "6185",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02479",
     "name_line": "5441",
     "shortname_line": "5441",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "cec73d",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02480",
     "name_line": "5411",
     "shortname_line": "5411",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02481",
     "name_line": "5322",
     "shortname_line": "5322",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02482",
     "name_line": "6288",
     "shortname_line": "6288",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02483",
     "name_line": "Remplacement Métro 10",
     "shortname_line": "10",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "c9910d",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02484",
     "name_line": "RD14",
     "shortname_line": "RD14",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02485",
     "name_line": "TàD 6131",
     "shortname_line": "TàD 6131",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02486",
     "name_line": "Soir Bouray",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02488",
     "name_line": "Navette autonome Vincennes",
     "shortname_line": "NAVAUT1",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "274e13",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02489",
     "name_line": "Soir Meaux Nord",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02490",
     "name_line": "Soir Meaux Sud",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02491",
     "name_line": "Soir Saint-Germain-en-Laye",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02492",
     "name_line": "Remplacement Métro 3",
     "shortname_line": "3",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "829300",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02493",
     "name_line": "TàD Courtaboeuf",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "fecb00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02494",
     "name_line": "Remplacement Métro 14",
     "shortname_line": "14",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "674ea7",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02495",
     "name_line": "TàD 4305",
     "shortname_line": "TàD 4305",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02496",
     "name_line": "TàD 4301/4530",
     "shortname_line": "TàD 4301",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02497",
     "name_line": "E",
     "shortname_line": "E",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "8bc63f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02498",
     "name_line": "Y",
     "shortname_line": "Y",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ed165a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02499",
     "name_line": "Z",
     "shortname_line": "Z",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "f3be27",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02500",
     "name_line": "T",
     "shortname_line": "T",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ed2553",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02501",
     "name_line": "U",
     "shortname_line": "U",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0e8344",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02502",
     "name_line": "V",
     "shortname_line": "V",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "646ab1",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02503",
     "name_line": "TàD 78",
     "shortname_line": "TàD 78",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "fecb00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02508",
     "name_line": "Soir Boussy-Saint-Antoine",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02511",
     "name_line": "Q",
     "shortname_line": "Q",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a3b1e4",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02512",
     "name_line": "Remplacement Métro 9",
     "shortname_line": "9",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "cec73d",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02513",
     "name_line": "Soir Versailles-Chantiers",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02514",
     "name_line": "Remplacement Métro 4",
     "shortname_line": "4",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02517",
     "name_line": "CitéVal Ermont",
     "shortname_line": "CitéVal",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a03187",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02518",
     "name_line": "3112",
     "shortname_line": "3112",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02519",
     "name_line": "3113",
     "shortname_line": "3113",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02520",
     "name_line": "3116",
     "shortname_line": "3116",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02521",
     "name_line": "TàD Gretz-Tournan",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02522",
     "name_line": "Soir Gretz-Armainvilliers",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02523",
     "name_line": "Soir Ozoir-la-Ferrière",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02524",
     "name_line": "TàD 3144",
     "shortname_line": "TàD 3144",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02525",
     "name_line": "Remplacement ORLYVAL",
     "shortname_line": "ORLYVAL",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "5ec5ed",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02526",
     "name_line": "N155",
     "shortname_line": "N155",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N155.svg"
   },
   {
     "id_line": "C02527",
     "name_line": "Remplacement Métro 2",
     "shortname_line": "2",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02528",
     "name_line": "T10",
     "shortname_line": "T10",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T10.svg"
   },
   {
     "id_line": "C02529",
     "name_line": "T12",
     "shortname_line": "T12",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T12.svg"
   },
   {
     "id_line": "C02531",
     "name_line": "Remplacement Métro 11",
     "shortname_line": "11",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "704b1c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02532",
     "name_line": "Remplacement Métro 5",
     "shortname_line": "5",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "ff7e2e",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02533",
     "name_line": "Remplacement Métro 8",
     "shortname_line": "8",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "e19bdf",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02534",
     "name_line": "Remplacement Métro 13",
     "shortname_line": "13",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "6ec4e8",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02536",
     "name_line": "6595",
     "shortname_line": "6595",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02537",
     "name_line": "6515",
     "shortname_line": "6515",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02538",
     "name_line": "311",
     "shortname_line": "311",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02539",
     "name_line": "6524",
     "shortname_line": "6524",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02540",
     "name_line": "6519",
     "shortname_line": "6519",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02541",
     "name_line": "6525",
     "shortname_line": "6525",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02542",
     "name_line": "6529",
     "shortname_line": "6529",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02543",
     "name_line": "6590",
     "shortname_line": "6590",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02544",
     "name_line": "6592",
     "shortname_line": "6592",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02545",
     "name_line": "6594",
     "shortname_line": "6594",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02547",
     "name_line": "6551",
     "shortname_line": "6551",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02548",
     "name_line": "6552",
     "shortname_line": "6552",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02549",
     "name_line": "6553",
     "shortname_line": "6553",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02550",
     "name_line": "6554",
     "shortname_line": "6554",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02551",
     "name_line": "6555",
     "shortname_line": "6555",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02552",
     "name_line": "6556",
     "shortname_line": "6556",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02553",
     "name_line": "6557",
     "shortname_line": "6557",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02554",
     "name_line": "6558",
     "shortname_line": "6558",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02555",
     "name_line": "6559",
     "shortname_line": "6559",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02556",
     "name_line": "6564",
     "shortname_line": "6564",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02557",
     "name_line": "6565",
     "shortname_line": "6565",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02558",
     "name_line": "6566",
     "shortname_line": "6566",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02559",
     "name_line": "6567",
     "shortname_line": "6567",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02560",
     "name_line": "6568",
     "shortname_line": "6568",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02561",
     "name_line": "6569",
     "shortname_line": "6569",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02562",
     "name_line": "6572",
     "shortname_line": "6572",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02563",
     "name_line": "6574",
     "shortname_line": "6574",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02564",
     "name_line": "6575",
     "shortname_line": "6575",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02565",
     "name_line": "6501",
     "shortname_line": "6501",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02566",
     "name_line": "6502",
     "shortname_line": "6502",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02567",
     "name_line": "6505",
     "shortname_line": "6505",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02568",
     "name_line": "6506",
     "shortname_line": "6506",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02569",
     "name_line": "6507",
     "shortname_line": "6507",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02570",
     "name_line": "6513",
     "shortname_line": "6513",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02571",
     "name_line": "6514",
     "shortname_line": "6514",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02572",
     "name_line": "TàD Gâtinais",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "fecb00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02573",
     "name_line": "Remplacement Métro 3B",
     "shortname_line": "3B",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "6ec4e8",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02574",
     "name_line": "TàD Montereau Ouest",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffcd03",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02575",
     "name_line": "TàD Montereau Nord",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffcd03",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02576",
     "name_line": "TàD Montereau Centre",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffcd00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02577",
     "name_line": "TàD Montereau Sud",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffcd03",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02580",
     "name_line": "Soir Montereau Sud",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "662d91",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02581",
     "name_line": "TàD Nangis / La-Chapelle-Rablais",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02582",
     "name_line": "TàD Balade du Montois",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02583",
     "name_line": "TàD Gare de Provins",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02584",
     "name_line": "Soir Provins",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02585",
     "name_line": "Soir Nangis",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02587",
     "name_line": "TàD Nord Meulan - Les Mureaux",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02588",
     "name_line": "TàD Sud Meulan - Les Mureaux",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02589",
     "name_line": "Soir Poissy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02590",
     "name_line": "Remplacement Métro 7B",
     "shortname_line": "7B",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "6eca97",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02591",
     "name_line": "Soir Mitry-le-Neuf",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02594",
     "name_line": "N137",
     "shortname_line": "N137",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N137.svg"
   },
   {
     "id_line": "C02595",
     "name_line": "Soir Fontainebleau Avon",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02596",
     "name_line": "Soir Moret - Veneux les Sablons",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02597",
     "name_line": "Remplacement Tram T12",
     "shortname_line": "T12",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02598",
     "name_line": "R",
     "shortname_line": "R",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "e06666",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02599",
     "name_line": "4318",
     "shortname_line": "4318",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02600",
     "name_line": "N146",
     "shortname_line": "N146",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "00814f",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N146.svg"
   },
   {
     "id_line": "C02601",
     "name_line": "R121",
     "shortname_line": "R121",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "81c491",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02602",
     "name_line": "Soir Garges",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "662583",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02603",
     "name_line": "Soir Goussainville",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "662583",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02604",
     "name_line": "R9",
     "shortname_line": "R9",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "662483",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02605",
     "name_line": "Soir Gonesse",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "662583",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02607",
     "name_line": "4347",
     "shortname_line": "4347",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02608",
     "name_line": "4348",
     "shortname_line": "4348",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02609",
     "name_line": "4349",
     "shortname_line": "4349",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02610",
     "name_line": "3559",
     "shortname_line": "3559",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02611",
     "name_line": "TàD Goêle",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02612",
     "name_line": "3452",
     "shortname_line": "3452",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02613",
     "name_line": "TàD Balade en Provinois",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02615",
     "name_line": "11 (future 6311)",
     "shortname_line": "11",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02616",
     "name_line": "12 (future 6312)",
     "shortname_line": "12",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02617",
     "name_line": "3102",
     "shortname_line": "3102",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02618",
     "name_line": "2327",
     "shortname_line": "2327",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "c4a4cc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02619",
     "name_line": "3108",
     "shortname_line": "3108",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02620",
     "name_line": "3141",
     "shortname_line": "3141",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02621",
     "name_line": "3142",
     "shortname_line": "3142",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02622",
     "name_line": "W",
     "shortname_line": "W",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02624",
     "name_line": "N147",
     "shortname_line": "N147",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N147.svg"
   },
   {
     "id_line": "C02625",
     "name_line": "1235",
     "shortname_line": "1235",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ed1c2a",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02626",
     "name_line": "Soir Vernouillet-Verneuil",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02627",
     "name_line": "Soir Les Mureaux",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02628",
     "name_line": "Soir Carrières-sous-Poissy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02629",
     "name_line": "N (future 6438)",
     "shortname_line": "N",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "9f9822",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02630",
     "name_line": "612",
     "shortname_line": "612",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02631",
     "name_line": "4250",
     "shortname_line": "4250",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02632",
     "name_line": "4251",
     "shortname_line": "4251",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "4251.svg"
   },
   {
     "id_line": "C02634",
     "name_line": "N162",
     "shortname_line": "N162",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N162.svg"
   },
   {
     "id_line": "C02635",
     "name_line": "N160",
     "shortname_line": "N160",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N160.svg"
   },
   {
     "id_line": "C02636",
     "name_line": "Tzen4",
     "shortname_line": "Tzen4",
     "transportmode": "bus",
-    "transportsubmode": "highFrequencyBus"
+    "transportsubmode": "highFrequencyBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02637",
     "name_line": "5234",
     "shortname_line": "5234",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02638",
     "name_line": "5304",
     "shortname_line": "5304",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02640",
     "name_line": "Soir Saint-Rémy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02641",
     "name_line": "Soir Rambouillet",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02642",
     "name_line": "7817",
     "shortname_line": "7817",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02644",
     "name_line": "Soir Plaisir-Grignon",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02659",
     "name_line": "N123",
     "shortname_line": "N123",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N123.svg"
   },
   {
     "id_line": "C02661",
     "name_line": "Soir Brétigny",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02662",
     "name_line": "4513",
     "shortname_line": "4513",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02663",
     "name_line": "4536",
     "shortname_line": "4536",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02664",
     "name_line": "Filéo Compans",
     "shortname_line": "Filéo com",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02665",
     "name_line": "Soir Mantes-la-Ville",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02666",
     "name_line": "C1",
     "shortname_line": "C1",
     "transportmode": "cableway",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "000000",
+    "icon": "C1.svg"
   },
   {
     "id_line": "C02667",
     "name_line": "Soir Aubergenville",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02668",
     "name_line": "N72",
     "shortname_line": "N72",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N72.svg"
   },
   {
     "id_line": "C02669",
     "name_line": "2281",
     "shortname_line": "2281",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02670",
     "name_line": "2282",
     "shortname_line": "2282",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02671",
     "name_line": "2283",
     "shortname_line": "2283",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02672",
     "name_line": "2284",
     "shortname_line": "2284",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02673",
     "name_line": "2254",
     "shortname_line": "2254",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02674",
     "name_line": "Soir Parc Haut Val d'Oise",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02675",
     "name_line": "Soir Persan-Beaumont",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02676",
     "name_line": "2376",
     "shortname_line": "2376",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02677",
     "name_line": "A02 Saint Denis Université",
     "shortname_line": "A02 SDU",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "709974",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02678",
     "name_line": "A03 Paris La Défense",
     "shortname_line": "A03 DEF",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "e10098",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02679",
     "name_line": "A05 Disneyland Paris",
     "shortname_line": "A05 DIS",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02680",
     "name_line": "2343",
     "shortname_line": "2343",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "177fc2",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02681",
     "name_line": "3752",
     "shortname_line": "3752",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02682",
     "name_line": "4584",
     "shortname_line": "4584",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02683",
     "name_line": "60 (future 6460)",
     "shortname_line": "60",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02684",
     "name_line": "61 (future 6461)",
     "shortname_line": "61",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02685",
     "name_line": "62 (future 6462)",
     "shortname_line": "62",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02686",
     "name_line": "63 (future 6463)",
     "shortname_line": "63",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": "SEASONAL_LINE_TYPE",
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02687",
     "name_line": "3417",
     "shortname_line": "3417",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02688",
     "name_line": "Soir Lagny - Thorigny",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02689",
     "name_line": "Soir Bussy-st-Georges",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02690",
     "name_line": "Soir Val d'Europe",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02691",
     "name_line": "Soir Marne-la-Vallée Chessy",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02692",
     "name_line": "2150",
     "shortname_line": "2150",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02693",
     "name_line": "2151",
     "shortname_line": "2151",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02694",
     "name_line": "2152",
     "shortname_line": "2152",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02695",
     "name_line": "2153",
     "shortname_line": "2153",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "dc9600",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02696",
     "name_line": "2154",
     "shortname_line": "2154",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e491e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02697",
     "name_line": "2155",
     "shortname_line": "2155",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02698",
     "name_line": "2156",
     "shortname_line": "2156",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02699",
     "name_line": "2158",
     "shortname_line": "2158",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02700",
     "name_line": "2159",
     "shortname_line": "2159",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02701",
     "name_line": "2160",
     "shortname_line": "2160",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02702",
     "name_line": "2161",
     "shortname_line": "2161",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02703",
     "name_line": "2162",
     "shortname_line": "2162",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02704",
     "name_line": "2164",
     "shortname_line": "2164",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02705",
     "name_line": "1257",
     "shortname_line": "1257",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "c5a3cd",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02706",
     "name_line": "2165",
     "shortname_line": "2165",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02707",
     "name_line": "2166",
     "shortname_line": "2166",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02708",
     "name_line": "2157",
     "shortname_line": "2157",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02709",
     "name_line": "N148",
     "shortname_line": "N148",
     "transportmode": "bus",
-    "transportsubmode": "nightBus"
+    "transportsubmode": "nightBus",
+    "type": null,
+    "colourweb_hexa": "00b397",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N148.svg"
   },
   {
     "id_line": "C02711",
     "name_line": "V",
     "shortname_line": "V",
     "transportmode": "rail",
-    "transportsubmode": "suburbanRailway"
+    "transportsubmode": "suburbanRailway",
+    "type": null,
+    "colourweb_hexa": "9f9825",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "V.svg"
   },
   {
     "id_line": "C02712",
     "name_line": "Remplacement Transilien V",
     "shortname_line": "V",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "9f9825",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02713",
     "name_line": "245",
     "shortname_line": "245",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02714",
     "name_line": "202",
     "shortname_line": "202",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02715",
     "name_line": "5477",
     "shortname_line": "5477",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "8d653d",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02716",
     "name_line": "7825",
     "shortname_line": "7825",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "5091cb",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02720",
     "name_line": "3447",
     "shortname_line": "3447",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02721",
     "name_line": "3418",
     "shortname_line": "3418",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02723",
     "name_line": "A04 Paris La Villette",
     "shortname_line": "A04 VIL",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "003da5",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02724",
     "name_line": "4242",
     "shortname_line": "4242",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02725",
     "name_line": "9112",
     "shortname_line": "9112",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02726",
     "name_line": "3771",
     "shortname_line": "3771",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02727",
     "name_line": "3777",
     "shortname_line": "3777",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02728",
     "name_line": "3772",
     "shortname_line": "3772",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02730",
     "name_line": "26 (future 6426)",
     "shortname_line": "26",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02731",
     "name_line": "25 (future 6425)",
     "shortname_line": "25",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffce00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02732",
     "name_line": "T14",
     "shortname_line": "T14",
     "transportmode": "tram",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T14.svg"
   },
   {
     "id_line": "C02733",
     "name_line": "Remplacement Tram T14",
     "shortname_line": "T14",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02735",
     "name_line": "TàD ZI Poincy",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02736",
     "name_line": "4215",
     "shortname_line": "4215",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ff82b4",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02737",
     "name_line": "4270",
     "shortname_line": "4270",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "82c8e6",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02738",
     "name_line": "4278",
     "shortname_line": "4278",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02739",
     "name_line": "4279",
     "shortname_line": "4279",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "82dc73",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02740",
     "name_line": "4222",
     "shortname_line": "4222",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02741",
     "name_line": "5297",
     "shortname_line": "5297",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02742",
     "name_line": "5296",
     "shortname_line": "5296",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02744",
     "name_line": "277",
     "shortname_line": "277",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02745",
     "name_line": "363",
     "shortname_line": "363",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02746",
     "name_line": "TàD Vexin Est",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02747",
     "name_line": "TàD Vallée du Loing - Nemours",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02748",
     "name_line": "TàD Vexin Ouest",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02749",
     "name_line": "TàD Vexin Est",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02750",
     "name_line": "Soir Nemours",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "652c8f",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02751",
     "name_line": "TàD Ourcq Ouest",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02753",
     "name_line": "TàD Poincy - Meaux Av de la Victoire",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02754",
     "name_line": "TàD Pays de Limours",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02755",
     "name_line": "TàD Meaux Ouest",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02756",
     "name_line": "TàD Coulommiers",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02757",
     "name_line": "TàD Meaux Est",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02758",
     "name_line": "TàD Créçois",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02759",
     "name_line": "TàD Coulommiers",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02760",
     "name_line": "TàD Coulommiers",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02761",
     "name_line": "TàD Créçois",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02762",
     "name_line": "TàD Créçois",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02763",
     "name_line": "TàD Créçois",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02768",
     "name_line": "Soir Montgeron",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02769",
     "name_line": "Soir Vigneux-sur-Seine",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02770",
     "name_line": "Soir Brunoy Sud",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02771",
     "name_line": "Soir Crosne",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02772",
     "name_line": "Soir Quincy-sous-Sénart",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02773",
     "name_line": "Soir Yerres Nord",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02774",
     "name_line": "Soir Yerres Sud",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02775",
     "name_line": "Soir Villecresnes",
     "shortname_line": "Soir",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02776",
     "name_line": "TàD Bois-le-Roi Chartrettes",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02777",
     "name_line": "TàD Moret Seine et Loing",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02778",
     "name_line": "TàD Bière",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02779",
     "name_line": "TàD Melun Nord",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02780",
     "name_line": "TàD Sainte Assise",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02781",
     "name_line": "TàD Boissise-le-Roi - Pringy",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02782",
     "name_line": "4157",
     "shortname_line": "4157",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "a50034",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02786",
     "name_line": "2378",
     "shortname_line": "2378",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "aaaaaa",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02787",
     "name_line": "TàD Ourcq Est",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02788",
     "name_line": "TàD Dimanche",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02789",
     "name_line": "TàD Desserte Hôpital",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02790",
     "name_line": "Remplacement Tram T10",
     "shortname_line": "T10",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": "REPLACEMENT_LINE_TYPE",
+    "colourweb_hexa": "6e6e00",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02791",
     "name_line": "TàD Zonal Dourdan",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffce00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02792",
     "name_line": "TàD Zonal Etrechy",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffce00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02793",
     "name_line": "TàD Zonal Etampes",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffce00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02794",
     "name_line": "TàD Mantois",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffcc30",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02795",
     "name_line": "1433",
     "shortname_line": "1433",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b80c4b",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02797",
     "name_line": "TàD 4308",
     "shortname_line": "TàD 4308",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02798",
     "name_line": "6535",
     "shortname_line": "6535",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02799",
     "name_line": "6550",
     "shortname_line": "6550",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "640082",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02800",
     "name_line": "6577",
     "shortname_line": "6577",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "a0006e",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02801",
     "name_line": "6578",
     "shortname_line": "6578",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02802",
     "name_line": "6579",
     "shortname_line": "6579",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02803",
     "name_line": "6580",
     "shortname_line": "6580",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02804",
     "name_line": "6581",
     "shortname_line": "6581",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02805",
     "name_line": "6582",
     "shortname_line": "6582",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02806",
     "name_line": "5404",
     "shortname_line": "5404",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "8ad3de",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02807",
     "name_line": "5463",
     "shortname_line": "5463",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "b6134c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02809",
     "name_line": "4627",
     "shortname_line": "4627",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02810",
     "name_line": "4665",
     "shortname_line": "4665",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02811",
     "name_line": "4666",
     "shortname_line": "4666",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d282be",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02812",
     "name_line": "4671",
     "shortname_line": "4671",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff1400",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02813",
     "name_line": "4673",
     "shortname_line": "4673",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "0055c8",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02814",
     "name_line": "4674",
     "shortname_line": "4674",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ff5a00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02815",
     "name_line": "4672",
     "shortname_line": "4672",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02816",
     "name_line": "4670",
     "shortname_line": "4670",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02817",
     "name_line": "4654",
     "shortname_line": "4654",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "d2d200",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02818",
     "name_line": "4652",
     "shortname_line": "4652",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "00643c",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02820",
     "name_line": "TàD 4318",
     "shortname_line": "TàD 4318",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02821",
     "name_line": "TàD 4306",
     "shortname_line": "TàD 4306",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02822",
     "name_line": "TàD 4342",
     "shortname_line": "TàD 4342",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02823",
     "name_line": "TàD 4343",
     "shortname_line": "TàD 4343",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02824",
     "name_line": "TàD 4344",
     "shortname_line": "TàD 4344",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02825",
     "name_line": "SUBB Boucle Sud",
     "shortname_line": "SUBB S",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "e0b03a",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02826",
     "name_line": "TUVIM Epinettes",
     "shortname_line": "TUVIM EP",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f68f4a",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02827",
     "name_line": "TUVIM Ile Saint-Germain",
     "shortname_line": "TUVIM ISG",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "f59eb2",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02829",
     "name_line": "1104",
     "shortname_line": "1104",
     "transportmode": "bus",
-    "transportsubmode": "regionalBus"
+    "transportsubmode": "regionalBus",
+    "type": null,
+    "colourweb_hexa": "00a092",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02830",
     "name_line": "9514",
     "shortname_line": "9514",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02831",
     "name_line": "9513",
     "shortname_line": "9513",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02832",
     "name_line": "9509",
     "shortname_line": "9509",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02834",
     "name_line": "240",
     "shortname_line": "240",
     "transportmode": "bus",
-    "transportsubmode": null
+    "transportsubmode": null,
+    "type": null,
+    "colourweb_hexa": "b90845",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02835",
     "name_line": "9517",
     "shortname_line": "9517",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02852",
     "name_line": "1119",
     "shortname_line": "1119",
     "transportmode": "bus",
-    "transportsubmode": "localBus"
+    "transportsubmode": "localBus",
+    "type": null,
+    "colourweb_hexa": "662d91",
+    "textcolourweb_hexa": "ffffff"
   },
   {
     "id_line": "C02853",
     "name_line": "TàD Luzarches - Goussainville",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02854",
     "name_line": "7711",
     "shortname_line": "7711",
     "transportmode": "bus",
-    "transportsubmode": "expressBus"
+    "transportsubmode": "expressBus",
+    "type": null,
+    "colourweb_hexa": "3c91dc",
+    "textcolourweb_hexa": "000000"
   },
   {
     "id_line": "C02856",
     "name_line": "TàD Vallée de Chevreuse",
     "shortname_line": "TàD",
     "transportmode": "bus",
-    "transportsubmode": "demandAndResponseBus"
+    "transportsubmode": "demandAndResponseBus",
+    "type": null,
+    "colourweb_hexa": "ffbe00",
+    "textcolourweb_hexa": "000000"
   }
 ]
 }

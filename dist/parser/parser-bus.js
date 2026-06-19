@@ -94,13 +94,18 @@ export function parseBusFromSiri(lineDatas, exclude_lines, exclude_lines_ref, in
 
     // MODE INCLUSION (show_only_included = true)
     else {
-    excluded =
-        !(
-        (exclude_lines && exclude_lines.includes(lineRef)) ||
-        (exclude_lines_ref && exclude_lines_ref.includes(lineStop)) ||
-        (exclude_lines_ref &&
-            exclude_lines_ref.includes(destinationRefLineStop[directionRef]))
-        );
+      const lineIncluded =
+        exclude_lines && exclude_lines.includes(lineRef);
+
+      const hasDestFilter =
+        exclude_lines_ref && exclude_lines_ref.length > 0;
+
+      const destIncluded =
+        !hasDestFilter ||
+        exclude_lines_ref.includes(lineStop) ||
+        exclude_lines_ref.includes(destinationRefLineStop[directionRef]);
+
+      excluded = !(lineIncluded && destIncluded);
     }
     if (excluded) return;
 
@@ -131,7 +136,13 @@ export function parseBusFromSiri(lineDatas, exclude_lines, exclude_lines_ref, in
       id: lineRef,
       type: busMeta[lineRef]?.transportmode || null,
       id_line: busMeta[lineRef]?.id_line || null,
+      icon: busMeta[lineRef]?.icon || null,
       shortname_line: busMeta[lineRef]?.name_line || null,
+      transportmode: busMeta[lineRef]?.transportmode || null,
+      transportsubmode: busMeta[lineRef]?.transportsubmode || null,
+      colorweb_hexa: busMeta[lineRef]?.colourweb_hexa || busMeta[lineRef]?.colorweb_hexa || null,
+      textcolorweb_hexa: busMeta[lineRef]?.textcolourweb_hexa || busMeta[lineRef]?.textcolorweb_hexa || null,
+
       destinations: Object.keys(busesMap[lineRef]).map((destName) => ({
         name: destName,
         departures: busesMap[lineRef][destName].sort((a, b) => a.minutes - b.minutes),

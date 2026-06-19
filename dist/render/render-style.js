@@ -138,11 +138,23 @@ export const IDFMobiliteStyles = css`
     text-wrap: nowrap;
     overflow: hidden;
 }
+/* Icône de ligne (RER, Métro, Tram, Bus, etc.) */
 .message-line-icon {
     height: 18px;
     width: auto;
     vertical-align: text-bottom;
     display: inline-block;
+}
+/* Pastille couleur fallback (si pas d’icône) */
+.message-line-pill {
+    display: inline-block;
+    font-size: 0.85rem;
+    line-height: 1;
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-weight: 600;
+    vertical-align: text-bottom;
+    text-transform: uppercase;
 }
 .message-line-icon-fallback {
     margin-right: 4px;
@@ -154,7 +166,7 @@ export const IDFMobiliteStyles = css`
     font-size: 1.1em;
     vertical-align: middle;
 }
-.badge { display: inline-block; margin-right: 4px; }
+.badge { display: inline-block; margin-right: 4px; margin-left: 4px;}
 .badge-info { color: #007bff; }
 .badge-noservice { color: #ff4d4d; }
 .badge-delays { color: #ffae42; }
@@ -243,6 +255,19 @@ export const IDFMobiliteStyles = css`
     flex-grow: 1;
     align-items: center;
     justify-content: center;
+}
+.bus-line-image-no-ratp {
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    min-width: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    text-wrap: nowrap;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 .bus-image { height: 25px; }
 .tram-image { height: 25px; }
@@ -544,5 +569,6 @@ export const IDFMobiliteStyles = css`
 .message-block {
     display: inline-block;
 }
+
 
 `;

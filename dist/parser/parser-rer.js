@@ -185,6 +185,8 @@ export function parseRerFromSiri(
 
       return {
         name: label,
+        type: rerMeta[lineRef]?.transportmode || null,
+        id_line: rerMeta[lineRef]?.id_line || null,
         departures: deps.map((d, i) => ({
           minutes: d.minutes,
           hour: d.hour,
@@ -202,6 +204,12 @@ export function parseRerFromSiri(
       type: rerMeta[lineRef]?.transportmode || null,
       id_line: rerMeta[lineRef]?.id_line || null,
       shortname_line: rerMeta[lineRef]?.name_line || null,
+      icon: rerMeta[lineRef]?.icon || null,
+      shortname_line: rerMeta[lineRef]?.name_line || null,
+      transportmode: rerMeta[lineRef]?.transportmode || null,
+      transportsubmode: rerMeta[lineRef]?.transportsubmode || null,
+      colorweb_hexa: rerMeta[lineRef]?.colourweb_hexa || rerMeta[lineRef]?.colorweb_hexa || null,
+      textcolorweb_hexa: rerMeta[lineRef]?.textcolourweb_hexa || rerMeta[lineRef]?.textcolorweb_hexa || null,
       destinations,
     };
   });

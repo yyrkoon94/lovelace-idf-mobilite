@@ -218,14 +218,10 @@ function pushMessage(collected, msg, context, imagesUrl) {
     });
 
     if (lineData) {
-      // 1) Icône officielle IDFM (SVG)
-      prefixHtml = `
-        <img
-          src="https://cachesync.prod.bonjour-ratp.fr/svg/LIG:IDFM:${lineData.id_line}.svg"
-          alt="${lineData.shortname_line || ''}"
-          class="message-line-icon ${lineData.transportmode || ''}"
-        >
-      `;
+       if (lineData.icon)
+         prefixHtml = `<img class="message-line-icon" src = "${imagesUrl}${lineData.transportmode}/${lineData.icon}" alt = "${lineData.shortname_line}" class="${lineData.type}-image" />`
+       else
+          prefixHtml = `<div class="message-line-pill" style="color: #${lineData.textcolourweb_hexa};background-color:#${lineData.colourweb_hexa}">${lineData.shortname_line}</div>`
     } else {
       // fallback texte
       prefixHtml = `

@@ -384,7 +384,7 @@ get _messages() {
   _schemaMessages() {
   return [
     {
-      name: "Liste des entité Messages",
+      name: "messages",
       label: "Messages (RESTFul sensors)",
       selector: {
         entity: {

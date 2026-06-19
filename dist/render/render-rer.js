@@ -141,12 +141,11 @@ function renderRerLineTitle(line, destinationName, config, imagesUrl) {
              class="rer-line-type-image">
       </div>
        <div class="rer-line-title-image">
-                  <img
-                    src="https://cachesync.prod.bonjour-ratp.fr/svg/LIG:IDFM:${line.id_line}.svg"
-                      alt="${line.shortname_line}"
-                      class="${line.type}-image"
-                    >
-                  </div>
+          ${line.icon ?
+              html`<img src = "${imagesUrl}${line.transportmode}/${line.icon}" alt = "${line.shortname_line}" class="${line.type}-image" />`
+                 : html`<div class="bus-line-image-no-ratp" style="color: #${line.textcolorweb_hexa};background-color:#${line.colorweb_hexa}">${line.shortname_line}</div>`
+              }
+        </div>
 
       <div class="rer-line-title-name"><span class="rer-title-scroll">${destinationName}</span></div>
     </div>

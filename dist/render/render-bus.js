@@ -92,11 +92,10 @@ function renderBusLine(line, config, imagesUrl) {
                         class="bus-line-type-image">
                 </div>
                 <div class="bus-line-image">
-                  <img
-                    src="https://cachesync.prod.bonjour-ratp.fr/svg/LIG:IDFM:${line.id_line}.svg"
-                      alt="${line.shortname_line}"
-                      class="${line.type}-image"
-                    >
+                      ${line.icon ?
+                        html`<img src = "${imagesUrl}${line.transportmode}/${line.icon}" alt = "${line.shortname_line}" class="${line.type}-image" />`
+                        : html`<div class="bus-line-image-no-ratp" style="color: #${line.textcolorweb_hexa};background-color:#${line.colorweb_hexa}">${line.shortname_line}</div>`
+                      }
                   </div>
             ` : ""}
           </div>
@@ -313,3 +312,11 @@ function formatDestinationLabel(raw, imagesUrl, config) {
     </div>`;
 }
 
+function normalizeColor(c) {
+  if (!c) return c;
+  const v = c.trim();
+  if (v.startsWith("#")) return v;
+  if (v.length === 6) return `#${v}`;
+  if (v.length === 3) return `#${v}`;
+  return v;
+}
