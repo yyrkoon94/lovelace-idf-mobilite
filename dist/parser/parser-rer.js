@@ -1,0 +1,206 @@
+// siri-parser-rer.js
+import {
+  findNonRatpLineData,
+  extractLineStop,
+  cleanDirectionRef,
+  normalizeDestination,
+  detectState,
+  formatTimestamp,
+  fixEncodingAndClean
+} from "./parser-utils.js";
+
+
+export function parseRerFromSiri(
+  lineDatas,
+  exclude_lines,
+  exclude_lines_ref,
+  nb_departure,
+  groupDestination,
+  groupDestinationName,
+  max_delay
+) {
+  const siri = lineDatas?.attributes?.Siri;
+  const stopMon = siri?.ServiceDelivery?.StopMonitoringDelivery?.[0];
+  if (!stopMon?.ResponseTimestamp) return null;
+
+  const station = fixEncodingAndClean(
+    stopMon.MonitoredStopVisit.length > 0
+      ? stopMon.MonitoredStopVisit[0].MonitoredVehicleJourney.MonitoredCall
+          .StopPointName?.[0]?.value
+      : "Pas de départ prévu"
+  );
+
+  const lastUpdate = formatTimestamp(stopMon.ResponseTimestamp);
+  const maxDelay = max_delay ? max_delay : 60
+  const rerMap = {};
+  const rerMeta = {};
+  const destinationRefLineStop = {};
+
+  stopMon.MonitoredStopVisit.forEach((stop) => {
+    const mvj = stop.MonitoredVehicleJourney;
+    const call = mvj.MonitoredCall;
+
+    const ts = call?.ExpectedDepartureTime || call?.ExpectedArrivalTime;
+    if (!ts) return;
+
+    // --- Ligne ----------------------------------------------------
+    const raw = mvj.LineRef.value;
+    const lineToFind = raw.substring(raw.lastIndexOf("::") + 2, raw.lastIndexOf(":"));
+    const line = findNonRatpLineData(lineToFind);
+    if (!line) return;
+
+    // RER = rail
+    const mode = line.transportmode || "";
+    const submode = line.transportsubmode || "";
+
+    if (mode !== "rail" && submode !== "suburbanRailway" && submode !== "local") {
+      return;
+    }
+
+    let lineRef;
+    // accept all rail vehicles, and replacement bus, no metro/tram/funicular
+    switch(line?.transportmode) {
+        case "rail":
+            if (line?.transportsubmode?.includes("local")) { // RER
+                lineRef = "rer-" + line.name_line;
+            } else if (line?.transportsubmode?.includes("suburbanRailway")) { // TRAIN
+                lineRef = "train-" + line.name_line;
+            } else if (line?.transportsubmode?.includes("regionalRail")) { // TER
+                lineRef = "train-" + line.shortname_line;
+            }
+            break;
+        case "bus":
+            if (line?.type?.includes("REPLACEMENT") && this.config.show_replacement_bus) { // REPLACEMENT BUS
+                lineRef = "bus-rep-" + line.shortname_line;
+            }
+            break;
+        default:
+            //IDFMobiliteCard.logUnknownLine(line);
+            break;
+    }
+    // --- DestinationRef ------------------------------------------
+    let lineStop = extractLineStop(mvj.DestinationRef.value);
+
+    // --- DestinationName -----------------------------------------
+    const rawDest =
+      mvj.DestinationName?.[0]?.value ||      // ✔ RER / SNCF
+      mvj.DestinationDisplay?.[0]?.value ||   // fallback
+      "Destination inconnue";
+
+    const destinationName = normalizeDestination(rawDest);
+
+
+
+    // --- directionRef --------------------------------------------
+    let directionRef =
+        mvj.DestinationShortName?.[0]?.value ||
+         mvj.DestinationRef?.value ||
+        mvj.DirectionRef?.value;
+
+    directionRef = cleanDirectionRef(directionRef);
+
+    if (!destinationRefLineStop[directionRef] && lineStop !== "TrainEstimeDans") {
+      destinationRefLineStop[directionRef] = lineStop;
+    }
+
+    // --- Filtres --------------------------------------------------
+    const excluded =
+      (exclude_lines && exclude_lines.includes(lineRef)) ||
+      (exclude_lines_ref && exclude_lines_ref.includes(lineStop)) ||
+      (exclude_lines_ref &&
+        exclude_lines_ref.includes(destinationRefLineStop[directionRef]));
+
+    if (excluded) return;
+
+    // --- Départ ---------------------------------------------------
+    const expected = new Date(Date.parse(ts));
+    const minutes = Math.floor((expected - Date.now()) / 60000);
+    const hour = expected.toLocaleTimeString("fr-FR", {
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+
+    const platform =
+        call.DeparturePlatformName?.value ||
+        call.ArrivalPlatformName?.value || "";
+
+    const state = detectState(call, minutes);
+
+    if (minutes < -5 || (maxDelay && minutes > maxDelay)) return;
+
+    // --- Groupement ----------------------------------------------
+    if (!rerMap[lineRef]) rerMap[lineRef] = {};
+    const destKey = groupDestination ? "GROUPED" : destinationName;
+
+    if (!rerMap[lineRef][destKey]) rerMap[lineRef][destKey] = [];
+
+    const vehiculeName =
+        mvj.JourneyNote && mvj.JourneyNote.length > 0 && mvj.JourneyNote[0].value !== ""
+        ? mvj.JourneyNote[0].value
+        : lineRef.substring(lineRef.indexOf("-") + 1).toLocaleUpperCase();
+
+    if (nb_departure && nb_departure !="" && rerMap[lineRef][destKey].length >= nb_departure) return;
+    rerMap[lineRef][destKey].push({
+      minutes,
+      hour,
+      state,
+      platform,
+      destinationRef: lineStop,
+      destinationName,
+      vehiculeName
+    });
+
+    if (!rerMeta[lineRef]) rerMeta[lineRef] = line;
+  });
+
+  // --- Transformation finale --------------------------------------
+  const lines = Object.keys(rerMap).map((lineRef) => {
+    const destinations = Object.keys(rerMap[lineRef]).map((destKey) => {
+      const deps = rerMap[lineRef][destKey]
+        .sort((a, b) => a.minutes - b.minutes);
+
+      let label;
+
+      if (groupDestination) {
+        if (groupDestinationName) {
+            // Nom de groupe explicite fourni
+            label = groupDestinationName;
+        } else {
+            // Pas de nom explicite : on concatène tous les destinationName
+            const allNames = [...new Set(deps.map((d) => d.destinationName).filter(Boolean))];
+            label = allNames.join(" • ");
+        }
+        } else {
+        // Pas de groupement : on garde le comportement normal
+        label = deps[0]?.destinationName || destKey;
+      }
+
+      return {
+        name: label,
+        departures: deps.map((d, i) => ({
+          minutes: d.minutes,
+          hour: d.hour,
+          platform: d.platform,
+          state: d.state,
+          destinationRef: d.destinationRef,
+          destinationName: d.destinationName,
+          vehiculeName: d.vehiculeName,
+        })),
+      };
+    });
+
+    return {
+      id: lineRef,
+      type: rerMeta[lineRef]?.transportmode || null,
+      id_line: rerMeta[lineRef]?.id_line || null,
+      shortname_line: rerMeta[lineRef]?.name_line || null,
+      destinations,
+    };
+  });
+
+  return {
+    station,
+    lastUpdate,
+    lines,
+  };
+}
