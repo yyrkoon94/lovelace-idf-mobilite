@@ -112,7 +112,7 @@ export const IDFMobiliteStyles = css`
 .last-update {
     display: flex;
     flex-direction:column;
-    margin-right: 12px;
+    margin-right: 5px;
 }
 .last-update-time {
     display: flex;
@@ -366,6 +366,7 @@ export const IDFMobiliteStyles = css`
     background-color: none !important;
 }
 .rer-line-title {
+    min-width: 0; /* indispensable pour iOS */
     display: flex;
     border-bottom: 4px solid #070572;
     border-radius: 9px 9px 0px 0px;
@@ -403,6 +404,7 @@ export const IDFMobiliteStyles = css`
 }
 .rer-title-scroll {
     display: inline-block;
+    min-width: 0;
     white-space: nowrap;
     flex-shrink: 1;
     will-change: transform;

@@ -40,6 +40,14 @@ export function parseRerFromSiri(
     const mvj = stop.MonitoredVehicleJourney;
     const call = mvj.MonitoredCall;
 
+    // --- Filtre des terminus non commerciaux (missions partielles)
+    const isTerminusHere =
+      mvj.DestinationRef?.value === stop.MonitoringRef?.value;
+
+    if (isTerminusHere) {
+      return; // On ignore les trains qui terminent ici
+    }
+
     const ts = call?.ExpectedDepartureTime || call?.ExpectedArrivalTime;
     if (!ts) return;
 

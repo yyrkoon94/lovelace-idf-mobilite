@@ -1,4 +1,4 @@
-# 📝 Release Note — vX1.0.0 — Nouvelle version majeure de la carte IDF Mobilité
+# 📝 Release Note — v1.0.0 — Nouvelle version majeure de la carte IDF Mobilité
 
 ## 🚀 Nouveautés majeures
 
