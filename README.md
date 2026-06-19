@@ -175,7 +175,7 @@ Vous pouvez sélectionner **une ou plusieurs entités** contenant `disruptions`.
 - BUS : afficher 3 départs
 - RER : afficher les bus de remplacement
 - Gestion des transports supprimés ou retardés
-<img src="https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/delete_and_three.png" width="200">
+<img src="https://raw.githubusercontent.com/yyrkoon94/lovelace-idf-mobilite/master/cancel_and_three.png" width="200">
 ---
 
 ## 🟪 6. Aide à la configuration
