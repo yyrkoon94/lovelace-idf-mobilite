@@ -358,6 +358,13 @@ export const IDFMobiliteStyles = css`
     color: #070572;
     margin-bottom: 4px;
 }
+.rer-line-nobg {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    color: #FFFFFF;
+    background-color: none !important;
+}
 .rer-line-title {
     display: flex;
     border-bottom: 4px solid #070572;
