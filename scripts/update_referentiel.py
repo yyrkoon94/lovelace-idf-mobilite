@@ -18,7 +18,7 @@ class DatabaseSynchronizer:
         self.output_js_filepath = output_js_filepath
 
     # ------------------------------------------------------------
-    #  Téléchargement SVG (remplace Selenium)
+    #  Téléchargement SVG (simple GET)
     # ------------------------------------------------------------
     def __download(self, url):
         try:
@@ -30,10 +30,6 @@ class DatabaseSynchronizer:
                 ),
                 "Accept": "image/svg+xml,image/*;q=0.8,*/*;q=0.5",
                 "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
-                "Referer": "https://www.ratp.fr/",
-                "Sec-Fetch-Dest": "image",
-                "Sec-Fetch-Mode": "no-cors",
-                "Sec-Fetch-Site": "cross-site",
                 "Connection": "keep-alive",
             }
 
@@ -49,40 +45,69 @@ class DatabaseSynchronizer:
         return None
 
     # ------------------------------------------------------------
-    #  Déterminer si une ligne doit avoir un SVG
+    #  Déterminer si une ligne doit avoir un SVG (pour JSON)
     # ------------------------------------------------------------
     def __should_have_svg(self, fields):
         shortname_line = fields["shortname_line"]
         transportmode = fields["transportmode"]
+        submode = fields.get("transportsubmode") or ""
+        type_field = fields.get("type") or ""
 
+        # --- BUS ---
         if transportmode == "bus":
-            return shortname_line in ["ROISSYBUS", "ORLYBUS", "TVM"] or fields.get("transportsubmode") == "nightBus"
+            return (
+                shortname_line in ["ROISSYBUS", "ORLYBUS", "TVM"]
+                or submode == "nightBus"
+                or type_field.startswith("REPLACEMENT")  # bus de remplacement
+            )
 
+        # --- RAIL ---
         if transportmode == "rail":
             return shortname_line != "TER"
 
         return True
 
     # ------------------------------------------------------------
-    #  Téléchargement du SVG RATP
+    #  Déterminer si on doit télécharger depuis departs.leon.gp
+    # ------------------------------------------------------------
+    def __should_download_from_leon(self, fields):
+        return fields["transportmode"] == "bus" and (fields.get("type") or "").startswith("REPLACEMENT")
+
+    # ------------------------------------------------------------
+    #  Mapping transportmode → dossier
+    # ------------------------------------------------------------
+    def __folder_for_mode(self, transportmode):
+        mapping = {
+            "bus": "bus",
+            "rail": "rail",
+            "metro": "metro",
+            "tram": "tram",
+            "funicular": "funicular",
+            "coach": "coach",
+        }
+        return mapping.get(transportmode, "other")
+
+    # ------------------------------------------------------------
+    #  Téléchargement du SVG depuis departs.leon.gp
     # ------------------------------------------------------------
     def __download_svg(self, id_line, transportmode, shortname_line):
-        url = f"https://cachesync.prod.bonjour-ratp.fr/svg/LIG:IDFM:{id_line}.svg"
+        url = f"https://departs.leon.gp/pictos/lines/{id_line}.svg"
         content = self.__download(url)
 
-        folder_path = f"{self.image_path}/{transportmode}"
-        file_path = f"{folder_path}/{shortname_line}.svg"
-
         if content is None:
-            print(f"Download error: {shortname_line} ({id_line} => {url})")
+            print(f"[SVG] Échec : {shortname_line} ({id_line}) => {url}")
             return None
 
+        folder = self.__folder_for_mode(transportmode)
+        folder_path = f"{self.image_path}/{folder}"
         os.makedirs(folder_path, exist_ok=True)
 
-        with open(file_path, "w") as f:
+        file_path = f"{folder_path}/{shortname_line}.svg"
+
+        with open(file_path, "w", encoding="utf-8") as f:
             f.write(content)
 
-        return file_path if os.path.isfile(file_path) else None
+        return file_path
 
     # ------------------------------------------------------------
     #  Mapping d'une ligne
@@ -106,7 +131,7 @@ class DatabaseSynchronizer:
         }
 
         if svg_path:
-            result["icon"] = f"{fields.get('shortname_line')}.svg"
+            result["icon"] = svg_path
 
         return result
 
@@ -123,6 +148,11 @@ class DatabaseSynchronizer:
 
         for item in tqdm(sorted_data, desc="Synchronizing..."):
             processed_item = self.__map_item(item)
+
+            # Télécharger uniquement les bus de remplacement
+            if self.__should_download_from_leon(item):
+                self.__download_svg(item["id_line"], item["transportmode"], item["shortname_line"])
+
             processed_data.append(processed_item)
 
         js_data = json.dumps(processed_data, indent=2, ensure_ascii=False)

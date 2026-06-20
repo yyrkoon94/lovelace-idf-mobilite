@@ -12889,7 +12889,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "dc9600",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "T4.svg"
   },
   {
     "id_line": "C01684",
@@ -14107,7 +14108,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "b6134c",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "U.svg"
   },
   {
     "id_line": "C01841",
@@ -14117,7 +14119,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "f58f53",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "P.svg"
   },
   {
     "id_line": "C01842",
@@ -14127,7 +14130,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "8d653d",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "H.svg"
   },
   {
     "id_line": "C01843",
@@ -14148,7 +14152,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "9b9842",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "K.svg"
   },
   {
     "id_line": "C01845",
@@ -14158,7 +14163,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "00b297",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "N.svg"
   },
   {
     "id_line": "C01846",
@@ -14168,7 +14174,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "cec73d",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "J.svg"
   },
   {
     "id_line": "C01847",
@@ -14178,7 +14185,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "c4a4cc",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "L.svg"
   },
   {
     "id_line": "C01848",
@@ -14188,7 +14196,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "f49fb3",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "R.svg"
   },
   {
     "id_line": "C01849",
@@ -14198,7 +14207,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "eb2132",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "A.svg"
   },
   {
     "id_line": "C01850",
@@ -14208,7 +14218,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "5091cb",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "B.svg"
   },
   {
     "id_line": "C01851",
@@ -14218,7 +14229,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "ffcc30",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "C.svg"
   },
   {
     "id_line": "C01852",
@@ -14228,7 +14240,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "008b5b",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "D.svg"
   },
   {
     "id_line": "C01853",
@@ -14238,7 +14251,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "b94e9a",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "E.svg"
   },
   {
     "id_line": "C01854",
@@ -14248,7 +14262,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER.svg"
   },
   {
     "id_line": "C01855",
@@ -14258,7 +14273,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER.svg"
   },
   {
     "id_line": "C01856",
@@ -14268,7 +14284,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER.svg"
   },
   {
     "id_line": "C01857",
@@ -14288,7 +14305,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER.svg"
   },
   {
     "id_line": "C01859",
@@ -14298,7 +14316,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER.svg"
   },
   {
     "id_line": "C01862",
@@ -14308,7 +14327,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER.svg"
   },
   {
     "id_line": "C01863",
@@ -14328,7 +14348,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER.svg"
   },
   {
     "id_line": "C01866",
@@ -15109,7 +15130,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "ff5a00",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "T11.svg"
   },
   {
     "id_line": "C02020",
@@ -16789,7 +16811,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "6eca97",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "6.svg"
   },
   {
     "id_line": "C02269",
@@ -17119,7 +17142,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "ffbe00",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "1.svg"
   },
   {
     "id_line": "C02311",
@@ -17291,7 +17315,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER Bus.svg"
   },
   {
     "id_line": "C02370",
@@ -17311,7 +17336,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER Bus.svg"
   },
   {
     "id_line": "C02372",
@@ -17331,7 +17357,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER.svg"
   },
   {
     "id_line": "C02375",
@@ -17351,7 +17378,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "aaaaaa",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "TER.svg"
   },
   {
     "id_line": "C02382",
@@ -17381,7 +17409,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "5091cb",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "B.svg"
   },
   {
     "id_line": "C02387",
@@ -17511,7 +17540,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "0055c8",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T1.svg"
   },
   {
     "id_line": "C02405",
@@ -17521,7 +17551,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "a0006e",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T2.svg"
   },
   {
     "id_line": "C02406",
@@ -17531,7 +17562,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "f58f53",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "T3a.svg"
   },
   {
     "id_line": "C02407",
@@ -17541,7 +17573,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "00643c",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T3b.svg"
   },
   {
     "id_line": "C02408",
@@ -17551,7 +17584,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "640082",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T5.svg"
   },
   {
     "id_line": "C02409",
@@ -17561,7 +17595,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "ff1400",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T6.svg"
   },
   {
     "id_line": "C02410",
@@ -17571,7 +17606,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "6e491e",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T7.svg"
   },
   {
     "id_line": "C02411",
@@ -17581,7 +17617,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "6e6e00",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T8.svg"
   },
   {
     "id_line": "C02413",
@@ -17791,7 +17828,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "f7403a",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "A.svg"
   },
   {
     "id_line": "C02443",
@@ -18021,7 +18059,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "8d653d",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T13.svg"
   },
   {
     "id_line": "C02470",
@@ -18041,7 +18080,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "007852",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "12.svg"
   },
   {
     "id_line": "C02472",
@@ -18081,7 +18121,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "fa9aba",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "7.svg"
   },
   {
     "id_line": "C02476",
@@ -18151,7 +18192,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "c9910d",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "10.svg"
   },
   {
     "id_line": "C02484",
@@ -18231,7 +18273,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "829300",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "3.svg"
   },
   {
     "id_line": "C02493",
@@ -18251,7 +18294,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "674ea7",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "14.svg"
   },
   {
     "id_line": "C02495",
@@ -18371,7 +18415,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "cec73d",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "9.svg"
   },
   {
     "id_line": "C02513",
@@ -18391,7 +18436,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "a0006e",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "4.svg"
   },
   {
     "id_line": "C02517",
@@ -18481,7 +18527,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "5ec5ed",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "ORLYVAL.svg"
   },
   {
     "id_line": "C02526",
@@ -18502,7 +18549,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "0055c8",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "2.svg"
   },
   {
     "id_line": "C02528",
@@ -18534,7 +18582,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "704b1c",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "11.svg"
   },
   {
     "id_line": "C02532",
@@ -18544,7 +18593,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "ff7e2e",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "5.svg"
   },
   {
     "id_line": "C02533",
@@ -18554,7 +18604,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "e19bdf",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "8.svg"
   },
   {
     "id_line": "C02534",
@@ -18564,7 +18615,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "6ec4e8",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "13.svg"
   },
   {
     "id_line": "C02536",
@@ -18934,7 +18986,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "6ec4e8",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "3B.svg"
   },
   {
     "id_line": "C02574",
@@ -19074,7 +19127,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "6eca97",
-    "textcolourweb_hexa": "000000"
+    "textcolourweb_hexa": "000000",
+    "icon": "7B.svg"
   },
   {
     "id_line": "C02591",
@@ -19125,7 +19179,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "a50034",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T12.svg"
   },
   {
     "id_line": "C02598",
@@ -20065,7 +20120,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "9f9825",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "V.svg"
   },
   {
     "id_line": "C02713",
@@ -20226,7 +20282,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "00a092",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T14.svg"
   },
   {
     "id_line": "C02735",
@@ -20696,7 +20753,8 @@ export function idfMobiliteLineRef() {
     "transportsubmode": null,
     "type": "REPLACEMENT_LINE_TYPE",
     "colourweb_hexa": "6e6e00",
-    "textcolourweb_hexa": "ffffff"
+    "textcolourweb_hexa": "ffffff",
+    "icon": "T10.svg"
   },
   {
     "id_line": "C02791",

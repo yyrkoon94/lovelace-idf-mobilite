@@ -49,7 +49,8 @@ class IDFMobiliteCard extends LitElement {
                             this.config.show_departure_platform_first_line,
                             this.config.group_destination_first_line,
                             this.config.group_destination_name_first_line,
-                            this.config.max_delay_first_line
+                            this.config.max_delay_first_line,
+                            this.config.show_replacement_bus
                         )
                     : ""}
                     <!-- Type BUS -->
@@ -75,6 +76,7 @@ class IDFMobiliteCard extends LitElement {
                             this.config.group_destination_second_line,
                             this.config.group_destination_name_second_line,
                             this.config.max_delay_second_line,
+                            this.config.show_replacement_bus,
                             true
                         )
                         : ""}
@@ -132,8 +134,8 @@ class IDFMobiliteCard extends LitElement {
     **                       RER CONTENT                   **
     **                                                     **
     *********************************************************/
-    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, show_hour_departure, show_hour_departure_index, show_departure_platform, groupDestination, groupDestinationName, max_delay, second_entity) {
-        const model = parseRerFromSiri(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, groupDestination, groupDestinationName, max_delay)
+    createRERContent(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, show_hour_departure, show_hour_departure_index, show_departure_platform, groupDestination, groupDestinationName, max_delay, show_replacement_bus, second_entity) {
+        const model = parseRerFromSiri(lineDatas, exclude_lines, exclude_lines_ref, nb_departure, groupDestination, groupDestinationName, max_delay, show_replacement_bus)
         if (!model)
             return
         const imagesUrl = new URL('images/', import.meta.url).href

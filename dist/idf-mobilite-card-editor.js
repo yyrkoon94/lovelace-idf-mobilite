@@ -165,7 +165,7 @@ get _messages() {
 
   _renderReplacementBusOption() {
     return html`
-      <ha-formfield label="Afficher les bus de replacement">
+      <ha-formfield label="Afficher les bus de remplacement">
         <ha-switch
           .checked=${this._show_replacement_bus}
           .configValue=${"show_replacement_bus"}

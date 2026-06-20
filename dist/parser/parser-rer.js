@@ -17,7 +17,8 @@ export function parseRerFromSiri(
   nb_departure,
   groupDestination,
   groupDestinationName,
-  max_delay
+  max_delay,
+  show_replacement_bus
 ) {
   const siri = lineDatas?.attributes?.Siri;
   const stopMon = siri?.ServiceDelivery?.StopMonitoringDelivery?.[0];
@@ -60,32 +61,37 @@ export function parseRerFromSiri(
     // RER = rail
     const mode = line.transportmode || "";
     const submode = line.transportsubmode || "";
+    let lineRef = null;
 
-    if (mode !== "rail" && submode !== "suburbanRailway" && submode !== "local") {
+    // --- RAIL (RER / TRAIN / TER) ---
+    if (mode === "rail") {
+
+      if (submode.includes("local")) {            // RER
+        lineRef = "rer-" + line.name_line;
+
+      } else if (submode.includes("suburbanRailway")) { // TRAIN
+        lineRef = "train-" + line.name_line;
+
+      } else if (submode.includes("regionalRail")) {    // TER
+        lineRef = "train-" + line.shortname_line;
+      }
+    }
+
+    // --- BUS DE REMPLACEMENT ---
+    else if (mode === "bus") {
+
+      if (line?.type?.includes("REPLACEMENT") && show_replacement_bus) {
+        lineRef = "bus-rep-" + line.shortname_line;
+      }
+    }
+    // --- AUTRES MODES : ignorés ---
+    else {
       return;
     }
 
-    let lineRef;
-    // accept all rail vehicles, and replacement bus, no metro/tram/funicular
-    switch(line?.transportmode) {
-        case "rail":
-            if (line?.transportsubmode?.includes("local")) { // RER
-                lineRef = "rer-" + line.name_line;
-            } else if (line?.transportsubmode?.includes("suburbanRailway")) { // TRAIN
-                lineRef = "train-" + line.name_line;
-            } else if (line?.transportsubmode?.includes("regionalRail")) { // TER
-                lineRef = "train-" + line.shortname_line;
-            }
-            break;
-        case "bus":
-            if (line?.type?.includes("REPLACEMENT") && this.config.show_replacement_bus) { // REPLACEMENT BUS
-                lineRef = "bus-rep-" + line.shortname_line;
-            }
-            break;
-        default:
-            //IDFMobiliteCard.logUnknownLine(line);
-            break;
-    }
+    // Si rien n’a matché → on ignore
+    if (!lineRef) return;
+
     // --- DestinationRef ------------------------------------------
     let lineStop = extractLineStop(mvj.DestinationRef.value);
 
@@ -128,7 +134,7 @@ export function parseRerFromSiri(
       minute: "2-digit",
     });
 
-    const platform =
+    const platform = line?.type?.includes("REPLACEMENT") ? "" :
         call.DeparturePlatformName?.value ||
         call.ArrivalPlatformName?.value || "";
 
