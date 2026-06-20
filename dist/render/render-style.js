@@ -271,6 +271,7 @@ export const IDFMobiliteStyles = css`
 }
 .bus-image { height: 25px; }
 .tram-image { height: 25px; }
+.rail-image { height: 25px; }
 .metro-image { height: 30px; }
 .bus-destination {
     display: flex;

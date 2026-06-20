@@ -97,15 +97,22 @@ export function parseBusFromSiri(lineDatas, exclude_lines, exclude_lines_ref, in
       const lineIncluded =
         exclude_lines && exclude_lines.includes(lineRef);
 
-      const hasDestFilter =
-        exclude_lines_ref && exclude_lines_ref.length > 0;
-
       const destIncluded =
-        !hasDestFilter ||
-        exclude_lines_ref.includes(lineStop) ||
-        exclude_lines_ref.includes(destinationRefLineStop[directionRef]);
+        exclude_lines_ref &&
+        (exclude_lines_ref.includes(lineStop) ||
+        exclude_lines_ref.includes(destinationRefLineStop[directionRef]));
 
-      excluded = !(lineIncluded && destIncluded);
+      // Si la ligne est explicitement incluse → toujours incluse
+      if (lineIncluded) {
+        excluded = false;
+      }
+      // Si la destination est explicitement incluse → incluse
+      else if (destIncluded) {
+        excluded = false;
+      }
+      // Sinon → exclu
+      else
+        excluded = true;
     }
     if (excluded) return;
 
