@@ -387,7 +387,7 @@ export const IDFMobiliteStyles = css`
     display: flex;
     justify-content: space-between;
     flex-direction:column;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     background-color: none !important;
 }
 .rer-line-title {
