@@ -1,4 +1,27 @@
 #!/usr/bin/python3
+"""update_referentiel.py.
+
+Outil de synchronisation du référentiel IDFM pour l’intégration Home Assistant.
+
+Fonctionnalités :
+-----------------
+1. Télécharge le référentiel officiel des lignes IDFM (Open Data).
+2. Génère un fichier JavaScript contenant les métadonnées des lignes.
+3. Télécharge automatiquement les SVG des **bus de remplacement** depuis :
+       https://departs.leon.gp/pictos/lines/{id_line}.svg
+4. Trie les SVG téléchargés dans des sous‑répertoires par type :
+       images/bus/, images/rail/, images/metro/, etc.
+5. Conserve l’attribut "icon" dans le JSON pour toutes les lignes
+   qui doivent avoir une icône (via __should_have_svg).
+
+Important :
+-----------
+- Seuls les bus de remplacement téléchargent une icône externe.
+- Toutes les autres icônes (métro, tram, bus, RER, train) restent locales.
+- Le script ne supprime jamais les icônes existantes.
+
+python3 update_referentiel.py --image-path ./images --output-js-filepath ./idf-lines.js
+"""
 
 import argparse
 import json
@@ -12,15 +35,36 @@ from tqdm import tqdm
 #  DATABASE SYNCHRONIZER (Téléchargement SVG + génération JS)
 # ============================================================
 class DatabaseSynchronizer:
-    def __init__(self, input_json_filepath, image_path, output_js_filepath):
+    """Classe responsable.
+
+    - du traitement du JSON IDFM
+    - de la génération du fichier JS final
+    - du téléchargement des SVG (uniquement bus de remplacement)
+    """
+
+    def __init__(self, input_json_filepath, image_path, output_js_filepath) -> None:
+        """Parameters.
+
+        input_json_filepath : str
+            Chemin du fichier JSON IDFM téléchargé.
+        image_path : str
+            Dossier racine où stocker les SVG triés par type.
+        output_js_filepath : str
+            Chemin du fichier JS généré.
+        """
         self.input_json_filepath = input_json_filepath
         self.image_path = image_path
         self.output_js_filepath = output_js_filepath
 
     # ------------------------------------------------------------
-    #  Téléchargement SVG (simple GET)
-    # ------------------------------------------------------------
     def __download(self, url):
+        """Télécharge un SVG via HTTP GET.
+
+        Returns:
+        -------
+        str | None
+            Le contenu SVG si valide, sinon None.
+        """
         try:
             headers = {
                 "User-Agent": (
@@ -45,38 +89,46 @@ class DatabaseSynchronizer:
         return None
 
     # ------------------------------------------------------------
-    #  Déterminer si une ligne doit avoir un SVG (pour JSON)
-    # ------------------------------------------------------------
     def __should_have_svg(self, fields):
+        """Détermine si une ligne doit avoir un attribut "icon" dans le JSON.
+
+        Cela n’implique PAS que l’icône sera téléchargée.
+        Certaines icônes restent locales.
+
+        Règles :
+        - Bus : ROISSYBUS, ORLYBUS, TVM, nightBus, bus de remplacement
+        - Rail : toutes sauf TER
+        - Autres modes : toujours True
+        """
         shortname_line = fields["shortname_line"]
         transportmode = fields["transportmode"]
         submode = fields.get("transportsubmode") or ""
         type_field = fields.get("type") or ""
 
-        # --- BUS ---
         if transportmode == "bus":
             return (
                 shortname_line in ["ROISSYBUS", "ORLYBUS", "TVM"]
                 or submode == "nightBus"
-                or type_field.startswith("REPLACEMENT")  # bus de remplacement
+                or type_field.startswith("REPLACEMENT")
             )
 
-        # --- RAIL ---
         if transportmode == "rail":
             return shortname_line != "TER"
 
         return True
 
     # ------------------------------------------------------------
-    #  Déterminer si on doit télécharger depuis departs.leon.gp
-    # ------------------------------------------------------------
     def __should_download_from_leon(self, fields):
+        """Détermine si l’on doit télécharger l’icône depuis departs.leon.gp.
+
+        Règle :
+        - Uniquement les bus dont type commence par "REPLACEMENT".
+        """
         return fields["transportmode"] == "bus" and (fields.get("type") or "").startswith("REPLACEMENT")
 
     # ------------------------------------------------------------
-    #  Mapping transportmode → dossier
-    # ------------------------------------------------------------
     def __folder_for_mode(self, transportmode):
+        """Retourne le nom du dossier où stocker les SVG selon le mode."""
         mapping = {
             "bus": "bus",
             "rail": "rail",
@@ -88,9 +140,14 @@ class DatabaseSynchronizer:
         return mapping.get(transportmode, "other")
 
     # ------------------------------------------------------------
-    #  Téléchargement du SVG depuis departs.leon.gp
-    # ------------------------------------------------------------
     def __download_svg(self, id_line, transportmode, shortname_line):
+        """Télécharge un SVG depuis departs.leon.gp et le stocke dans le bon dossier.
+
+        Returns:
+        -------
+        str | None
+            Chemin du fichier téléchargé ou None en cas d’échec.
+        """
         url = f"https://departs.leon.gp/pictos/lines/{id_line}.svg"
         content = self.__download(url)
 
@@ -110,9 +167,11 @@ class DatabaseSynchronizer:
         return file_path
 
     # ------------------------------------------------------------
-    #  Mapping d'une ligne
-    # ------------------------------------------------------------
     def __map_item(self, item):
+        """Transforme une entrée du JSON IDFM en entrée du fichier JS final.
+
+        Ajoute l’attribut "icon" si __should_have_svg() est vrai.
+        """
         fields = item
 
         svg_path = None
@@ -136,10 +195,15 @@ class DatabaseSynchronizer:
         return result
 
     # ------------------------------------------------------------
-    #  Process complet
-    # ------------------------------------------------------------
     def process(self):
-        with open(self.input_json_filepath, "r") as f:
+        """Exécute le traitement complet.
+
+        - lecture du JSON IDFM
+        - filtrage des lignes actives
+        - téléchargement des SVG (bus de remplacement)
+        - génération du fichier JS final.
+        """
+        with open(self.input_json_filepath, "r", encoding="utf-8") as f:
             data = json.load(f)
 
         processed_data = []
@@ -149,7 +213,6 @@ class DatabaseSynchronizer:
         for item in tqdm(sorted_data, desc="Synchronizing..."):
             processed_item = self.__map_item(item)
 
-            # Télécharger uniquement les bus de remplacement
             if self.__should_download_from_leon(item):
                 self.__download_svg(item["id_line"], item["transportmode"], item["shortname_line"])
 
@@ -168,14 +231,22 @@ class DatabaseSynchronizer:
 #  DATABASE DOWNLOADER (Open Data IDFM)
 # ============================================================
 class DatabaseDownloader:
+    """Télécharge le JSON brut du référentiel IDFM."""
+
     DATABASE_URL = (
         "https://data.iledefrance-mobilites.fr/api/explore/v2.1/catalog/datasets/referentiel-des-lignes/exports/json"
     )
 
-    def __init__(self, json_filepath):
+    def __init__(self, json_filepath) -> None:  # noqa: D107
         self.json_filepath = json_filepath
 
     def __download(self):
+        """Télécharge le JSON IDFM.
+
+        Returns:
+        -------
+        bytes | None
+        """
         try:
             r = requests.get(DatabaseDownloader.DATABASE_URL, timeout=10)
             r.raise_for_status()
@@ -185,13 +256,14 @@ class DatabaseDownloader:
             return None
 
     def process(self):
+        """Sauvegarde le JSON téléchargé dans un fichier local."""
         json_data = self.__download()
         if json_data is None:
             return 1
 
         try:
             data = json.loads(json_data)
-            with open(self.json_filepath, "w") as f:
+            with open(self.json_filepath, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=4)
             print(f"JSON saved to '{self.json_filepath}'")
             return 0
@@ -204,7 +276,7 @@ class DatabaseDownloader:
 #  MAIN
 # ============================================================
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Update local RATP database")
+    parser = argparse.ArgumentParser(description="Update local RATP/IDFM database")
 
     parser.add_argument("-m", "--image-path", type=str, help="Output path for download images", required=True)
     parser.add_argument("-o", "--output-js-filepath", type=str, help="Output file for JS content", required=True)

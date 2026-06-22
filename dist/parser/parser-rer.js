@@ -161,7 +161,7 @@ export function parseRerFromSiri(
       platform,
       destinationRef: lineStop,
       destinationName,
-      vehiculeName
+      vehiculeName,
     });
 
     if (!rerMeta[lineRef]) rerMeta[lineRef] = line;

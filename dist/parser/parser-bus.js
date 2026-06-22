@@ -83,38 +83,57 @@ export function parseBusFromSiri(lineDatas, exclude_lines, exclude_lines_ref, in
     // --- Filtres EXACTS de ton ancien code ------------------------
     let excluded = false;
 
-    // MODE EXCLUSION (par défaut)
-    if (!show_only_included) {
-    excluded =
-        (exclude_lines && exclude_lines.includes(lineRef)) ||
-        (exclude_lines_ref && exclude_lines_ref.includes(lineStop)) ||
-        (exclude_lines_ref &&
-        exclude_lines_ref.includes(destinationRefLineStop[directionRef]));
+    // Normalisation : exclude_lines_ref doit être un tableau
+    let excludeRef = exclude_lines_ref;
+
+    if (typeof excludeRef === "string") {
+      excludeRef = excludeRef
+        .split(";")
+        .map(s => s.trim())
+        .filter(s => s.length > 0);
     }
 
-    // MODE INCLUSION (show_only_included = true)
+    // MODE EXCLUSION (par défaut)
+    if (!show_only_included) {
+      const destIncluded =
+        excludeRef &&
+        excludeRef.some(ref =>
+          ref === lineStop ||
+          ref === destinationRefLineStop[directionRef] ||
+          directionRef.toLowerCase().includes(ref.toLowerCase())
+        );
+
+      excluded =
+        (exclude_lines && exclude_lines.includes(lineRef)) ||
+        destIncluded;
+    }
+
+    // MODE INCLUSION
     else {
+      const destIncluded =
+        excludeRef &&
+        excludeRef.some(ref =>
+          ref === lineStop ||
+          ref === destinationRefLineStop[directionRef] ||
+          directionRef.toLowerCase().includes(ref.toLowerCase())
+        );
+
       const lineIncluded =
         exclude_lines && exclude_lines.includes(lineRef);
 
-      const destIncluded =
-        exclude_lines_ref &&
-        (exclude_lines_ref.includes(lineStop) ||
-        exclude_lines_ref.includes(destinationRefLineStop[directionRef]));
-
-      // Si la ligne est explicitement incluse → toujours incluse
       if (lineIncluded) {
         excluded = false;
       }
-      // Si la destination est explicitement incluse → incluse
       else if (destIncluded) {
         excluded = false;
       }
-      // Sinon → exclu
-      else
+      else {
         excluded = true;
+      }
     }
+
     if (excluded) return;
+
 
     // --- Départ ---------------------------------------------------
     const expected = new Date(call.ExpectedDepartureTime);

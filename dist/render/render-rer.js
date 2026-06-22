@@ -160,6 +160,7 @@ function renderRerLineDetail(line, dest, dep, lineCount, config, imagesUrl, seco
   const nextDepartureHour = dep.hour;
   const platform = dep.platform || "";
   const destinationName = dep.destinationName;
+  const state = dep.state;
 
   // nom du train : on privilégie dep.vehiculeName si le parser le fournit
   const trainLabel = config.show_train_ref
@@ -179,7 +180,7 @@ function renderRerLineDetail(line, dest, dep, lineCount, config, imagesUrl, seco
       </div>
 
       <div class="rer-line-departure">
-        ${renderRerDeparture(nextDeparture, nextDepartureHour, lineCount, config, second_entity)}
+        ${renderRerDeparture(nextDeparture, nextDepartureHour, state, lineCount, config, second_entity)}
 
         ${platform &&
         platform !== "unknown" &&
@@ -194,7 +195,92 @@ function renderRerLineDetail(line, dest, dep, lineCount, config, imagesUrl, seco
 /* -------------------------------------------------------------
    DEPARTURE FORMATTER
 ------------------------------------------------------------- */
-function renderRerDeparture(nextDeparture, nextDepartureHour, lineCount, config, second_ligne) {
+function renderRerDeparture(nextDeparture, nextDepartureHour, state, lineCount, config, second_ligne) {
+
+  // --- 1) Train annulé ---
+  if (state === "cancelled") {
+    return html`
+      <div class="rer-line-departure-message">
+        <div class="rer-line-departure-message-text bus-state-cancelled">supprimé</div>
+      </div>
+    `;
+  }
+
+  // --- 2) Train à l'approche ---
+  if (state === "approaching") {
+    return html`
+      <div class="rer-line-departure-message">
+        <div class="rer-line-departure-message-text-blink bus-state-approaching">à l'approche</div>
+      </div>
+    `;
+  }
+
+  // --- 3) Train à quai ---
+  if (state === "at_stop") {
+    return html`
+      <div class="rer-line-departure-message">
+        <div class="rer-line-departure-message-text bus-state-at_stop">à quai</div>
+      </div>
+    `;
+  }
+
+  // --- 4) Train déjà parti ---
+  if (state === "departed") {
+    return html`
+      <div class="rer-line-departure-message">
+        <div class="rer-line-departure-message-text bus-state-departed">parti</div>
+      </div>
+    `;
+  }
+
+  // --- 5) Train en retard ---
+  if (state === "delayed") {
+    return html`
+      <div class="rer-line-departure-message">
+        <div class="rer-line-departure-message-text bus-state-delayed">retardé</div>
+      </div>
+    `;
+  }
+
+  // --- 6) Cas normal : minutes / heures ---
+  const showHourFlag = second_ligne
+    ? config.show_hour_departure_second_line
+    : config.show_hour_departure_first_line;
+
+  const showHourIndex = second_ligne
+    ? config.show_hour_departure_index_second_line
+    : config.show_hour_departure_index_first_line;
+
+  let showHour = false;
+
+  if (!showHourFlag) {
+    showHour = false;
+  } else if (showHourFlag && (showHourIndex === undefined || showHourIndex === null)) {
+    showHour = true;
+  } else if (showHourFlag) {
+    showHour = lineCount >= showHourIndex;
+  }
+
+  return html`
+    <div class="${showHour
+      ? "rer-line-departure-message"
+      : "rer-line-departure-time-content"}">
+
+      <div class="${showHour
+        ? "rer-line-departure-message-text"
+        : "rer-line-departure-time"}">
+        ${showHour ? nextDepartureHour : nextDeparture}
+      </div>
+
+      ${!showHour
+        ? html`<div class="rer-line-departure-minute">min</div>`
+        : ""}
+    </div>
+  `;
+}
+
+
+function renderRerDepartureOld(nextDeparture, nextDepartureHour, nextArrival, lineCount, config, second_ligne) {
 
   // --- Cas "à l'approche"
   if (nextDeparture === 0) {
