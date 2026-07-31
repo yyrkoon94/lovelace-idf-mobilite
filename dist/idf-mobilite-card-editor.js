@@ -106,6 +106,9 @@ get _messages() {
 
   get _destination_scroll() { return this._config.destination_scroll || false; }
 
+  get _enable_message_carousel() { return this._config.enable_message_carousel || false; }
+ get _max_tabs() { return this._config.max_tabs ?? 3; }
+
   /* ----------------------------------------------------
      RENDER PRINCIPAL
   ---------------------------------------------------- */
@@ -372,6 +375,7 @@ get _messages() {
           ></ha-switch>
         </ha-formfield>
         <br/>
+        ${!this._enable_message_carousel ? html`
         <ha-formfield label="Ne pas faire défiler les messages">
           <ha-switch
             .checked=${this._no_messages_scroll}
@@ -379,6 +383,24 @@ get _messages() {
             @change=${this._valueChanged}
           ></ha-switch>
         </ha-formfield>
+        <br/>` : ""}
+        <ha-formfield label="Activer le carrousel de messages">
+          <ha-switch
+            .checked=${this._enable_message_carousel}
+            .configValue=${"enable_message_carousel"}
+            @change=${this._valueChanged}
+          ></ha-switch>
+        </ha-formfield>
+        <br/>
+        <ha-input
+          label="Nombre maximum d'onglets visibles"
+          type="number"
+          min="1"
+          .value=${this._max_tabs}
+          .configValue=${"max_tabs"}
+          @input=${this._valueChanged}
+        ></ha-input>
+
     `;
   }
   _schemaMessages() {

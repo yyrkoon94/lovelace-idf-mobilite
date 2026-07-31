@@ -39,6 +39,7 @@ export function parseRerFromSiri(
 
   stopMon.MonitoredStopVisit.forEach((stop) => {
     const mvj = stop.MonitoredVehicleJourney;
+    const journeyKey = mvj.FramedVehicleJourneyRef?.DatedVehicleJourneyRef;
     const call = mvj.MonitoredCall;
 
     // --- Filtre des terminus non commerciaux (missions partielles)
@@ -140,6 +141,15 @@ export function parseRerFromSiri(
 
     const state = detectState(call, minutes);
 
+    // --- Filtre des trains supprimés fantômes ---
+    const isGhostCancelled =
+      state === "cancelled" &&
+      !call.ExpectedArrivalTime &&
+      !call.VehicleAtStop &&
+      (Date.now() - new Date(stop.RecordedAtTime).getTime()) > 5 * 60 * 1000;
+
+    if (isGhostCancelled) return;
+
     if (minutes < -5 || (maxDelay && minutes > maxDelay)) return;
 
     // --- Groupement ----------------------------------------------
@@ -153,7 +163,13 @@ export function parseRerFromSiri(
         ? mvj.JourneyNote[0].value
         : lineRef.substring(lineRef.indexOf("-") + 1).toLocaleUpperCase();
 
-    if (nb_departure && nb_departure !="" && rerMap[lineRef][destKey].length >= nb_departure) return;
+    if (nb_departure && nb_departure != "" && rerMap[lineRef][destKey].length >= nb_departure) return;
+
+    // --- Filtre des doublons de mission ---
+    if (journeyKey && rerMap[lineRef][destKey].some(d => d.journeyKey === journeyKey)) {
+      return;
+    }
+
     rerMap[lineRef][destKey].push({
       minutes,
       hour,
@@ -161,7 +177,9 @@ export function parseRerFromSiri(
       platform,
       destinationRef: lineStop,
       destinationName,
+      journeyKey,
       vehiculeName,
+      vehicleAtStop: call.VehicleAtStop === true,
     });
 
     if (!rerMeta[lineRef]) rerMeta[lineRef] = line;
@@ -201,6 +219,8 @@ export function parseRerFromSiri(
           destinationRef: d.destinationRef,
           destinationName: d.destinationName,
           vehiculeName: d.vehiculeName,
+          vehicleAtStop: d.vehicleAtStop,
+          journeyKey: d.journeyKey,
         })),
       };
     });

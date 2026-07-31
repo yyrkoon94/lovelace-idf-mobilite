@@ -571,5 +571,177 @@ export const IDFMobiliteStyles = css`
     display: inline-block;
 }
 
+.idf-message-container {
+  display: flex;
+  width: 100%;
+  margin-left: -10px;
+  position: relative;
+  background: #516077;
+}
+
+.idf-message-sidebar {
+  width: 65px;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  height: 100%;
+}
+
+.idf-message-content {
+  flex: 1;
+  padding: 12px;
+  border-left : solid #516077 4px;
+  background: white;
+}
+
+.idf-message-tab {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.idf-message-tab.active {
+  display: block;
+  opacity: 1;
+}
+
+.idf-message-sidebar-item {
+  display: flex;
+  height: 35px;
+  cursor: pointer;
+  padding-left: 2px;
+  opacity: 0.7;
+  border-bottom: solid #516077 1px;
+}
+
+.idf-message-sidebar-item.active {
+  border-left-color: #007bff;
+  background: #ffffff;
+  opacity: 1;
+}
+
+.sidebar-badge {
+  font-size: 18px;
+}
+
+.sidebar-label {
+  font-size: 14px;
+  font-weight: 600;
+}
+.sidebar-mode-icon img {
+  height: 20px;
+  margin-right: 1px;
+  margin-top: 2px;
+  margin-left: 2px;
+  display: flex;
+  opacity: 0.33;
+}
+
+.sidebar-line-icon {
+    display: flex;
+    align-items: center;
+}
+.sidebar-line-icon img {
+  height: 22px;
+  vertical-align: middle;
+}
+.sidebar-status-icon {
+  display: flex;
+  align-items: end;
+}
+.sidebar-status-icon img {
+  height: 16px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  vertical-align: bottom;
+}
+/* Animation de glissement vertical uniquement pour la sidebar */
+.idf-sidebar-slide {
+    transition: transform 0.35s ease-in-out;
+    transform: translateY(-40px); /* hauteur d’un onglet */
+}
+    /* Mode plus grand pour le premier onglet */
+.sidebar-mode-icon-large {
+    width: 42px;   /* tu ajustes selon ton design */
+    height: 42px;
+}
+
+.idf-message-current-mode {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 69px; /* ou juste la largeur de la sidebar */
+    height: 48px; /* hauteur du header */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: white;
+    z-index: 10; /* au-dessus de la sidebar */
+    border-bottom: solid #516077 4px;
+}
+
+.current-mode-icon {
+    width: 30px;
+    height: 30px;
+    opacity: 0.33;
+}
+
+/* 🟩 Agrandir l’icône de ligne dans le corps du message en mode carrousel */
+.idf-message-container .idf-message-content .message-line-icon {
+    width: 28px;      /* Ajuste selon ton goût */
+    height: auto;
+    margin-right: 8px;
+}
+
+/* 🟩 Agrandir aussi les lignes en mode "pill" (pas de SVG) */
+.idf-message-container .idf-message-content .message-line-pill {
+    font-size: 1.1em;      /* augmente la taille du texte */
+    padding: 4px 10px;     /* un peu plus de padding */
+    border-radius: 6px;    /* arrondi plus visible */
+    margin-right: 8px;
+    display: inline-block; /* pour éviter les déformations */
+}
+
+.severity-icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: text-bottom;
+    margin-right: 6px;
+    margin-left:2px;
+}
+
+.idf-message-container .severity-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: text-top;
+    margin-left: -15px;
+}
+
+/* Zone de texte */
+.idf-message-text {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Animation verticale ping-pong */
+.idf-message-text.scroll-vertical {
+  animation: idf-vertical-scroll var(--scroll-duration) linear infinite;
+}
+
+@keyframes idf-vertical-scroll {
+  /* Pause en haut */
+  0%   { transform: translateY(0); }
+  10%  { transform: translateY(0); } /* 2s de pause */
+
+  /* Descente lente */
+  80%  { transform: translateY(var(--scroll-distance)); }
+
+  /* Pause en bas */
+  99%  { transform: translateY(var(--scroll-distance)); } /* 2s de pause */
+
+  /* Reset instantané */
+  100% { transform: translateY(0); }
+}
 
 `;

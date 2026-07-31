@@ -38,6 +38,8 @@ Cette carte Lovelace affiche les prochains passages des transports du réseau **
 - RER
 - SNCF
 
+Elle gère également les retards, suppressions et bus de remplacement.
+
 Elle utilise l’API **PRIM** (*Plateforme Régionale d’Information pour la Mobilité*).
 
 > ⚠️ **Quota PRIM** : les comptes créés depuis mars 2024 disposent de 1000 appels/jour.

@@ -175,45 +175,107 @@ class IDFMobiliteCard extends LitElement {
 
         const imagesUrl = new URL('images/', import.meta.url).href;
         const htmlString = renderMessages(model, this.config, imagesUrl);
+        const safeHtmlString = htmlString || "";
 
-        const noScroll = this.config.no_messages_scroll === true;
+        const noScroll = this.config.no_messages_scroll === true || this.config.enable_message_carousel === true;
 
 
         // Calcul de la vitesse (optionnel si tu veux le garder)
-        const textLength = htmlString.replace(/<[^>]*>/g, "").length;
+        const textLength = safeHtmlString.replace(/<[^>]*>/g, "").length;
         const textSpeed = Math.max(Math.floor(textLength / 10), 5);
 
         return html`
-        <div class="message-div${noScroll ? "-fix" : ""}
-                    ${this.config.show_screen ? "with-screen" : this.config.wall_panel ? "footer-nobg" : ""}">
-
-            ${noScroll
-            ? html`
-                <div class="message-div-text-fix">
-                    ${unsafeHTML(htmlString)}
-                </div>
-                `
-            : html`
-                <div class="message-div-text"
-                    style="animation: ScrollMessage ${textSpeed}s linear infinite;">
-                    ${unsafeHTML(htmlString)}
-                </div>
-                `}
-        </div>
+            <div class="message-div${noScroll ? "-fix" : ""}
+                        ${this.config.show_screen ? "with-screen" : this.config.wall_panel ? "footer-nobg" : ""}">
+                ${noScroll
+                ? html`
+                    <div class="message-div-text-fix">
+                        ${unsafeHTML(safeHtmlString)}
+                    </div>
+                    `
+                : html`
+                    <div class="message-div-text"
+                        style="animation: ScrollMessage ${textSpeed}s linear infinite;">
+                        ${unsafeHTML(safeHtmlString)}
+                    </div>
+                    `}
+            </div>
         `;
     }
 
     updated() {
         super.updated();
+        if (this.config.enable_message_carousel) {
 
-        // Scroll désactivé → on supprime tout
+            // 🟩 Réattacher le clic proprement à chaque updated()
+            this._attachCarouselClickHandler();
+
+            // 🟩 recalculer le scroll vertical APRÈS le rendu réel
+            requestAnimationFrame(() => {
+                this._updateVerticalScroll();
+            });
+
+            if (!this._messageTabsInterval) {
+                this._messageTabsInterval = setInterval(() => {
+                    const imagesUrl = new URL('images/', import.meta.url).href
+                    const root = this.shadowRoot;
+                    if (!root) return;
+
+                    const sidebarContainer = root.querySelector(".idf-message-sidebar");
+
+                    const tabs = Array.from(root.querySelectorAll(".idf-message-tab"));
+                    const sidebar = Array.from(root.querySelectorAll(".idf-message-sidebar-item"));
+
+                    if (!tabs.length) return;
+
+                    // 1. Animer uniquement la sidebar
+                    sidebarContainer.classList.add("idf-sidebar-slide");
+
+                    // 2. Attendre la fin de l’animation
+                    setTimeout(() => {
+
+                        // 3. Déplacer le premier onglet à la fin
+                        sidebarContainer.appendChild(sidebar[0]);
+                        tabs[0].parentElement.appendChild(tabs[0]);
+
+                        // 🟩 3bis. Mettre à jour le mode du header
+                        const newTabs = Array.from(root.querySelectorAll(".idf-message-tab"));
+                        const activeTab = newTabs[0]; // le vrai onglet actif après rotation
+                        const mode = activeTab.getAttribute("data-line-mode");
+
+                        const modeImg = root.querySelector(".current-mode-icon");
+                        modeImg.src = `${imagesUrl}${mode}.png`;
+
+                        // 4. Retirer l’animation
+                        sidebarContainer.classList.remove("idf-sidebar-slide");
+
+                        // 5. Re-sélectionner les éléments
+                        const newSidebar = Array.from(root.querySelectorAll(".idf-message-sidebar-item"));
+
+                        // 6. Désactiver tous
+                        newTabs.forEach(t => t.classList.remove("active"));
+                        newSidebar.forEach(s => s.classList.remove("active"));
+
+                        // 7. Activer le premier (le bon)
+                        newTabs[0].classList.add("active");
+                        newSidebar[0].classList.add("active");
+
+                    }, 350); // durée de l’animation
+
+                }, 20000);
+            }
+
+        }
+
+
+        // Le reste de ton updated() (scroll destinations etc.)
+        // ------------------------------------------------------
         if (!this.config || this.config.destination_scroll !== true) {
             this.shadowRoot.querySelectorAll(".destination-scroll, .rer-title-scroll")
             .forEach(el => el.style.animation = "none");
             return;
         }
 
-        // Fonction interne pour appliquer le scroll
         const applyScroll = (selector) => {
             this.shadowRoot.querySelectorAll(selector).forEach(scrollEl => {
             const container = scrollEl.parentElement;
@@ -240,12 +302,124 @@ class IDFMobiliteCard extends LitElement {
             });
         };
 
-        // Scroll des destinations
         applyScroll(".destination-scroll");
-
-        // Scroll des titres RER
         applyScroll(".rer-title-scroll");
+    }
+
+    _updateVerticalScroll() {
+        const root = this.shadowRoot;
+        if (!root) return;
+
+        const textBlocks = Array.from(root.querySelectorAll(".idf-message-text"));
+        const container = root.querySelectorAll(".idf-message-container");
+
+        textBlocks.forEach(block => {
+            const visibleHeight = container[0].clientHeight;
+            const fullHeight = block.scrollHeight;
+            const extra = 30;
+
+            if (fullHeight > visibleHeight) {
+                // Marge pour éviter la coupure
+                const distance = (fullHeight - visibleHeight) + extra;
+
+                // Scroll lent : 20 px/s
+                const speed = 20;
+
+                // Temps de descente
+                const scrollTime = distance / speed;
+
+                // Pause haut (3s) + pause bas (2s)
+                const pauseTime = 3 + 2;
+
+                // Durée totale
+                const duration = scrollTime + pauseTime;
+
+                block.style.setProperty("--scroll-distance", `-${distance}px`);
+                block.style.setProperty("--scroll-duration", `${duration}s`);
+
+                block.classList.add("scroll-vertical");
+            } else {
+                block.classList.remove("scroll-vertical");
+            }
+        });
+    }
+
+    _attachCarouselClickHandler() {
+        const root = this.shadowRoot;
+        if (!root) return;
+
+        const container = root.querySelector(".idf-message-container");
+        if (!container) return;
+
+        const modeImg = root.querySelector(".current-mode-icon");
+        const imagesUrl = new URL('images/', import.meta.url).href
+        // 🟥 Si un ancien listener existe, on le retire
+        if (this._carouselClickHandler) {
+            container.removeEventListener("click", this._carouselClickHandler);
         }
+
+        // 🟩 Nouveau listener
+        this._carouselClickHandler = (ev) => {
+            const tab = ev.target.closest(".idf-message-tab");
+            const sidebarItem = ev.target.closest(".idf-message-sidebar-item");
+
+            if (!tab && !sidebarItem) return;
+
+            const tabs = Array.from(root.querySelectorAll(".idf-message-tab"));
+            const sidebar = Array.from(root.querySelectorAll(".idf-message-sidebar-item"));
+
+            // 🟩 Index réel dans le DOM
+            const index = tab
+                ? tabs.indexOf(tab)
+                : sidebar.indexOf(sidebarItem);
+
+            if (index < 0) return;
+
+            const sidebarContainer = root.querySelector(".idf-message-sidebar");
+            const contentContainer = root.querySelector(".idf-message-content");
+
+            // 🟦 Repositionner le DOM
+            for (let i = 0; i < index; i++) {
+                sidebarContainer.appendChild(sidebar[i]);
+                contentContainer.appendChild(tabs[i]);
+            }
+
+            // 🟦 Re-sélectionner les éléments
+            const newTabs = Array.from(root.querySelectorAll(".idf-message-tab"));
+            const newSidebar = Array.from(root.querySelectorAll(".idf-message-sidebar-item"));
+
+            // 🟦 Activer le premier
+            newTabs.forEach(t => t.classList.remove("active"));
+            newSidebar.forEach(s => s.classList.remove("active"));
+
+            newTabs[0].classList.add("active");
+            newSidebar[0].classList.add("active");
+
+            // 🟦 Mettre à jour le header
+            const mode = newTabs[0].getAttribute("data-line-mode");
+            if (mode) modeImg.src = `${imagesUrl}${mode}.png`;
+
+            this._updateVerticalScroll();
+        };
+
+        // 🟩 Attacher le nouveau listener
+        container.addEventListener("click", this._carouselClickHandler);
+    }
+
+
+    static get properties() {
+        return {
+            hass: {},
+            config: {},
+            _carouselIndex: { type: Number }
+        };
+    }
+
+    constructor() {
+        super();
+        this._carouselIndex = 0;
+    }
+
 
 
 
@@ -258,7 +432,10 @@ class IDFMobiliteCard extends LitElement {
         if (!config.entity) {
             throw new Error("You need to define an entity");
         }
-        this.config = config;
+        this.config = {
+            maxTabs: config.max_tabs ?? 3,
+            ...config
+        };
     }
 
     // The height of your card. Home Assistant uses this to automatically

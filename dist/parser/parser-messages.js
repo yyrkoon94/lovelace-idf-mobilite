@@ -5,17 +5,11 @@ export function parseMultiLineNavitia(sensors) {
     minute: "2-digit"
   });
 
-  const lines = [];
+  const lines = sensors
+    .map(parseSingleLineNavitia)
+    .filter(Boolean);
 
-  for (const sensor of sensors) {
-    const parsed = parseSingleLineNavitia(sensor);
-    if (parsed) lines.push(parsed);
-  }
-
-  return {
-    lastUpdate,
-    lines
-  };
+  return { lastUpdate, lines };
 }
 
 function parseSingleLineNavitia(data) {
@@ -24,41 +18,52 @@ function parseSingleLineNavitia(data) {
   const lineReports = data.attributes.line_reports || [];
   const disruptions = data.attributes.disruptions || [];
 
+  return parseLineReports(lineReports, disruptions);
+}
+
+function parseLineReports(lineReports, disruptions) {
   let lineObj = null;
   const stationsMap = {};
+  const seen = new Set();
 
-  // 🔥 Set global pour éviter tout doublon
-  const seenDisruptions = new Set();
-
-  // ------------------------------------------------------------
-  // 1) Parcours des line_reports
-  // ------------------------------------------------------------
   for (const report of lineReports) {
     const line = report.line;
     const ptObjects = report.pt_objects || [];
 
-    // ------------------------------------------------------------
-    // 1A) Ligne
-    // ------------------------------------------------------------
-    if (!lineObj && line) {
+    if (!line || !line.id) continue;
+
+    // -------------------------
+    // LIGNE
+    // -------------------------
+    if (!lineObj) {
       lineObj = {
         id: line.id,
         name: line.name,
         messages: []
       };
+    }
 
-      const lineDisruptions = findDisruptionsInLinks(line, disruptions);
+    for (const disruption of disruptions) {
+      if (!isTrafficPerturbation(disruption)) continue;
 
-      for (const disruption of lineDisruptions) {
+      const text = extractBestMessage(disruption);
+      if (!text) continue;
 
-        // 🔥 Déduplication par ID
-        if (seenDisruptions.has(disruption.id)) continue;
-        seenDisruptions.add(disruption.id);
+      // LIGNE impactée ?
+      const impactsLine = (disruption.impacted_objects || []).some(obj => {
+        const pt = obj.pt_object;
+        if (!pt) return false;
 
-        if (!isTrafficPerturbation(disruption)) continue;
+        return (
+          pt.embedded_type === "line" &&
+          (pt.id === line.id || pt.line?.id === line.id)
+        );
+      });
 
-        const text = extractBestMessage(disruption);
-        if (!text) continue;
+      if (impactsLine) {
+        const key = disruption.id + "::line::" + line.id;
+        if (seen.has(key)) continue;
+        seen.add(key);
 
         lineObj.messages.push({
           type: "line",
@@ -68,42 +73,37 @@ function parseSingleLineNavitia(data) {
           severity: disruption.severity?.effect || null,
           cause: disruption.cause || report.cause || null
         });
-      }
-    }
 
-    // ------------------------------------------------------------
-    // 1B) Stations
-    // ------------------------------------------------------------
-    for (const pt of ptObjects) {
-      if (
-        pt.embedded_type !== "stop_area" &&
-        pt.embedded_type !== "stop_point"
-      ) continue;
-
-      const id = pt.id;
-      const name = pt.name;
-
-      if (!stationsMap[id]) {
-        stationsMap[id] = {
-          id,
-          type: pt.embedded_type,
-          name,
-          messages: []
-        };
+        continue;
       }
 
-      const stationDisruptions = findDisruptionsForPtObject(pt, disruptions);
+      // -------------------------
+      // STATIONS impactées ?
+      // -------------------------
+      /*for (const pt of ptObjects) {
+        const id = pt.id;
+        const name = pt.name;
+        if (!id) continue;
 
-      for (const disruption of stationDisruptions) {
+        const impactsStation = (disruption.impacted_objects || []).some(obj => {
+          const dpt = obj.pt_object;
+          return dpt && dpt.id === id;
+        });
 
-        // 🔥 Déduplication par ID
-        if (seenDisruptions.has(disruption.id)) continue;
-        seenDisruptions.add(disruption.id);
+        if (!impactsStation) continue;
 
-        if (!isTrafficPerturbation(disruption)) continue;
+        const key = disruption.id + "::station::" + id;
+        if (seen.has(key)) continue;
+        seen.add(key);
 
-        const text = extractBestMessage(disruption);
-        if (!text) continue;
+        if (!stationsMap[id]) {
+          stationsMap[id] = {
+            id,
+            type: pt.embedded_type,
+            name,
+            messages: []
+          };
+        }
 
         stationsMap[id].messages.push({
           type: "station",
@@ -113,72 +113,7 @@ function parseSingleLineNavitia(data) {
           severity: disruption.severity?.effect || null,
           cause: disruption.cause || report.cause || null
         });
-      }
-    }
-  }
-
-  // ------------------------------------------------------------
-  // 2) PATCH — Ajouter disruptions stop_point hors line_reports
-  // ------------------------------------------------------------
-  for (const disruption of disruptions) {
-    for (const obj of disruption.impacted_objects || []) {
-      const pt = obj.pt_object;
-
-      if (pt?.embedded_type === "stop_point") {
-
-        // 🔥 Déduplication par ID
-        if (seenDisruptions.has(disruption.id)) continue;
-        seenDisruptions.add(disruption.id);
-
-        if (!stationsMap[pt.id]) {
-          stationsMap[pt.id] = {
-            id: pt.id,
-            type: "stop_point",
-            name: pt.name,
-            messages: []
-          };
-        }
-
-        const text = extractBestMessage(disruption);
-        if (!text) continue;
-
-        stationsMap[pt.id].messages.push({
-          type: "station",
-          station_id: pt.id,
-          station_name: pt.name,
-          text,
-          severity: disruption.severity?.effect || null,
-          cause: disruption.cause || null
-        });
-      }
-    }
-  }
-
-  // ------------------------------------------------------------
-  // 3) PATCH — Ajouter disruptions "network" (messages information)
-  // ------------------------------------------------------------
-  for (const disruption of disruptions) {
-    for (const obj of disruption.impacted_objects || []) {
-      if (obj.pt_object?.embedded_type === "network") {
-
-        // 🔥 Déduplication par ID
-        if (seenDisruptions.has(disruption.id)) continue;
-        seenDisruptions.add(disruption.id);
-
-        const text = extractBestMessage(disruption);
-        if (!text) continue;
-
-        if (lineObj) {
-          lineObj.messages.push({
-            type: "information",
-            line_id: lineObj.id,
-            line_name: lineObj.name,
-            text,
-            severity: disruption.severity?.effect || null,
-            cause: disruption.cause || null
-          });
-        }
-      }
+      }*/
     }
   }
 
@@ -188,53 +123,7 @@ function parseSingleLineNavitia(data) {
   };
 }
 
-/* ------------------------------------------------------------
-   Trouver disruptions liées à un stop_area / stop_point
------------------------------------------------------------- */
-function findDisruptionsForPtObject(pt, disruptions) {
-  const stopAreaLinks = pt.stop_area?.links || [];
-  const stopPointLinks = pt.stop_point?.links || [];
-  const links = [...stopAreaLinks, ...stopPointLinks];
-
-  const disruptionIds = links
-    .filter(l => l.type === "disruption" || l.rel === "disruptions")
-    .map(l => l.id)
-    .filter(Boolean);
-
-  const uniqueIds = [...new Set(disruptionIds)];
-
-  return disruptions.filter(
-    d =>
-      uniqueIds.includes(d.id) ||
-      uniqueIds.includes(d.disruption_id) ||
-      uniqueIds.includes(d.uri)
-  );
-}
-
-/* ------------------------------------------------------------
-   Trouver disruptions liées à une ligne
------------------------------------------------------------- */
-function findDisruptionsInLinks(wrapper, disruptions) {
-  const links = wrapper.links || [];
-
-  const disruptionIds = links
-    .filter(l => l.type === "disruption" || l.rel === "disruptions")
-    .map(l => l.id)
-    .filter(Boolean);
-
-  const uniqueIds = [...new Set(disruptionIds)];
-
-  return disruptions.filter(
-    d =>
-      uniqueIds.includes(d.id) ||
-      uniqueIds.includes(d.disruption_id) ||
-      uniqueIds.includes(d.uri)
-  );
-}
-
-/* ------------------------------------------------------------
-   Filtrer les perturbations utiles
------------------------------------------------------------- */
+// utils inchangés
 function isTrafficPerturbation(disruption) {
   const tags = (disruption.tags || []).map(t => t.toLowerCase());
 
@@ -245,25 +134,19 @@ function isTrafficPerturbation(disruption) {
   return true;
 }
 
-/* ------------------------------------------------------------
-   Extraire le meilleur message (HTML complet)
------------------------------------------------------------- */
 function extractBestMessage(disruption) {
   if (!disruption.messages) return null;
 
-  // 1) HTML prioritaire
   const html = disruption.messages.find(
     m => m.channel?.content_type === "text/html"
   );
   if (html?.text) return cleanHtmlFull(html.text);
 
-  // 2) Texte brut
   const txt = disruption.messages.find(
     m => m.channel?.content_type === "text/plain"
   );
   if (txt?.text) return txt.text.trim();
 
-  // 3) Titre fallback
   const title = disruption.messages.find(m =>
     (m.channel?.types || []).includes("title")
   );
@@ -272,9 +155,6 @@ function extractBestMessage(disruption) {
   return null;
 }
 
-/* ------------------------------------------------------------
-   Garder 100% du texte HTML (pas de résumé)
------------------------------------------------------------- */
 function cleanHtmlFull(html) {
   html = decodeHtmlEntities(html);
 
