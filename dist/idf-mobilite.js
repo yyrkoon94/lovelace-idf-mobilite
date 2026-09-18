@@ -15,12 +15,19 @@ import { IDFMobiliteStyles } from "./render/render-style.js";
 
 class IDFMobiliteCard extends LitElement {
     static get properties() {
-        console.log("%c Lovelace - IDF Mobilité  %c 0.4.5", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
+        console.log("%c Lovelace - IDF Mobilité  %c 1.0.0", "color: #FFFFFF; background: #5D0878; font-weight: 700;", "color: #fdd835; background: #212121; font-weight: 700;")
         return {
             hass: {},
             config: {},
+            _carouselIndex: { type: Number }
         };
     }
+
+    constructor() {
+        super();
+        this._carouselIndex = 0;
+    }
+
 
     /********************************************************
     **                                                     **
@@ -241,10 +248,6 @@ class IDFMobiliteCard extends LitElement {
                         // 🟩 3bis. Mettre à jour le mode du header
                         const newTabs = Array.from(root.querySelectorAll(".idf-message-tab"));
                         const activeTab = newTabs[0]; // le vrai onglet actif après rotation
-                        const mode = activeTab.getAttribute("data-line-mode");
-
-                        const modeImg = root.querySelector(".current-mode-icon");
-                        modeImg.src = `${imagesUrl}${mode}.png`;
 
                         // 4. Retirer l’animation
                         sidebarContainer.classList.remove("idf-sidebar-slide");
@@ -395,33 +398,12 @@ class IDFMobiliteCard extends LitElement {
             newTabs[0].classList.add("active");
             newSidebar[0].classList.add("active");
 
-            // 🟦 Mettre à jour le header
-            const mode = newTabs[0].getAttribute("data-line-mode");
-            if (mode) modeImg.src = `${imagesUrl}${mode}.png`;
-
             this._updateVerticalScroll();
         };
 
         // 🟩 Attacher le nouveau listener
         container.addEventListener("click", this._carouselClickHandler);
     }
-
-
-    static get properties() {
-        return {
-            hass: {},
-            config: {},
-            _carouselIndex: { type: Number }
-        };
-    }
-
-    constructor() {
-        super();
-        this._carouselIndex = 0;
-    }
-
-
-
 
     /********************************************************
     **                                                     **

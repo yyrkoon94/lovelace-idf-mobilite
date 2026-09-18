@@ -39,6 +39,17 @@
       }
     }
 
+    function formatSeverity(severity) {
+      switch (severity) {
+        case "NO_SERVICE": return "no_service.svg";
+        case "SIGNIFICANT_DELAYS": return "significant_delays.svg";
+        case "DEVIATED": return "deviated.svg";
+        case "DISTURBED": return "disturbed.svg";
+        case "INFORMATION": return "information.svg";
+        default: return "work.svg";
+      }
+    }
+
     // ------------------------------------------------------------
     // 2) Messages de station
     // ------------------------------------------------------------
@@ -117,11 +128,12 @@
       const statusIcon = {
         "NO_SERVICE": "no_service.svg",
         "SIGNIFICANT_DELAYS": "significant_delays.svg",
-        "DEVIATED": "deviated.svg",
-        "DISTURBED": "disturbed.svg",
-        "INFORMATION": "information.svg",
-        "WORK": "work.svg"
-      }[m.severity] || "";
+        "DEVIATED": "no_service.svg",
+        "DISTURBED": "no_service.svg",
+        "DISRUPTED": "disrupted.svg",
+        "MODIFIED_SERVICE": "disrupted.svg",
+        "INFORMATION" : "information.svg"
+      }[m.severity] || "disrupted.svg";
 
       return `
         <div class="idf-message-sidebar-item ${index === 0 ? "active" : ""}" data-index="${index}">
@@ -136,19 +148,15 @@
           <span class="sidebar-line-icon">
             ${m.lineMode ? m.lineIconHtml || "" : "<span class='message-stop-icon'>🚏</span>"}
           </span>
+          <span class="sidebar-severity-icon">
+                <img src="${imagesUrl}status/${statusIcon}" class="sidebar-severity-icon">
+          </span>
         </div>`;
     }).join("");
 
 
     return `
        <div class="idf-message-container" style="max-height:${(config.maxTabs-1)*35+60}px;">
-
-          <!-- 🟩 HEADER ABSOLU AU-DESSUS DU CARROUSEL -->
-          <div class="idf-message-current-mode">
-              <!-- L’image sera remplie dynamiquement dans updated() -->
-               <img class="current-mode-icon"
-                    src="${imagesUrl}${allMessages[0].lineMode}.png" style="padding-right: 8px;">
-          </div>
 
           <div class="idf-message-sidebar">
               ${sidebarHtml}

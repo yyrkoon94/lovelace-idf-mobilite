@@ -143,7 +143,6 @@ export const IDFMobiliteStyles = css`
     height: 18px;
     width: auto;
     vertical-align: text-bottom;
-    display: inline-block;
 }
 /* Pastille couleur fallback (si pas d’icône) */
 .message-line-pill {
@@ -584,14 +583,12 @@ export const IDFMobiliteStyles = css`
   background: #f0f0f0;
   display: flex;
   flex-direction: column;
-  margin-top: 17px;
   height: 100%;
 }
 
 .idf-message-content {
   flex: 1;
   padding: 12px;
-  border-left : solid #516077 4px;
   background: white;
 }
 
@@ -613,12 +610,15 @@ export const IDFMobiliteStyles = css`
   padding-left: 2px;
   opacity: 0.7;
   border-bottom: solid #516077 1px;
+  border-right: solid #516077 4px;
 }
 
 .idf-message-sidebar-item.active {
   border-left-color: #007bff;
   background: #ffffff;
   opacity: 1;
+  height: 50px;
+  border-right: solid white 4px;
 }
 
 .sidebar-badge {
@@ -689,18 +689,52 @@ export const IDFMobiliteStyles = css`
 
 /* 🟩 Agrandir l’icône de ligne dans le corps du message en mode carrousel */
 .idf-message-container .idf-message-content .message-line-icon {
-    width: 28px;      /* Ajuste selon ton goût */
-    height: auto;
-    margin-right: 8px;
+    display: none;
+}
+
+.idf-message-sidebar-item.active .message-line-icon {
+    margin-left: 15px;
+    z-index: 5;
+}
+
+.idf-message-sidebar-item.active .sidebar-mode-icon img {
+    height: 20px;
+    position: absolute;
 }
 
 /* 🟩 Agrandir aussi les lignes en mode "pill" (pas de SVG) */
 .idf-message-container .idf-message-content .message-line-pill {
+    display: none;
+}
+
+.idf-message-sidebar-item.active .sidebar-severity-icon {
+    height: 18px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 23px;
+    z-index: 10;
+}
+
+.sidebar-severity-icon {
+    height: 12px;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 23px;
+    z-index: 10;
+}
+
+.idf-message-sidebar-item.active .message-line-pill {
     font-size: 1.1em;      /* augmente la taille du texte */
     padding: 4px 10px;     /* un peu plus de padding */
     border-radius: 6px;    /* arrondi plus visible */
     margin-right: 8px;
+    margin-left: 15px;
+    z-index: 5;
     display: inline-block; /* pour éviter les déformations */
+}
+
+.idf-message-container .idf-message-content .severity-icon {
+    display: none;
 }
 
 .severity-icon {
