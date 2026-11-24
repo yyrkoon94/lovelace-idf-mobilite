@@ -711,7 +711,7 @@ export const IDFMobiliteStyles = css`
     height: 18px;
     position: absolute;
     margin-top: 15px;
-    margin-left: 23px;
+    margin-left: 20px;
     z-index: 10;
 }
 

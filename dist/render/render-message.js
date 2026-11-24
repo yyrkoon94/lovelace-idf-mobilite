@@ -156,7 +156,7 @@
 
 
     return `
-       <div class="idf-message-container" style="max-height:${(config.maxTabs-1)*35+60}px;">
+       <div class="idf-message-container" style="max-height:${(config.maxTabs-1)*35+60}px;min-height:${(config.maxTabs-1)*35+60}px;">
 
           <div class="idf-message-sidebar">
               ${sidebarHtml}

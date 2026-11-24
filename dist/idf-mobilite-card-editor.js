@@ -168,41 +168,41 @@ get _messages() {
 
   _renderReplacementBusOption() {
     return html`
-      <ha-formfield label="Afficher les bus de remplacement">
-        <ha-switch
-          .checked=${this._show_replacement_bus}
-          .configValue=${"show_replacement_bus"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+      ${this._renderSwitch(
+        "Afficher les bus de remplacement",
+        "show_replacement_bus",
+        this._show_replacement_bus
+      )}
     `;
   }
 
   _renderBusExclusionSwicthFirst() {
   return html`
     <div>
-        <span style="vertical-align: super;padding-right:5px;">Exclure ces destinations</span>
-        <ha-switch
-          .checked=${this._show_only_included}
-          .configValue=${"show_only_included"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-        <span style="vertical-align: super;padding-right:5px;">&nbsp;&nbsp;Inclure ces destinations</span>
-      </div>
+      <span style="vertical-align: super;padding-right:5px;">Exclure ces destinations</span>
+      <ha-switch
+        .checked=${this._show_only_included}
+        .configValue=${"show_only_included"}
+        @change=${this._valueChanged}
+      ></ha-switch>
+      <span style="vertical-align: super;padding-right:5px;">&nbsp;&nbsp;Inclure ces destinations</span>
+    </div>
+    <br/>
   `;
   }
 
   _renderBusExclusionSwicthSecond() {
     return html`
-    <div>
-          <span style="vertical-align: super;padding-right:5px;">Exclure ces destinations</span>
-          <ha-switch
-            .checked=${this._show_only_included_second_lines}
-            .configValue=${"show_only_included_second_lines"}
-            @change=${this._valueChanged}
-          ></ha-switch>
-          <span style="vertical-align: super;padding-right:5px;">&nbsp;&nbsp;Inclure ces destinations</span>
-        </div>
+      <div>
+        <span style="vertical-align: super;padding-right:5px;">Exclure ces destinations</span>
+        <ha-switch
+          .checked=${this._show_only_included_second_lines}
+          .configValue=${"show_only_included_second_lines"}
+          @change=${this._valueChanged}
+        ></ha-switch>
+        <span style="vertical-align: super;padding-right:5px;">&nbsp;&nbsp;Inclure ces destinations</span>
+      </div>
+      <br/>
   `;
   }
 
@@ -351,46 +351,36 @@ get _messages() {
           .configValue=${"filter_messages"}
           @input=${this._valueChanged}
         ></ha-input>
-        <ha-formfield label="Afficher les perturbations">
-          <ha-switch
-            .checked=${this._display_delays_message}
-            .configValue=${"display_delays_message"}
-            @change=${this._valueChanged}
-          ></ha-switch>
-        </ha-formfield>
+        ${this._renderSwitch(
+          "Afficher les perturbations",
+          "display_delays_message",
+          this._display_delays_message
+        )}
         <br/>
-        <ha-formfield label="Afficher les alertes">
-          <ha-switch
-            .checked=${this._display_no_service_message}
-            .configValue=${"display_no_service_message"}
-            @change=${this._valueChanged}
-          ></ha-switch>
-        </ha-formfield>
+        ${this._renderSwitch(
+          "Afficher les alertes",
+          "display_no_service_message",
+          this._display_no_service_message
+        )}
         <br/>
-        <ha-formfield label="Afficher les messages d'information">
-          <ha-switch
-            .checked=${this._display_info_message}
-            .configValue=${"display_info_message"}
-            @change=${this._valueChanged}
-          ></ha-switch>
-        </ha-formfield>
+        ${this._renderSwitch(
+          "Afficher les messages d'information",
+          "display_info_message",
+          this._display_info_message
+        )}
         <br/>
         ${!this._enable_message_carousel ? html`
-        <ha-formfield label="Ne pas faire défiler les messages">
-          <ha-switch
-            .checked=${this._no_messages_scroll}
-            .configValue=${"no_messages_scroll"}
-            @change=${this._valueChanged}
-          ></ha-switch>
-        </ha-formfield>
+          ${this._renderSwitch(
+            "Ne pas faire défiler les messages",
+            "no_messages_scroll",
+            this._no_messages_scroll
+          )}
         <br/>` : ""}
-        <ha-formfield label="Activer le carrousel de messages">
-          <ha-switch
-            .checked=${this._enable_message_carousel}
-            .configValue=${"enable_message_carousel"}
-            @change=${this._valueChanged}
-          ></ha-switch>
-        </ha-formfield>
+        ${this._renderSwitch(
+          "Activer le carrousel de messages",
+          "enable_message_carousel",
+          this._enable_message_carousel
+        )}
         <br/>
         <ha-input
           label="Nombre maximum d'onglets visibles"
@@ -433,54 +423,42 @@ get _messages() {
   _renderGeneralOptions() {
     return html`
       <h3>Options générales d'affichage</h3>
-      <ha-formfield label="Mode écran">
-        <ha-switch
-          .checked=${this._show_screen}
-          .configValue=${"show_screen"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+      ${this._renderSwitch(
+          "Mode écran",
+          "show_screen",
+          this._show_screen
+        )}
       <br/>
-        <ha-formfield label="Nom de la station">
-        <ha-switch
-          .checked=${this._show_station_name}
-          .configValue=${"show_station_name"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+        ${this._renderSwitch(
+          "Nom de la station",
+          "show_station_name",
+          this._show_station_name
+        )}
       <br/>
-      <ha-formfield label="Mode sans bordure">
-        <ha-switch
-          .checked=${this._wall_panel}
-          .configValue=${"wall_panel"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+        ${this._renderSwitch(
+          "Mode sans bordure",
+          "wall_panel",
+          this._wall_panel
+        )}
       <br/>
-        <ha-formfield label="Activer le scroll des destinations">
-          <ha-switch
-            .checked=${this._destination_scroll}
-            .configValue=${"destination_scroll"}
-            @change=${this._valueChanged}
-          ></ha-switch>
-        </ha-formfield>
+        ${this._renderSwitch(
+          "Activer le scroll des destinations",
+          "destination_scroll",
+          this._destination_scroll
+        )}
       <br/>
       ${this._lineType === "BUS" ? html`
-        <ha-formfield label="Afficher 'à l'approche/à l'arrêt'">
-          <ha-switch
-            .checked=${this._show_bus_stop_label}
-            .configValue=${"show_bus_stop_label"}
-            @change=${this._valueChanged}
-          ></ha-switch>
-        </ha-formfield>
+        ${this._renderSwitch(
+          "Afficher 'à l'approche/à l'arrêt'",
+          "show_bus_stop_label",
+          this._show_bus_stop_label
+        )}
         <br/>
-        <ha-formfield label="Afficher 3 départs au lie de 2">
-          <ha-switch
-            .checked=${this._display_third_stop}
-            .configValue=${"display_third_stop"}
-            @change=${this._valueChanged}
-          ></ha-switch>
-        </ha-formfield>
+        ${this._renderSwitch(
+          "Afficher 3 départs au lie de 2",
+          "display_third_stop",
+          this._display_third_stop
+        )}
       ` : ""}
     `;
   }
@@ -491,13 +469,11 @@ get _messages() {
   _renderHelpOptions() {
     return html`
       <h3>Aide à la configuration</h3>
-      <ha-formfield label="Afficher les références des lignes">
-        <ha-switch
-          .checked=${this._show_train_ref}
-          .configValue=${"show_train_ref"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+      ${this._renderSwitch(
+          "Afficher les références des lignes",
+          "show_train_ref",
+          this._show_train_ref
+        )}
     `;
   }
 
@@ -521,14 +497,11 @@ get _messages() {
         .configValue=${"max_delay_first_line"}
         @input=${this._valueChanged}
       ></ha-input>
-
-      <ha-formfield label="Afficher l'heure de départ au lieu du délai">
-        <ha-switch
-          .checked=${this._show_hour_departure_first_line}
-          .configValue=${"show_hour_departure_first_line"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+      ${this._renderSwitch(
+          "Afficher l'heure de départ au lieu du délai",
+          "show_hour_departure_first_line",
+          this._show_hour_departure_first_line
+        )}
       <br/>
       ${this._show_hour_departure_first_line ? html`
         <ha-input
@@ -538,22 +511,17 @@ get _messages() {
           @input=${this._valueChanged}
         ></ha-input>
       ` : ""}
-
-      <ha-formfield label="Afficher le quai de départ">
-        <ha-switch
-          .checked=${this._show_departure_platform_first_line}
-          .configValue=${"show_departure_platform_first_line"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+      ${this._renderSwitch(
+        "Afficher le quai de départ",
+        "show_departure_platform_first_line",
+        this._show_departure_platform_first_line
+      )}
       <br/>
-      <ha-formfield label="Grouper les destinations">
-        <ha-switch
-          .checked=${this._group_destination_first_line}
-          .configValue=${"group_destination_first_line"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+      ${this._renderSwitch(
+        "Grouper les destinations",
+        "group_destination_first_line",
+        this._group_destination_first_line
+      )}
       <br/>
       ${this._group_destination_first_line ? html`
         <ha-input
@@ -586,14 +554,11 @@ get _messages() {
         .configValue=${"max_delay_second_line"}
         @input=${this._valueChanged}
       ></ha-input>
-
-      <ha-formfield label="Afficher l'heure de départ au lieu du délai">
-        <ha-switch
-          .checked=${this._show_hour_departure_second_line}
-          .configValue=${"show_hour_departure_second_line"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+      ${this._renderSwitch(
+        "Afficher l'heure de départ au lieu du délai",
+        "show_hour_departure_second_line",
+        this._show_hour_departure_second_line
+      )}
       <br/>
       ${this._show_hour_departure_second_line ? html`
         <ha-input
@@ -603,23 +568,17 @@ get _messages() {
           @input=${this._valueChanged}
         ></ha-input>
       ` : ""}
-
-      <ha-formfield label="Afficher le quai de départ">
-        <ha-switch
-          .checked=${this._show_departure_platform_second_line}
-          .configValue=${"show_departure_platform_second_line"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
+      ${this._renderSwitch(
+        "Afficher le quai de départ",
+        "show_departure_platform_second_line",
+        this._show_departure_platform_second_line
+      )}
       <br/>
-      <ha-formfield label="Grouper les destinations">
-        <ha-switch
-          .checked=${this._group_destination_second_line}
-          .configValue=${"group_destination_second_line"}
-          @change=${this._valueChanged}
-        ></ha-switch>
-      </ha-formfield>
-
+      ${this._renderSwitch(
+        "Grouper les destinations",
+        "group_destination_second_line",
+        this._group_destination_second_line
+      )}
       ${this._group_destination_second_line ? html`
         <ha-input
           label="Libellé de la destination (si vide = toutes)"
@@ -628,6 +587,19 @@ get _messages() {
           @input=${this._valueChanged}
         ></ha-input>
       ` : ""}
+    `;
+  }
+
+  _renderSwitch(label, key, value) {
+    return html`
+      <div class="switch-row">
+        <ha-switch
+          .checked=${value}
+          .configValue=${key}
+          @change=${this._valueChanged}
+        ></ha-switch>
+        <span>${label}</span>
+      </div>
     `;
   }
   /* ----------------------------------------------------
@@ -710,11 +682,6 @@ get _messages() {
       ha-input {
         display: block;
         margin-bottom: 16px;
-      }
-
-      ha-switch {
-        margin-top: 10px;
-        margin-bottom: 10px;
       }
 
       /* ------------------------------
@@ -801,6 +768,17 @@ get _messages() {
       .section-content {
         padding: 12px 14px 16px 14px;
         border-top: 1px solid var(--divider-color);
+      }
+
+      .switch-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 0px;
+      }
+
+      .switch-row ha-switch {
+        margin: 0;
       }
     `;
   }
